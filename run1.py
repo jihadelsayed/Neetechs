@@ -8,7 +8,7 @@ root.title("Simple Calculator")
 root.iconbitmap('1.ico')
 root.geometry("1024x823")
 part_text = StringVar()
-part_label = Label(frame,text='part Name ', font=('bold',14), pady=20)
+part_label = Label(root,text='part Name ', font=('bold',14), pady=20)
 part_label.grid(row=0, column=0)
 
 
