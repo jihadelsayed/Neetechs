@@ -7,3 +7,6 @@
 [submodule "Neetechs_Mobile"]
 	path = Neetechs_Mobile
 	url = https://github.com/davidpales1/Neetechs_Mobile.git
+[submodule "Neetechs_MVC"]
+	path = Neetechs_MVC
+	url = https://github.com/davidpales1/Neetechs_MVC.git
