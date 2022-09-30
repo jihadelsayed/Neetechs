@@ -1,0 +1,9 @@
+[submodule "Neetechs_Frontend"]
+	path = Neetechs_Frontend
+	url = https://github.com/davidpales1/Neetechs_Frontend.git
+[submodule "Neetechs_Backend"]
+	path = Neetechs_Backend
+	url = https://github.com/davidpales1/Neetechs_Backend.git
+[submodule "Neetechs_Mobile"]
+	path = Neetechs_Mobile
+	url = https://github.com/davidpales1/Neetechs_Mobile.git
