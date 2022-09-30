@@ -10,3 +10,6 @@
 [submodule "Neetechs_MVC"]
 	path = Neetechs_MVC
 	url = https://github.com/davidpales1/Neetechs_MVC.git
+[submodule "Neetechs_react"]
+	path = Neetechs_react
+	url = https://github.com/davidpales1/Neetechs_react.git
