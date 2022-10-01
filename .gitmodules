@@ -13,3 +13,6 @@
 [submodule "Neetechs_react"]
 	path = Neetechs_react
 	url = https://github.com/davidpales1/Neetechs_react.git
+[submodule "Neetechs_Accounts"]
+	path = Neetechs_Accounts
+	url = https://github.com/davidpales1/Neetechs_Accounts.git
