@@ -1,0 +1,220 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "neetechs": {
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "ar": "src/locale/messages.ar.xlf",
+          "es": "src/locale/messages.es.xlf",
+          "pt": "src/locale/messages.pt.xlf",
+          "de": "src/locale/messages.de.xlf",
+          "ru": "src/locale/messages.ru.xlf",
+          "sv": "src/locale/messages.sv.xlf",
+          "zh": "src/locale/messages.zh.xlf",
+          "fr": "src/locale/messages.fr.xlf",
+          "en": "src/locale/messages.xlf"
+        }
+      },
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "localize":[
+              "ar",
+              "es",
+              "pt",
+              "de",
+              "ru",
+              "sv",
+              "zh",
+              "fr",
+              "en"
+            ],
+            "outputPath": "dist/neetechs",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/manifest.webmanifest"
+            ],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "src/styles.scss"
+            ],
+            "scripts": [],
+            "serviceWorker": false//,
+            //"ngswConfigPath": "ngsw-config.json"
+          },
+          "configurations": {
+            "es":{
+              "localize":[
+                "es"
+            ]
+            },
+            "en":{
+              "localize":[
+                "en"
+            ]
+            },
+            "pt":{
+              "localize":[
+                "pt"
+            ]
+            },
+            "ar":{
+              "localize":[
+                "ar"
+            ]
+            },
+            "de":{
+              "localize":[
+                "de"
+            ]
+            },
+            "ru":{
+              "localize":[
+                "ru"
+            ]
+            },
+            "sv":{
+              "localize":[
+                "sv"
+            ]
+            },
+            "zh":{
+              "localize":[
+                "zh"
+            ]
+            },
+            "fr":{
+              "localize":[
+                "fr"
+            ]
+            },
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "2mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "neetechs:build:production"
+            },
+            "development": {
+              "browserTarget": "neetechs:build:development"
+            },
+            "ar": {
+              "browserTarget": "neetechs:build:ar"
+            },
+            "en": {
+              "browserTarget": "neetechs:build:en"
+            },
+            "es": {
+              "browserTarget": "neetechs:build:es"
+            },
+            "pt": {
+              "browserTarget": "neetechs:build:pt"
+            },
+
+            "de": {
+              "browserTarget": "neetechs:build:de"
+            },
+            "ru": {
+              "browserTarget": "neetechs:build:ru"
+            },
+            "sv": {
+              "browserTarget": "neetechs:build:sv"
+            },
+            "zh": {
+              "browserTarget": "neetechs:build:zh"
+            },
+            "fr": {
+              "browserTarget": "neetechs:build:fr"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "neetechs:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/manifest.webmanifest"
+            ],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+          }
+        }
+
+      }
+    }
+  }
+}
