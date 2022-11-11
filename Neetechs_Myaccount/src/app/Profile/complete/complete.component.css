@@ -1,0 +1,38 @@
+.CompleteContainer{
+    width: 90%;
+    margin: 2% auto;
+    border-radius: 5px;
+  
+    
+}
+
+.header{
+    background-color: white;
+}
+
+.example-spacer {
+    flex: 2 1 auto;
+  }
+  
+
+.btnNext{ background-color: rgba(138, 198, 247, 0.39);
+    color: rgb(10, 49, 75);
+    margin-left: 2%;
+
+}
+
+.btnBack{
+background-color: gold;
+color: rgb(63, 43, 0);
+}
+
+.btnAdd{
+    margin: 4%;
+    background-color: rgba(138, 247, 233, 0.39);
+    color: rgb(3, 75, 65);
+
+}
+textarea{
+    width: 100%;
+    min-height: 100px;
+}

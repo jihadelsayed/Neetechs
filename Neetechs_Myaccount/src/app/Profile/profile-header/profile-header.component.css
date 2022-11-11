@@ -1,0 +1,98 @@
+.imgProfile{
+
+    width: 100px;
+    border: solid 2px  rgb(28, 35, 41);
+    border-radius: 10px;
+
+}
+.titelName, .datum{
+    color: rgb(45, 82, 129);
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbarTop{
+background-color: rgba(255, 255, 255, 0);
+
+}
+
+  .titelprofileSection{color: #ff7e06;
+  margin: auto;
+  }
+
+
+ .btnDelete{
+
+  background-color: rgb(255, 255, 255);
+  color: #e23963;
+  border: solid #e23963 2px;
+  border-radius: 20px;
+  margin-left: 1%;
+ }
+ .skickaMeddelande{
+  background-color: rgb(255, 255, 255);
+  color: #0062ff;
+  border: solid #0062ff 2px;
+  border-radius: 20px;
+  margin-left: 1%;
+ 
+}
+.btnUserTjanster{
+
+  background-color: rgb(255, 255, 255);
+  color: #3ebead;
+  border: solid #3ebead 2px;
+  border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  
+
+ .btnDelete:hover{
+
+  background-color: #e23963;
+  color: white;
+  border: solid #ac304f 2px;
+ }
+ .skickaMeddelande:hover{
+  background-color: #0062ff;
+  color: white;
+  border: solid #064fc5 2px;
+
+ 
+}
+.btnUserTjanster:hover{
+
+  background-color: #3ebead;
+  color: white;
+  border: solid #2c8074 2px;
+  
+  }
+
+
+
+  
+
+
+.imageCont{
+  position: relative;
+}
+ .btnEdit{
+  position: absolute;
+  top: 60%;
+  right: 0.2%;
+  border-radius: 50%;
+  color: rgb(214, 69, 142); 
+ }
+
+ .btnEdit:hover{
+  color: rgb(209, 17, 113);
+
+
+ }
+
+

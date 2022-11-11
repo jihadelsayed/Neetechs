@@ -1,0 +1,20 @@
+<mat-toolbar class="toolbarTopSection">
+
+    <div class="mat-headline titelprofileSection">Kompetenser och intyg</div>
+
+    <span class="example-spacer"></span>
+
+    <button class="btnEdit" mat-mini-fab aria-label="Example icon button with a home icon" (click)="openDialogEditKompetenser()" *ngIf="this.profileDictionary.userInfo.site_id == this.profileDictionary.LogedInUserInfo.site_id">
+      <mat-icon>edit</mat-icon>
+    </button>
+    
+
+  </mat-toolbar>
+
+
+
+  <mat-chip-list #chipList aria-label="Fruit selection">
+    <mat-chip class="kompetenster" *ngFor="let kompo of this.profileDictionary.Kompetenser_intygs">
+      {{ kompo.name }}
+    </mat-chip>
+  </mat-chip-list>

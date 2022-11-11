@@ -1,0 +1,36 @@
+<div fxLayout="column" fxLayoutAlign="space-evenly center">
+  <div class="profileHeaderContainer" fxLayout="row" fxLayoutGap="10px">
+    <div class="profileSectionheader">
+      <app-profile-header [profileDictionary]="profileDictionary">
+
+      </app-profile-header>
+    </div>
+  </div>
+
+  <div div class="div4" fxLayout="row" fxLayoutAlign="space-evenly stretch" fxFlex=100 fxLayoutGap="10px">
+    <div  fxLayout="column" fxLayoutAlign="start center" fxFlex=85 fxLayoutGap="20px">
+
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-about [profileDictionary]="profileDictionary"></app-about>
+      </div>
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-personal-info [profileDictionary]="profileDictionary"></app-personal-info>
+      </div>
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-experience [profileDictionary]="profileDictionary"></app-experience>
+      </div>
+
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-study [profileDictionary]="profileDictionary"></app-study>
+      </div>
+
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-competencies [profileDictionary]="profileDictionary"></app-competencies>
+      </div>
+
+      <div class="profileSection" fxLayout="column" fxLayoutGap="20px">
+        <app-interests [profileDictionary]="profileDictionary"></app-interests>
+      </div>
+    </div>
+  </div>
+</div>

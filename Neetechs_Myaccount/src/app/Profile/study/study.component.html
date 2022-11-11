@@ -1,0 +1,56 @@
+<mat-toolbar class="toolbarTopSection">
+
+    <div class="mat-headline titelprofileSection">Studier <mat-icon>school</mat-icon>
+    </div>
+
+    <span class="example-spacer"></span>
+    <button class="btnAdd" mat-mini-fab aria-label="Example icon button with a home icon" (click)="openDialogAddStudier()" *ngIf="this.profileDictionary.userInfo.site_id == this.profileDictionary.LogedInUserInfo.site_id">
+      <mat-icon>add</mat-icon>
+    </button>
+
+
+  </mat-toolbar>
+
+
+  <div class="rowcontent" fxLayout="row" fxLayoutAlign="space-around center" *ngFor="let study of this.profileDictionary.Studiers">
+    <div fxLayout="column" fxFlex=10>
+
+      <ngx-avatar  size="100" 
+
+       class="imgProfile" name="{{ study.name }}"></ngx-avatar>
+
+
+    </div>
+    <div fxLayout="column" fxFlex=80>
+      <div fxLayout="row">
+        <div class="mat-h2">{{ study.name }}</div>
+      </div>
+      <div fxLayout="row">
+        <div class="mat-h3">{{ study.plats }}</div>
+      </div>
+
+      <div fxLayout="row">
+        <div class="mat-body">i start working {{ study.started_at }} and i finsish my jobb at {{ study.ended_at
+          }}
+        </div>
+      </div>
+
+      <div fxLayout="row">
+        <div class="mat-body">{{ study.content }}</div>
+      </div>
+
+    </div>
+
+    
+    <div fxLayout="column" fxFlex=5>
+      <button class="btnEdit" mat-mini-fab aria-label="Example icon button with a home icon" (click)="openDialogEditStudier(study)" *ngIf="this.profileDictionary.userInfo.site_id == this.profileDictionary.LogedInUserInfo.site_id">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </div>
+    <div fxLayout="column" fxFlex=5>
+
+    </div>
+
+
+
+  </div>

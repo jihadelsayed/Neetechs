@@ -1,0 +1,95 @@
+
+<div class="CompleteContainer">
+
+  <mat-toolbar class="header">
+    <div class="mat-display-1">Kommpletera din profil</div>
+    <span class="example-spacer"></span>
+    <button mat-button color="primary" routerLink="/search">komplettera senare </button>
+  <button mat-button color="warn" (click)="OnProfileCompleted()">Hoppa över</button>
+  </mat-toolbar>
+
+
+<mat-progress-bar mode="buffer"></mat-progress-bar>
+  <mat-vertical-stepper  #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <ng-template matStepLabel>Kontakt och Socila media</ng-template>
+
+      <app-complete-personal-info [profileDictionary]="profileDictionary"></app-complete-personal-info>
+
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Plats</ng-template>
+
+      <app-complete-location [profileDictionary]="profileDictionary"></app-complete-location>
+      </mat-step>
+  
+
+
+
+
+    <mat-step [stepControl]="secondFormGroup">
+      <ng-template matStepLabel>Skriv om dig själv </ng-template>
+
+        <app-complete-about [profileDictionary]="profileDictionary"></app-complete-about>
+    </mat-step>
+
+
+
+
+    <mat-step>
+      <ng-template matStepLabel>Erfarenhet</ng-template>
+      <div>
+        <app-complete-experience [profileDictionary]="profileDictionary"></app-complete-experience>
+
+
+        <button mat-button  matStepperPrevious class="btnBack">Back</button>
+        <button mat-button  matStepperNext class="btnNext">Next</button>
+    
+</div>
+    </mat-step>
+
+    <mat-step>
+        <ng-template matStepLabel>Studier</ng-template>
+        <div>
+          <app-complete-study [profileDictionary]="profileDictionary"></app-complete-study>
+
+ 
+          <button mat-button  matStepperPrevious class="btnBack">Back</button>
+          <button mat-button  matStepperNext class="btnNext">Next</button>
+        </div>
+      </mat-step>
+
+      <mat-step>
+        <ng-template matStepLabel>Kompetenser och intressen</ng-template>
+        <div>
+            <div fxLayout="row"  fxLayoutGap="10px">
+            <button  class="btnAdd" mat-button aria-label="Example icon button with a home icon" (click)="openDialogEditKompetenser()">
+                <mat-icon>add</mat-icon> lägga till Kompetenser och intyg
+              </button>
+
+              <button mat-button   class="btnAdd" (click)="openDialogEditIntressen()">
+                <mat-icon>add</mat-icon> Lägga till intressen
+              </button>
+            </div>
+          <button mat-button  matStepperPrevious class="btnBack">Back</button>
+          <button mat-button  matStepperNext class="btnNext">Next</button>
+        </div>
+      </mat-step>
+  
+  
+
+    <mat-step>
+        <ng-template matStepLabel>Klart</ng-template>
+        <p> 🤩 Grattis! nu är din profile klart. Du kan alltid ändra uppgifter i din profil fårn "min sidan"</p>
+        <button mat-raised-button color="primary"  (click)="OnProfileCompleted()">slutföra</button>
+        <div>
+        
+        </div>
+      </mat-step>
+
+
+
+  </mat-vertical-stepper>
+  
+
+</div>

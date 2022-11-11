@@ -1,0 +1,22 @@
+
+   <mat-toolbar class="toolbarTopSection">
+    <app-selection-loader *ngIf="!this.profileDictionary.PersonaInfoLoaded" Cwidth="100" Cheight="100"></app-selection-loader>
+
+      <div class="mat-headline titelprofileSection" *ngIf="this.profileDictionary.PersonaInfoLoaded">Om {{ this.profileDictionary.userInfo.first_name }}</div>
+
+      <span class="example-spacer"></span>
+      <button class="btnEdit" mat-icon-button aria-label="Example icon button with a home icon"
+        (click)="openDialogOm()" *ngIf="this.profileDictionary.userInfo.site_id == this.profileDictionary.LogedInUserInfo.site_id">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <div class= "mat-subheading-2 abouttext" >
+      <app-selection-loader *ngIf="!this.profileDictionary.PersonaInfoLoaded" Cwidth="100" Cheight="100"></app-selection-loader>
+
+      <div  *ngIf="this.profileDictionary.PersonaInfoLoaded">
+        {{ this.profileDictionary.userInfo.about }}
+    
+    </div>
+  </div>
+ 

@@ -1,0 +1,16 @@
+<p>image-edit works!</p>
+<div class="imgProfile" *ngIf="this.picture && this.picture !== ''">
+    <img [src]="this.picture"  width="100px" height="100px">
+  </div>
+
+  <div class="container">
+    <input type="file" accept="image/*" #fileDropRef id="fileDropRef" multiple (change)="showPreview($event)"/>
+    <img src="assets/img/dnd/ic-upload-file.svg" alt="">
+    <h3>Drag and drop file here</h3>
+    <h3>or</h3>
+    <label for="fileDropRef">Browse for file</label>
+  </div>
+  <button mat-raised-button color="warn" class="btnSpara" (click)="uploadImage()">Spara</button>
+
+
+  

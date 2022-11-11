@@ -1,0 +1,83 @@
+<div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="10px">
+  <div fxLayout="column" fxFlex=50>
+    <mat-form-field appearance="outline">
+      <mat-label>Full namn</mat-label>
+
+      <input matInput value="{{this.profileDictionary.userInfo.first_name}}" disabled>
+      <!-- <input matInput value="{{ userInfo.name }}"> -->
+      <mat-icon matSuffix> person_pin</mat-icon>
+    </mat-form-field>
+  </div>
+  <div fxLayout="column" fxFlex=50>
+    <mat-form-field appearance="outline">
+      <mat-label>E-post</mat-label>
+      <input matInput value="{{this.profileDictionary.userInfo.email}}" disabled>
+      <!-- <input matInput value="{{ userInfo.email }}"> -->
+      <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+  </div>
+</div>
+
+
+<div fxLayout="row" fxLayoutGap="10px">
+  <div fxLayout="column" fxFlex=50>
+    <mat-form-field appearance="outline">
+      <mat-label>Telephone</mat-label>
+      <!-- <span matPrefix>+46(0) &nbsp;</span> <input matInput value="{{ userInfo.phone }}"> -->
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.phone">
+      <mat-icon matSuffix>phone</mat-icon>
+    </mat-form-field>
+  </div>
+  <div fxLayout="column" fxFlex=50>
+    <mat-form-field appearance="outline">
+      <mat-label>SMS</mat-label>
+      <!-- <span matPrefix>+46(0) &nbsp;</span> <input matInput value="{{ userInfo.phone }}"> -->
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.sms">
+      <mat-icon matSuffix>textsms</mat-icon>
+    </mat-form-field>
+  </div>
+</div>
+<div fxLayout="row" fxLayoutGap="10px">
+  <div fxLayout="column" fxFlex=25>
+    <mat-form-field appearance="outline">
+      <mat-label>Facebook</mat-label>
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.Facebook_link">
+      <!-- <input matInput value="{{ userInfo.Facebook_link }}"> -->
+      <mat-icon matSuffix><i class='fab fa-facebook fa-sm'></i></mat-icon>
+
+    </mat-form-field>
+  </div>
+  <div fxLayout="column" fxFlex=25>
+    <mat-form-field appearance="outline">
+      <mat-label>Linkdin</mat-label>
+      <input matInput [(ngModel)]="this.profileDictionary.userInfo.Linkdin_link">
+      <!-- <input matInput value="{{ userInfo.Linkdin_link }}"> -->
+      <mat-icon matSuffix><i class='fab fa-linkedin fa-sm'></i></mat-icon>
+    </mat-form-field>
+  </div>
+
+  <div fxLayout="column" fxFlex=25>
+    <mat-form-field appearance="outline">
+      <mat-label>twitter </mat-label>
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.twitter">
+      <mat-icon matSuffix>headset_mic</mat-icon>
+    </mat-form-field>
+  </div>
+  <div fxLayout="column" fxFlex=25>
+    <mat-form-field appearance="outline">
+      <mat-label>Annat (Fri text) </mat-label>
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.othersSocialMedia">
+      <mat-icon matSuffix>headset_mic</mat-icon>
+    </mat-form-field>
+  </div>
+  <div fxLayout="column" fxFlex=100>
+    <mat-form-field appearance="outline">
+      <mat-label>profession </mat-label>
+      <input  matInput [(ngModel)]="this.profileDictionary.userInfo.profession">
+      <mat-icon matSuffix>profession</mat-icon>
+    </mat-form-field>
+  </div>
+</div>
+<div>
+  <button mat-button class="btnNext" (click)="OnSubmitSocial()" matStepperNext>Next</button>
+</div>

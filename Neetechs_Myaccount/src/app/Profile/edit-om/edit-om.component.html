@@ -1,0 +1,23 @@
+<div class="popContainer" fxLayout="column" fxLayoutAlign="space-between stretch" >
+ <mat-toolbar class="header"> <div class="mat-headline titelprofileSection">Om mej</div>
+  <span class="example-spacer"></span>
+
+
+ <a mat-dialog-close>
+  <mat-icon class="iconCancel">cancel</mat-icon>
+ </a>
+  
+ </mat-toolbar>
+ <mat-divider></mat-divider>
+    <mat-form-field class="example-full-width">
+        <textarea  matInput  [(ngModel)]="about"></textarea>
+      </mat-form-field>
+
+      
+       
+      <mat-divider></mat-divider>
+    <mat-toolbar> 
+      <span class="example-spacer"></span>
+      <button mat-flat-button class="btnSpara" (click)="OnSubmit()">Spara</button>
+      
+     </mat-toolbar>
