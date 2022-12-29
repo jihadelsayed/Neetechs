@@ -119,7 +119,9 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-.history/*
+.history
+.angular
+.firebase/*
 # JustCode is a .NET coding add-in
 .JustCode
 
