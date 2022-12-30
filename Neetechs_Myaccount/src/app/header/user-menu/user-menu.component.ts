@@ -12,8 +12,7 @@ export class UserMenuComponent implements OnInit {
   userInfo = JSON.parse(localStorage.getItem('UserInfo')!);
   authenticateHttpHeaders = new HttpHeaders({ 'Authorization': 'Token ' + localStorage.getItem('userToken') });
 
-  constructor(
-    private router: Router,
+  constructor(private router: Router,
     private http: HttpClient,
 
     ) { }
