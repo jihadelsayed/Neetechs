@@ -11,5 +11,6 @@ export const environment = {
   FrontEnd_URL: "https://main.d2l2e2nscw5pbm.amplifyapp.com",
   LoginURL: "https://accounts.neetechs.com/",
   // LoginURL: "http://localhost:4442/",
+  OpenAIAPIKey:"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",
 };
 

@@ -10,4 +10,6 @@ export const environment = {
   SERVER_URL_WITH_OUT_SLASH: "https://server.neetechs.com",
   FrontEnd_URL: "https://www.neetechs.com",
   LoginURL: "https://accounts.neetechs.com/",
+  OpenAIAPIKey:"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",
+
 };

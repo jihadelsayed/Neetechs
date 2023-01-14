@@ -7,13 +7,15 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material';
+import { OpenAiComponent } from './open-ai/open-ai.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpinnerComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    OpenAiComponent
 
   ],
   imports: [
