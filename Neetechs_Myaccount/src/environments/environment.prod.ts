@@ -5,11 +5,10 @@ export const environment = {
   // CHAT_URL: "ws://localhost:8000/ws/chat/",
   // SERVER_URL_WITH_OUT_SLASH: "http://127.0.0.1:8000",
   STRIPE_PUBLIC_KEY: "pk_test_51IwTvvIR19rXEZpRWoj9M4BGNy5nJ1GQOsXUZXHRD0PS3QGexQQSVNQR0vMB8jMoONQtO4RNQ30pC3N5BdgiGstB00shA8ejRI",
-  SERVER_URL: "https://server.neetechs.com/",
-  CHAT_URL: "wss://server.neetechs.com/ws/chat/",
   SERVER_URL_WITH_OUT_SLASH: "",
-  FrontEnd_URL: "https://neetechs.com",
-  LoginURL: "https://accounts.neetechs.com/",
-  //LoginURL: "https://accounts.neetechs.com/",
-
+  SERVER_URL: "https://server."+ window.location.hostname.replace(/^[^.]+./, '') +".com/",
+  CHAT_URL: "wss://server."+ window.location.hostname.replace(/^[^.]+./, '') +"/ws/chat/",
+  FrontEnd_URL: window.location.origin,
+  MainDomain: window.location.hostname.replace(/^[^.]+./, ''),
+  LoginURL: "https://accounts." + window.location.hostname.replace(/^[^.]+./, '') +"/",
 };
