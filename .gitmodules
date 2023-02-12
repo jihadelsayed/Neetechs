@@ -16,3 +16,6 @@
 [submodule "Neetechs_Accounts"]
 	path = Neetechs_Accounts
 	url = https://github.com/davidpales1/Neetechs_Accounts.git
+[submodule "Neetechs_Myaccount"]
+	path = Neetechs_Myaccount
+	url = https://github.com/davidpales1/Neetechs_Myaccount.git
