@@ -25,3 +25,6 @@
 [submodule "Neetechs_Restaurant"]
 	path = Neetechs_Restaurant
 	url = https://github.com/davidpales1/Neetechs_Restaurant.git
+[submodule "Neetechs_Tracker"]
+	path = Neetechs_Tracker
+	url = https://github.com/davidpales1/Neetechs_Tracker.git
