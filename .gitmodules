@@ -28,3 +28,6 @@
 [submodule "Neetechs_Tracker"]
 	path = Neetechs_Tracker
 	url = https://github.com/davidpales1/Neetechs_Tracker.git
+[submodule "Neetechs_Tracker"]
+	path = Neetechs_Resume
+	url = https://github.com/davidpales1/Neetechs_Resume.git
