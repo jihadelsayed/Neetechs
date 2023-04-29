@@ -22,3 +22,6 @@
 [submodule "Neetechs_Chain"]
 	path = Neetechs_Chain
 	url = https://github.com/davidpales1/Neetechs_Chain.git
+[submodule "Neetechs_Restaurant"]
+	path = Neetechs_Restaurant
+	url = https://github.com/davidpales1/Neetechs_Restaurant.git
