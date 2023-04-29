@@ -31,3 +31,6 @@
 [submodule "Neetechs_Resume"]
 	path = Neetechs_Resume
 	url = https://github.com/davidpales1/Neetechs_Resume.git
+[submodule "Neetechs_Policies"]
+	path = Neetechs_Policies
+	url = https://github.com/davidpales1/Neetechs_Policies.git
