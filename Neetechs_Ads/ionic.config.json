@@ -1,0 +1,7 @@
+{
+  "name": "neetechs_ads",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
