@@ -5,34 +5,6 @@
     "posts": [
       {
         "id": "1",
-        "title": "Latest Trends in Web Design",
-        "date": "March 15, 2024",
-        "description": "Stay updated with the latest trends in web design. In this post, we explore the new design philosophies that are shaping the web design industry.",
-        "href": "/latest-trends-in-web-design"
-      },
-      {
-        "id": "2",
-        "title": "How to Optimize Your Website for SEO",
-        "date": "February 28, 2024",
-        "description": "Learn how to optimize your website for search engines. This post covers essential SEO strategies to improve your website's visibility and ranking.",
-        "href": "/how-to-optimize-your-website-for-seo"
-      },
-      {
-        "id": "3",
-        "title": "Mobile App Development Best Practices",
-        "date": "January 20, 2024",
-        "description": "Discover the best practices for mobile app development. We share tips and tricks to create user-friendly and high-performing mobile applications.",
-        "href": "/mobile-app-development-best-practices"
-      },
-      {
-        "id": "4",
-        "title": "Neetechs' Journey: Our Story",
-        "date": "December 10, 2023",
-        "description": "Read about Neetechs' journey from its inception to becoming a leading provider of tech solutions. Learn about our milestones and future goals.",
-        "href": "/neetechs-journey-our-story"
-      },
-      {
-        "id": "5",
         "title": "YouTube Video Script",
         "date": "June 23, 2024",
         "description": "This script demonstrates how to download YouTube videos using the Pytube library. Follow along to create a Python script that interacts with YouTube videos directly.",
