@@ -1,0 +1,39 @@
+{
+	"id": "1",
+	"name": "Python",
+	"date": "June 23, 2024",
+	"href": "tutorials/python",
+	"image": "https://i.imgur.com/6NOQqPd.png",
+	 "tutorials": [
+		{
+		  "id": 1,
+		  "title": "Introduction to Python",
+		  "description": "Learn the basics of Python programming language.",
+		  "duration": "3 hours"
+		},
+		{
+		  "id": 2,
+		  "title": "Advanced Python",
+		  "description": "Deep dive into advanced Python concepts and libraries.",
+		  "duration": "5 hours"
+		},
+		{
+		  "id": 3,
+		  "title": "Python for Data Science",
+		  "description": "Explore how to use Python for data analysis and visualization.",
+		  "duration": "4 hours"
+		},
+		{
+		  "id": 4,
+		  "title": "Web Development with Python",
+		  "description": "Learn how to build web applications using Python frameworks.",
+		  "duration": "6 hours"
+		},
+		{
+		  "id": 5,
+		  "title": "Automating Tasks with Python",
+		  "description": "Discover how to automate repetitive tasks using Python scripts.",
+		  "duration": "2 hours"
+		}
+	 ]
+}
