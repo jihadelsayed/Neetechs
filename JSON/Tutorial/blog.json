@@ -1,0 +1,15 @@
+{
+  "container": {
+    "title": "Tutorial",
+    "description": "Welcome to our Blog & News section. Here, you can find the latest updates, industry news, and insights from the Neetechs team.",
+    "posts": [
+      {
+        "id": "1",
+        "title": "YouTube Video Script",
+        "date": "June 23, 2024",
+        "description": "This script demonstrates how to download YouTube videos using the Pytube library. Follow along to create a Python script that interacts with YouTube videos directly.",
+        "href": "/youtube-video-script"
+      }
+    ]
+  }
+}
