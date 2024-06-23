@@ -3,59 +3,61 @@
 	"name": "Python",
 	"date": "June 23, 2024",
 	"href": "tutorials/python",
-			"description": "learn Python.",
-
+	"description": "learn Python.",
 	"image": "https://i.imgur.com/6NOQqPd.png",
-	 "tutorials": [
+	"tutorials": [
 		{
-		"id": 1,
-		"title": "Step-by-Step Guide: Installing and Running Python Scripts on Windows",
-		"description": "Installing and Running Python Scripts on Windows.",
-		"date": "June 23, 2024",
-        "href": "tutorials/python/installing_python",
-		"duration": "3 hours",
+			"id": 1,
+			"title": "Step-by-Step Guide: Installing and Running Python Scripts on Windows",
+			"description": "Installing and Running Python Scripts on Windows.",
+			"date": "June 23, 2024",
+			"href": "tutorials/python/installing_python",
+			"duration": "3 hours"
 		},
 		{
-		  "id": 1,
-		  "title": "Introduction to Python",
-		           "date": "June 23, 2024",
-        "href": "tutorials/python/youtube_download",       "disable": "true",
-
-		  
-		  "description": "Learn the basics of Python programming language.",
-		  "duration": "3 hours" 
+			"id": 1,
+			"title": "Introduction to Python",
+			"date": "June 23, 2024",
+			"href": "tutorials/python/youtube_download",
+			"disable": "true",
+			"description": "Learn the basics of Python programming language.",
+			"duration": "3 hours"
 		},
 		{
-		  "id": 2,
-		  "title": "Advanced Python",
-		           "date": "June 23, 2024",
-        "href": "tutorials/python",      "disable": "true",
-"description": "Deep dive into advanced Python concepts and libraries.",
-		  "duration": "5 hours"
+			"id": 2,
+			"title": "Advanced Python",
+			"date": "June 23, 2024",
+			"href": "tutorials/python",
+			"disable": "true",
+			"description": "Deep dive into advanced Python concepts and libraries.",
+			"duration": "5 hours"
 		},
 		{
-		  "id": 3,
-		  "title": "Python for Data Science",
-		           "date": "June 23, 2024",
-        "href": "tutorials/python",       "disable": "true",
-"description": "Explore how to use Python for data analysis and visualization.",
-		  "duration": "4 hours"
+			"id": 3,
+			"title": "Python for Data Science",
+			"date": "June 23, 2024",
+			"href": "tutorials/python",
+			"disable": "true",
+			"description": "Explore how to use Python for data analysis and visualization.",
+			"duration": "4 hours"
 		},
 		{
-		  "id": 4,
-		  "title": "Web Development with Python",
-		           "date": "June 23, 2024",
-        "href": "tutorials/python",       "disable": "true",
-"description": "Learn how to build web applications using Python frameworks.",
-		  "duration": "6 hours"
+			"id": 4,
+			"title": "Web Development with Python",
+			"date": "June 23, 2024",
+			"href": "tutorials/python",
+			"disable": "true",
+			"description": "Learn how to build web applications using Python frameworks.",
+			"duration": "6 hours"
 		},
 		{
-		  "id": 5,
-		  "title": "Automating Tasks with Python",
-		           "date": "June 23, 2024",
-        "href": "tutorials/python",       "disable": "true",
-"description": "Discover how to automate repetitive tasks using Python scripts.",
-		  "duration": "2 hours"
+			"id": 5,
+			"title": "Automating Tasks with Python",
+			"date": "June 23, 2024",
+			"href": "tutorials/python",
+			"disable": "true",
+			"description": "Discover how to automate repetitive tasks using Python scripts.",
+			"duration": "2 hours"
 		}
-	 ]
+	]
 }
