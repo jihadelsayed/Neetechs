@@ -31,13 +31,13 @@
         "description": "Read about Neetechs' journey from its inception to becoming a leading provider of tech solutions. Learn about our milestones and future goals.",
         "href": "/neetechs-journey-our-story"
       },
-	  {
-		"id": "5",
-		"title": "YouTube Video Script",
-		"date": "June 23, 2024",
-		"description": "This script demonstrates how to download YouTube videos using the Pytube library. Follow along to create a Python script that interacts with YouTube videos directly.",
-		"href": "/youtube-video-script"
-	  },
+      {
+        "id": "5",
+        "title": "YouTube Video Script",
+        "date": "June 23, 2024",
+        "description": "This script demonstrates how to download YouTube videos using the Pytube library. Follow along to create a Python script that interacts with YouTube videos directly.",
+        "href": "/youtube-video-script"
+      }
     ]
   }
 }
