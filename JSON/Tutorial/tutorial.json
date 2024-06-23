@@ -1,0 +1,22 @@
+{
+  "container": {
+    "title": "Tutorials",
+    "description": "Welcome to our Tutorials section. Here, you can find tutorials on various topics categorized for your convenience.",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Python",
+		"date": "June 23, 2024",
+        "href": "/python"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "HTML",
+        "date": "June 23, 2024",
+        "href": "/HTML",
+		"disable": "true"
+      }
+    ]
+  }
+}
