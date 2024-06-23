@@ -8,14 +8,14 @@
         "id": "1",
         "name": "Python",
         "date": "June 23, 2024",
-        "href": "/python",
+        "href": "tutorials/python",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
       {
         "id": "2",
         "name": "HTML",
         "date": "June 23, 2024",
-        "href": "/HTML",
+        "href": "tutorials/HTML",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
@@ -23,7 +23,7 @@
         "id": "3",
         "name": "CSS",
         "date": "June 23, 2024",
-        "href": "/CSS",
+        "href": "tutorials/CSS",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
@@ -31,7 +31,7 @@
         "id": "4",
         "name": "JavaScript",
         "date": "June 23, 2024",
-        "href": "/JavaScript",
+        "href": "tutorials/JavaScript",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
@@ -39,7 +39,7 @@
         "id": "5",
         "name": "React",
         "date": "June 23, 2024",
-        "href": "/React",
+        "href": "tutorials/React",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
@@ -47,7 +47,7 @@
         "id": "6",
         "name": "Angular",
         "date": "June 23, 2024",
-        "href": "/Angular",
+        "href": "tutorials/Angular",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       }
