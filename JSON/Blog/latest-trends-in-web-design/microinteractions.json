@@ -1,0 +1,25 @@
+{
+    "title": "Microinteractions in Web Design",
+    "sections": [
+        {
+            "heading": "Introduction to Microinteractions",
+            "content": [
+                "Microinteractions are small design elements that enhance user experience by providing feedback, guiding tasks, or adding delight to interactions."
+            ]
+        },
+        {
+            "heading": "Examples",
+            "content": [
+                "1. **Button Animations**: Visual feedback when a button is pressed.",
+                "2. **Hover Effects**: Changes when hovering over elements.",
+                "3. **Loading Indicators**: Shows progress of tasks."
+            ]
+        },
+        {
+            "heading": "Best Practices",
+            "content": [
+                "Keep them simple and purposeful. Ensure they enhance the user experience without being distracting."
+            ]
+        }
+    ]
+}

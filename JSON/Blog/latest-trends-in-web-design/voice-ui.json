@@ -1,0 +1,25 @@
+{
+    "title": "Voice UI in Web Design",
+    "sections": [
+        {
+            "heading": "Introduction to Voice UI",
+            "content": [
+                "Voice User Interface (VUI) allows users to interact with a system through voice commands, providing a hands-free and natural interaction method."
+            ]
+        },
+        {
+            "heading": "Benefits",
+            "content": [
+                "1. **Accessibility**: Great for users with disabilities.",
+                "2. **Convenience**: Hands-free interaction.",
+                "3. **Speed**: Faster than typing for certain tasks."
+            ]
+        },
+        {
+            "heading": "Implementing Voice UI",
+            "content": [
+                "Use APIs like Google Assistant, Amazon Alexa, or Web Speech API. Design for clarity and simplicity in voice commands."
+            ]
+        }
+    ]
+}

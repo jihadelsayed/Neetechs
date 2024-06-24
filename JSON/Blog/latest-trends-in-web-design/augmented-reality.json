@@ -1,0 +1,25 @@
+{
+    "title": "Augmented Reality in Web Design",
+    "sections": [
+        {
+            "heading": "Introduction to Augmented Reality",
+            "content": [
+                "Augmented Reality (AR) overlays digital content onto the real world, creating immersive and interactive experiences for users."
+            ]
+        },
+        {
+            "heading": "Benefits",
+            "content": [
+                "1. **Engagement**: Highly interactive and engaging.",
+                "2. **Visualization**: Helps visualize products in real environments.",
+                "3. **Innovation**: Sets your brand apart with cutting-edge technology."
+            ]
+        },
+        {
+            "heading": "Implementing AR",
+            "content": [
+                "Use AR frameworks like ARKit (iOS), ARCore (Android), or WebXR (web). Ensure your design is user-friendly and accessible."
+            ]
+        }
+    ]
+}

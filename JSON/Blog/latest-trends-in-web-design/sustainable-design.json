@@ -1,0 +1,27 @@
+{
+    "title": "Sustainable Design in Web Design",
+    "sections": [
+        {
+            "heading": "Introduction to Sustainable Design",
+            "content": [
+                "Sustainable web design focuses on creating websites that are environmentally friendly by reducing energy consumption and improving efficiency."
+            ]
+        },
+        {
+            "heading": "Principles",
+            "content": [
+                "1. **Efficiency**: Optimize for performance to reduce energy use.",
+                "2. **Minimalism**: Use fewer resources and simpler designs.",
+                "3. **Green Hosting**: Choose eco-friendly web hosting services."
+            ]
+        },
+        {
+            "heading": "Best Practices",
+            "content": [
+                "1. **Optimize Images**: Compress and use modern formats.",
+                "2. **Efficient Coding**: Write clean, efficient code.",
+                "3. **Reduce HTTP Requests**: Minimize the number of requests to the server."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Neumorphism in Web Design",
+    "sections": [
+        {
+            "heading": "Introduction to Neumorphism",
+            "content": [
+                "Neumorphism is a design trend that combines modern skeuomorphism with flat design. It creates a soft, extruded plastic look, making elements appear as if they are part of the background."
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "content": [
+                "1. **Soft Shadows**: Creates a sense of depth and realism.",
+                "2. **Low Contrast**: Uses subtle differences in color and shadows.",
+                "3. **Rounded Edges**: Adds a modern, friendly touch."
+            ]
+        },
+        {
+            "heading": "Implementing Neumorphism",
+            "content": [
+                "Use CSS to create soft shadows and rounded edges. Tools like Figma and Sketch have plugins for neumorphism designs."
+            ]
+        }
+    ]
+}
