@@ -2,6 +2,7 @@
   "container": {
     "title": "Blog & News",
     "description": "Welcome to our Blog & News section. Here, you can find the latest updates, industry news, and insights from the Neetechs team.",
+    "image": "https://i.imgur.com/5gYNkhg.png",
     "posts": [
       {
         "id": "1",
@@ -15,6 +16,7 @@
         "title": "How to Optimize Your Website for SEO",
         "date": "February 28, 2024",
         "description": "Learn how to optimize your website for search engines. This post covers essential SEO strategies to improve your website's visibility and ranking.",
+        "disable": "true",
         "href": "blog-news/how-to-optimize-your-website-for-seo"
       },
       {
@@ -22,6 +24,7 @@
         "title": "Mobile App Development Best Practices",
         "date": "January 20, 2024",
         "description": "Discover the best practices for mobile app development. We share tips and tricks to create user-friendly and high-performing mobile applications.",
+        "disable": "true",
         "href": "blog-news/mobile-app-development-best-practices"
       },
       {
@@ -29,6 +32,7 @@
         "title": "Neetechs' Journey: Our Story",
         "date": "December 10, 2023",
         "description": "Read about Neetechs' journey from its inception to becoming a leading provider of tech solutions. Learn about our milestones and future goals.",
+        "disable": "true",
         "href": "blog-news/neetechs-journey-our-story"
       }
     ]
