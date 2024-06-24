@@ -7,7 +7,7 @@
       },
       {
         "title": "Step 1: Setting Up the Environment (Wide Shot)",
-        "content": "First things first, we need to set up our environment. If you haven't already, make sure Python is installed on your computer. You can grab it from python.org. Once that's done, open your terminal or command prompt and run the following command to install the Pytube library. This will allow us to interact with YouTube videos directly from our script.",
+        "content": "First things first, we need to set up our environment. If you haven't already, make sure Python is installed on your computer. You can grab it from python.org. If you're unsure how to install Python, check out my Python install tutorial here. Once that's done, open your terminal or command prompt and run the following command to install the Pytube library. This will allow us to interact with YouTube videos directly from our script.",
         "code": "pip install pytube"
       },
       {
@@ -16,9 +16,9 @@
         "code": "import os\nimport logging\nfrom pytube import YouTube"
       },
       {
-        "title": "Step 3: Setting Up Logging (Close Shot + Screen Recording)",
-        "content": "Next, we need to set up logging for Pytube. Logging is super helpful because it keeps track of what's happening in our script, especially if something goes wrong. Here's how we do it:",
-        "code": "# Enable logging for pytube\nlogging.basicConfig(level=logging.DEBUG)\nlogger = logging.getLogger('pytube')"
+        "title": "Step 3: Main Execution Block (Close Shot + Screen Recording)",
+        "content": "Next, let’s bring everything together in our main execution block. Here, we’ll prompt the user to enter the video URL, list the available streams, and ask the user to select a stream. Then, we’ll download the video based on the user's selection. Let's put it all together:",
+        "code": "if __name__ == '__main__':\n    # Prompt the user to enter the video URL\n    video_url = input('Enter the YouTube video URL: ')\n    \n    # Get the current working directory\n    current_directory = os.getcwd()\n    \n    # Create a YouTube object to list available streams\n    yt = YouTube(video_url)\n    list_available_streams(yt)\n\n    # Prompt the user to select the desired stream\n    try:\n        stream_number = int(input('Enter the number of the stream you want to download (or press Enter to download the highest resolution): '))\n    except ValueError:\n        stream_number = None\n\n    # Download the YouTube video\n    download_youtube_video(video_url, current_directory, stream_number)"
       },
       {
         "title": "Step 4: Listing Available Streams (Close Shot + Screen Recording)",
@@ -31,9 +31,9 @@
         "code": "def download_youtube_video(video_url: str, output_path: str, stream_number: int = None) -> None:\n    '''\n    Downloads the selected resolution YouTube video from the given URL.\n\n    Args:\n        video_url (str): URL of the YouTube video.\n        output_path (str): Directory where the video will be downloaded.\n        stream_number (int, optional): Index of the selected stream. Defaults to the highest resolution.\n\n    Returns:\n        None\n    '''\n    try:\n        logger.info(f'Creating YouTube object for URL: {video_url}')\n        yt = YouTube(video_url)\n\n        if stream_number is not None:\n            logger.info('Listing available streams.')\n            list_available_streams(yt)\n            selected_stream = yt.streams.filter(adaptive=True)[stream_number]\n        else:\n            logger.info('Selecting the highest resolution stream available.')\n            selected_stream = yt.streams.get_highest_resolution()\n\n        logger.info(f'Downloading video to: {output_path}')\n        selected_stream.download(output_path=output_path)\n        print('Video downloaded successfully!')\n    except Exception as e:\n        logger.error(f'An error occurred: {e}')\n        print('Failed to download the video. Please check the log for more details.')"
       },
       {
-        "title": "Step 6: Main Execution Block (Close Shot + Screen Recording)",
-        "content": "Finally, let's bring everything together in our main execution block. Here, we’ll prompt the user to enter the video URL, list the available streams, and ask the user to select a stream. Then, we’ll download the video based on the user's selection. Let's put it all together:",
-        "code": "if __name__ == '__main__':\n    # Prompt the user to enter the video URL\n    video_url = input('Enter the YouTube video URL: ')\n    \n    # Get the current working directory\n    current_directory = os.getcwd()\n    \n    # Create a YouTube object to list available streams\n    yt = YouTube(video_url)\n    list_available_streams(yt)\n\n    # Prompt the user to select the desired stream\n    try:\n        stream_number = int(input('Enter the number of the stream you want to download (or press Enter to download the highest resolution): '))\n    except ValueError:\n        stream_number = None\n\n    # Download the YouTube video\n    download_youtube_video(video_url, current_directory, stream_number)"
+        "title": "Step 6: Setting Up Logging (Close Shot + Screen Recording)",
+        "content": "Next, we need to set up logging for Pytube. Logging is super helpful because it keeps track of what's happening in our script, especially if something goes wrong. Here's how we do it:",
+        "code": "# Enable logging for pytube\nlogging.basicConfig(level=logging.DEBUG)\nlogger = logging.getLogger('pytube')"
       },
       {
         "title": "Conclusion (Wide Shot)",
@@ -41,4 +41,3 @@
       }
     ]
   }
-  
