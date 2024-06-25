@@ -50,6 +50,14 @@
         "href": "tutorials/Angular",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
+      },
+      {
+        "id": "6",
+        "name": "Offensive Security",
+        "date": "June 23, 2024",
+        "href": "tutorials/security",
+        "disable": "false",
+        "image": "https://i.imgur.com/6NOQqPd.png"
       }
     ]
   }

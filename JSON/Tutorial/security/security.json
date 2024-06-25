@@ -1,0 +1,18 @@
+{
+	"id": "1",
+	"name": "Offensive Security",
+	"date": "June 23, 2024",
+	"href": "tutorials/security",
+	"description": "learn how to secure yourself or your company from the upcoming threat.",
+	"image": "https://i.imgur.com/6NOQqPd.png",
+	"tutorials": [
+		{
+			"id": 1,
+			"title": "Windows Privilege Escalation Tools Overview",
+			"description": "Privilege Escalation Tools Overview.",
+			"date": "June 23, 2024",
+			"href": "tutorials/security/privilege_escalation",
+			"duration": "3 hours"
+		}
+	]
+}

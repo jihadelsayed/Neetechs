@@ -1,0 +1,55 @@
+{
+  "title": "Windows Privilege Escalation Tools Overview",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hello everyone, welcome to this overview of essential Windows privilege escalation tools! I'm Sayed Jihad Al Sayed, and today I'm going to introduce you to some powerful tools that can help you identify and exploit privilege escalation vectors on Windows systems. Let's dive right in!"
+    },
+    {
+      "title": "Tool 1: PowerUp (Wide Shot)",
+      "content": "First up is PowerUp, a PowerShell script that checks for common privilege escalation vectors on Windows systems.",
+      "code": "PowerUp.ps1",
+      "video_link": "https://www.youtube.com/link_to_powerup_video",
+      "github_repository": "https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc"
+    },
+    {
+      "title": "Tool 2: Seatbelt (Wide Shot)",
+      "content": "Next, we have Seatbelt, a C# project that performs a wide range of security checks on a Windows system.",
+      "code": "Seatbelt.exe all",
+      "video_link": "https://www.youtube.com/link_to_seatbelt_video",
+      "github_repository": "https://github.com/GhostPack/Seatbelt"
+    },
+    {
+      "title": "Tool 3: SharpUp (Wide Shot)",
+      "content": "SharpUp is a C# implementation of PowerUp, designed to work in environments where PowerShell might be restricted.",
+      "code": "SharpUp.exe",
+      "video_link": "https://www.youtube.com/link_to_sharpup_video",
+      "github_repository": "https://github.com/GhostPack/SharpUp"
+    },
+    {
+      "title": "Tool 4: PrivescCheck (Wide Shot)",
+      "content": "PrivescCheck is a Python script that scans Windows systems for potential privilege escalation vectors.",
+      "code": "python privesccheck.py",
+      "video_link": "https://www.youtube.com/link_to_privesccheck_video",
+      "github_repository": "https://github.com/itm4n/PrivescCheck"
+    },
+    {
+      "title": "Tool 5: BloodHound (Wide Shot)",
+      "content": "BloodHound uses graph theory to reveal hidden and often unintended relationships within an Active Directory environment, making it an excellent tool for analyzing privilege escalation paths.",
+      "code": "BloodHound",
+      "video_link": "https://www.youtube.com/link_to_bloodhound_video",
+      "github_repository": "https://github.com/BloodHoundAD/BloodHound"
+    },
+    {
+      "title": "Tool 6: SharpHound (Wide Shot)",
+      "content": "SharpHound is the data collector for BloodHound, used to gather data about the Active Directory environment.",
+      "code": "SharpHound.exe",
+      "video_link": "https://www.youtube.com/link_to_sharphound_video",
+      "github_repository": "https://github.com/BloodHoundAD/SharpHound"
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "And that's it for today's overview! We've covered several powerful tools for Windows privilege escalation. If you found this video helpful, make sure to give it a thumbs up, subscribe to my channel, and drop any questions or comments down below. Thanks for watching, and I'll see you in the next video!"
+    }
+  ]
+}
