@@ -13,7 +13,7 @@
 			"date": "June 23, 2024",
 			"href": "tutorials/python/installing_python",
 			"duration": "5-10 minutes"
-		}
+		},
 		{
 			"id": 1,
 			"title": "python_variables_and_data_types_tutorial",
@@ -72,6 +72,6 @@
 			"href": "tutorials/python/youtube_download",
 			"description": "Learn the basics of Python programming language.",
 			"duration": "3 hours"
-		},
+		}
 	]
 }
