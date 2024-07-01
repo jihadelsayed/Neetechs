@@ -24,6 +24,14 @@
 		},
 		{
 			"id": 2,
+			"title": "Python Control Structures: Conditionals and Loops",
+			"date": "June 23, 2024",
+			"href": "tutorials/python/python_control_structures_tutorial_script",
+			"description": "In this tutorial, we’ll explore control structures in Python, which are essential for controlling the flow of your programs. We'll cover conditional statements (if, elif, and else) and loops (for and while). By the end of this video, you'll understand how to use these control structures to make decisions in your code and perform repetitive tasks efficiently. Let's get started!",
+			"duration": "25-35 minutes"
+		},
+		{
+			"id": 2,
 			"title": "Advanced Python",
 			"date": "June 23, 2024",
 			"href": "tutorials/python",

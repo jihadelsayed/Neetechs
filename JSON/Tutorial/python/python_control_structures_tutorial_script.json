@@ -1,0 +1,55 @@
+{
+    "title": "Python Control Structures: Conditionals and Loops",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Hello everyone, welcome back to our Python tutorial series! In this video, we'll explore control structures in Python, which are essential for controlling the flow of your programs. We'll cover conditional statements (if, elif, and else) and loops (for and while). By the end of this video, you'll understand how to use these control structures to make decisions in your code and perform repetitive tasks efficiently. Let's get started!"
+        },
+        {
+            "title": "Conditional Statements (Wide Shot)",
+            "content": "Let's start with conditional statements. These allow you to execute certain pieces of code based on whether a condition is true or false."
+        },
+        {
+            "title": "If, Elif, and Else (Close Shot + Screen Recording)",
+            "content": "In Python, we use if, elif, and else statements for conditions. Here's how you can use them.",
+            "code": "x = 10\nif x > 5:\n    print('x is greater than 5')\nelif x == 5:\n    print('x is equal to 5')\nelse:\n    print('x is less than 5')"
+        },
+        {
+            "title": "Nested Conditional Statements (Close Shot + Screen Recording)",
+            "content": "You can also nest conditional statements to check multiple conditions.",
+            "code": "x = 10\ny = 20\nif x > 5:\n    if y > 15:\n        print('x is greater than 5 and y is greater than 15')\n    else:\n        print('x is greater than 5 but y is not greater than 15')\nelse:\n    print('x is not greater than 5')"
+        },
+        {
+            "title": "Introduction to Loops (Wide Shot)",
+            "content": "Now, let's talk about loops. Loops are used to execute a block of code repeatedly as long as a condition is met."
+        },
+        {
+            "title": "For Loops (Close Shot + Screen Recording)",
+            "content": "The for loop in Python is used to iterate over a sequence (such as a list, tuple, or string).",
+            "code": "fruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)"
+        },
+        {
+            "title": "While Loops (Close Shot + Screen Recording)",
+            "content": "The while loop in Python is used to repeat a block of code as long as a condition is true.",
+            "code": "count = 0\nwhile count < 5:\n    print('The count is:', count)\n    count += 1"
+        },
+        {
+            "title": "Nested Loops and Loop Control Statements (Close Shot + Screen Recording)",
+            "content": "You can also nest loops and use control statements like break and continue to control the flow of the loops.",
+            "code": "for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(f'i = {i}, j = {j}')\n\ncount = 0\nwhile count < 5:\n    count += 1\n    if count == 3:\n        continue\n    print('The count is:', count)"
+        },
+        {
+            "title": "Practical Examples (Close Shot + Screen Recording)",
+            "content": "Let's look at some practical examples using conditional statements and loops."
+        },
+        {
+            "title": "Example: Finding the Maximum Number (Close Shot + Screen Recording)",
+            "content": "Here\u2019s a simple example to find the maximum number in a list.",
+            "code": "numbers = [10, 20, 30, 40, 50]\nmax_num = numbers[0]\nfor num in numbers:\n    if num > max_num:\n        max_num = num\nprint('The maximum number is:', max_num)"
+        },
+        {
+            "title": "Conclusion (Wide Shot)",
+            "content": "And that's it for today's tutorial on control structures in Python! We\u2019ve learned about conditional statements and loops, and how to use them to control the flow of your programs. If you found this video helpful, make sure to give it a thumbs up, subscribe to my channel, and drop any questions or comments down below. Thanks for watching, and I'll see you in the next video!"
+        }
+    ]
+}
