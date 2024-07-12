@@ -10,6 +10,7 @@
 			"id": 1,
 			"title": "Step-by-Step Guide: Installing and Running Python Scripts on Windows",
 			"description": "Installing and Running Python Scripts on Windows.",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python/installing_python",
 			"duration": "5-10 minutes"
@@ -18,6 +19,7 @@
 			"id": 1,
 			"title": "python_variables_and_data_types_tutorial",
 			"date": "July 01, 2024",
+			"lvl": "Tutorial",
 			"href": "tutorials/python/python_variables_and_data_types_tutorial",
 			"description": "Welcome back to our Python tutorial series! In this video, we'll dive into Python variables and data types. Understanding these concepts is crucial for anyone starting with Python. We'll cover what variables are, how to declare them, and explore various data types including integers, floats, strings, booleans, lists, tuples, and dictionaries. Plus, we'll demonstrate basic operations you can perform with these data types. By the end of this video, you'll have a solid foundation in handling data in Python. Let's get started!",
 			"duration": "20-30 minutes"
@@ -25,6 +27,7 @@
 		{
 			"id": 2,
 			"title": "Python Control Structures: Conditionals and Loops",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python/python_control_structures_tutorial_script",
 			"description": "In this tutorial, we’ll explore control structures in Python, which are essential for controlling the flow of your programs. We'll cover conditional statements (if, elif, and else) and loops (for and while). By the end of this video, you'll understand how to use these control structures to make decisions in your code and perform repetitive tasks efficiently. Let's get started!",
@@ -33,6 +36,7 @@
 		{
 			"id": 2,
 			"title": "Advanced Python",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python",
 			"disable": "true",
@@ -42,6 +46,7 @@
 		{
 			"id": 3,
 			"title": "Python for Data Science",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python",
 			"disable": "true",
@@ -51,6 +56,7 @@
 		{
 			"id": 4,
 			"title": "Web Development with Python",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python",
 			"disable": "true",
@@ -60,17 +66,21 @@
 		{
 			"id": 5,
 			"title": "Automating Tasks with Python",
+			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python",
 			"disable": "true",
 			"description": "Discover how to automate repetitive tasks using Python scripts.",
 			"duration": "2 hours"
-		},		{
+		},
+		{
 			"id": 6,
-			"title": "Python script to install youtube video 4k",
+			"title": "Python script to download video",
+			"lvl": "Script",
 			"date": "June 23, 2024",
+			"disable": "true",
 			"href": "tutorials/python/youtube_download",
-			"description": "Learn the basics of Python programming language.",
+			"description": "Learn the basics of Python programming language.(has been disabled for policy violations)",
 			"duration": "3 hours"
 		}
 	]
