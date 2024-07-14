@@ -82,6 +82,28 @@
 			"href": "tutorials/python/youtube_download",
 			"description": "Learn the basics of Python programming language.(has been disabled for policy violations)",
 			"duration": "3 hours"
+		},
+		{
+		  "id": 7,
+		  "title": "Solana Keypair Generator",
+		  "lvl": "Script",
+		  "date": "July 14, 2024",
+		  "disable": "false",
+		  "href": "tutorials/python/solana_keypair_generator",
+		  "description": "Learn how to generate Solana keypairs and derive public keys from seed phrases using Python.",
+		  "duration": "10 minutes"
+		},
+		{
+		  "id": 8,
+		  "title": "Ethereum Keypair Generator",
+		  "lvl": "Script",
+		  "date": "July 14, 2024",
+		  "disable": "false",
+		  "href": "tutorials/python/ethereum_keypair_generator",
+		  "description": "Learn how to generate Ethereum keypairs and derive public keys from mnemonic phrases using Python.",
+		  "duration": "10 minutes"
 		}
+
+
 	]
 }
