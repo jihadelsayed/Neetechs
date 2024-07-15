@@ -1,0 +1,26 @@
+{
+  "name": "Sayed Token",
+  "symbol": "Sayed",
+  "description": "The Sayed Token (SAYED) is the official utility token for the Neetechs.",
+  "image": "https://neetechs.com/sayed.png",
+  "extensions": {
+    "website": "https://neetechs.com",
+    "facebook": "https://facebook.com/neetechs0",
+    "linkedin": "https://linkedin.com/company/neetechs",
+    "twitter": "https://x.com/neetechs",
+    "tiktok": "https://tiktok.com/@neetechs",
+    "youtube": "www.youtube.com/@neetechs",
+    "instagram": "https://instagram.com/neetechs",
+    "pinterest": "https://pinterest.com/neetechs"
+  },
+  "tags": [
+    "neetechs",
+    "sayed"
+  ],
+  "creator": {
+    "name": "Jihad El Sayed",
+    "site": "https://Neetechs.com"
+  }
+  
+
+}
