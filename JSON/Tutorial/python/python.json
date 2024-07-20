@@ -8,7 +8,7 @@
 	"tutorials": [
 		{
 			"id": 1,
-			"title": "Step-by-Step Guide: Installing and Running Python Scripts on Windows",
+			"title": "1. Step-by-Step Guide: Installing and Running Python Scripts on Windows",
 			"description": "Installing and Running Python Scripts on Windows.",
 			"lvl": "Tutorial",
 			"date": "June 23, 2024",
@@ -16,8 +16,8 @@
 			"duration": "5-10 minutes"
 		},
 		{
-			"id": 1,
-			"title": "python_variables_and_data_types_tutorial",
+			"id": 2,
+			"title": "2. python_variables_and_data_types_tutorial",
 			"date": "July 01, 2024",
 			"lvl": "Tutorial",
 			"href": "tutorials/python/python_variables_and_data_types_tutorial",
@@ -25,8 +25,8 @@
 			"duration": "20-30 minutes"
 		},
 		{
-			"id": 2,
-			"title": "Python Control Structures: Conditionals and Loops",
+			"id": 3,
+			"title": "3. Python Control Structures: Conditionals and Loops",
 			"lvl": "Tutorial",
 			"date": "June 23, 2024",
 			"href": "tutorials/python/python_control_structures_tutorial_script",
@@ -34,7 +34,16 @@
 			"duration": "25-35 minutes"
 		},
 		{
-			"id": 2,
+			"id": 4,
+			"title": "3. Neetechs Python Tutorial: Learn Functions, Modules, and Classes with Animal Examples",
+			"lvl": "Tutorial",
+			"date": "June 23, 2024",
+			"href": "tutorials/python/python_control_structures_tutorial_script",
+			"description": "Join Sayed Jihad Al Sayed in this fun and engaging Python tutorial for kids. Learn about functions, modules, and classes through entertaining animal examples. Perfect for beginners!",
+			"duration": "15-25 minutes"
+		},
+		{
+			"id": 5,
 			"title": "Advanced Python",
 			"lvl": "Tutorial",
 			"date": "June 23, 2024",
@@ -44,7 +53,7 @@
 			"duration": "5 hours"
 		},
 		{
-			"id": 3,
+			"id": 6,
 			"title": "Python for Data Science",
 			"lvl": "Tutorial",
 			"date": "June 23, 2024",

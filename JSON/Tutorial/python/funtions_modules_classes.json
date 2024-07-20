@@ -1,0 +1,56 @@
+{
+    "title": "Neetechs Python Tutorial: Learn Functions, Modules, and Classes with Animal Examples",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Hello, everyone! Welcome back to Neetechs Tutorial. I'm your host, Sayed Jihad Al Sayed, and today we're going to explore the magical world of Python with functions and modules. And guess what? We'll be using animals for our example! Are you ready? Let's dive in!"
+        },
+        {
+            "title": "Functions Introduction (Wide Shot)",
+            "content": "First, let's talk about functions. Functions are like little helpers that do specific jobs for us. For this example, we'll create a function that prints the sound an animal makes."
+        },
+        {
+            "title": "Creating a Function (Close Shot + Screen Recording)",
+            "content": "Here's a simple function in Python.",
+            "code": "def make_sound(animal):\n    if animal == 'dog':\n        print('Woof!')\n    elif animal == 'cat':\n        print('Meow!')\n    elif animal == 'cow':\n        print('Moo!')\n    else:\n        print('Unknown animal sound')"
+        },
+        {
+            "title": "Calling the Function (Close Shot + Screen Recording)",
+            "content": "Let's call our function.",
+            "code": "make_sound('dog')\nmake_sound('cat')\nmake_sound('cow')\nmake_sound('lion')"
+        },
+        {
+            "title": "Modules Introduction (Wide Shot)",
+            "content": "Isn't that amazing? Functions help us avoid writing the same code over and over again. Now, let's talk about something even cooler: modules."
+        },
+        {
+            "title": "Creating a Module (Close Shot + Screen Recording)",
+            "content": "Modules are like bookshelves where we store our functions. Imagine having all your animal sounds neatly organized in one book. That's what modules do! They keep our code organized and easy to find.",
+            "code": "# animal_sounds.py\ndef make_sound(animal):\n    if animal == 'dog':\n        print('Woof!')\n    elif animal == 'cat':\n        print('Meow!')\n    elif animal == 'cow':\n        print('Moo!')\n    else:\n        print('Unknown animal sound')"
+        },
+        {
+            "title": "Using the Module (Close Shot + Screen Recording)",
+            "content": "Now, we can use these functions in another file.",
+            "code": "# main.py\nimport animal_sounds\n\nanimal_sounds.make_sound('dog')\nanimal_sounds.make_sound('cat')\nanimal_sounds.make_sound('cow')\nanimal_sounds.make_sound('lion')"
+        },
+        {
+            "title": "Classes Introduction (Wide Shot)",
+            "content": "See how neat that is? By using modules, we can keep our main code clean and easy to understand. Plus, we can reuse our functions anytime we want. It's like having a treasure chest of magical tools!"
+        },
+        {
+            "title": "Creating a Class (Close Shot + Screen Recording)",
+            "content": "Now, let's take it a step further and talk about something really exciting: classes. Classes are like blueprints for creating objects. For example, we can create a Dog class to represent a dog and its behaviors.",
+            "code": "class Dog:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\n    def bark(self):\n        print(f'{self.name} says woof!')"
+        },
+        {
+            "title": "Using the Class (Close Shot + Screen Recording)",
+            "content": "Now, we can create an instance of the Dog class and call its bark method.",
+            "code": "my_dog = Dog('Buddy', 3)\nmy_dog.bark()"
+        },
+        {
+            "title": "Conclusion (Wide Shot)",
+            "content": "So, kids, remember: functions are like little helpers that do specific jobs, modules are like bookshelves that keep our functions organized, and classes are blueprints for creating objects with properties and behaviors. With these superpowers, you can make your coding journey fun and exciting.\nThat's all for today's tutorial. I hope you enjoyed learning about functions, modules, and classes through our animal examples. Keep practicing, keep exploring, and never stop creating. See you next time on Neetechs Tutorial. Bye for now!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=UhZ9qtyLjRw&feature=youtu.be"
+}
