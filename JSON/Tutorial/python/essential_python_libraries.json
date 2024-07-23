@@ -1,0 +1,256 @@
+{
+    "title": "Top 25 Essential Python Libraries for Every Developer | Python Tutorial with Examples",
+    
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Hi everyone! My name is Sayed Jihad Al Sayed, and today, I'm excited to take you on a journey through some of the most important libraries in Python. Whether you're new to Python or looking to expand your knowledge, this video will give you a comprehensive overview of these essential tools with practical examples."
+        },
+        {
+            "title": "General Purpose Libraries (Close-Up Shot)",
+            "content": "Let's start with some general-purpose libraries."
+        },
+        {
+            "title": "NumPy",
+            "content": "NumPy is the foundation of numerical computing in Python. It provides support for arrays, matrices, and a large number of mathematical functions to operate on these data structures. For example, creating a 2D array and performing element-wise addition:",
+            "code": "import numpy as np\na = np.array([[1, 2], [3, 4]])\nb = np.array([[5, 6], [7, 8]])\nresult = a + b\nprint(result)"
+        },
+        {
+            "title": "Pandas",
+            "content": "Next, we have Pandas. This library is invaluable for data manipulation and analysis. With its DataFrame structure, it makes handling data a breeze. Here's an example of creating a DataFrame and performing a simple operation:",
+            "code": "import pandas as pd\ndata = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data)\nprint(df)\nprint(df['Age'].mean())"
+        },
+        {
+            "title": "Matplotlib",
+            "content": "For plotting and visualization, Matplotlib is the go-to library. It offers a variety of plots and customization options. Here's a simple example of creating a line plot:",
+            "code": "import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 3, 5, 7, 11]\nplt.plot(x, y)\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Simple Line Plot')\nplt.show()"
+        },
+        {
+            "title": "Seaborn",
+            "content": "Seaborn is built on top of Matplotlib and provides beautiful statistical visualizations with just a few lines of code. For example, creating a histogram:",
+            "code": "import seaborn as sns\ndata = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5]\nsns.histplot(data, bins=5, kde=True)\nplt.show()"
+        },
+        {
+            "title": "SciPy",
+            "content": "SciPy is great for scientific and technical computing. It builds on NumPy and provides a large number of higher-level functions. Here's an example of computing the Euclidean distance between two points:",
+            "code": "from scipy.spatial import distance\na = (1, 2, 3)\nb = (4, 5, 6)\ndist = distance.euclidean(a, b)\nprint(dist)"
+        },
+        {
+            "title": "Machine Learning and AI Libraries (Wide Angle Shot)",
+            "content": "Moving on to machine learning and AI libraries."
+        },
+        {
+            "title": "Scikit-Learn",
+            "content": "Scikit-Learn is a simple and efficient tool for data mining and data analysis. It features various algorithms for classification, regression, clustering, and more. For example, training a simple linear regression model:",
+            "code": "from sklearn.linear_model import LinearRegression\nimport numpy as np\nX = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])\ny = np.dot(X, np.array([1, 2])) + 3\nmodel = LinearRegression().fit(X, y)\nprint(model.predict(np.array([[3, 5]])))"
+        },
+        {
+            "title": "TensorFlow",
+            "content": "TensorFlow is an open-source library developed by Google for deep learning. It's powerful and flexible, making it ideal for building and training neural networks. Here's a simple example of creating a neural network for classification:",
+            "code": "import tensorflow as tf\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Dense\nmodel = Sequential([\n    Dense(32, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n# Assume X_train and y_train are prepared\n# model.fit(X_train, y_train, epochs=5)"
+        },
+        {
+            "title": "Keras",
+            "content": "Keras is a high-level API for neural networks that runs on top of TensorFlow. It's user-friendly and allows for quick experimentation. Here's a similar example using Keras:",
+            "code": "from keras.models import Sequential\nfrom keras.layers import Dense\nmodel = Sequential([\n    Dense(32, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n# Assume X_train and y_train are prepared\n# model.fit(X_train, y_train, epochs=5)"
+        },
+        {
+            "title": "PyTorch",
+            "content": "PyTorch is another deep learning framework that's known for its dynamic computation graph and ease of use. Here's an example of a simple neural network:",
+            "code": "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nclass Net(nn.Module):\n    def __init__(self):\n        super(Net, self).__init__()\n        self.fc1 = nn.Linear(784, 32)\n        self.fc2 = nn.Linear(32, 10)\n    def forward(self, x):\n        x = torch.relu(self.fc1(x))\n        x = self.fc2(x)\n        return x\nnet = Net()\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(net.parameters(), lr=0.01, momentum=0.9)\n# Assume inputs and labels are prepared\n# optimizer.zero_grad()\n# outputs = net(inputs)\n# loss = criterion(outputs, labels)\n# loss.backward()\n# optimizer.step()"
+        },
+        {
+            "title": "XGBoost",
+            "content": "XGBoost is a scalable and efficient implementation of gradient boosting. It's widely used for its performance in machine learning competitions. Here's an example of training an XGBoost model:",
+            "code": "import xgboost as xgb\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\niris = load_iris()\nX_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=42)\ndtrain = xgb.DMatrix(X_train, label=y_train)\ndtest = xgb.DMatrix(X_test, label=y_test)\nparam = {'max_depth': 3, 'eta': 0.1, 'objective': 'multi:softprob', 'num_class': 3}\nbst = xgb.train(param, dtrain, num_boost_round=10)\npreds = bst.predict(dtest)\nprint(preds)"
+        },
+        {
+            "title": "Data Analysis and Visualization Libraries (Close-Up Shot)",
+            "content": "Now, let's talk about data analysis and visualization libraries."
+        },
+        {
+            "title": "Plotly",
+            "content": "Plotly is an interactive graphing library. It's great for creating dynamic and interactive plots that can be embedded in web applications. Here's an example of creating a 3D scatter plot:",
+            "code": "import plotly.express as px\ndf = px.data.iris()\nfig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width', color='species')\nfig.show()"
+        },
+        {
+            "title": "Bokeh",
+            "content": "Bokeh is another interactive visualization library, focusing on modern web browsers for its output. Here's an example of creating a simple line plot:",
+            "code": "from bokeh.plotting import figure, show\nfrom bokeh.io import output_notebook\noutput_notebook()\np = figure(title=\"Simple Line Plot\")\np.line([1, 2, 3, 4, 5], [2, 3, 5, 7, 11], line_width=2)\nshow(p)"
+        },
+        {
+            "title": "Altair",
+            "content": "Altair is a declarative statistical visualization library, making it simple to create complex visualizations. Here's an example of creating a bar chart:",
+            "code": "import altair as alt\nimport pandas as pd\ndata = pd.DataFrame({\n    'Fruit': ['Apples', 'Bananas', 'Oranges'],\n    'Count': [10, 20, 15]\n})\nchart = alt.Chart(data).mark_bar().encode(\n    x='Fruit',\n    y='Count'\n)\nchart.display()"
+        },
+        {
+            "title": "Dask",
+            "content": "Dask is used for parallel computing and task scheduling. It extends Python’s native concurrency features and can scale to larger datasets. Here's an example of using Dask to compute the sum of a large array:",
+            "code": "import dask.array as da\nx = da.random.random((10000, 10000), chunks=(1000, 1000))\nresult = x.sum().compute()\nprint(result)"
+        },
+        {
+            "title": "Statsmodels",
+            "content": "Statsmodels provides classes and functions for the estimation of many different statistical models. Here's an example of performing an OLS regression:",
+            "code": "import statsmodels.api as sm\nimport numpy as np\nX = np.random.rand(100, 2)\ny = X[:, 0] + 2 * X[:, 1] + np.random.rand(100)\nX = sm.add_constant(X)\nmodel = sm.OLS(y, X).fit()\nprint(model.summary())"
+        },
+        {
+            "title": "Web Development Libraries (Wide Angle Shot)",
+            "content": "Let's dive into web development libraries."
+        },
+        {
+            "title": "Flask",
+            "content": "Flask is a lightweight WSGI web application framework. It's designed to make getting started quick and easy, with the ability to scale up to complex applications. Here's an example of a simple Flask app:",
+            "code": "from flask import Flask\napp = Flask(__name__)\n@app.route('/')\ndef hello():\n    return \"Hello, World!\"\nif __name__ == '__main__':\n    app.run(debug=True)"
+        },
+        {
+            "title": "Django",
+            "content": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Here's an example of setting up a simple Django view:",
+            "code": "# views.py\nfrom django.http import HttpResponse\ndef hello(request):\n    return HttpResponse(\"Hello, World!\")"
+        },
+        {
+            "title": "FastAPI",
+            "content": "FastAPI is a modern, fast web framework for building APIs with Python 3.7+ based on standard Python type hints. Here's an example of a simple FastAPI app:",
+            "code": "from fastapi import FastAPI\napp = FastAPI()\n@app.get(\"/\")\ndef read_root():\n    return {\"Hello\": \"World\"}\nif __name__ == '__main__':\n    import uvicorn\n    uvicorn.run(app, host=\"127.0.0.1\", port=8000)"
+        },
+        {
+            "title": "Tornado",
+            "content": "Tornado is a scalable, non-blocking web server and web application framework. Here's an example of a simple Tornado app:",
+            "code": "import tornado.ioloop\nimport tornado.web\nclass MainHandler(tornado.web.RequestHandler):\n    def get(self):\n        self.write(\"Hello, world\")\ndef make_app():\n    return tornado.web.Application([\n        (r\"/\", MainHandler),\n    ])\nif __name__ == \"__main__\":\n    app = make_app()\n    app.listen(8888)\n    tornado.ioloop.IOLoop.current().start()"
+        },
+        {
+            "title": "Data Scraping Libraries (Close-Up Shot)",
+            "content": "When it comes to data scraping, these libraries are essential."
+        },
+        {
+            "title": "BeautifulSoup",
+            "content": "BeautifulSoup is used for parsing HTML and XML documents. It creates parse trees from page source code. Here's an example of extracting all the links from a webpage:",
+            "code": "from bs4 import BeautifulSoup\nimport requests\nurl = 'http://example.com'\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'html.parser')\nfor link in soup.find_all('a'):\n    print(link.get('href'))"
+        },
+        {
+            "title": "Scrapy",
+            "content": "Scrapy is an open-source web crawling framework for Python. It’s used to extract data from websites. Here's an example of a simple Scrapy spider:",
+            "code": "import scrapy\nclass QuotesSpider(scrapy.Spider):\n    name = \"quotes\"\n    start_urls = [\n        'http://quotes.toscrape.com/page/1/',\n    ]\n    def parse(self, response):\n        for quote in response.css('div.quote'):\n            yield {\n                'text': quote.css('span.text::text').get(),\n                'author': quote.css('span small::text').get(),\n            }\n        next_page = response.css('li.next a::attr(href)').get()\n        if next_page is not None:\n            yield response.follow(next_page, self.parse)"
+        },
+        {
+            "title": "Selenium",
+            "content": "Selenium is a browser automation library. It’s mainly used for testing web applications but is also useful for web scraping. Here's an example of automating a browser to open a page and print its title:",
+            "code": "from selenium import webdriver\ndriver = webdriver.Chrome()\ndriver.get(\"http://example.com\")\nprint(driver.title)\ndriver.quit()"
+        },
+        {
+            "title": "Natural Language Processing Libraries (Wide Angle Shot)",
+            "content": "For natural language processing, consider these libraries."
+        },
+        {
+            "title": "NLTK",
+            "content": "NLTK is a leading platform for building Python programs to work with human language data. Here's an example of tokenizing a sentence:",
+            "code": "import nltk\nnltk.download('punkt')\nfrom nltk.tokenize import word_tokenize\ntext = \"Hello, how are you?\"\ntokens = word_tokenize(text)\nprint(tokens)"
+        },
+        {
+            "title": "SpaCy",
+            "content": "SpaCy is an industrial-strength NLP library. It’s designed for performance and usability. Here's an example of performing part-of-speech tagging:",
+            "code": "import spacy\nnlp = spacy.load(\"en_core_web_sm\")\ndoc = nlp(\"Hello, how are you?\")\nfor token in doc:\n    print(token.text, token.pos_)"
+        },
+        {
+            "title": "Gensim",
+            "content": "Gensim is a library for topic modeling and document similarity analysis. Here's an example of creating a simple topic model:",
+            "code": "from gensim import corpora, models\ndocuments = [\"Human machine interface for lab abc computer applications\",\n             \"A survey of user opinion of computer system response time\"]\ntexts = [[word for word in document.lower().split()] for document in documents]\ndictionary = corpora.Dictionary(texts)\ncorpus = [dictionary.doc2bow(text) for text in texts]\nldamodel = models.LdaModel(corpus, num_topics=2, id2word=dictionary, passes=15)\nprint(ldamodel.print_topics(num_topics=2, num_words=3))"
+        },
+        {
+            "title": "TextBlob",
+            "content": "TextBlob is a simple NLP library for processing textual data. Here's an example of performing sentiment analysis:",
+            "code": "from textblob import TextBlob\ntext = \"I love this product!\"\nblob = TextBlob(text)\nprint(blob.sentiment)"
+        },
+        {
+            "title": "Networking Libraries (Close-Up Shot)",
+            "content": "Networking in Python is simplified with these libraries."
+        },
+        {
+            "title": "Requests",
+            "content": "Requests is a simple, yet elegant HTTP library. It's designed to be as user-friendly as possible. Here's an example of making a GET request:",
+            "code": "import requests\nresponse = requests.get('http://example.com')\nprint(response.text)"
+        },
+        {
+            "title": "urllib",
+            "content": "urllib is a package that collects several modules for working with URLs. Here's an example of fetching the contents of a URL:",
+            "code": "from urllib import request\nresponse = request.urlopen('http://example.com')\nprint(response.read())"
+        },
+        {
+            "title": "Socket",
+            "content": "The socket library provides low-level networking interfaces. Here's an example of creating a simple TCP server:",
+            "code": "import socket\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.bind(('localhost', 8080))\ns.listen(5)\nwhile True:\n    conn, addr = s.accept()\n    print(f'Connected by {addr}')\n    conn.sendall(b'Hello, World')\n    conn.close()"
+        },
+        {
+            "title": "Database Libraries (Wide Angle Shot)",
+            "content": "For database interactions, these libraries are essential."
+        },
+        {
+            "title": "SQLAlchemy",
+            "content": "SQLAlchemy is a SQL toolkit and ORM. It gives you the full power and flexibility of SQL. Here's an example of creating a simple SQLite database and adding a record:",
+            "code": "from sqlalchemy import create_engine, Column, Integer, String, Base\nfrom sqlalchemy.orm import sessionmaker\nengine = create_engine('sqlite:///example.db', echo=True)\nBase = declarative_base()\nclass User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True)\n    name = Column(String)\nBase.metadata.create_all(engine)\nSession = sessionmaker(bind=engine)\nsession = Session()\nnew_user = User(name='John Doe')\nsession.add(new_user)\nsession.commit()"
+        },
+        {
+            "title": "Peewee",
+            "content": "Peewee is a small, expressive ORM. It's great for small to medium-sized applications. Here's an example of creating a simple SQLite database and adding a record:",
+            "code": "from peewee import SqliteDatabase, Model, CharField\ndb = SqliteDatabase('example.db')\nclass User(Model):\n    name = CharField()\n    class Meta:\n        database = db\ndb.connect()\ndb.create_tables([User])\nuser = User(name='John Doe')\nuser.save()"
+        },
+        {
+            "title": "PyMongo",
+            "content": "PyMongo is a MongoDB driver. It allows you to interact with MongoDB databases using Python. Here's an example of connecting to a MongoDB database and inserting a document:",
+            "code": "from pymongo import MongoClient\nclient = MongoClient('localhost', 27017)\ndb = client['example_db']\ncollection = db['users']\nuser = {\"name\": \"John Doe\"}\ncollection.insert_one(user)"
+        },
+        {
+            "title": "Testing Libraries (Close-Up Shot)",
+            "content": "Testing your code is crucial, and these libraries can help."
+        },
+        {
+            "title": "unittest",
+            "content": "unittest is a built-in Python testing framework. Here's an example of a simple unit test:",
+            "code": "import unittest\ndef add(a, b):\n    return a + b\nclass TestAdd(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(2, 3), 5)\nif __name__ == '__main__':\n    unittest.main()"
+        },
+        {
+            "title": "pytest",
+            "content": "pytest is a simple yet powerful testing framework. Here's an example of a simple test using pytest:",
+            "code": "def add(a, b):\n    return a + b\ndef test_add():\n    assert add(2, 3) == 5\nif __name__ == '__main__':\n    pytest.main()"
+        },
+        {
+            "title": "nose2",
+            "content": "nose2 is the successor to nose. It extends unittest to make testing easier. Here's an example of a simple test using nose2:",
+            "code": "import unittest\ndef add(a, b):\n    return a + b\nclass TestAdd(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(2, 3), 5)\nif __name__ == '__main__':\n    import nose2\n    nose2.main()"
+        },
+        {
+            "title": "Miscellaneous Libraries (Wide Angle Shot)",
+            "content": "Finally, some miscellaneous libraries that are very useful."
+        },
+        {
+            "title": "os",
+            "content": "os provides a way of using operating system-dependent functionality. Here's an example of listing the files in a directory:",
+            "code": "import os\nfiles = os.listdir('.')\nprint(files)"
+        },
+        {
+            "title": "sys",
+            "content": "sys provides access to some variables used or maintained by the interpreter. Here's an example of printing the Python version:",
+            "code": "import sys\nprint(sys.version)"
+        },
+        {
+            "title": "logging",
+            "content": "logging is a flexible event logging system. Here's an example of logging a message:",
+            "code": "import logging\nlogging.basicConfig(level=logging.INFO)\nlogging.info('This is an info message')"
+        },
+        {
+            "title": "configparser",
+            "content": "configparser allows for configuration file parsing. Here's an example of reading a configuration file:",
+            "code": "import configparser\nconfig = configparser.ConfigParser()\nconfig.read('example.ini')\nprint(config['DEFAULT']['ServerAliveInterval'])"
+        },
+        {
+            "title": "time",
+            "content": "time provides various time-related functions. Here's an example of getting the current time:",
+            "code": "import time\ncurrent_time = time.ctime()\nprint(current_time)"
+        },
+        {
+            "title": "Conclusion (Wide Shot)",
+            "content": "That concludes our overview of essential Python libraries with practical examples. I hope this video has provided you with a useful starting point. Remember, the best way to learn is by doing, so I encourage you to explore these libraries and try them out in your projects. If you enjoyed this video, please like, subscribe, and leave a comment with any questions. Thank you for watching!"
+        }
+    ],
+    "keywords": "Python Libraries, Essential Python Libraries, Python Tutorial, Python Libraries Tutorial, Python Programming, Python for Beginners, Machine Learning Python Libraries, Data Analysis Python Libraries, Web Development Python Libraries, Python Coding, Python Examples, Learn Python, Python Developer Tools, Python Programming Guide, Python Scripting, Top Python Libraries, Best Python Libraries, Python Coding Tutorial, Python Libraries Explained, Python Libraries Overview",
+    "link": "https://www.youtube.com/watch?v=UhZ9qtyLjRw&feature=youtu.be"
+}

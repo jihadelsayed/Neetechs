@@ -44,13 +44,12 @@
 		},
 		{
 			"id": 5,
-			"title": "Advanced Python",
-			"lvl": "Tutorial",
-			"date": "June 23, 2024",
-			"href": "tutorials/python",
-			"disable": "true",
-			"description": "Deep dive into advanced Python concepts and libraries.",
-			"duration": "5 hours"
+			"title": "5. Top 25 Essential Python Libraries for Every Developer | Python Tutorial with Examples",
+			"lvl": "Intermediate",
+			"date": "July 23, 2024",
+			"href": "tutorials/python/essential_python_libraries",
+			"description": "Welcome to our comprehensive guide on the top 25 essential Python libraries every developer should know! In this tutorial, we will walk you through each library, explaining its purpose and showing practical examples of how to use them. Whether you're a beginner or an experienced developer, this video will enhance your Python programming skills and broaden your toolkit. From general-purpose libraries like NumPy and Pandas to specialized tools for machine learning, data analysis, web development, and more, we've got you covered.",
+			"duration": "2 hours"
 		},
 		{
 			"id": 6,
