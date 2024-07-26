@@ -1,0 +1,29 @@
+{
+    "team": [
+      {
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
+        "name": "John Doe",
+        "position": "CEO",
+        "description": "John is the visionary behind Neetechs, with over 20 years of experience in the tech industry. He is passionate about driving innovation and leading the company to new heights."
+      },
+      {
+        "image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
+        "name": "Jane Smith",
+        "position": "CTO",
+        "description": "Jane is responsible for overseeing all technical aspects of Neetechs. Her expertise in software development and system architecture is instrumental in delivering top-notch solutions to our clients."
+      },
+      {
+        "image": "https://live.staticflickr.com/65535/53790169175_844924319e.jpg",
+        "name": "Emily Johnson",
+        "position": "Lead Designer",
+        "description": "Emily leads our design team, bringing a creative and user-centric approach to every project. Her keen eye for detail ensures that our designs are not only beautiful but also functional."
+      },
+      {
+        "image": "https://live.staticflickr.com/65535/53788837972_22d09b417e.jpg",
+        "name": "J Alsayed",
+        "position": "Head of Support",
+        "description": "Alsayed heads our support team, ensuring that our clients receive prompt and effective assistance. His dedication to customer satisfaction is unmatched."
+      }
+    ]
+  }
+  
