@@ -9,15 +9,14 @@
         "name": "Python",
         "date": "June 23, 2024",
         "href": "tutorials/python",
-        "image": "https://i.imgur.com/6NOQqPd.png"
+        "image": "https://imgur.com/79TM6Vi.png"
       },
       {
         "id": "2",
         "name": "HTML & CSS",
         "date": "June 23, 2024",
         "href": "tutorials/html_css",
-        "disable": "true",
-        "image": "https://i.imgur.com/6NOQqPd.png"
+        "image": "https://imgur.com/6wf9zfC.png"
       },
       {
         "id": "3",
