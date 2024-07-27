@@ -1,0 +1,57 @@
+{
+    "title": "Links and Images",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore how to add links and images to your HTML web pages. These elements are essential for creating interactive and visually appealing websites."
+        },
+        {
+            "title": "Introduction to Links (Close Shot + Screen Recording)",
+            "content": "Links, or hyperlinks, are used to navigate from one web page to another. They are created using the `<a>` tag.",
+            "code": "<a href=\"https://www.example.com\">Visit Example.com</a>"
+        },
+        {
+            "title": "Link Attributes (Close Shot + Screen Recording)",
+            "content": "The most important attribute of the `<a>` tag is the `href` attribute, which specifies the URL of the page the link goes to. You can also use other attributes like `target` to open the link in a new tab.",
+            "code": "<a href=\"https://www.example.com\" target=\"_blank\">Visit Example.com</a>"
+        },
+        {
+            "title": "Email Links (Close Shot + Screen Recording)",
+            "content": "You can also create links that open an email client with a new message. This is done using the `mailto:` scheme.",
+            "code": "<a href=\"mailto:example@example.com\">Send Email</a>"
+        },
+        {
+            "title": "Introduction to Images (Close Shot + Screen Recording)",
+            "content": "Images are added to HTML pages using the `<img>` tag. The `src` attribute specifies the path to the image file.",
+            "code": "<img src=\"https://www.example.com/image.jpg\" alt=\"Description of image\">"
+        },
+        {
+            "title": "Image Attributes (Close Shot + Screen Recording)",
+            "content": "The `alt` attribute provides alternative text for the image if it cannot be displayed. You can also set the width and height attributes to control the size of the image.",
+            "code": "<img src=\"https://www.example.com/image.jpg\" alt=\"Description of image\" width=\"300\" height=\"200\">"
+        },
+        {
+            "title": "Linking Images (Close Shot + Screen Recording)",
+            "content": "You can combine links and images by placing an `<img>` tag inside an `<a>` tag. This makes the image clickable.",
+            "code": "<a href=\"https://www.example.com\">\n    <img src=\"https://www.example.com/image.jpg\" alt=\"Description of image\">\n</a>"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's put it all together in a simple example that includes both links and images:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Links and Images</title>\n</head>\n<body>\n    <h1>Welcome to My Web Page</h1>\n    <p>Check out this awesome website: <a href=\"https://www.example.com\">Visit Example.com</a></p>\n    <p>Send me an email at <a href=\"mailto:example@example.com\">example@example.com</a></p>\n    <h2>Here is an image:</h2>\n    <img src=\"https://www.example.com/image.jpg\" alt=\"Description of image\" width=\"300\" height=\"200\">\n    <h2>Click the image to visit the website:</h2>\n    <a href=\"https://www.example.com\">\n        <img src=\"https://www.example.com/image.jpg\" alt=\"Description of image\">\n    </a>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of how to add links and images to your HTML pages! In the next video, we'll explore lists and tables to organize your content."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

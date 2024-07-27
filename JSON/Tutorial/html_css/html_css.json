@@ -1,0 +1,181 @@
+{
+    "id": "1",
+    "name": "HTML and CSS",
+    "date": "July 27, 2024",
+    "href": "tutorials/html_css",
+    "description": "Learn HTML and CSS.",
+    "image": "https://i.imgur.com/6NOQqPd.png",
+    "tutorials": [
+        {
+            "id": 1,
+            "title": "Introduction to HTML and CSS",
+            "description": "Overview of web development\nPurpose of HTML and CSS",
+            "lvl": "Introduction",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/introduction",
+            "duration": "15 minutes"
+        },
+        {
+            "id": 2,
+            "title": "Basic HTML Structure",
+            "description": "HTML document structure\nDOCTYPE, <html>, <head>, and <body> tags",
+            "lvl": "Fundamentals",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/structure",
+            "duration": "20 minutes"
+        },
+        {
+            "id": 3,
+            "title": "Text Elements and Formatting",
+            "description": "Headings, paragraphs, bold, italic, etc.",
+            "lvl": "Fundamentals",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/text_elements_formatting",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 4,
+            "title": "Links and Images",
+            "description": "Adding links (<a> tags) and images (<img> tags)",
+            "lvl": "Fundamentals",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/links_images",
+            "duration": "30 minutes"
+        },
+        {
+            "id": 5,
+            "title": "Lists and Tables",
+            "description": "Ordered and unordered lists, creating tables",
+            "lvl": "Fundamentals",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/lists_tables",
+            "duration": "35 minutes"
+        },
+        {
+            "id": 6,
+            "title": "Introduction to CSS",
+            "description": "What is CSS and how to apply it (inline, internal, external)",
+            "lvl": "Basics",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/introduction_css",
+            "duration": "15 minutes"
+        },
+        {
+            "id": 7,
+            "title": "Selectors and Properties",
+            "description": "Basic selectors (element, class, ID) and common properties",
+            "lvl": "Basics",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/selectors_properties",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 8,
+            "title": "Box Model",
+            "description": "Margins, padding, borders, and content",
+            "lvl": "Basics",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/box_model",
+            "duration": "30 minutes"
+        },
+        {
+            "id": 9,
+            "title": "Text and Font Styling",
+            "description": "Font properties, text alignment, color, etc.",
+            "lvl": "Styling",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/text_font_styling",
+            "duration": "20 minutes"
+        },
+        {
+            "id": 10,
+            "title": "Backgrounds and Borders",
+            "description": "Background properties, border styles",
+            "lvl": "Styling",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/backgrounds_borders",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 11,
+            "title": "Layout with CSS",
+            "description": "Display property, positioning (static, relative, absolute, fixed)",
+            "lvl": "Styling",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/layout_css",
+            "duration": "30 minutes"
+        },
+        {
+            "id": 12,
+            "title": "Introduction to Flexbox",
+            "description": "Flex container, flex items, and basic properties",
+            "lvl": "Advanced",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/introduction_flexbox",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 13,
+            "title": "Advanced Flexbox Techniques",
+            "description": "Alignment, justification, ordering, and complex layouts",
+            "lvl": "Advanced",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/advanced_flexbox_techniques",
+            "duration": "30 minutes"
+        },
+        {
+            "id": 14,
+            "title": "HTML5 New Elements",
+            "description": "Semantic elements like <header>, <footer>, <section>, <article>",
+            "lvl": "Advanced",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/html5_new_elements",
+            "duration": "20 minutes"
+        },
+        {
+            "id": 15,
+            "title": "Responsive Design",
+            "description": "Media queries, responsive units, creating a responsive layout",
+            "lvl": "Advanced",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/responsive_design",
+            "duration": "35 minutes"
+        },
+        {
+            "id": 16,
+            "title": "Building a Simple Web Page",
+            "description": "Combining HTML and CSS skills to create a basic web page",
+            "lvl": "Projects",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/simple_web_page",
+            "duration": "40 minutes"
+        },
+        {
+            "id": 17,
+            "title": "Responsive Web Page Design",
+            "description": "Enhancing the web page with responsive design techniques",
+            "lvl": "Projects",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/responsive_web_page",
+            "duration": "45 minutes"
+        },
+        {
+            "id": 18,
+            "title": "Tips and Best Practices",
+            "description": "Common pitfalls, best practices for clean code",
+            "lvl": "Bonus",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/tips_best_practices",
+            "duration": "15 minutes"
+        },
+        {
+            "id": 19,
+            "title": "Debugging and Troubleshooting",
+            "description": "Using browser developer tools, common issues and solutions",
+            "lvl": "Bonus",
+            "date": "July 27, 2024",
+            "href": "tutorials/html_css/debugging_troubleshooting",
+            "duration": "20 minutes"
+        }
+    ]
+}

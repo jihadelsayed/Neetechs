@@ -1,0 +1,66 @@
+{
+    "title": "Introduction to Flexbox",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore Flexbox. Flexbox, or Flexible Box Layout, is a powerful layout model that allows you to design complex, responsive layouts with ease."
+        },
+        {
+            "title": "What is Flexbox? (Close Shot + Screen Recording)",
+            "content": "Flexbox is a one-dimensional layout method for laying out items in rows or columns. It helps distribute space and align items within a container, even when their sizes are unknown or dynamic."
+        },
+        {
+            "title": "Flex Container (Close Shot + Screen Recording)",
+            "content": "To start using Flexbox, you need to define a flex container. Set the `display` property of an element to `flex` or `inline-flex`.",
+            "code": "div.container {\n    display: flex;\n}"
+        },
+        {
+            "title": "Flex Direction (Close Shot + Screen Recording)",
+            "content": "The `flex-direction` property specifies the direction of the flex items. It can be `row`, `row-reverse`, `column`, or `column-reverse`.",
+            "code": "div.container {\n    display: flex;\n    flex-direction: row;\n}"
+        },
+        {
+            "title": "Justify Content (Close Shot + Screen Recording)",
+            "content": "The `justify-content` property aligns the flex items along the main axis. It can be `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, or `space-evenly`.",
+            "code": "div.container {\n    display: flex;\n    justify-content: center;\n}"
+        },
+        {
+            "title": "Align Items (Close Shot + Screen Recording)",
+            "content": "The `align-items` property aligns the flex items along the cross axis. It can be `flex-start`, `flex-end`, `center`, `baseline`, or `stretch`.",
+            "code": "div.container {\n    display: flex;\n    align-items: center;\n}"
+        },
+        {
+            "title": "Flex Wrap (Close Shot + Screen Recording)",
+            "content": "The `flex-wrap` property specifies whether the flex items should wrap or not. It can be `nowrap`, `wrap`, or `wrap-reverse`.",
+            "code": "div.container {\n    display: flex;\n    flex-wrap: wrap;\n}"
+        },
+        {
+            "title": "Align Content (Close Shot + Screen Recording)",
+            "content": "The `align-content` property aligns the flex lines when there is extra space on the cross axis. It can be `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, or `stretch`.",
+            "code": "div.container {\n    display: flex;\n    align-content: space-between;\n}"
+        },
+        {
+            "title": "Flex Item Properties (Close Shot + Screen Recording)",
+            "content": "Flex items have several properties that can be used to control their size and order: `order`, `flex-grow`, `flex-shrink`, `flex-basis`, and `align-self`.",
+            "code": "div.item {\n    flex-grow: 1;\n    flex-shrink: 1;\n    flex-basis: auto;\n}"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example using Flexbox to build a responsive layout.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .container {\n            display: flex;\n            flex-direction: row;\n            justify-content: space-between;\n            align-items: center;\n            flex-wrap: wrap;\n        }\n        .item {\n            background-color: lightblue;\n            padding: 20px;\n            margin: 10px;\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"item\">Item 1</div>\n        <div class=\"item\">Item 2</div>\n        <div class=\"item\">Item 3</div>\n    </div>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of Flexbox! We've covered the basics of setting up a flex container and aligning flex items. In the next video, we'll dive deeper into more advanced Flexbox properties and techniques."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

@@ -13,22 +13,14 @@
       },
       {
         "id": "2",
-        "name": "HTML",
+        "name": "HTML & CSS",
         "date": "June 23, 2024",
-        "href": "tutorials/HTML",
+        "href": "tutorials/html_css",
         "disable": "true",
         "image": "https://i.imgur.com/6NOQqPd.png"
       },
       {
         "id": "3",
-        "name": "CSS",
-        "date": "June 23, 2024",
-        "href": "tutorials/CSS",
-        "disable": "true",
-        "image": "https://i.imgur.com/6NOQqPd.png"
-      },
-      {
-        "id": "4",
         "name": "JavaScript",
         "date": "June 23, 2024",
         "href": "tutorials/JavaScript",

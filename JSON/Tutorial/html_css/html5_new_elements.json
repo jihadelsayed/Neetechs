@@ -1,0 +1,72 @@
+{
+    "title": "HTML5 New Elements",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore some of the new elements introduced in HTML5. These elements help you create more semantic and structured web pages."
+        },
+        {
+            "title": "Section Element (Close Shot + Screen Recording)",
+            "content": "The `<section>` element defines a section in a document. It can be used to group related content.",
+            "code": "<section>\n    <h2>Section Title</h2>\n    <p>This is a section of content.</p>\n</section>"
+        },
+        {
+            "title": "Article Element (Close Shot + Screen Recording)",
+            "content": "The `<article>` element defines an independent, self-contained piece of content. It can be used for blog posts, news articles, or any other type of standalone content.",
+            "code": "<article>\n    <h2>Article Title</h2>\n    <p>This is an article.</p>\n</article>"
+        },
+        {
+            "title": "Aside Element (Close Shot + Screen Recording)",
+            "content": "The `<aside>` element defines content that is tangentially related to the content around it. It can be used for sidebars, pull quotes, or any other type of content that is related to the main content.",
+            "code": "<aside>\n    <h2>Related Content</h2>\n    <p>This is some related content.</p>\n</aside>"
+        },
+        {
+            "title": "Header Element (Close Shot + Screen Recording)",
+            "content": "The `<header>` element represents a container for introductory content or a set of navigational links. It typically contains headings, logo, and other introductory elements.",
+            "code": "<header>\n    <h1>Website Title</h1>\n    <nav>\n        <ul>\n            <li><a href=\"#\">Home</a></li>\n            <li><a href=\"#\">About</a></li>\n            <li><a href=\"#\">Contact</a></li>\n        </ul>\n    </nav>\n</header>"
+        },
+        {
+            "title": "Footer Element (Close Shot + Screen Recording)",
+            "content": "The `<footer>` element represents a footer for its nearest sectioning content or sectioning root element. It typically contains information about the author, copyright, links to related documents, etc.",
+            "code": "<footer>\n    <p>&copy; 2024 Your Website</p>\n</footer>"
+        },
+        {
+            "title": "Nav Element (Close Shot + Screen Recording)",
+            "content": "The `<nav>` element defines a set of navigation links. It is intended only for major block of navigation links.",
+            "code": "<nav>\n    <ul>\n        <li><a href=\"#\">Home</a></li>\n        <li><a href=\"#\">About</a></li>\n        <li><a href=\"#\">Services</a></li>\n        <li><a href=\"#\">Contact</a></li>\n    </ul>\n</nav>"
+        },
+        {
+            "title": "Figure and Figcaption Elements (Close Shot + Screen Recording)",
+            "content": "The `<figure>` element represents self-contained content, and the `<figcaption>` element represents a caption for the `<figure>` element.",
+            "code": "<figure>\n    <img src=\"image.jpg\" alt=\"Description of image\">\n    <figcaption>Image Caption</figcaption>\n</figure>"
+        },
+        {
+            "title": "Main Element (Close Shot + Screen Recording)",
+            "content": "The `<main>` element represents the dominant content of the `<body>` of a document. It should not be used as a container for content that is repeated across documents such as sidebars, navigation links, etc.",
+            "code": "<main>\n    <h2>Main Content Title</h2>\n    <p>This is the main content of the page.</p>\n</main>"
+        },
+        {
+            "title": "Time Element (Close Shot + Screen Recording)",
+            "content": "The `<time>` element represents a specific period in time. It can be used to encode dates and times in a machine-readable format.",
+            "code": "<p>Event date: <time datetime=\"2024-07-20\">July 20, 2024</time></p>"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example that uses several of these new HTML5 elements to structure a simple web page.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>HTML5 New Elements</title>\n</head>\n<body>\n    <header>\n        <h1>Website Title</h1>\n        <nav>\n            <ul>\n                <li><a href=\"#\">Home</a></li>\n                <li><a href=\"#\">About</a></li>\n                <li><a href=\"#\">Services</a></li>\n                <li><a href=\"#\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <article>\n            <h2>Article Title</h2>\n            <p>This is an article.</p>\n            <aside>\n                <h2>Related Content</h2>\n                <p>This is some related content.</p>\n            </aside>\n            <figure>\n                <img src=\"image.jpg\" alt=\"Description of image\">\n                <figcaption>Image Caption</figcaption>\n            </figure>\n        </article>\n    </main>\n    <footer>\n        <p>&copy; 2024 Your Website</p>\n    </footer>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of some of the new elements introduced in HTML5! We've covered elements that help create more semantic and structured web pages. In the next video, we'll explore responsive design techniques to ensure your web pages look great on all devices."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

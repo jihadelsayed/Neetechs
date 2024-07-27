@@ -1,0 +1,52 @@
+{
+    "title": "Text Elements and Formatting",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore text elements and formatting in HTML. These are crucial for structuring and styling the content of your web pages."
+        },
+        {
+            "title": "Headings (Close Shot + Screen Recording)",
+            "content": "HTML provides six levels of headings, from `<h1>` to `<h6>`. The `<h1>` tag defines the most important heading, while `<h6>` defines the least important.",
+            "code": "<h1>This is a heading 1</h1>\n<h2>This is a heading 2</h2>\n<h3>This is a heading 3</h3>\n<h4>This is a heading 4</h4>\n<h5>This is a heading 5</h5>\n<h6>This is a heading 6</h6>"
+        },
+        {
+            "title": "Paragraphs (Close Shot + Screen Recording)",
+            "content": "Paragraphs are defined with the `<p>` tag. They are used to group blocks of text together.",
+            "code": "<p>This is a paragraph of text.</p>\n<p>Here is another paragraph of text.</p>"
+        },
+        {
+            "title": "Text Formatting (Close Shot + Screen Recording)",
+            "content": "HTML includes several elements for formatting text. Here are some commonly used ones:",
+            "code": "<p><b>This text is bold</b></p>\n<p><strong>This text is strong</strong></p>\n<p><i>This text is italic</i></p>\n<p><em>This text is emphasized</em></p>\n<p><mark>This text is marked</mark></p>\n<p><small>This text is small</small></p>\n<p><del>This text is deleted</del></p>\n<p><ins>This text is inserted</ins></p>\n<p><sub>This text is subscript</sub></p>\n<p><sup>This text is superscript</sup></p>"
+        },
+        {
+            "title": "Line Breaks and Horizontal Rules (Close Shot + Screen Recording)",
+            "content": "To create a line break, use the `<br>` tag. For a horizontal rule, use the `<hr>` tag.",
+            "code": "<p>This is a line of text.<br>This is another line of text.</p>\n<hr>\n<p>This is a paragraph after a horizontal rule.</p>"
+        },
+        {
+            "title": "Combining Text Elements (Close Shot + Screen Recording)",
+            "content": "You can combine these elements to create more complex text structures. Here’s an example:",
+            "code": "<h1>Main Heading</h1>\n<p>This is a paragraph with some <b>bold</b> and <i>italic</i> text. Here is a <a href=\"#\">link</a>.</p>\n<p>Here is another paragraph with <mark>highlighted text</mark> and some <small>small text</small>.</p>"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's put it all together in a simple example that uses headings, paragraphs, and various text formatting elements:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Text Elements and Formatting</title>\n</head>\n<body>\n    <h1>Welcome to My Web Page</h1>\n    <p>This is a paragraph of text. <b>This text is bold</b> and <i>this text is italic</i>.</p>\n    <p>Here is a paragraph with a <a href=\"#\">link</a> and some <mark>highlighted text</mark>.</p>\n    <hr>\n    <h2>Another Section</h2>\n    <p>Text can be <small>small</small>, <del>deleted</del>, or <ins>inserted</ins>.</p>\n    <p>Use <sub>subscript</sub> and <sup>superscript</sup> for different effects.</p>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of text elements and formatting in HTML! In the next video, we'll dive into adding links and images to your web pages."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

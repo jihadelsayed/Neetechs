@@ -1,0 +1,77 @@
+{
+    "title": "Backgrounds and Borders",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore backgrounds and borders in CSS. These properties help you enhance the appearance of your web pages by adding visual elements to your HTML content."
+        },
+        {
+            "title": "Background Color (Close Shot + Screen Recording)",
+            "content": "The `background-color` property sets the background color of an element. You can use color names, hexadecimal values, RGB, or HSL.",
+            "code": "div {\n    background-color: lightblue;\n}"
+        },
+        {
+            "title": "Background Image (Close Shot + Screen Recording)",
+            "content": "The `background-image` property sets an image as the background of an element. You specify the image using the `url()` function.",
+            "code": "div {\n    background-image: url('background.jpg');\n}"
+        },
+        {
+            "title": "Background Repeat (Close Shot + Screen Recording)",
+            "content": "The `background-repeat` property controls whether and how the background image repeats. Common values are `repeat`, `no-repeat`, `repeat-x`, and `repeat-y`.",
+            "code": "div {\n    background-image: url('background.jpg');\n    background-repeat: no-repeat;\n}"
+        },
+        {
+            "title": "Background Position (Close Shot + Screen Recording)",
+            "content": "The `background-position` property sets the initial position of the background image. You can use keywords like `left`, `right`, `top`, `bottom`, and `center`, or specific coordinates.",
+            "code": "div {\n    background-image: url('background.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n}"
+        },
+        {
+            "title": "Background Size (Close Shot + Screen Recording)",
+            "content": "The `background-size` property specifies the size of the background image. Values can be `cover`, `contain`, or specific dimensions.",
+            "code": "div {\n    background-image: url('background.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}"
+        },
+        {
+            "title": "Border Style (Close Shot + Screen Recording)",
+            "content": "The `border-style` property sets the style of the border. Common values include `solid`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, and `outset`.",
+            "code": "div {\n    border-style: solid;\n}"
+        },
+        {
+            "title": "Border Width (Close Shot + Screen Recording)",
+            "content": "The `border-width` property sets the width of the border. You can specify the width in pixels, ems, or any other valid CSS unit.",
+            "code": "div {\n    border-style: solid;\n    border-width: 2px;\n}"
+        },
+        {
+            "title": "Border Color (Close Shot + Screen Recording)",
+            "content": "The `border-color` property sets the color of the border. You can use color names, hexadecimal values, RGB, or HSL.",
+            "code": "div {\n    border-style: solid;\n    border-width: 2px;\n    border-color: black;\n}"
+        },
+        {
+            "title": "Border Radius (Close Shot + Screen Recording)",
+            "content": "The `border-radius` property creates rounded corners for an element's border. You can specify the radius in pixels, percentages, or any other valid CSS unit.",
+            "code": "div {\n    border-style: solid;\n    border-width: 2px;\n    border-color: black;\n    border-radius: 10px;\n}"
+        },
+        {
+            "title": "Box Shadow (Close Shot + Screen Recording)",
+            "content": "The `box-shadow` property adds shadow effects around an element's frame. You can specify the horizontal offset, vertical offset, blur radius, spread radius, and color of the shadow.",
+            "code": "div {\n    border-style: solid;\n    border-width: 2px;\n    border-color: black;\n    border-radius: 10px;\n    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);\n}"
+        },
+        {
+            "title": "Combining Backgrounds and Borders (Close Shot + Screen Recording)",
+            "content": "Let's combine these properties to style a `div` element with a background image, custom border, and box shadow:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        div {\n            width: 300px;\n            height: 200px;\n            background-image: url('background.jpg');\n            background-size: cover;\n            border-style: solid;\n            border-width: 2px;\n            border-color: black;\n            border-radius: 10px;\n            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);\n            padding: 20px;\n            margin: 20px;\n        }\n    </style>\n</head>\n<body>\n    <div>This is a styled div element with a background image, custom border, and box shadow.</div>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of backgrounds and borders in CSS! We've covered various properties to control the appearance of your elements. In the next video, we'll explore layout techniques like Flexbox and Grid to create complex layouts."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

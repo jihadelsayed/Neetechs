@@ -1,0 +1,77 @@
+{
+    "title": "Text and Font Styling",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore text and font styling in CSS. These properties allow you to control the appearance of text on your web pages."
+        },
+        {
+            "title": "Text Color (Close Shot + Screen Recording)",
+            "content": "The `color` property is used to set the color of text. You can use color names, hexadecimal values, RGB, or HSL.",
+            "code": "p {\n    color: blue;\n}"
+        },
+        {
+            "title": "Font Family (Close Shot + Screen Recording)",
+            "content": "The `font-family` property specifies the font of the text. You can list multiple fonts as a fallback system.",
+            "code": "p {\n    font-family: Arial, sans-serif;\n}"
+        },
+        {
+            "title": "Font Size (Close Shot + Screen Recording)",
+            "content": "The `font-size` property sets the size of the text. You can use units like pixels (px), ems (em), rems (rem), and percentages (%).",
+            "code": "p {\n    font-size: 16px;\n}"
+        },
+        {
+            "title": "Font Weight (Close Shot + Screen Recording)",
+            "content": "The `font-weight` property sets the weight (or boldness) of the text. Common values are `normal`, `bold`, `bolder`, `lighter`, or numeric values like 100, 200, up to 900.",
+            "code": "p {\n    font-weight: bold;\n}"
+        },
+        {
+            "title": "Font Style (Close Shot + Screen Recording)",
+            "content": "The `font-style` property sets the style of the text. It can be `normal`, `italic`, or `oblique`.",
+            "code": "p {\n    font-style: italic;\n}"
+        },
+        {
+            "title": "Text Alignment (Close Shot + Screen Recording)",
+            "content": "The `text-align` property sets the horizontal alignment of the text. Common values are `left`, `right`, `center`, and `justify`.",
+            "code": "p {\n    text-align: center;\n}"
+        },
+        {
+            "title": "Text Decoration (Close Shot + Screen Recording)",
+            "content": "The `text-decoration` property adds decoration to the text, like `underline`, `overline`, `line-through`, or `none`.",
+            "code": "p {\n    text-decoration: underline;\n}"
+        },
+        {
+            "title": "Text Transform (Close Shot + Screen Recording)",
+            "content": "The `text-transform` property controls the capitalization of text. It can be `none`, `capitalize`, `uppercase`, or `lowercase`.",
+            "code": "p {\n    text-transform: uppercase;\n}"
+        },
+        {
+            "title": "Line Height (Close Shot + Screen Recording)",
+            "content": "The `line-height` property sets the amount of space between lines of text. It can be a unit value or a number which will be multiplied with the font size.",
+            "code": "p {\n    line-height: 1.5;\n}"
+        },
+        {
+            "title": "Letter Spacing (Close Shot + Screen Recording)",
+            "content": "The `letter-spacing` property sets the space between characters in a text.",
+            "code": "p {\n    letter-spacing: 2px;\n}"
+        },
+        {
+            "title": "Combining Text and Font Properties (Close Shot + Screen Recording)",
+            "content": "Let's combine what we've learned to style a paragraph with multiple text and font properties:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        p {\n            color: blue;\n            font-family: Arial, sans-serif;\n            font-size: 18px;\n            font-weight: bold;\n            font-style: italic;\n            text-align: center;\n            text-decoration: underline;\n            text-transform: capitalize;\n            line-height: 1.5;\n            letter-spacing: 1px;\n        }\n    </style>\n</head>\n<body>\n    <p>This is a styled paragraph with multiple text and font properties.</p>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of text and font styling in CSS! We've covered various properties to control the appearance of text. In the next video, we'll explore how to add and style links and images."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

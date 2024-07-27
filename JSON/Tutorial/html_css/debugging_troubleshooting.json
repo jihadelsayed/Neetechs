@@ -1,0 +1,72 @@
+{
+    "title": "Debugging and Troubleshooting",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore debugging and troubleshooting techniques. Learning how to effectively debug and troubleshoot your code will save you time and help you become a better developer."
+        },
+        {
+            "title": "Using Browser Developer Tools (Close Shot + Screen Recording)",
+            "content": "Browser developer tools are essential for debugging and troubleshooting. They allow you to inspect HTML, CSS, and JavaScript, and to monitor network activity.",
+            "code": "/* No code example, just a demonstration of using dev tools */"
+        },
+        {
+            "title": "Inspecting Elements (Close Shot + Screen Recording)",
+            "content": "Use the 'Elements' tab in the developer tools to inspect and modify HTML and CSS in real-time. This is helpful for understanding how styles are applied and for testing changes.",
+            "code": "/* Demonstrate inspecting elements and modifying CSS in dev tools */"
+        },
+        {
+            "title": "Console for Debugging JavaScript (Close Shot + Screen Recording)",
+            "content": "The console is a powerful tool for debugging JavaScript. You can log messages, run JavaScript code, and view errors and warnings.",
+            "code": "console.log('Debugging message');\n\n/* Demonstrate logging messages and viewing errors in the console */"
+        },
+        {
+            "title": "Setting Breakpoints (Close Shot + Screen Recording)",
+            "content": "Breakpoints allow you to pause the execution of your JavaScript code and inspect the state of your application at specific points.",
+            "code": "/* Demonstrate setting breakpoints in the 'Sources' tab */"
+        },
+        {
+            "title": "Network Panel (Close Shot + Screen Recording)",
+            "content": "The 'Network' panel helps you monitor network requests, responses, and load times. This is useful for diagnosing issues with resource loading and API calls.",
+            "code": "/* Demonstrate using the Network panel to inspect network requests */"
+        },
+        {
+            "title": "Performance Panel (Close Shot + Screen Recording)",
+            "content": "The 'Performance' panel allows you to record and analyze the performance of your web page. This helps you identify and fix performance bottlenecks.",
+            "code": "/* Demonstrate using the Performance panel to analyze page performance */"
+        },
+        {
+            "title": "Common HTML and CSS Issues (Close Shot + Screen Recording)",
+            "content": "Let's go over some common HTML and CSS issues and how to troubleshoot them.",
+            "code": "/* Example: Fixing a layout issue caused by incorrect use of floats */\ndiv {\n    float: left;\n}\n.clearfix::after {\n    content: \"\";\n    clear: both;\n    display: table;\n}"
+        },
+        {
+            "title": "Common JavaScript Issues (Close Shot + Screen Recording)",
+            "content": "JavaScript errors can be tricky to debug. Let's look at some common issues and how to resolve them.",
+            "code": "/* Example: Fixing an undefined variable error */\nconsole.log(myVariable); // Uncaught ReferenceError: myVariable is not defined\n\n/* Solution */\nlet myVariable = 'Hello, World!';\nconsole.log(myVariable);"
+        },
+        {
+            "title": "Using Linters and Formatters (Close Shot + Screen Recording)",
+            "content": "Linters and formatters help you write clean and consistent code by highlighting errors and enforcing coding standards.",
+            "code": "/* Example: Using ESLint to identify and fix JavaScript issues */\n/* eslint-env browser */\n\nlet myVariable = 'Hello, World!';\nconsole.log(myVariable);"
+        },
+        {
+            "title": "Error Handling in JavaScript (Close Shot + Screen Recording)",
+            "content": "Proper error handling in JavaScript helps prevent your application from crashing and provides meaningful feedback to users.",
+            "code": "try {\n    // Code that may throw an error\n    let result = riskyOperation();\n    console.log(result);\n} catch (error) {\n    console.error('An error occurred:', error);\n}\n\nfunction riskyOperation() {\n    throw new Error('Something went wrong!');\n}"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of debugging and troubleshooting techniques! We've covered using browser developer tools, setting breakpoints, inspecting network activity, and common issues. In the next video, we'll dive into more advanced topics to enhance your web development skills."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}
