@@ -1,0 +1,137 @@
+{
+    "tools": [
+        {
+            "type": "Simple Tools",
+            "name": "Emoji Translator",
+            "description": "Convert text to emojis for fun communication.",
+            "icon": "emoji_icon.png",
+            "link": "/tools/emoji-translator"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Grammar and Style Checker",
+            "description": "Improve your writing by suggesting grammar, spelling, and style corrections.",
+            "icon": "grammar_icon.png",
+            "link": "/tools/grammar-checker"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Article Summarizer",
+            "description": "Summarize long articles or documents into concise summaries.",
+            "icon": "summarizer_icon.png",
+            "link": "/tools/article-summarizer"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Brainstorming Assistant",
+            "description": "Generate ideas for blog posts, projects, or other creative endeavors.",
+            "icon": "brainstorm_icon.png",
+            "link": "/tools/brainstorming-assistant"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Tip of the Day",
+            "description": "Daily tips related to the site's focus area.",
+            "icon": "tip_icon.png",
+            "link": "/tools/tip-of-the-day"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Quiz Generator",
+            "description": "Create fun and educational quizzes.",
+            "icon": "quiz_icon.png",
+            "link": "/tools/quiz-generator"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Daily Joke",
+            "description": "Enjoy a new joke every day.",
+            "icon": "joke_icon.png",
+            "link": "/tools/daily-joke"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Welcome Bot",
+            "description": "Personalized greeting messages.",
+            "icon": "welcome_bot_icon.png",
+            "link": "/tools/welcome-bot"
+        },
+        {
+            "type": "Simple Tools",
+            "name": "Code Beautifier",
+            "description": "Format and beautify your code snippets.",
+            "icon": "beautifier_icon.png",
+            "link": "/tools/code-beautifier"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Code Snippet Generator",
+            "description": "Generate code snippets in various programming languages.",
+            "icon": "snippet_generator_icon.png",
+            "link": "/tools/code-snippet-generator"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Regex Tester",
+            "description": "Test and validate regular expressions.",
+            "icon": "regex_tester_icon.png",
+            "link": "/tools/regex-tester"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "JSON Formatter",
+            "description": "Format and validate JSON data.",
+            "icon": "json_formatter_icon.png",
+            "link": "/tools/json-formatter"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "API Request Tester",
+            "description": "Test API requests and see responses in real-time.",
+            "icon": "api_tester_icon.png",
+            "link": "/tools/api-request-tester"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "SQL Query Generator",
+            "description": "Generate SQL queries based on user requirements.",
+            "icon": "sql_generator_icon.png",
+            "link": "/tools/sql-query-generator"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Markdown Previewer",
+            "description": "Live preview of markdown text.",
+            "icon": "markdown_previewer_icon.png",
+            "link": "/tools/markdown-previewer"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Chart Generator",
+            "description": "Generate basic charts from data.",
+            "icon": "chart_generator_icon.png",
+            "link": "/tools/chart-generator"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Code Diff Checker",
+            "description": "Compare code and highlight differences.",
+            "icon": "diff_checker_icon.png",
+            "link": "/tools/code-diff-checker"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Unit Converter",
+            "description": "Convert various units quickly and accurately.",
+            "icon": "unit_converter_icon.png",
+            "link": "/tools/unit-converter"
+        },
+        {
+            "type": "Technical Tools",
+            "name": "Text Encryptor/Decryptor",
+            "description": "Encrypt and decrypt text using various algorithms.",
+            "icon": "text_encryptor_icon.png",
+            "link": "/tools/text-encryptor-decryptor"
+        }
+    ]
+}
