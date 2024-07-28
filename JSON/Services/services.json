@@ -1,0 +1,25 @@
+{
+    "services": [
+      {
+        "title": "Design Services",
+        "description": "We provide top-notch design services including graphic design, UI/UX design, and website design. Our team of creative designers will work with you to create visually appealing and user-friendly designs that meet your specific needs."
+      },
+      {
+        "title": "Programming Services",
+        "description": "Our programming services cover web development, mobile app development, and backend development. We use the latest technologies and frameworks to build robust and scalable applications that deliver exceptional performance."
+      },
+      {
+        "title": "Technical Repair Services",
+        "description": "We offer comprehensive repair services for mobile devices, computers, and laptops. Our skilled technicians can diagnose and fix a wide range of hardware and software issues, ensuring your devices are running smoothly."
+      },
+      {
+        "title": "Maintenance and Upgrades",
+        "description": "Regular maintenance and timely upgrades are essential to keep your devices and systems in optimal condition. We provide maintenance and upgrade services to enhance the performance and longevity of your technology assets."
+      },
+      {
+        "title": "Custom Solutions",
+        "description": "We understand that every business has unique requirements. That's why we offer custom solutions tailored to your specific needs. Whether you need a custom application, integration, or consultation, we are here to help."
+      }
+    ]
+  }
+  
