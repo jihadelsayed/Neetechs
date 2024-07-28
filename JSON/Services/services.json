@@ -2,22 +2,32 @@
     "services": [
       {
         "title": "Design Services",
+        "image":"https://imgur.com/nJeQ3zq.png",
+        "href":"services/design",
         "description": "We provide top-notch design services including graphic design, UI/UX design, and website design. Our team of creative designers will work with you to create visually appealing and user-friendly designs that meet your specific needs."
       },
       {
         "title": "Programming Services",
+        "image":"https://imgur.com/CQ8vQvc.png",
+        "href":"services/programming",
         "description": "Our programming services cover web development, mobile app development, and backend development. We use the latest technologies and frameworks to build robust and scalable applications that deliver exceptional performance."
       },
       {
-        "title": "Technical Repair Services",
+        "title": "Repairing Services",
+        "image":"https://imgur.com/G7DnoF6.png",
+        "href":"services/repairing",
         "description": "We offer comprehensive repair services for mobile devices, computers, and laptops. Our skilled technicians can diagnose and fix a wide range of hardware and software issues, ensuring your devices are running smoothly."
       },
       {
         "title": "Maintenance and Upgrades",
+        "image":"https://imgur.com/S31KPex.png",
+        "href":"services/maintenance_upgrades",
         "description": "Regular maintenance and timely upgrades are essential to keep your devices and systems in optimal condition. We provide maintenance and upgrade services to enhance the performance and longevity of your technology assets."
       },
       {
         "title": "Custom Solutions",
+        "image":"https://imgur.com/hO4xSSv.png",
+        "href":"services/solutions",
         "description": "We understand that every business has unique requirements. That's why we offer custom solutions tailored to your specific needs. Whether you need a custom application, integration, or consultation, we are here to help."
       }
     ]
