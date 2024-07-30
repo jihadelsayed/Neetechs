@@ -27,3 +27,29 @@ CEO (Jihad AlSayed)
 |   |-- London (Mohammad AlSayed)
 |
 |-- UI/UX Designers (Yazan Alsayed)
+
+
+     // {
+      //   "image": "https://example.com/marketing_specialists.jpg",
+      //   "name": "Marketing Specialists",
+      //   "position": "Marketing Specialists",
+      //   "description": "The Marketing Specialists implement marketing strategies, conduct market research, and engage with customers to drive sales and growth."
+      // },
+      // {
+      //   "image": "https://example.com/web_developers.jpg",
+      //   "name": "Web Developers",
+      //   "position": "Web Developers",
+      //   "description": "The Web Developers are responsible for building and maintaining the company's website, ensuring it is functional, user-friendly, and up-to-date."
+      // },
+      // {
+      //   "image": "https://example.com/devops_engineers.jpg",
+      //   "name": "DevOps Engineers",
+      //   "position": "DevOps Engineers",
+      //   "description": "The DevOps Engineers ensure smooth deployment and management of the company's infrastructure, optimizing processes and system performance."
+      // },
+      // {
+      //   "image": "https://example.com/network_engineers.jpg",
+      //   "name": "Network Engineers",
+      //   "position": "Network Engineers",
+      //   "description": "The Network Engineers maintain the company's network infrastructure, ensuring security, stability, and efficiency in all network operations."
+      // },
