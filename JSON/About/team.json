@@ -1,29 +1,148 @@
 {
-    "team": [
+    "team": 
+    [
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "John Doe",
+        "name": "Jihad AlSayed",
         "position": "CEO",
-        "description": "John is the visionary behind Neetechs, with over 20 years of experience in the tech industry. He is passionate about driving innovation and leading the company to new heights."
+        "description": "Jihad is the visionary behind Neetechs, with over 10 years of experience in the tech industry. He is passionate about driving innovation and leading the company to new heights."
+      },
+      {
+        "image": "https://example.com/imad_rayan.jpg",
+        "name": "Imad Rayan",
+        "position": "COO",
+        "description": "Imad is responsible for overseeing the company's operations, ensuring that all departments work efficiently and effectively towards the company's goals."
+      },
+      {
+        "image": "https://example.com/business_analyst.jpg",
+        "name": "Business Analyst",
+        "position": "Business Analyst",
+        "description": "The Business Analyst is dedicated to analyzing market trends and providing insights to drive strategic decisions and business growth."
       },
       {
         "image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
-        "name": "Jane Smith",
+        "name": "Retta AlSayed",
+        "position": "COO",
+        "description": "Retta focuses on integrating healthcare technology within the company's offerings, ensuring innovation and quality in medical engineering solutions."
+      },
+      {
+        "image": "https://example.com/medical_engineer.jpg",
+        "name": "Medical Engineer",
+        "position": "Medical Engineer",
+        "description": "The Medical Engineer provides expert knowledge and innovation in healthcare technology, contributing to the development of cutting-edge solutions."
+      },
+      {
+        "image": "https://example.com/gehad_alsayed.jpg",
+        "name": "Gehad AlSayed",
         "position": "CTO",
-        "description": "Jane is responsible for overseeing all technical aspects of Neetechs. Her expertise in software development and system architecture is instrumental in delivering top-notch solutions to our clients."
+        "description": "Gehad leads the technical team, ensuring the development and maintenance of the company's technology infrastructure and software solutions."
       },
       {
-        "image": "https://live.staticflickr.com/65535/53790169175_844924319e.jpg",
-        "name": "Emily Johnson",
+        "image": "https://example.com/web_developers.jpg",
+        "name": "Web Developers",
+        "position": "Web Developers",
+        "description": "The Web Developers are responsible for building and maintaining the company's website, ensuring it is functional, user-friendly, and up-to-date."
+      },
+      {
+        "image": "https://example.com/devops_engineers.jpg",
+        "name": "DevOps Engineers",
+        "position": "DevOps Engineers",
+        "description": "The DevOps Engineers ensure smooth deployment and management of the company's infrastructure, optimizing processes and system performance."
+      },
+      {
+        "image": "https://example.com/network_engineers.jpg",
+        "name": "Network Engineers",
+        "position": "Network Engineers",
+        "description": "The Network Engineers maintain the company's network infrastructure, ensuring security, stability, and efficiency in all network operations."
+      },
+      {
+        "image": "https://example.com/amal_awad.jpg",
+        "name": "Amal Awad",
+        "position": "CFO",
+        "description": "Amal oversees the financial activities of the company, managing budgets, financial planning, and ensuring fiscal responsibility and growth."
+      },
+      {
+        "image": "https://example.com/quantity_accounting_engineer.jpg",
+        "name": "Quantity Accounting Engineer",
+        "position": "Quantity Accounting Engineer",
+        "description": "The Quantity Accounting Engineer is responsible for managing financial records, performing financial analysis, and ensuring accurate bookkeeping."
+      },
+      {
+        "image": "https://example.com/mahmmoud_alsayed.jpg",
+        "name": "Mahmmoud AlSayed",
+        "position": "Legal Counsel",
+        "description": "Mahmmoud provides legal expertise and ensures that all company activities comply with relevant laws and regulations, handling all legal matters."
+      },
+      {
+        "image": "https://example.com/nour_alsayed.jpg",
+        "name": "Nour AlSayed",
+        "position": "Head of Marketing",
+        "description": "Nour leads the marketing team, developing strategies to effectively promote the company's products and services and enhance brand visibility."
+      },
+      {
+        "image": "https://example.com/marketing_specialists.jpg",
+        "name": "Marketing Specialists",
+        "position": "Marketing Specialists",
+        "description": "The Marketing Specialists implement marketing strategies, conduct market research, and engage with customers to drive sales and growth."
+      },
+      {
+        "image": "https://example.com/head_of_customer_support.jpg",
+        "name": "Head of Customer Support",
+        "position": "Head of Customer Support",
+        "description": "The Head of Customer Support manages the customer support team, ensuring excellent service and addressing customer inquiries across regions."
+      },
+      {
+        "image": "https://example.com/tariq_qasoum.jpg",
+        "name": "Tariq Qasoum",
+        "position": "Customer Support - Germany",
+        "description": "Tariq provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://example.com/salah_taha.jpg",
+        "name": "Salah Taha",
+        "position": "Customer Support - Germany",
+        "description": "Salah provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://example.com/amer_aloush.jpg",
+        "name": "Amer Aloush",
+        "position": "Customer Support - France",
+        "description": "Amer provides customer support in France, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://example.com/maged_alsayed.jpg",
+        "name": "Maged AlSayed",
+        "position": "Customer Support - Sweden",
+        "description": "Maged provides customer support in Sweden, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://example.com/ms_green.jpg",
+        "name": "Ms. Green",
+        "position": "Customer Support - USA",
+        "description": "Ms. Green provides customer support in the USA, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://example.com/mohammad_alsayed.jpg",
+        "name": "Mohammad AlSayed",
+        "position": "Customer Support - London",
+        "description": "Mohammad provides customer support in London, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
+        "name": "Gody AlSayed",
         "position": "Lead Designer",
-        "description": "Emily leads our design team, bringing a creative and user-centric approach to every project. Her keen eye for detail ensures that our designs are not only beautiful but also functional."
-      },
-      {
-        "image": "https://live.staticflickr.com/65535/53788837972_22d09b417e.jpg",
-        "name": "J Alsayed",
-        "position": "Head of Support",
-        "description": "Alsayed heads our support team, ensuring that our clients receive prompt and effective assistance. His dedication to customer satisfaction is unmatched."
+        "description": "Gody leads the design team, ensuring cohesive and innovative design strategies that enhance user experience and align with the company's brand identity."
       }
+      ,
+      {
+        
+        "image": "https://example.com/yazan_alsayed.jpg",
+        "name": "Yazan AlSayed",
+        "position": "UI/UX Designer",
+        "description": "Yazan focuses on creating user-friendly and visually appealing designs, ensuring an excellent user experience across the company's platforms."
+      }
+      
     ]
+    
   }
   

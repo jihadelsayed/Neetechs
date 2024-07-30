@@ -17,6 +17,86 @@
             "link": "/tools/grammar-checker"
         },
         {
+            "type": "Advanced Tools",
+            "name": "Customizable AI Chatbot Platform",
+            "description": "Create and customize your own AI-powered chatbots.",
+            "icon": "🤖",
+            "disable": false,
+            "link": "/tools/ai-chatbot-platform"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "AI Content Creation Suite",
+            "description": "Generate high-quality content using AI.",
+            "icon": "🖋️",
+            "disable": false,
+            "link": "/tools/ai-content-creation"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Language Translation and Localization Tool",
+            "description": "Translate and localize content for different languages.",
+            "icon": "🌐",
+            "disable": false,
+            "link": "/tools/translation-localization"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Personalized Learning and Tutoring Assistant",
+            "description": "Create personalized tutoring experiences with AI.",
+            "icon": "📚",
+            "disable": false,
+            "link": "/tools/learning-tutoring"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "AI-Powered Data Analysis and Visualization",
+            "description": "Upload and analyze data with AI-generated visualizations.",
+            "icon": "📊",
+            "disable": false,
+            "link": "/tools/data-analysis-visualization"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Virtual Health and Wellness Advisor",
+            "description": "Create and manage virtual health and wellness plans.",
+            "icon": "💪",
+            "disable": false,
+            "link": "/tools/health-wellness"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Creative Writing and Brainstorming Tool",
+            "description": "Generate ideas and develop creative writing projects.",
+            "icon": "📝",
+            "disable": false,
+            "link": "/tools/creative-writing"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Interactive Resume and Career Builder",
+            "description": "Create professional resumes and plan your career.",
+            "icon": "📄",
+            "disable": false,
+            "link": "/tools/resume-career-builder"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Customer Feedback and Sentiment Analysis Tool",
+            "description": "Collect and analyze customer feedback with sentiment analysis.",
+            "icon": "🗣️",
+            "disable": false,
+            "link": "/tools/feedback-sentiment"
+        },
+        {
+            "type": "Advanced Tools",
+            "name": "Virtual Event and Meeting Assistant",
+            "description": "Manage and enhance virtual events and meetings.",
+            "icon": "🎤",
+            "disable": false,
+            "link": "/tools/event-meeting-assistant"
+        },
+        {
             "type": "Simple Tools",
             "name": "Article Summarizer",
             "description": "Summarize long articles or documents into concise summaries.",
