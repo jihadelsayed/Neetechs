@@ -1,37 +1,145 @@
 {
-    "Design Services": {
-        "Logo Design": "$200",
-        "Website Design": "Starting at $500",
-        "UI/UX Design": "$50/hour",
-        "Brand Identity Package": "$600",
-        "Brochure/Flyer Design": "$150",
-        "Social Media Graphics": "$100",
-        "Business Card Design": "$80"
-    },
-    "Programming Services": {
-        "Web Development": "Starting at $1000",
-        "Mobile App Development": "Starting at $1500",
-        "Backend Development": "$70/hour",
-        "API Integration": "$300",
-        "E-commerce Development": "Starting at $1200",
-        "CMS Development": "Starting at $900",
-        "Custom Software Development": "Starting at $2000"
-    },
-    "Technical Repair Services": {
-        "Mobile Device Repair": "Starting at $50",
-        "Computer and Laptop Repair": "Starting at $100",
-        "Maintenance and Upgrades": "$40/hour",
-        "Virus and Malware Removal": "$80",
-        "Data Recovery": "$150",
-        "Network Troubleshooting": "$60/hour",
-        "Hardware Installation": "$70"
-    },
-    "Additional Services": {
-        "SEO Optimization": "$300/month",
-        "Content Creation": "$100/article",
-        "Digital Marketing Consultation": "$150/hour",
-        "IT Support Services": "$50/hour",
-        "Cloud Services Setup": "$200",
-        "Training and Workshops": "$100/hour"
-    }
+    "Design Services": [
+        {
+            "id": 1,
+            "name": "Logo Design",
+            "price": "$20"
+        },
+        {
+            "id": 2,
+            "name": "Website Design",
+            "price": "Starting at $500"
+        },
+        {
+            "id": 3,
+            "name": "UI/UX Design",
+            "price": "$50/hour"
+        },
+        {
+            "id": 4,
+            "name": "Brand Identity Package",
+            "price": "$600"
+        },
+        {
+            "id": 5,
+            "name": "Brochure/Flyer Design",
+            "price": "$150"
+        },
+        {
+            "id": 6,
+            "name": "Social Media Graphics",
+            "price": "$100"
+        },
+        {
+            "id": 7,
+            "name": "Business Card Design",
+            "price": "$80"
+        }
+    ],
+    "Programming Services": [
+        {
+            "id": 8,
+            "name": "Web Development",
+            "price": "Starting at $1000"
+        },
+        {
+            "id": 9,
+            "name": "Mobile App Development",
+            "price": "Starting at $1500"
+        },
+        {
+            "id": 10,
+            "name": "Backend Development",
+            "price": "$70/hour"
+        },
+        {
+            "id": 11,
+            "name": "API Integration",
+            "price": "$300"
+        },
+        {
+            "id": 12,
+            "name": "E-commerce Development",
+            "price": "Starting at $1200"
+        },
+        {
+            "id": 13,
+            "name": "CMS Development",
+            "price": "Starting at $900"
+        },
+        {
+            "id": 14,
+            "name": "Custom Software Development",
+            "price": "Starting at $2000"
+        }
+    ],
+    "Technical Repair Services": [
+        {
+            "id": 15,
+            "name": "Mobile Device Repair",
+            "price": "Starting at $50"
+        },
+        {
+            "id": 16,
+            "name": "Computer and Laptop Repair",
+            "price": "Starting at $100"
+        },
+        {
+            "id": 17,
+            "name": "Maintenance and Upgrades",
+            "price": "$40/hour"
+        },
+        {
+            "id": 18,
+            "name": "Virus and Malware Removal",
+            "price": "$80"
+        },
+        {
+            "id": 19,
+            "name": "Data Recovery",
+            "price": "$150"
+        },
+        {
+            "id": 20,
+            "name": "Network Troubleshooting",
+            "price": "$60/hour"
+        },
+        {
+            "id": 21,
+            "name": "Hardware Installation",
+            "price": "$70"
+        }
+    ],
+    "Additional Services": [
+        {
+            "id": 22,
+            "name": "SEO Optimization",
+            "price": "$300/month"
+        },
+        {
+            "id": 23,
+            "name": "Content Creation",
+            "price": "$100/article"
+        },
+        {
+            "id": 24,
+            "name": "Digital Marketing Consultation",
+            "price": "$150/hour"
+        },
+        {
+            "id": 25,
+            "name": "IT Support Services",
+            "price": "$50/hour"
+        },
+        {
+            "id": 26,
+            "name": "Cloud Services Setup",
+            "price": "$200"
+        },
+        {
+            "id": 27,
+            "name": "Training and Workshops",
+            "price": "$100/hour"
+        }
+    ]
 }
