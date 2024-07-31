@@ -3,7 +3,7 @@
     [
       {
         "image": "https://media.licdn.com/dms/image/D4D03AQFw4LRLPkXGrw/profile-displayphoto-shrink_800_800/0/1682330444573?e=1727913600&v=beta&t=lzb1mZMXOogW_My4iIar3HHkr2CVhnPkZFmnZ3MFM8k",
-        "name": "Jihad AlSayed",
+        "name": "Jihad ",
         "position": "CEO",
         "description": "Jihad is the visionary behind Neetechs, with over 10 years of experience in the tech industry. He is passionate about driving innovation and leading the company to new heights."
       },
@@ -47,31 +47,38 @@
 
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Nour AlSayed",
+        "name": "Mr. Nour ",
         "position": "Head of Marketing",
         "description": "Nour leads the marketing team, developing strategies to effectively promote the company's products and services and enhance brand visibility."
       },
       {
+        
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Tariq Qasoum",
-        "position": "Customer Support - Germany",
-        "description": "Tariq provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
+        "name": "Mr. Yazan",
+        "position": "UI/UX Designer",
+        "description": "Yazan focuses on creating user-friendly and visually appealing designs, ensuring an excellent user experience across the company's platforms."
       },
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Salah Taha",
+        "name": "Mr. Salah",
         "position": "Head Of Security - Germany",
         "description": "Salah provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Amir Alloush",
+        "name": "Mr. Tariq",
+        "position": "Customer Support - Germany",
+        "description": "Tariq provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
+      },
+      {
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
+        "name": "Mr. Amir",
         "position": "Customer Support - France",
         "description": "Amer provides customer support in France, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Maged AlSayed",
+        "name": "Mr. Maged",
         "position": "Customer Support - Sweden",
         "description": "Maged provides customer support in Sweden, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
@@ -83,16 +90,9 @@
       },
       {
         "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Mohammed AlSayed",
+        "name": "Mr. Mohammed",
         "position": "Customer Support - London",
         "description": "Mohammad provides customer support in London, assisting customers with their inquiries and ensuring their satisfaction with our services."
-      },
-      {
-        
-        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
-        "name": "Yazan AlSayed",
-        "position": "UI/UX Designer",
-        "description": "Yazan focuses on creating user-friendly and visually appealing designs, ensuring an excellent user experience across the company's platforms."
       }
       
     ]
