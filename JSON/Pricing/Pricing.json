@@ -110,34 +110,66 @@
             "price": "$70"
         }
     ],
-    "Additional Services": [
+    "Maintenance Services": [
         {
             "id": 22,
+            "name": "Regular System Maintenance",
+            "price": "$50/hour"
+        },
+        {
+            "id": 23,
+            "name": "Scheduled Backup Services",
+            "price": "$40/month"
+        },
+        {
+            "id": 24,
+            "name": "Software Updates",
+            "price": "$30/hour"
+        },
+        {
+            "id": 25,
+            "name": "Security Audits",
+            "price": "$200"
+        },
+        {
+            "id": 26,
+            "name": "Performance Optimization",
+            "price": "$70/hour"
+        },
+        {
+            "id": 27,
+            "name": "Remote Monitoring",
+            "price": "$100/month"
+        }
+    ],
+    "Additional Services": [
+        {
+            "id": 28,
             "name": "SEO Optimization",
             "price": "$300/month"
         },
         {
-            "id": 23,
+            "id": 29,
             "name": "Content Creation",
             "price": "$100/article"
         },
         {
-            "id": 24,
+            "id": 30,
             "name": "Digital Marketing Consultation",
             "price": "$150/hour"
         },
         {
-            "id": 25,
+            "id": 31,
             "name": "IT Support Services",
             "price": "$50/hour"
         },
         {
-            "id": 26,
+            "id": 32,
             "name": "Cloud Services Setup",
             "price": "$200"
         },
         {
-            "id": 27,
+            "id": 33,
             "name": "Training and Workshops",
             "price": "$100/hour"
         }
