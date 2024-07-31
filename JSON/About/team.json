@@ -2,31 +2,32 @@
     "team": 
     [
       {
-        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
+        "image": "https://media.licdn.com/dms/image/D4D03AQFw4LRLPkXGrw/profile-displayphoto-shrink_800_800/0/1682330444573?e=1727913600&v=beta&t=lzb1mZMXOogW_My4iIar3HHkr2CVhnPkZFmnZ3MFM8k",
         "name": "Jihad AlSayed",
         "position": "CEO",
         "description": "Jihad is the visionary behind Neetechs, with over 10 years of experience in the tech industry. He is passionate about driving innovation and leading the company to new heights."
       },
       {
-        "image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
+        //"image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
+        "image": "https://media.licdn.com/dms/image/D5603AQFyfWVg7sVnSg/profile-displayphoto-shrink_800_800/0/1675226233024?e=1727913600&v=beta&t=Z_nUnmPXb5wTocDBWeW_Q2TzCQF-jRYwd8h8Jc8xTtg",
         "name": "Prof. Retta",
         "position": "COO",
         "description": "Retta focuses on integrating healthcare technology within the company's offerings, ensuring innovation and quality in medical engineering solutions."
       },
       {
-        "image": "https://example.com/mahmmoud_alsayed.jpg",
+        "image": "https://media.licdn.com/dms/image/D5635AQGjV94uGKZDbA/profile-framedphoto-shrink_800_800/0/1644674819026?e=1723024800&v=beta&t=koxi_p60LQGOa7vJxvcbrGPUafdrSO5V8UtDerhlG9k",
         "name": "Dr. Mahmmoud",
         "position": "Legal Counsel",
         "description": "Mahmmoud provides legal expertise and ensures that all company activities comply with relevant laws and regulations, handling all legal matters."
       },
       {
-        "image": "https://example.com/imad_rayan.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Analyst. Imad",
         "position": "Business Analyst",
         "description": "Imad is dedicated to analyzing market trends and providing insights to drive strategic decisions and business growth."
       },
       {
-        "image": "https://example.com/amal_awad.jpg",
+        "image": "https://live.staticflickr.com/65535/53788812437_95bf24fd35.jpg",
         "name": "Ms. Amal",
         "position": "CFO",
         "description": "Amal oversees the financial activities of the company, managing budgets, financial planning, and ensuring fiscal responsibility and growth."
@@ -38,38 +39,38 @@
         "description": "Gody leads the design team, ensuring cohesive and innovative design strategies that enhance user experience and align with the company's brand identity."
       },
       {
-        "image": "https://example.com/gehad_alsayed.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Mr. Gehad",
         "position": "CTO",
         "description": "Gehad leads the technical team, ensuring the development and maintenance of the company's technology infrastructure and software solutions."
       },
 
       {
-        "image": "https://example.com/nour_alsayed.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Nour AlSayed",
         "position": "Head of Marketing",
         "description": "Nour leads the marketing team, developing strategies to effectively promote the company's products and services and enhance brand visibility."
       },
       {
-        "image": "https://example.com/tariq_qasoum.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Tariq Qasoum",
         "position": "Customer Support - Germany",
         "description": "Tariq provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
-        "image": "https://example.com/salah_taha.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Salah Taha",
         "position": "Head Of Security - Germany",
         "description": "Salah provides customer support in Germany, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
-        "image": "https://example.com/amer_aloush.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Amir Alloush",
         "position": "Customer Support - France",
         "description": "Amer provides customer support in France, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
-        "image": "https://example.com/maged_alsayed.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Maged AlSayed",
         "position": "Customer Support - Sweden",
         "description": "Maged provides customer support in Sweden, assisting customers with their inquiries and ensuring their satisfaction with our services."
@@ -81,14 +82,14 @@
         "description": "Ms. Green provides customer support in the USA, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
-        "image": "https://example.com/mohammad_alsayed.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Mohammed AlSayed",
         "position": "Customer Support - London",
         "description": "Mohammad provides customer support in London, assisting customers with their inquiries and ensuring their satisfaction with our services."
       },
       {
         
-        "image": "https://example.com/yazan_alsayed.jpg",
+        "image": "https://live.staticflickr.com/65535/53790063119_f8e4da72b1.jpg",
         "name": "Yazan AlSayed",
         "position": "UI/UX Designer",
         "description": "Yazan focuses on creating user-friendly and visually appealing designs, ensuring an excellent user experience across the company's platforms."
