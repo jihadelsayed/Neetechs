@@ -1,0 +1,37 @@
+{
+    "Design Services": {
+        "Logo Design": "$200",
+        "Website Design": "Starting at $500",
+        "UI/UX Design": "$50/hour",
+        "Brand Identity Package": "$600",
+        "Brochure/Flyer Design": "$150",
+        "Social Media Graphics": "$100",
+        "Business Card Design": "$80"
+    },
+    "Programming Services": {
+        "Web Development": "Starting at $1000",
+        "Mobile App Development": "Starting at $1500",
+        "Backend Development": "$70/hour",
+        "API Integration": "$300",
+        "E-commerce Development": "Starting at $1200",
+        "CMS Development": "Starting at $900",
+        "Custom Software Development": "Starting at $2000"
+    },
+    "Technical Repair Services": {
+        "Mobile Device Repair": "Starting at $50",
+        "Computer and Laptop Repair": "Starting at $100",
+        "Maintenance and Upgrades": "$40/hour",
+        "Virus and Malware Removal": "$80",
+        "Data Recovery": "$150",
+        "Network Troubleshooting": "$60/hour",
+        "Hardware Installation": "$70"
+    },
+    "Additional Services": {
+        "SEO Optimization": "$300/month",
+        "Content Creation": "$100/article",
+        "Digital Marketing Consultation": "$150/hour",
+        "IT Support Services": "$50/hour",
+        "Cloud Services Setup": "$200",
+        "Training and Workshops": "$100/hour"
+    }
+}
