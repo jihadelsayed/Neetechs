@@ -110,6 +110,7 @@
             "price": "$70"
         }
     ],
+    
     "Maintenance Services": [
         {
             "id": 22,
@@ -144,32 +145,32 @@
     ],
     "Additional Services": [
         {
-            "id": 28,
+            "id": 22,
             "name": "SEO Optimization",
             "price": "$300/month"
         },
         {
-            "id": 29,
+            "id": 23,
             "name": "Content Creation",
             "price": "$100/article"
         },
         {
-            "id": 30,
+            "id": 24,
             "name": "Digital Marketing Consultation",
             "price": "$150/hour"
         },
         {
-            "id": 31,
+            "id": 25,
             "name": "IT Support Services",
             "price": "$50/hour"
         },
         {
-            "id": 32,
+            "id": 26,
             "name": "Cloud Services Setup",
             "price": "$200"
         },
         {
-            "id": 33,
+            "id": 27,
             "name": "Training and Workshops",
             "price": "$100/hour"
         }
