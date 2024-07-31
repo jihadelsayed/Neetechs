@@ -227,7 +227,7 @@
         "disable": "true",
         "href": "tutorials/r",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data"
+        "type": "Data Analysis"
       },
       {
         "id": "26",
@@ -236,7 +236,7 @@
         "disable": "true",
         "href": "tutorials/matlab",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data"
+        "type": "Data Analysis"
       },
       {
         "id": "27",
@@ -277,7 +277,7 @@
         "image": "https://i.imgur.com/6NOQqPd.png",
         "type": "Security"
       },
-      
+
       {
         "id": "34",
         "name": "Blockchain",
@@ -285,18 +285,9 @@
         "disable": "true",
         "href": "tutorials/blockchain",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "blockchain"
+        "type": "Databases"
       },
-      {
-        "id": "35",
-        "name": "Solidity",
-        "date": "June 23, 2024",
-        "disable": "true",
-        "href": "tutorials/solidity",
-        "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "blockchain"
-      },
- 
+
       {
         "id": "37",
         "name": "Unity",
