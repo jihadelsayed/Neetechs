@@ -8,7 +8,6 @@
         "id": "1",
         "name": "Python",
         "date": "June 23, 2024",
-        "disable": "false",
         "href": "tutorials/python",
         "image": "https://imgur.com/79TM6Vi.png",
         "type": "Essential Skills"
@@ -17,7 +16,6 @@
         "id": "2",
         "name": "HTML & CSS",
         "date": "June 23, 2024",
-        "disable": "false",
         "href": "tutorials/html_css",
         "image": "https://imgur.com/6wf9zfC.png",
         "type": "Essential Skills"
