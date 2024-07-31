@@ -110,39 +110,6 @@
             "price": "$70"
         }
     ],
-    
-    "Maintenance Services": [
-        {
-            "id": 22,
-            "name": "Regular System Maintenance",
-            "price": "$50/hour"
-        },
-        {
-            "id": 23,
-            "name": "Scheduled Backup Services",
-            "price": "$40/month"
-        },
-        {
-            "id": 24,
-            "name": "Software Updates",
-            "price": "$30/hour"
-        },
-        {
-            "id": 25,
-            "name": "Security Audits",
-            "price": "$200"
-        },
-        {
-            "id": 26,
-            "name": "Performance Optimization",
-            "price": "$70/hour"
-        },
-        {
-            "id": 27,
-            "name": "Remote Monitoring",
-            "price": "$100/month"
-        }
-    ],
     "Additional Services": [
         {
             "id": 22,
