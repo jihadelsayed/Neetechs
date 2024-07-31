@@ -32,7 +32,7 @@
         "type": "Essential Skills"
       },
       {
-        "id": "29",
+        "id": "4",
         "name": "Shell Scripting",
         "date": "June 23, 2024",
         "disable": "true",
@@ -41,32 +41,68 @@
         "type": "Essential Skills"
       },
       {
-        "id": "14",
+        "id": "5",
+        "name": "Mathematics & Statistics",
+        "date": "July 31, 2024",
+        "disable": "true",
+        "href": "tutorials/mathematics_statistics",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Essential Skills"
+      },
+      {
+        "id": "5",
+        "name": "Algorithms",
+        "date": "July 31, 2024",
+        "disable": "true",
+        "href": "tutorials/algorithms",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Essential Skills"
+      },
+      {
+        "id": "5",
         "name": "SQL",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/sql",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Databases"
+        "type": "Databases",
+        "description": "Learn the fundamentals of SQL, including queries, joins, and database design.",
+        "level": "Beginner"
       },
       {
-        "id": "15",
+        "id": "6",
         "name": "NoSQL",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/nosql",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Databases"
+        "type": "Databases",
+        "description": "An introduction to NoSQL databases, covering different types like MongoDB, Cassandra, and Redis.",
+        "level": "Intermediate"
       },
       {
-        "id": "34",
+        "id": "7",
         "name": "Blockchain",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/blockchain",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Databases"
-      },      {
+        "type": "Databases",
+        "description": "Explore the basics of blockchain technology, including how it works and its applications.",
+        "level": "Advanced"
+      },
+      {
+        "id": "8",
+        "name": "Data Warehousing",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/data-warehousing",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Databases",
+        "description": "Understand the concepts of data warehousing, including ETL processes, data modeling, and reporting.",
+        "level": "Intermediate"
+      },
+      {
         "id": "8",
         "name": "Cloud Computing",
         "date": "June 23, 2024",
@@ -120,119 +156,128 @@
         "image": "https://i.imgur.com/6NOQqPd.png",
         "type": "DevOps"
       },
-      
-        {
-          "id": "37",
-          "name": "Unity",
-          "date": "June 23, 2024",
-          "disable": "true",
-          "href": "tutorials/unity",
-          "image": "https://i.imgur.com/6NOQqPd.png",
-          "type": "Gaming",
-          "description": "Learn how to create games using Unity, a powerful and widely-used game engine."
-        },
-        {
-          "id": "38",
-          "name": "Unreal Engine",
-          "date": "July 15, 2024",
-          "disable": "false",
-          "href": "tutorials/unreal",
-          "image": "https://i.imgur.com/9WqW3Wp.png",
-          "type": "Gaming",
-          "description": "Explore game development with Unreal Engine, known for its high-quality graphics and performance."
-        },
-        {
-          "id": "39",
-          "name": "Godot Engine",
-          "date": "August 1, 2024",
-          "disable": "false",
-          "href": "tutorials/godot",
-          "image": "https://i.imgur.com/dGh4l3U.png",
-          "type": "Gaming",
-          "description": "Discover the capabilities of Godot Engine, an open-source game engine that's easy to learn and use."
-        },
-        {
-          "id": "40",
-          "name": "CryEngine",
-          "date": "September 5, 2024",
-          "disable": "true",
-          "href": "tutorials/cryengine",
-          "image": "https://i.imgur.com/7FjG9Bt.png",
-          "type": "Gaming",
-          "description": "Dive into CryEngine for advanced game development with stunning visuals and powerful tools."
-        },
-        {
-          "id": "41",
-          "name": "GameMaker Studio",
-          "date": "October 10, 2024",
-          "disable": "false",
-          "href": "tutorials/gamemaker",
-          "image": "https://i.imgur.com/XzqZxX3.png",
-          "type": "Gaming",
-          "description": "Get started with GameMaker Studio, a great tool for creating 2D games quickly and efficiently."
-        },
-        {
-          "id": "42",
-          "name": "Construct",
-          "date": "November 15, 2024",
-          "disable": "false",
-          "href": "tutorials/construct",
-          "image": "https://i.imgur.com/4fTzyjH.png",
-          "type": "Gaming",
-          "description": "Learn game development with Construct, a user-friendly engine perfect for creating HTML5 games."
-        },
-        {
-          "id": "43",
-          "name": "Roblox",
-          "date": "December 1, 2024",
-          "disable": "false",
-          "href": "tutorials/roblox",
-          "image": "https://i.imgur.com/3e4ZfPt.png",
-          "type": "Gaming",
-          "description": "Create immersive experiences and games using Roblox, a platform beloved by millions of users worldwide."
-        }
-      ,
-      
-
       {
-        "id": "5",
-        "name": "Data Science",
+        "id": "14",
+        "name": "Unity",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/unity",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming",
+        "description": "Learn how to create games using Unity, a powerful and widely-used game engine."
+      },
+      {
+        "id": "15",
+        "name": "Unreal Engine",
+        "date": "July 15, 2024",
+        "disable": "false",
+        "href": "tutorials/unreal",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming",
+        "description": "Explore game development with Unreal Engine, known for its high-quality graphics and performance."
+      },
+      {
+        "id": "16",
+        "name": "Godot Engine",
+        "date": "August 1, 2024",
+        "disable": "false",
+        "href": "tutorials/godot",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming",
+        "description": "Discover the capabilities of Godot Engine, an open-source game engine that's easy to learn and use."
+      },
+      {
+        "id": "17",
+        "name": "CryEngine",
+        "date": "September 5, 2024",
+        "disable": "true",
+        "href": "tutorials/cryengine",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming",
+        "description": "Dive into CryEngine for advanced game development with stunning visuals and powerful tools."
+      },
+      {
+        "id": "18",
+        "name": "GameMaker Studio",
+        "date": "October 10, 2024",
+        "disable": "false",
+        "href": "tutorials/gamemaker",
+        "image": "https://i.imgur.com/XzqZxX3.png",
+        "type": "Gaming",
+        "description": "Get started with GameMaker Studio, a great tool for creating 2D games quickly and efficiently."
+      },
+      {
+        "id": "19",
+        "name": "Construct",
+        "date": "November 15, 2024",
+        "disable": "false",
+        "href": "tutorials/construct",
+        "image": "https://i.imgur.com/4fTzyjH.png",
+        "type": "Gaming",
+        "description": "Learn game development with Construct, a user-friendly engine perfect for creating HTML5 games."
+      },
+      {
+        "id": "20",
+        "name": "Roblox",
+        "date": "December 1, 2024",
+        "disable": "false",
+        "href": "tutorials/roblox",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming",
+        "description": "Create immersive experiences and games using Roblox, a platform beloved by millions of users worldwide."
+      },
+      {
+        "id": "21",
+        "name": "Artificial Intelligence",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/data_science",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis"
+        "type": "Data Analysis",
+        "description": "An introduction to the concepts and applications of artificial intelligence, covering basic principles and real-world use cases."
       },
       {
-        "id": "6",
+        "id": "22",
         "name": "Machine Learning",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/machine_learning",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis"
+        "type": "Data Analysis",
+        "description": "Learn the fundamentals of machine learning, including supervised and unsupervised learning, and how to implement algorithms in Python."
       },
       {
-        "id": "25",
+        "id": "23",
+        "name": "Deep Learning",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/deep_learning",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Data Analysis",
+        "description": "A deep dive into neural networks and deep learning techniques, with hands-on examples using TensorFlow and Keras."
+      },
+      {
+        "id": "24",
         "name": "R",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/r",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis"
+        "type": "Programming Languages",
+        "description": "Comprehensive tutorials on R programming, focusing on data analysis, visualization, and statistical computing."
       },
       {
-        "id": "26",
+        "id": "25",
         "name": "MATLAB",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/matlab",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis"
+        "type": "Programming Languages",
+        "description": "Learn MATLAB from basics to advanced applications, including mathematical modeling, simulation, and algorithm development."
       },
-
       {
-        "id": "16",
+        "id": "25",
         "name": "Ruby on Rails",
         "date": "June 23, 2024",
         "disable": "true",
@@ -241,7 +286,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "17",
+        "id": "26",
         "name": "PHP",
         "date": "June 23, 2024",
         "disable": "true",
@@ -250,7 +295,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "18",
+        "id": "27",
         "name": "C#",
         "date": "June 23, 2024",
         "disable": "true",
@@ -259,7 +304,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "19",
+        "id": "28",
         "name": "Java",
         "date": "June 23, 2024",
         "disable": "true",
@@ -268,7 +313,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "20",
+        "id": "29",
         "name": "Go",
         "date": "June 23, 2024",
         "disable": "true",
@@ -277,7 +322,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "21",
+        "id": "30",
         "name": "Rust",
         "date": "June 23, 2024",
         "disable": "true",
@@ -286,7 +331,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "22",
+        "id": "31",
         "name": "C++",
         "date": "June 23, 2024",
         "disable": "true",
@@ -295,7 +340,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "23",
+        "id": "32",
         "name": "Swift",
         "date": "June 23, 2024",
         "disable": "true",
@@ -304,7 +349,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "24",
+        "id": "33",
         "name": "Objective-C",
         "date": "June 23, 2024",
         "disable": "true",
@@ -313,7 +358,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "27",
+        "id": "34",
         "name": "Scala",
         "date": "June 23, 2024",
         "disable": "true",
@@ -322,7 +367,7 @@
         "type": "Programming Languages"
       },
       {
-        "id": "28",
+        "id": "35",
         "name": "Perl",
         "date": "June 23, 2024",
         "disable": "true",
