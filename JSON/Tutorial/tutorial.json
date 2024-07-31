@@ -2,462 +2,310 @@
   "container": {
     "title": "Tutorials",
     "description": "Welcome to our Tutorials section. Here, you can find tutorials on various topics categorized for your convenience.",
-	"image": "https://i.imgur.com/5gYNkhg.png",
+    "image": "https://i.imgur.com/5gYNkhg.png",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Python",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/python",
+        "image": "https://imgur.com/79TM6Vi.png",
+        "type": "Essential Skills"
+      },
+      {
+        "id": "2",
+        "name": "HTML & CSS",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/html_css",
+        "image": "https://imgur.com/6wf9zfC.png",
+        "type": "Essential Skills"
+      },
+      {
+        "id": "3",
+        "name": "JavaScript",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/JavaScript",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Essential Skills"
+      },      {
+        "id": "29",
+        "name": "Shell Scripting",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/shell_scripting",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Essential Skills"
+      },
 
-        "categories": [
-          {
-            "id": "1",
-            "name": "Python",
-            "date": "June 23, 2024",
-            "disable": "false",
-            "href": "tutorials/python",
-            "image": "https://imgur.com/79TM6Vi.png",
-            "type": "Backend"
-          },
-          {
-            "id": "2",
-            "name": "HTML & CSS",
-            "date": "June 23, 2024",
-            "disable": "false",
-            "href": "tutorials/html_css",
-            "image": "https://imgur.com/6wf9zfC.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "3",
-            "name": "JavaScript",
-            "date": "June 23, 2024",
-            "disable": "true",
-            "href": "tutorials/JavaScript",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "4",
-            "name": "React",
-            "date": "June 23, 2024",
-            "disable": "true",
-            "href": "tutorials/React",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "5",
-            "name": "Angular",
-            "date": "June 23, 2024",
-            "disable": "true",
-            "href": "tutorials/Angular",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "6",
-            "name": "Offensive Security",
-            "date": "June 23, 2024",
-            "disable": "false",
-            "href": "tutorials/security",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Security"
-          },
-          {
-            "id": "7",
-            "name": "Data Science",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/data_science",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Data"
-          },
-          {
-            "id": "8",
-            "name": "Machine Learning",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/machine_learning",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Data"
-          },
-          {
-            "id": "9",
-            "name": "DevOps",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/devops",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "10",
-            "name": "Cloud Computing",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/cloud_computing",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "11",
-            "name": "Docker",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/docker",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "12",
-            "name": "Kubernetes",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/kubernetes",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "13",
-            "name": "AWS",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/aws",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "14",
-            "name": "Azure",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/azure",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "15",
-            "name": "Google Cloud",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/google_cloud",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Operations"
-          },
-          {
-            "id": "16",
-            "name": "SQL",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/sql",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "17",
-            "name": "NoSQL",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/nosql",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "18",
-            "name": "Ruby on Rails",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/ruby_on_rails",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "19",
-            "name": "Django",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/django",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "20",
-            "name": "Flask",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/flask",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "21",
-            "name": "Laravel",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/laravel",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "22",
-            "name": "Spring Boot",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/spring_boot",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "23",
-            "name": "Express.js",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/express_js",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "24",
-            "name": "Vue.js",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/vue_js",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "25",
-            "name": "Svelte",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/svelte",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "26",
-            "name": "Tailwind CSS",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/tailwind_css",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "27",
-            "name": "Bootstrap",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/bootstrap",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "28",
-            "name": "jQuery",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/jquery",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "29",
-            "name": "TypeScript",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/typescript",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "30",
-            "name": "PHP",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/php",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "31",
-            "name": "C#",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/csharp",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "32",
-            "name": "Java",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/java",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "33",
-            "name": "Go",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/go",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "34",
-            "name": "Rust",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/rust",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "35",
-            "name": "C++",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/cplusplus",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "36",
-            "name": "Swift",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/swift",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "37",
-            "name": "Objective-C",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/objective_c",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "38",
-            "name": "R",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/r",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Data"
-          },
-          {
-            "id": "39",
-            "name": "MATLAB",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/matlab",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Data"
-          },
-          {
-            "id": "40",
-            "name": "Scala",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/scala",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "41",
-            "name": "Perl",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/perl",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "42",
-            "name": "Shell Scripting",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/shell_scripting",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "43",
-            "name": "Cybersecurity",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/cybersecurity",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Security"
-          },
-          {
-            "id": "44",
-            "name": "Ethical Hacking",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/ethical_hacking",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Security"
-          },
-          {
-            "id": "45",
-            "name": "Penetration Testing",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/penetration_testing",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Security"
-          },
-          {
-            "id": "46",
-            "name": "Network Security",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/network_security",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Security"
-          },
-          {
-            "id": "47",
-            "name": "Blockchain",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/blockchain",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "48",
-            "name": "Solidity",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/solidity",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Backend"
-          },
-          {
-            "id": "49",
-            "name": "Game Development",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/game_development",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          },
-          {
-            "id": "50",
-            "name": "Unity",
-            "date": "June 23, 2024",
-"disable": "true",
-            "href": "tutorials/unity",
-            "image": "https://i.imgur.com/6NOQqPd.png",
-            "type": "Frontend"
-          }
-        ]
+      {
+        "id": "5",
+        "name": "Data Science",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/data_science",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Data Analysis"
+      },
+      {
+        "id": "6",
+        "name": "Machine Learning",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/machine_learning",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Data Analysis"
+      },
+      {
+        "id": "7",
+        "name": "DevOps",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/devops",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "8",
+        "name": "Cloud Computing",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/cloud_computing",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "9",
+        "name": "Docker",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/docker",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "10",
+        "name": "Kubernetes",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/kubernetes",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "11",
+        "name": "AWS",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/aws",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "12",
+        "name": "Azure",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/azure",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "13",
+        "name": "Google Cloud",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/google_cloud",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Operations"
+      },
+      {
+        "id": "14",
+        "name": "SQL",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/sql",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Databases"
+      },
+      {
+        "id": "15",
+        "name": "NoSQL",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/nosql",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Databases"
+      },
+      {
+        "id": "16",
+        "name": "Ruby on Rails",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/ruby_on_rails",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "17",
+        "name": "PHP",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/php",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "18",
+        "name": "C#",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/csharp",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "19",
+        "name": "Java",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/java",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "20",
+        "name": "Go",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/go",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "21",
+        "name": "Rust",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/rust",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "22",
+        "name": "C++",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/cplusplus",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "23",
+        "name": "Swift",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/swift",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "24",
+        "name": "Objective-C",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/objective_c",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "25",
+        "name": "R",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/r",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Data"
+      },
+      {
+        "id": "26",
+        "name": "MATLAB",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/matlab",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Data"
+      },
+      {
+        "id": "27",
+        "name": "Scala",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/scala",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+      {
+        "id": "28",
+        "name": "Perl",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/perl",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Programming Languages"
+      },
+
+
+ 
+      {
+        "id": "32",
+        "name": "Security",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/security",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Security"
+      },
+      {
+        "id": "4",
+        "name": "Kali Linux",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/kali",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Security"
+      },
+      
+      {
+        "id": "34",
+        "name": "Blockchain",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/blockchain",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "blockchain"
+      },
+      {
+        "id": "35",
+        "name": "Solidity",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/solidity",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "blockchain"
+      },
+ 
+      {
+        "id": "37",
+        "name": "Unity",
+        "date": "June 23, 2024",
+        "disable": "true",
+        "href": "tutorials/unity",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Gaming"
       }
-
-  
+    ]
+  }
 }
-
