@@ -25,7 +25,7 @@
         "name": "JavaScript",
         "date": "June 23, 2024",
         "disable": "true",
-        "href": "tutorials/JavaScript",
+        "href": "tutorials/javascript",
         "image": "https://i.imgur.com/6NOQqPd.png",
         "type": "Essential Skills"
       },
@@ -101,13 +101,46 @@
         "level": "Intermediate"
       },
       {
+        "id": "1",
+        "name": "Node.js",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/nodejs",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Backend Development",
+        "description": "Learn the fundamentals of Node.js, an open-source, cross-platform JavaScript runtime environment. This tutorial covers setting up Node.js, understanding the event-driven architecture, and building scalable network applications.",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "Django",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/django",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "Backend Development",
+        "description": "Explore Django, a high-level Python web framework that encourages rapid development and clean, pragmatic design. This tutorial covers setting up a Django project, understanding the MVC architecture, and building dynamic web applications.",
+        "level": "Intermediate"
+      },
+      {
+        "id": "3",
+        "name": "FastAPI",
+        "date": "June 23, 2024",
+        "href": "tutorials/fastapi",
+        "image": "https://fastapi.tiangolo.com/img/icon-white.svg",
+        "type": "Backend Development",
+        "description": "Delve into FastAPI, a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. This tutorial covers setting up FastAPI, creating endpoints, and implementing asynchronous request handling.",
+        "level": "Intermediate"
+      },
+
+      {
         "id": "8",
         "name": "Cloud Computing",
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/cloud_computing",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "9",
@@ -116,7 +149,7 @@
         "disable": "true",
         "href": "tutorials/docker",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "10",
@@ -125,7 +158,7 @@
         "disable": "true",
         "href": "tutorials/kubernetes",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "11",
@@ -134,7 +167,7 @@
         "disable": "true",
         "href": "tutorials/aws",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "12",
@@ -143,7 +176,7 @@
         "disable": "true",
         "href": "tutorials/azure",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "13",
@@ -152,7 +185,7 @@
         "disable": "true",
         "href": "tutorials/google_cloud",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "DevOps"
+        "type": "DevOps (Development Operations)"
       },
       {
         "id": "14",
@@ -161,7 +194,7 @@
         "disable": "true",
         "href": "tutorials/unity",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Learn how to create games using Unity, a powerful and widely-used game engine."
       },
       {
@@ -171,7 +204,7 @@
         "disable": "false",
         "href": "tutorials/unreal",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Explore game development with Unreal Engine, known for its high-quality graphics and performance."
       },
       {
@@ -181,7 +214,7 @@
         "disable": "false",
         "href": "tutorials/godot",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Discover the capabilities of Godot Engine, an open-source game engine that's easy to learn and use."
       },
       {
@@ -191,7 +224,7 @@
         "disable": "true",
         "href": "tutorials/cryengine",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Dive into CryEngine for advanced game development with stunning visuals and powerful tools."
       },
       {
@@ -201,7 +234,7 @@
         "disable": "false",
         "href": "tutorials/gamemaker",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Get started with GameMaker Studio, a great tool for creating 2D games quickly and efficiently."
       },
       {
@@ -211,7 +244,7 @@
         "disable": "false",
         "href": "tutorials/construct",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Learn game development with Construct, a user-friendly engine perfect for creating HTML5 games."
       },
       {
@@ -221,7 +254,7 @@
         "disable": "false",
         "href": "tutorials/roblox",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Gaming",
+        "type": "Gaming Development",
         "description": "Create immersive experiences and games using Roblox, a platform beloved by millions of users worldwide."
       },
       {
@@ -231,7 +264,7 @@
         "disable": "true",
         "href": "tutorials/data_science",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis",
+        "type": "AI Development",
         "description": "An introduction to the concepts and applications of artificial intelligence, covering basic principles and real-world use cases."
       },
       {
@@ -241,7 +274,7 @@
         "disable": "true",
         "href": "tutorials/machine_learning",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis",
+        "type": "AI Development",
         "description": "Learn the fundamentals of machine learning, including supervised and unsupervised learning, and how to implement algorithms in Python."
       },
       {
@@ -251,8 +284,19 @@
         "disable": "true",
         "href": "tutorials/deep_learning",
         "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Data Analysis",
+        "type": "AI Development",
         "description": "A deep dive into neural networks and deep learning techniques, with hands-on examples using TensorFlow and Keras."
+      },
+      {
+        "id": "4",
+        "name": "OpenAI",
+        "date": "June 23, 2024",
+        "disable": "false",
+        "href": "tutorials/openai",
+        "image": "https://i.imgur.com/6NOQqPd.png",
+        "type": "AI Development",
+        "description": "Get started with OpenAI's powerful AI models and tools. This tutorial covers integrating OpenAI's APIs, exploring capabilities like natural language processing and machine learning, and building intelligent applications using GPT models.",
+        "level": "Intermediate"
       },
       {
         "id": "24",

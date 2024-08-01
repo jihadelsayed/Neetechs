@@ -1,0 +1,51 @@
+{
+    "title": "Dependency Injection in FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to explore the powerful concept of dependency injection in FastAPI. This feature allows us to write cleaner and more modular code by separating concerns and making our applications easier to test and maintain. Let's dive in and see how we can leverage dependency injection in our FastAPI projects!"
+        },
+        {
+            "title": "What is Dependency Injection? (Close Shot)",
+            "content": "Dependency injection is a design pattern that helps us manage dependencies between different parts of our code. It allows us to define dependencies outside of the functions that use them, making our code more modular and flexible. In FastAPI, dependency injection is built-in and easy to use."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "Let's set up a simple FastAPI project to demonstrate dependency injection. We'll create a new project directory and set up a virtual environment. If you haven't installed FastAPI and Uvicorn, let's do that now.",
+            "code": "# Create a new project directory\nmkdir fastapi-di\ncd fastapi-di\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI and Uvicorn\npip install fastapi uvicorn"
+        },
+        {
+            "title": "Basic Dependency Injection (Close Shot + Screen Recording)",
+            "content": "Let's start with a basic example of dependency injection in FastAPI. We'll create a simple function that acts as a dependency and inject it into an endpoint.",
+            "code": "from fastapi import FastAPI, Depends\n\napp = FastAPI()\n\ndef get_query(q: str = None):\n    return q\n\n@app.get(\"/items/\")\nasync def read_items(q: str = Depends(get_query)):\n    return {\"query\": q}"
+        },
+        {
+            "title": "Handling Database Connections (Close Shot + Screen Recording)",
+            "content": "A common use case for dependency injection is managing database connections. Let's create a dependency that simulates a database connection and inject it into our endpoints.",
+            "code": "from typing import Generator\n\n# Simulate a database connection\nclass Database:\n    def __init__(self):\n        self.connected = True\n\n    def query(self):\n        return \"Fake database result\"\n\n# Dependency to get a database connection\ndef get_db() -> Generator:\n    db = Database()\n    try:\n        yield db\n    finally:\n        db.connected = False\n\n@app.get(\"/data/\")\nasync def get_data(db: Database = Depends(get_db)):\n    result = db.query()\n    return {\"data\": result}"
+        },
+        {
+            "title": "Sub-Dependencies (Close Shot + Screen Recording)",
+            "content": "FastAPI supports sub-dependencies, where a dependency can have its own dependencies. Let's create a more complex example where we chain dependencies.",
+            "code": "def get_token_header(token: str):\n    if token != \"super-secret-token\":\n        raise HTTPException(status_code=400, detail=\"Invalid token\")\n\n@app.get(\"/secure-data/\", dependencies=[Depends(get_token_header)])\nasync def read_secure_data():\n    return {\"secure_data\": \"This is secure data\"}"
+        },
+        {
+            "title": "Dependency Injection for Testing (Close Shot + Screen Recording)",
+            "content": "Dependency injection makes testing our applications much easier. Let's see how we can mock dependencies for testing purposes.",
+            "code": "from fastapi.testclient import TestClient\n\n# Mock the database dependency\ndef override_get_db() -> Generator:\n    db = Database()\n    db.connected = True  # Mock connection state\n    try:\n        yield db\n    finally:\n        db.connected = False\n\napp.dependency_overrides[get_db] = override_get_db\n\nclient = TestClient(app)\n\ndef test_get_data():\n    response = client.get(\"/data/\")\n    assert response.status_code == 200\n    assert response.json() == {\"data\": \"Fake database result\"}"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we explored the concept of dependency injection in FastAPI. We learned how to create and inject dependencies, handle database connections, work with sub-dependencies, and leverage dependency injection for testing. Understanding and using dependency injection is a key skill for building scalable and maintainable FastAPI applications."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you enjoyed this video, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-fourth-video-link"
+}

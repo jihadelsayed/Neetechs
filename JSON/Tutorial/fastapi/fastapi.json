@@ -1,0 +1,100 @@
+{
+    "id": "1",
+    "name": "FastAPI",
+    "date": "August 2, 2024",
+    "href": "tutorials/fastapi",
+    "description": "Learn how to build APIs with FastAPI.",
+    "image": "https://i.imgur.com/6NOQqPd.png",
+    "tutorials": [
+        {
+            "id": 1,
+            "title": "Introduction to FastAPI",
+            "description": "Overview of FastAPI\nInstallation and setup\nYour first FastAPI app",
+            "lvl": "Introduction",
+            "date": "August 2, 2024",
+            "href": "tutorials/fastapi/introduction",
+            "duration": "15 minutes"
+        },
+        {
+            "id": 2,
+            "title": "FastAPI Basics",
+            "description": "Path and query parameters\nRequest and response models",
+            "lvl": "Beginner",
+            "date": "August 5, 2024",
+            "href": "tutorials/fastapi/basics",
+            "duration": "20 minutes"
+        },
+        {
+            "id": 3,
+            "title": "Building a Simple API",
+            "description": "Creating CRUD operations\nData validation with Pydantic",
+            "lvl": "Intermediate",
+            "date": "August 8, 2024",
+            "href": "tutorials/fastapi/simple_api",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 4,
+            "title": "Dependency Injection in FastAPI",
+            "description": "Introduction to dependency injection\nPractical examples",
+            "lvl": "Intermediate",
+            "date": "August 10, 2024",
+            "href": "tutorials/fastapi/dependency_injection",
+            "duration": "18 minutes"
+        },
+        {
+            "id": 5,
+            "title": "Handling Errors and Exceptions",
+            "description": "Handling exceptions\nCustom error responses",
+            "lvl": "Intermediate",
+            "date": "August 12, 2024",
+            "href": "tutorials/fastapi/error-handling",
+            "duration": "15 minutes"
+        },
+        {
+            "id": 6,
+            "title": "Authentication and Authorization",
+            "description": "Implementing JWT authentication\nRole-based access control",
+            "lvl": "Advanced",
+            "date": "August 15, 2024",
+            "href": "tutorials/fastapi/authentication",
+            "duration": "30 minutes"
+        },
+        {
+            "id": 7,
+            "title": "Database Integration with FastAPI",
+            "description": "Using SQLAlchemy\nConnecting to MongoDB",
+            "lvl": "Advanced",
+            "date": "August 18, 2024",
+            "href": "tutorials/fastapi/database-integration",
+            "duration": "25 minutes"
+        },
+        {
+            "id": 8,
+            "title": "Middleware and Background Tasks",
+            "description": "Implementing middleware\nBackground tasks and async operations",
+            "lvl": "Advanced",
+            "date": "August 20, 2024",
+            "href": "tutorials/fastapi/middleware",
+            "duration": "22 minutes"
+        },
+        {
+            "id": 9,
+            "title": "Testing FastAPI Applications",
+            "description": "Writing unit and integration tests\nUsing testing libraries",
+            "lvl": "Advanced",
+            "date": "August 22, 2024",
+            "href": "tutorials/fastapi/testing",
+            "duration": "20 minutes"
+        },
+        {
+            "id": 10,
+            "title": "Deploying FastAPI Applications",
+            "description": "Deploying to Heroku and AWS\nBest practices for production",
+            "lvl": "Advanced",
+            "date": "August 25, 2024",
+            "href": "tutorials/fastapi/deployment",
+            "duration": "28 minutes"
+        }
+    ]
+}

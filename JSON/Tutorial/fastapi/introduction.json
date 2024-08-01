@@ -1,0 +1,49 @@
+{
+    "title": "Introduction to FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Hello everyone! Welcome to our FastAPI tutorial series. I'm Sayed Jihad Al Sayed, and today we're diving into the exciting world of FastAPI. By the end of this series, you'll have the skills to build fast and powerful APIs that can handle anything you throw at them."
+        },
+        {
+            "title": "Why FastAPI? (Close Shot)",
+            "content": "FastAPI is a modern and high-performance web framework for building APIs with Python 3.7+. It's known for its speed, ease of use, and automatic generation of interactive documentation. Let's see why it's the go-to choice for companies like Uber and Netflix."
+        },
+        {
+            "title": "Setting Up Our Environment (Wide Shot + Screen Recording)",
+            "content": "Before we start coding, we need to set up our development environment. Make sure you have Python installed on your machine. Then, we'll create a virtual environment and install FastAPI and Uvicorn.",
+            "code": "# Create a virtual environment\npython -m venv fastapi-env\n\n# Activate the virtual environment\n# On Windows\nfastapi-env\\Scripts\\activate\n\n# On macOS/Linux\nsource fastapi-env/bin/activate\n\n# Install FastAPI and Uvicorn\npip install fastapi uvicorn"
+        },
+        {
+            "title": "Your First FastAPI App (Close Shot + Screen Recording)",
+            "content": "Let's build our first FastAPI app! Open your code editor and create a new file called main.py. We'll write a simple app that responds with 'Hello, World' when accessed.",
+            "code": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get(\"/\")\nasync def read_root():\n    return {\"Hello\": \"World\"}"
+        },
+        {
+            "title": "Running the Server (Close Shot + Screen Recording)",
+            "content": "To see our app in action, we need to run the FastAPI server. We'll use Uvicorn to start the server and see our 'Hello, World' message.",
+            "code": "# Run the FastAPI server\nuvicorn main:app --reload"
+        },
+        {
+            "title": "Exploring FastAPI's Features (Wide Shot + Screen Recording)",
+            "content": "FastAPI automatically generates interactive API documentation for you. Visit http://127.0.0.1:8000/docs to see the Swagger UI and explore your API endpoints."
+        },
+        {
+            "title": "Async Programming with FastAPI (Close Shot)",
+            "content": "One of FastAPI's strengths is its support for asynchronous programming. This allows your application to handle many requests simultaneously, making it faster and more efficient."
+        },
+        {
+            "title": "Wrap Up (Wide Shot)",
+            "content": "We've just scratched the surface of what FastAPI can do. In the upcoming tutorials, we'll explore more advanced topics like authentication, database integration, and deployment."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you enjoyed this video, please like, subscribe, and leave a comment below with your thoughts or questions. Your feedback helps us create better content for you. Don't forget to hit the notification bell to stay updated with our latest tutorials!"
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching! I'm Sayed Jihad Al Sayed, and I'll see you in the next video. Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

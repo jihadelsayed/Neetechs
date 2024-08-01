@@ -1,0 +1,51 @@
+{
+    "title": "Deploying FastAPI Applications",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're focusing on deploying FastAPI applications. Deployment is the final step in making your APIs accessible to users. By the end of this video, you'll understand how to deploy FastAPI applications using various platforms such as Heroku, Docker, and AWS. Let's get started!"
+        },
+        {
+            "title": "Understanding Deployment (Close Shot)",
+            "content": "Deployment is the process of making your application available to users over the internet. It involves setting up a server to host your application, configuring it for optimal performance, and ensuring it's secure and reliable. FastAPI is well-suited for deployment due to its speed and efficiency, and it can be deployed on various platforms."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "Let's prepare our FastAPI project for deployment. We'll create a new directory, set up a virtual environment, and install the necessary packages. We'll also create a simple FastAPI app that we can deploy.",
+            "code": "# Create a new project directory\nmkdir fastapi-deployment\ncd fastapi-deployment\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI and Uvicorn\npip install fastapi uvicorn\n\n# Create a simple FastAPI app\n\n# main.py\nfrom fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get(\"/\")\nasync def read_root():\n    return {\"message\": \"Hello, World!\"}"
+        },
+        {
+            "title": "Deploying on Heroku (Close Shot + Screen Recording)",
+            "content": "Heroku is a popular platform-as-a-service (PaaS) that allows you to deploy applications quickly and easily. Let's deploy our FastAPI app on Heroku.",
+            "code": "# Install Heroku CLI\n# Follow the instructions at https://devcenter.heroku.com/articles/heroku-cli\n\n# Log in to Heroku\nheroku login\n\n# Create a new Heroku app\nheroku create your-app-name\n\n# Create a Procfile to specify the command to run your app\n# Procfile\nweb: uvicorn main:app --host=0.0.0.0 --port=${PORT:-5000}\n\n# Create a requirements.txt file\npip freeze > requirements.txt\n\n# Deploy to Heroku\nheroku git:remote -a your-app-name\ngit add .\ngit commit -m \"Initial commit\"\ngit push heroku main\n\n# Open your deployed app\nheroku open"
+        },
+        {
+            "title": "Deploying with Docker (Close Shot + Screen Recording)",
+            "content": "Docker is a powerful tool for creating containerized applications that can run consistently across different environments. Let's create a Docker image for our FastAPI app and deploy it.",
+            "code": "# Install Docker\n# Follow the instructions at https://docs.docker.com/get-docker/\n\n# Create a Dockerfile\n# Dockerfile\nFROM tiangolo/uvicorn-gunicorn-fastapi:python3.9\nCOPY ./app /app\n\n# Build the Docker image\ndocker build -t fastapi-app .\n\n# Run the Docker container\ndocker run -d --name fastapi-container -p 8000:80 fastapi-app\n\n# Open your app in a browser\n# http://localhost:8000"
+        },
+        {
+            "title": "Deploying on AWS (Close Shot)",
+            "content": "AWS offers a wide range of services for deploying applications. We'll use AWS Elastic Beanstalk, a PaaS solution, to deploy our FastAPI app. Ensure you have an AWS account and AWS CLI set up.",
+            "code": "# Install AWS CLI\n# Follow the instructions at https://aws.amazon.com/cli/\n\n# Initialize Elastic Beanstalk\nebx init -p python-3.9 fastapi-app\n\n# Create an Elastic Beanstalk environment\nebx create fastapi-env\n\n# Deploy the application\nebx deploy\n\n# Open the Elastic Beanstalk environment\nebx open"
+        },
+        {
+            "title": "Optimizing for Production (Close Shot)",
+            "content": "When deploying your FastAPI app to production, it's important to optimize it for performance and security. Consider using a reverse proxy like Nginx, enabling HTTPS, and monitoring your app with tools like Prometheus and Grafana.",
+            "code": "# Example Nginx configuration\n\nserver {\n    listen 80;\n    server_name your-domain.com;\n\n    location / {\n        proxy_pass http://localhost:8000;\n        proxy_set_header Host $host;\n        proxy_set_header X-Real-IP $remote_addr;\n        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n        proxy_set_header X-Forwarded-Proto $scheme;\n    }\n}\n\n# Enable HTTPS with Let's Encrypt\n# Follow the instructions at https://certbot.eff.org/"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we covered how to deploy FastAPI applications using Heroku, Docker, and AWS Elastic Beanstalk. We also discussed best practices for optimizing your application for production. Deployment is a crucial step in making your APIs available to users, and understanding the deployment process will help you deliver reliable and scalable applications."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-tenth-video-link"
+}

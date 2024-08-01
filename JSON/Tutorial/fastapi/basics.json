@@ -1,0 +1,47 @@
+{
+    "title": "FastAPI Basics",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore some foundational concepts of FastAPI that will help you build more interactive and dynamic APIs. Let's dive right in!"
+        },
+        {
+            "title": "Understanding Path Parameters (Close Shot + Screen Recording)",
+            "content": "Path parameters allow us to capture specific parts of a URL and use them in our application. Let's see how we can use path parameters to create more dynamic routes in FastAPI.",
+            "code": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get(\"/items/{item_id}\")\nasync def read_item(item_id: int):\n    return {\"item_id\": item_id}"
+        },
+        {
+            "title": "Working with Query Parameters (Close Shot + Screen Recording)",
+            "content": "Query parameters provide additional information to our endpoints without altering the URL structure. They are optional and can be very powerful when customizing requests. Let's add a query parameter to our previous example.",
+            "code": "@app.get(\"/items/{item_id}\")\nasync def read_item(item_id: int, q: str = None):\n    return {\"item_id\": item_id, \"query\": q}"
+        },
+        {
+            "title": "Creating Request and Response Models (Close Shot + Screen Recording)",
+            "content": "FastAPI uses Pydantic to validate request data and define response models. This makes it easy to ensure the data your API receives and sends meets your expectations.",
+            "code": "from pydantic import BaseModel\n\nclass Item(BaseModel):\n    name: str\n    description: str = None\n    price: float\n    tax: float = None\n\n@app.post(\"/items/\")\nasync def create_item(item: Item):\n    return {\"item_name\": item.name, \"item_price\": item.price}"
+        },
+        {
+            "title": "Response Models (Close Shot + Screen Recording)",
+            "content": "You can also define response models in FastAPI to control the shape of your API's response. Let's modify our endpoint to return only specific fields using a response model.",
+            "code": "class ItemResponse(BaseModel):\n    name: str\n    price: float\n\n@app.post(\"/items/\", response_model=ItemResponse)\nasync def create_item(item: Item):\n    return item"
+        },
+        {
+            "title": "Status Codes and Error Handling (Close Shot)",
+            "content": "FastAPI makes it easy to define custom status codes and handle errors gracefully. We can return a different status code by simply adding an `HTTPException` to our endpoints.",
+            "code": "from fastapi import HTTPException\n\n@app.get(\"/items/{item_id}\")\nasync def read_item(item_id: int):\n    if item_id not in fake_items_db:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    return {\"item_id\": item_id}"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we covered some of FastAPI's basic features: path and query parameters, request and response models, and error handling. These are the building blocks for creating powerful APIs. In the next video, we'll start building a simple CRUD API, taking these concepts to the next level."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support means a lot and helps us create more content like this. Hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-second-video-link"
+}

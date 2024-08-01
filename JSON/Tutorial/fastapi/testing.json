@@ -1,0 +1,51 @@
+{
+    "title": "Testing FastAPI Applications",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're focusing on testing FastAPI applications. Testing is a critical part of software development that ensures your code works as expected and helps prevent bugs in production. By the end of this video, you'll know how to write tests for your FastAPI application using Python's `unittest` and `pytest` libraries. Let's get started!"
+        },
+        {
+            "title": "Why Testing is Important (Close Shot)",
+            "content": "Testing your application is essential for delivering reliable software. It helps catch bugs early, ensures your code behaves as expected, and gives you the confidence to make changes and add new features. Automated testing is particularly valuable because it allows you to run tests quickly and consistently."
+        },
+        {
+            "title": "Setting Up the Project for Testing (Close Shot + Screen Recording)",
+            "content": "Let's set up a new FastAPI project with a testing environment. We'll create a new directory, set up a virtual environment, and install the required packages, including `pytest` and `httpx` for testing HTTP requests.",
+            "code": "# Create a new project directory\nmkdir fastapi-testing\ncd fastapi-testing\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI, Uvicorn, pytest, and httpx\npip install fastapi uvicorn pytest httpx"
+        },
+        {
+            "title": "Creating a Sample FastAPI Application (Close Shot + Screen Recording)",
+            "content": "We'll start by creating a simple FastAPI application to test. Let's create a `main.py` file with a basic CRUD API for managing items.",
+            "code": "from fastapi import FastAPI, HTTPException\nfrom pydantic import BaseModel\nfrom typing import List\n\napp = FastAPI()\n\nclass Item(BaseModel):\n    id: int\n    name: str\n    description: str = None\n    price: float\n\nfake_db = {}\n\n@app.post(\"/items/\", response_model=Item)\nasync def create_item(item: Item):\n    if item.id in fake_db:\n        raise HTTPException(status_code=400, detail=\"Item already exists\")\n    fake_db[item.id] = item\n    return item\n\n@app.get(\"/items/{item_id}\", response_model=Item)\nasync def read_item(item_id: int):\n    item = fake_db.get(item_id)\n    if item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    return item\n\n@app.get(\"/items/\", response_model=List[Item])\nasync def read_items():\n    return list(fake_db.values())\n\n@app.put(\"/items/{item_id}\", response_model=Item)\nasync def update_item(item_id: int, item: Item):\n    if item_id not in fake_db:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    fake_db[item_id] = item\n    return item\n\n@app.delete(\"/items/{item_id}\")\nasync def delete_item(item_id: int):\n    if item_id not in fake_db:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    del fake_db[item_id]\n    return {\"detail\": \"Item deleted\"}"
+        },
+        {
+            "title": "Writing Unit Tests with pytest (Close Shot + Screen Recording)",
+            "content": "Let's write some unit tests for our FastAPI application using `pytest`. We'll create a `test_main.py` file and write tests for each of our CRUD endpoints.",
+            "code": "from fastapi.testclient import TestClient\nfrom .main import app\n\nclient = TestClient(app)\n\ndef test_create_item():\n    response = client.post(\"/items/\", json={\"id\": 1, \"name\": \"Test Item\", \"price\": 9.99})\n    assert response.status_code == 200\n    assert response.json() == {\"id\": 1, \"name\": \"Test Item\", \"description\": None, \"price\": 9.99}\n\ndef test_create_existing_item():\n    client.post(\"/items/\", json={\"id\": 2, \"name\": \"Test Item 2\", \"price\": 19.99})\n    response = client.post(\"/items/\", json={\"id\": 2, \"name\": \"Test Item 2\", \"price\": 19.99})\n    assert response.status_code == 400\n    assert response.json() == {\"detail\": \"Item already exists\"}\n\ndef test_read_item():\n    client.post(\"/items/\", json={\"id\": 3, \"name\": \"Test Item 3\", \"price\": 29.99})\n    response = client.get(\"/items/3\")\n    assert response.status_code == 200\n    assert response.json() == {\"id\": 3, \"name\": \"Test Item 3\", \"description\": None, \"price\": 29.99}\n\ndef test_read_non_existing_item():\n    response = client.get(\"/items/999\")\n    assert response.status_code == 404\n    assert response.json() == {\"detail\": \"Item not found\"}\n\ndef test_update_item():\n    client.post(\"/items/\", json={\"id\": 4, \"name\": \"Test Item 4\", \"price\": 39.99})\n    response = client.put(\"/items/4\", json={\"id\": 4, \"name\": \"Updated Item 4\", \"price\": 49.99})\n    assert response.status_code == 200\n    assert response.json() == {\"id\": 4, \"name\": \"Updated Item 4\", \"description\": None, \"price\": 49.99}\n\ndef test_delete_item():\n    client.post(\"/items/\", json={\"id\": 5, \"name\": \"Test Item 5\", \"price\": 59.99})\n    response = client.delete(\"/items/5\")\n    assert response.status_code == 200\n    assert response.json() == {\"detail\": \"Item deleted\"}"
+        },
+        {
+            "title": "Running Tests with pytest (Close Shot + Screen Recording)",
+            "content": "Now that we've written our tests, let's run them using `pytest` and see the results. Testing should be automated and repeatable, so let's see it in action.",
+            "code": "# Run the tests using pytest\npytest"
+        },
+        {
+            "title": "Continuous Integration (CI) with GitHub Actions (Close Shot)",
+            "content": "Setting up Continuous Integration (CI) is a great way to automate your testing process. Let's see how to set up a CI pipeline using GitHub Actions to run our tests every time we push changes to our repository.",
+            "code": "name: CI\n\non:\n  push:\n    branches:\n      - main\n  pull_request:\n    branches:\n      - main\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n    - uses: actions/checkout@v2\n    - name: Set up Python\n      uses: actions/setup-python@v2\n      with:\n        python-version: 3.9\n    - name: Install dependencies\n      run: |\n        python -m venv venv\n        source venv/bin/activate\n        pip install fastapi uvicorn pytest httpx\n    - name: Run tests\n      run: |\n        source venv/bin/activate\n        pytest"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we covered how to write and run tests for FastAPI applications using `pytest`. We also explored setting up a Continuous Integration (CI) pipeline using GitHub Actions to automate our testing process. Testing is crucial for maintaining high-quality code and ensuring your application behaves as expected."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-ninth-video-link"
+}

@@ -1,0 +1,57 @@
+{
+    "title": "Building a Simple CRUD API with FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to build a simple CRUD API using FastAPI. CRUD operations are the backbone of any application, allowing us to create, read, update, and delete data. By the end of this video, you'll have a solid understanding of how to implement these operations in FastAPI. Let's get started!"
+        },
+        {
+            "title": "Project Setup (Close Shot + Screen Recording)",
+            "content": "Let's start by setting up our project structure. We'll create a new directory for our project and set up a virtual environment. Then, we'll install FastAPI and Uvicorn if you haven't done so already.",
+            "code": "# Create a new project directory\nmkdir fastapi-crud\ncd fastapi-crud\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI and Uvicorn\npip install fastapi uvicorn"
+        },
+        {
+            "title": "Creating a Basic FastAPI App (Close Shot + Screen Recording)",
+            "content": "Now, let's create a basic FastAPI app. Open your code editor and create a file named `main.py`. We'll define our FastAPI instance and set up a simple in-memory database to store our items.",
+            "code": "from fastapi import FastAPI\nfrom pydantic import BaseModel\n\napp = FastAPI()\n\n# In-memory database\nfake_items_db = {}\n\n# Item model\nclass Item(BaseModel):\n    name: str\n    description: str = None\n    price: float\n    tax: float = None"
+        },
+        {
+            "title": "Create Operation (POST) (Close Shot + Screen Recording)",
+            "content": "Let's start with the Create operation. We'll define an endpoint to add new items to our database. This endpoint will receive an Item object and store it in our in-memory database.",
+            "code": "@app.post(\"/items/\")\nasync def create_item(item_id: int, item: Item):\n    if item_id in fake_items_db:\n        return {\"error\": \"Item ID already exists.\"}\n    fake_items_db[item_id] = item\n    return {\"message\": \"Item created successfully\", \"item\": item}"
+        },
+        {
+            "title": "Read Operation (GET) (Close Shot + Screen Recording)",
+            "content": "Next, let's implement the Read operation. We'll create an endpoint to retrieve items from our database. This endpoint will return the item corresponding to the given item_id.",
+            "code": "@app.get(\"/items/{item_id}\")\nasync def read_item(item_id: int):\n    if item_id not in fake_items_db:\n        return {\"error\": \"Item not found.\"}\n    return fake_items_db[item_id]"
+        },
+        {
+            "title": "Update Operation (PUT) (Close Shot + Screen Recording)",
+            "content": "Now, let's add the Update operation. We'll define an endpoint to update existing items. This endpoint will receive an Item object and update the item with the corresponding item_id.",
+            "code": "@app.put(\"/items/{item_id}\")\nasync def update_item(item_id: int, item: Item):\n    if item_id not in fake_items_db:\n        return {\"error\": \"Item not found.\"}\n    fake_items_db[item_id] = item\n    return {\"message\": \"Item updated successfully\", \"item\": item}"
+        },
+        {
+            "title": "Delete Operation (DELETE) (Close Shot + Screen Recording)",
+            "content": "Finally, let's implement the Delete operation. We'll create an endpoint to remove items from our database. This endpoint will delete the item with the given item_id.",
+            "code": "@app.delete(\"/items/{item_id}\")\nasync def delete_item(item_id: int):\n    if item_id not in fake_items_db:\n        return {\"error\": \"Item not found.\"}\n    del fake_items_db[item_id]\n    return {\"message\": \"Item deleted successfully\"}"
+        },
+        {
+            "title": "Testing the CRUD API (Wide Shot + Screen Recording)",
+            "content": "Let's test our CRUD API using the interactive Swagger documentation provided by FastAPI. Start the server by running `uvicorn main:app --reload` and navigate to `http://127.0.0.1:8000/docs` to test each operation.",
+            "code": "# Run the server\nuvicorn main:app --reload"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we built a simple CRUD API using FastAPI. We covered the Create, Read, Update, and Delete operations and tested them using FastAPI's interactive documentation. These concepts are fundamental for any application, and mastering them will help you build more complex APIs in the future."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with your questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-third-video-link"
+}

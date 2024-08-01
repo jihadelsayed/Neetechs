@@ -21,7 +21,7 @@
             "name": "Customizable AI Chatbot Platform",
             "description": "Create and customize your own AI-powered chatbots.",
             "icon": "🤖",
-            "disable": false,
+            "disable": true,
             "link": "/tools/ai-chatbot-platform"
         },
         {
@@ -29,7 +29,7 @@
             "name": "AI Content Creation Suite",
             "description": "Generate high-quality content using AI.",
             "icon": "🖋️",
-            "disable": false,
+            "disable": true,
             "link": "/tools/ai-content-creation"
         },
         {
@@ -37,7 +37,7 @@
             "name": "Language Translation and Localization Tool",
             "description": "Translate and localize content for different languages.",
             "icon": "🌐",
-            "disable": false,
+            "disable": true,
             "link": "/tools/translation-localization"
         },
         {
@@ -45,7 +45,7 @@
             "name": "Personalized Learning and Tutoring Assistant",
             "description": "Create personalized tutoring experiences with AI.",
             "icon": "📚",
-            "disable": false,
+            "disable": true,
             "link": "/tools/learning-tutoring"
         },
         {
@@ -53,7 +53,7 @@
             "name": "AI-Powered Data Analysis and Visualization",
             "description": "Upload and analyze data with AI-generated visualizations.",
             "icon": "📊",
-            "disable": false,
+            "disable": true,
             "link": "/tools/data-analysis-visualization"
         },
         {
@@ -61,7 +61,7 @@
             "name": "Virtual Health and Wellness Advisor",
             "description": "Create and manage virtual health and wellness plans.",
             "icon": "💪",
-            "disable": false,
+            "disable": true,
             "link": "/tools/health-wellness"
         },
         {
@@ -69,7 +69,7 @@
             "name": "Creative Writing and Brainstorming Tool",
             "description": "Generate ideas and develop creative writing projects.",
             "icon": "📝",
-            "disable": false,
+            "disable": true,
             "link": "/tools/creative-writing"
         },
         {
@@ -77,7 +77,7 @@
             "name": "Interactive Resume and Career Builder",
             "description": "Create professional resumes and plan your career.",
             "icon": "📄",
-            "disable": false,
+            "disable": true,
             "link": "/tools/resume-career-builder"
         },
         {
@@ -85,7 +85,7 @@
             "name": "Customer Feedback and Sentiment Analysis Tool",
             "description": "Collect and analyze customer feedback with sentiment analysis.",
             "icon": "🗣️",
-            "disable": false,
+            "disable": true,
             "link": "/tools/feedback-sentiment"
         },
         {
@@ -93,7 +93,7 @@
             "name": "Virtual Event and Meeting Assistant",
             "description": "Manage and enhance virtual events and meetings.",
             "icon": "🎤",
-            "disable": false,
+            "disable": true,
             "link": "/tools/event-meeting-assistant"
         },
         {

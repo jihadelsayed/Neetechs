@@ -1,0 +1,56 @@
+{
+    "title": "Database Integration with FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to learn how to integrate a database with FastAPI. Databases are the backbone of any dynamic application, allowing us to store, retrieve, and manage data efficiently. By the end of this video, you'll know how to connect FastAPI with a SQL database using SQLAlchemy and perform CRUD operations. Let's get started!"
+        },
+        {
+            "title": "Choosing the Right Database (Close Shot)",
+            "content": "When integrating a database with FastAPI, it's essential to choose the right type of database for your application. SQL databases like PostgreSQL and MySQL are great for structured data and complex queries, while NoSQL databases like MongoDB are ideal for unstructured data and rapid development. In this tutorial, we'll focus on integrating a SQL database using SQLAlchemy."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "Let's set up a new FastAPI project for database integration. We'll create a new directory, set up a virtual environment, and install the required packages, including SQLAlchemy and a database driver.",
+            "code": "# Create a new project directory\nmkdir fastapi-db\ncd fastapi-db\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI, Uvicorn, SQLAlchemy, and a database driver (e.g., SQLite)\npip install fastapi uvicorn sqlalchemy sqlite"
+        },
+        {
+            "title": "Defining the Database Models (Close Shot + Screen Recording)",
+            "content": "We'll use SQLAlchemy to define our database models. Let's create a `models.py` file and define a simple model for an `Item` table in our database.",
+            "code": "from sqlalchemy import create_engine, Column, Integer, String, Float\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy.orm import sessionmaker\n\nSQLALCHEMY_DATABASE_URL = \"sqlite:///./test.db\"\n\nengine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\n\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n\nBase = declarative_base()\n\nclass Item(Base):\n    __tablename__ = \"items\"\n\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)\n    price = Column(Float)\n    tax = Column(Float)"
+        },
+        {
+            "title": "Creating the Database Tables (Close Shot + Screen Recording)",
+            "content": "Let's create the tables in our database based on the models we defined. We'll use SQLAlchemy's `Base.metadata.create_all()` function to do this.",
+            "code": "Base.metadata.create_all(bind=engine)"
+        },
+        {
+            "title": "Setting Up the FastAPI Application (Close Shot + Screen Recording)",
+            "content": "Now, let's set up our FastAPI application to interact with the database. We'll create a new `main.py` file, connect to the database, and define endpoints to perform CRUD operations.",
+            "code": "from fastapi import FastAPI, Depends, HTTPException\nfrom sqlalchemy.orm import Session\n\nfrom . import models\nfrom .database import SessionLocal, engine\n\nmodels.Base.metadata.create_all(bind=engine)\n\napp = FastAPI()\n\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n\n@app.post(\"/items/\", response_model=Item)\nasync def create_item(item: ItemCreate, db: Session = Depends(get_db)):\n    db_item = models.Item(**item.dict())\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item"
+        },
+        {
+            "title": "Performing CRUD Operations (Close Shot + Screen Recording)",
+            "content": "Let's define endpoints for all CRUD operations: Create, Read, Update, and Delete. We'll add these endpoints to our `main.py` file.",
+            "code": "# Read all items\n@app.get(\"/items/\", response_model=List[Item])\nasync def read_items(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):\n    items = db.query(models.Item).offset(skip).limit(limit).all()\n    return items\n\n# Read a single item\n@app.get(\"/items/{item_id}\", response_model=Item)\nasync def read_item(item_id: int, db: Session = Depends(get_db)):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    return db_item\n\n# Update an item\n@app.put(\"/items/{item_id}\", response_model=Item)\nasync def update_item(item_id: int, item: ItemCreate, db: Session = Depends(get_db)):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    for key, value in item.dict().items():\n        setattr(db_item, key, value)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\n\n# Delete an item\n@app.delete(\"/items/{item_id}\", response_model=Item)\nasync def delete_item(item_id: int, db: Session = Depends(get_db)):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    db.delete(db_item)\n    db.commit()\n    return db_item"
+        },
+        {
+            "title": "Testing the API with a Database (Wide Shot + Screen Recording)",
+            "content": "Let's test our API using FastAPI's interactive documentation. Start the server by running `uvicorn main:app --reload` and navigate to `http://127.0.0.1:8000/docs` to test the CRUD endpoints with the database.",
+            "code": "# Run the server\nuvicorn main:app --reload"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we integrated a SQL database with FastAPI using SQLAlchemy. We defined database models, created tables, and implemented CRUD operations. With this knowledge, you can now build data-driven applications that interact with databases effectively."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-seventh-video-link"
+}

@@ -1,0 +1,55 @@
+{
+    "title": "Middleware and Background Tasks in FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're exploring two powerful features of FastAPI: middleware and background tasks. Middleware allows you to add functionality to your application globally, such as logging or authentication, while background tasks let you perform operations asynchronously, improving the performance and responsiveness of your API. Let's dive in and see how we can leverage these features in FastAPI!"
+        },
+        {
+            "title": "Understanding Middleware (Close Shot)",
+            "content": "Middleware is a function that runs before each request in your application. It can modify the request, execute code before or after the endpoint is called, and even change the response. Middleware is great for adding cross-cutting concerns like logging, CORS, or authentication to your FastAPI app."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "Let's set up a new FastAPI project to explore middleware and background tasks. We'll create a new directory, set up a virtual environment, and install the necessary packages.",
+            "code": "# Create a new project directory\nmkdir fastapi-middleware-background\ncd fastapi-middleware-background\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI and Uvicorn\npip install fastapi uvicorn"
+        },
+        {
+            "title": "Implementing Middleware (Close Shot + Screen Recording)",
+            "content": "Let's create a simple middleware to log the details of each incoming request. We'll add this middleware to our FastAPI application.",
+            "code": "from fastapi import FastAPI, Request\nimport time\n\napp = FastAPI()\n\n@app.middleware(\"http\")\nasync def log_requests(request: Request, call_next):\n    start_time = time.time()\n    response = await call_next(request)\n    process_time = time.time() - start_time\n    formatted_process_time = '{0:.2f}'.format(process_time)\n    print(f\"Request: {request.method} {request.url} completed in {formatted_process_time}s\")\n    return response"
+        },
+        {
+            "title": "Adding CORS Middleware (Close Shot + Screen Recording)",
+            "content": "Cross-Origin Resource Sharing (CORS) is a security feature implemented by browsers to control access to resources based on the origin of the request. Let's add CORS middleware to our FastAPI application to allow requests from specific origins.",
+            "code": "from fastapi.middleware.cors import CORSMiddleware\n\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Allow all origins for demo purposes\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)"
+        },
+        {
+            "title": "Understanding Background Tasks (Close Shot)",
+            "content": "Background tasks allow you to run code asynchronously, enabling your application to handle requests without waiting for long-running operations to complete. This can be useful for tasks like sending emails, processing data, or updating logs without blocking the main request flow."
+        },
+        {
+            "title": "Implementing Background Tasks (Close Shot + Screen Recording)",
+            "content": "Let's implement a background task in our FastAPI application. We'll create a simple task that simulates sending an email after a new item is created.",
+            "code": "from fastapi import BackgroundTasks\n\nasync def send_email(email: str, message: str):\n    # Simulate a delay in sending an email\n    time.sleep(5)\n    print(f\"Email sent to {email} with message: {message}\")\n\n@app.post(\"/items/{item_id}\")\nasync def create_item(item_id: int, background_tasks: BackgroundTasks):\n    background_tasks.add_task(send_email, \"user@example.com\", f\"Item {item_id} created.\")\n    return {\"message\": \"Item created\", \"item_id\": item_id}"
+        },
+        {
+            "title": "Combining Middleware and Background Tasks (Close Shot + Screen Recording)",
+            "content": "You can combine middleware and background tasks to enhance your application's functionality. For example, you can log request details using middleware and perform cleanup tasks or data processing in the background.",
+            "code": "from fastapi import FastAPI, Request, BackgroundTasks\nimport time\n\napp = FastAPI()\n\n@app.middleware(\"http\")\nasync def log_requests(request: Request, call_next):\n    start_time = time.time()\n    response = await call_next(request)\n    process_time = time.time() - start_time\n    formatted_process_time = '{0:.2f}'.format(process_time)\n    print(f\"Request: {request.method} {request.url} completed in {formatted_process_time}s\")\n    return response\n\nasync def cleanup_task():\n    time.sleep(2)\n    print(\"Cleanup task completed.\")\n\n@app.post(\"/items/{item_id}\")\nasync def create_item(item_id: int, background_tasks: BackgroundTasks):\n    background_tasks.add_task(cleanup_task)\n    return {\"message\": \"Item created\", \"item_id\": item_id}"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we explored middleware and background tasks in FastAPI. We implemented logging middleware, added CORS support, and created background tasks for asynchronous operations. By leveraging these features, you can enhance your application's performance and functionality."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-eighth-video-link"
+}

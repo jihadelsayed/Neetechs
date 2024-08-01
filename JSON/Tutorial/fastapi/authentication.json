@@ -1,0 +1,51 @@
+{
+    "title": "Authentication and Authorization in FastAPI",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're tackling a critical topic: authentication and authorization in FastAPI. Security is a cornerstone of any API, and understanding how to protect your application is essential. By the end of this video, you'll know how to implement JWT-based authentication and role-based access control in FastAPI. Let's dive in!"
+        },
+        {
+            "title": "Understanding Authentication vs. Authorization (Close Shot)",
+            "content": "Before we get started, let's clarify the difference between authentication and authorization. Authentication is the process of verifying the identity of a user or system. It's like checking someone's ID at a door. Authorization, on the other hand, is about determining what an authenticated user is allowed to do. It's like checking if someone has a ticket to access a particular event. Both are crucial for securing your APIs."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "Let's set up a new FastAPI project for this tutorial. We'll create a new directory, set up a virtual environment, and install the required packages.",
+            "code": "# Create a new project directory\nmkdir fastapi-auth\ncd fastapi-auth\n\n# Set up a virtual environment\npython -m venv venv\n\n# Activate the virtual environment\n# On Windows\nvenv\\Scripts\\activate\n\n# On macOS/Linux\nsource venv/bin/activate\n\n# Install FastAPI, Uvicorn, and PyJWT\npip install fastapi uvicorn python-jose"
+        },
+        {
+            "title": "Implementing JWT Authentication (Close Shot + Screen Recording)",
+            "content": "We'll use JSON Web Tokens (JWT) to implement authentication in our FastAPI application. JWT is a widely used standard for securely transmitting information between parties as a JSON object.",
+            "code": "from fastapi import FastAPI, Depends, HTTPException, status\nfrom fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm\nfrom jose import JWTError, jwt\nfrom pydantic import BaseModel\nfrom typing import Optional\n\nSECRET_KEY = \"your_secret_key\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\n\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\n\nclass TokenData(BaseModel):\n    username: Optional[str] = None\n\nclass User(BaseModel):\n    username: str\n\nclass UserInDB(User):\n    hashed_password: str\n\nfake_users_db = {\n    \"johndoe\": {\n        \"username\": \"johndoe\",\n        \"hashed_password\": \"fakehashedpassword\",\n    }\n}\n\napp = FastAPI()\n\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\n\ndef fake_hash_password(password: str):\n    return \"fakehashed\" + password\n\ndef verify_password(plain_password, hashed_password):\n    return fake_hash_password(plain_password) == hashed_password\n\ndef get_user(db, username: str):\n    if username in db:\n        user_dict = db[username]\n        return UserInDB(**user_dict)\n\ndef authenticate_user(fake_db, username: str, password: str):\n    user = get_user(fake_db, username)\n    if not user:\n        return False\n    if not verify_password(password, user.hashed_password):\n        return False\n    return user\n\nfrom datetime import datetime, timedelta\n\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\n\n@app.post(\"/token\", response_model=Token)\nasync def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):\n    user = authenticate_user(fake_users_db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    access_token = create_access_token(\n        data={\"sub\": user.username}, expires_delta=access_token_expires\n    )\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}"
+        },
+        {
+            "title": "Securing API Endpoints (Close Shot + Screen Recording)",
+            "content": "Now that we have JWT authentication in place, let's secure our API endpoints by requiring a valid token for access.",
+            "code": "async def get_current_user(token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    user = get_user(fake_users_db, username=token_data.username)\n    if user is None:\n        raise credentials_exception\n    return user\n\n@app.get(\"/users/me\", response_model=User)\nasync def read_users_me(current_user: User = Depends(get_current_user)):\n    return current_user"
+        },
+        {
+            "title": "Role-Based Access Control (RBAC) (Close Shot + Screen Recording)",
+            "content": "Let's implement role-based access control to manage permissions for different users. We'll extend our JWT payload to include user roles and restrict access based on these roles.",
+            "code": "class UserRole(BaseModel):\n    role: str\n\n@app.get(\"/admin\")\nasync def read_admin_data(current_user: UserRole = Depends(get_current_user)):\n    if current_user.role != \"admin\":\n        raise HTTPException(\n            status_code=status.HTTP_403_FORBIDDEN,\n            detail=\"You do not have the required permissions\",\n        )\n    return {\"admin_data\": \"This is admin-only data\"}"
+        },
+        {
+            "title": "Testing Authentication (Wide Shot + Screen Recording)",
+            "content": "Let's test our authentication system using FastAPI's interactive documentation. Start the server by running `uvicorn main:app --reload` and navigate to `http://127.0.0.1:8000/docs` to test the login and protected endpoints.",
+            "code": "# Run the server\nuvicorn main:app --reload"
+        },
+        {
+            "title": "Conclusion and Recap (Wide Shot)",
+            "content": "In this tutorial, we covered authentication and authorization in FastAPI using JWTs. We implemented a login system, secured API endpoints, and set up role-based access control. These techniques are crucial for building secure and scalable applications."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Your support helps us create more content like this. Don't forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video! Happy coding!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-sixth-video-link"
+}
