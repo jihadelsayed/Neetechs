@@ -2,64 +2,63 @@
     "title": "Repairing Services",
     "overview": "We offer comprehensive repair services for mobile devices, computers, and laptops. Our skilled technicians can diagnose and fix a wide range of hardware and software issues, ensuring your devices are running smoothly.",
     "services": [
-      {
-        "name": "Mobile Device Repair",
-        "description": "Repairing various issues on smartphones and tablets."
-      },
-      {
-        "name": "Computer Repair",
-        "description": "Fixing hardware and software problems on desktops."
-      },
-      {
-        "name": "Laptop Repair",
-        "description": "Addressing common laptop issues like screen damage and overheating."
-      }
+        {
+            "name": "Mobile Device Repair",
+            "description": "Repairing various issues on smartphones and tablets."
+        },
+        {
+            "name": "Computer Repair",
+            "description": "Fixing hardware and software problems on desktops."
+        },
+        {
+            "name": "Laptop Repair",
+            "description": "Addressing common laptop issues like screen damage and overheating."
+        }
     ],
     "portfolio": [
-      {
-        "projectName": "Repair Job Epsilon",
-        "client": "Client E",
-        "image": "path/to/image5.jpg",
-        "testimonial": "Quick and efficient repair service!"
-      },
-      {
-        "projectName": "Repair Job Zeta",
-        "client": "Client F",
-        "image": "path/to/image6.jpg",
-        "testimonial": "My device works like new!"
-      }
+        {
+            "projectName": "Repair Job Epsilon",
+            "client": "Client E",
+            "image": "path/to/image5.jpg",
+            "testimonial": "Quick and efficient repair service!"
+        },
+        {
+            "projectName": "Repair Job Zeta",
+            "client": "Client F",
+            "image": "path/to/image6.jpg",
+            "testimonial": "My device works like new!"
+        }
     ],
     "process": [
-      "Diagnostics",
-      "Repair",
-      "Quality Assurance",
-      "Return to Client"
+        "Diagnostics",
+        "Repair",
+        "Quality Assurance",
+        "Return to Client"
     ],
     "technologies": [
-      "Diagnostic Tools",
-      "Soldering Equipment",
-      "Repair Software"
+        "Diagnostic Tools",
+        "Soldering Equipment",
+        "Repair Software"
     ],
     "testimonials": [
-      {
-        "client": "Client E",
-        "feedback": "Fantastic repair service!"
-      },
-      {
-        "client": "Client F",
-        "feedback": "Reliable and affordable repairs."
-      }
+        {
+            "client": "Client E",
+            "feedback": "Fantastic repair service!"
+        },
+        {
+            "client": "Client F",
+            "feedback": "Reliable and affordable repairs."
+        }
     ],
     "callToAction": "Schedule your repair service today!",
     "faq": [
-      {
-        "question": "What devices do you repair?",
-        "answer": "We repair smartphones, tablets, laptops, and desktops."
-      },
-      {
-        "question": "What is your warranty policy?",
-        "answer": "We offer a 30-day warranty on all repairs."
-      }
+        {
+            "question": "What devices do you repair?",
+            "answer": "We repair smartphones, tablets, laptops, and desktops."
+        },
+        {
+            "question": "What is your warranty policy?",
+            "answer": "We offer a 30-day warranty on all repairs."
+        }
     ]
-  }
-  
+}
