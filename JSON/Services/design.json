@@ -1,0 +1,66 @@
+{
+    "title": "Design Services",
+    "overview": "We provide top-notch design services including graphic design, UI/UX design, and website design. Our team of creative designers will work with you to create visually appealing and user-friendly designs that meet your specific needs.",
+    "services": [
+      {
+        "name": "Graphic Design",
+        "description": "Specializing in branding, marketing materials, and visual content."
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Creating user-centered interfaces for websites and applications."
+      },
+      {
+        "name": "Website Design",
+        "description": "Building responsive and visually appealing websites."
+      }
+    ],
+    "portfolio": [
+      {
+        "projectName": "Project Alpha",
+        "client": "Client A",
+        "image": "path/to/image1.jpg",
+        "testimonial": "The team delivered excellent design work!"
+      },
+      {
+        "projectName": "Project Beta",
+        "client": "Client B",
+        "image": "path/to/image2.jpg",
+        "testimonial": "Outstanding creativity and execution."
+      }
+    ],
+    "process": [
+      "Concept Development",
+      "Design Prototyping",
+      "Client Feedback",
+      "Final Delivery"
+    ],
+    "technologies": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Sketch",
+      "Figma"
+    ],
+    "testimonials": [
+      {
+        "client": "Client A",
+        "feedback": "Amazing service and beautiful designs!"
+      },
+      {
+        "client": "Client B",
+        "feedback": "Highly professional and creative team."
+      }
+    ],
+    "callToAction": "Contact us today to start your design project!",
+    "faq": [
+      {
+        "question": "What is the typical timeline for a design project?",
+        "answer": "The timeline varies depending on the project scope, but typically ranges from 2-6 weeks."
+      },
+      {
+        "question": "How do you handle client feedback?",
+        "answer": "We value client feedback and incorporate it at various stages of the design process."
+      }
+    ]
+  }
+  

@@ -1,0 +1,65 @@
+{
+    "title": "Maintenance Services",
+    "overview": "Our maintenance services ensure that your technology and systems are always running at peak performance. We provide regular updates, troubleshooting, and system optimizations to keep your business operations smooth and efficient.",
+    "services": [
+      {
+        "name": "IT Systems Maintenance",
+        "description": "Regular updates and checks to ensure your IT systems run smoothly and securely."
+      },
+      {
+        "name": "Website Maintenance",
+        "description": "Routine updates, backups, and performance checks for your website."
+      },
+      {
+        "name": "Hardware Maintenance",
+        "description": "Preventative maintenance and repair services for computers and other hardware."
+      }
+    ],
+    "portfolio": [
+      {
+        "projectName": "Ongoing IT Support for Client G",
+        "client": "Client G",
+        "image": "path/to/image7.jpg",
+        "testimonial": "Reliable and prompt maintenance service that keeps our business running smoothly."
+      },
+      {
+        "projectName": "Website Management for Client H",
+        "client": "Client H",
+        "image": "path/to/image8.jpg",
+        "testimonial": "Proactive management and support for our website's uptime and performance."
+      }
+    ],
+    "process": [
+      "Initial Assessment",
+      "Scheduled Maintenance",
+      "Monitoring and Alerts",
+      "Client Reporting"
+    ],
+    "technologies": [
+      "Monitoring Software",
+      "Remote Management Tools",
+      "Security Solutions"
+    ],
+    "testimonials": [
+      {
+        "client": "Client G",
+        "feedback": "The team is always ready to help with any issue, big or small."
+      },
+      {
+        "client": "Client H",
+        "feedback": "We trust them to handle all our maintenance needs efficiently."
+      }
+    ],
+    "callToAction": "Contact us to set up a maintenance plan tailored to your needs!",
+    "faq": [
+      {
+        "question": "What maintenance plans do you offer?",
+        "answer": "We offer various plans, including monthly, quarterly, and annual maintenance packages."
+      },
+      {
+        "question": "How do you handle emergencies?",
+        "answer": "We provide 24/7 support for critical issues and emergencies."
+      }
+    ]
+  }
+  

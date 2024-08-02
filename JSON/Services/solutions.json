@@ -1,0 +1,65 @@
+{
+    "title": "Custom Solutions",
+    "overview": "Our custom solutions are tailored to meet your unique business needs. We work closely with you to design, develop, and implement solutions that align with your strategic goals and enhance your operations.",
+    "services": [
+      {
+        "name": "Custom Software Development",
+        "description": "Designing and developing bespoke software solutions tailored to your business processes."
+      },
+      {
+        "name": "Enterprise Solutions",
+        "description": "Implementing custom enterprise systems to streamline operations and improve efficiency."
+      },
+      {
+        "name": "Technology Consulting",
+        "description": "Offering expert advice and strategic planning for technology initiatives."
+      }
+    ],
+    "portfolio": [
+      {
+        "projectName": "Custom CRM System for Client I",
+        "client": "Client I",
+        "image": "path/to/image9.jpg",
+        "testimonial": "The custom CRM system transformed our customer management process, making it more efficient and effective."
+      },
+      {
+        "projectName": "Enterprise Resource Planning for Client J",
+        "client": "Client J",
+        "image": "path/to/image10.jpg",
+        "testimonial": "Their team delivered a comprehensive ERP solution that streamlined our business operations."
+      }
+    ],
+    "process": [
+      "Consultation and Requirement Gathering",
+      "Design and Planning",
+      "Development and Testing",
+      "Implementation and Support"
+    ],
+    "technologies": [
+      "Custom Development Platforms",
+      "Cloud Solutions",
+      "Data Analytics Tools"
+    ],
+    "testimonials": [
+      {
+        "client": "Client I",
+        "feedback": "The custom solution perfectly matched our needs and exceeded our expectations."
+      },
+      {
+        "client": "Client J",
+        "feedback": "Professional and attentive, they delivered a solution that revolutionized our business processes."
+      }
+    ],
+    "callToAction": "Reach out to discuss how we can create a custom solution for your business!",
+    "faq": [
+      {
+        "question": "What types of custom solutions do you provide?",
+        "answer": "We provide a range of solutions, including custom software, enterprise systems, and consulting services."
+      },
+      {
+        "question": "How do you ensure the solution fits our needs?",
+        "answer": "We work closely with you through every step, from requirements gathering to implementation, ensuring the solution aligns with your goals."
+      }
+    ]
+  }
+  

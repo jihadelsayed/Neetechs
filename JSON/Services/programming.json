@@ -1,0 +1,66 @@
+{
+    "title": "Programming Services",
+    "overview": "Our programming services cover web development, mobile app development, and backend development. We use the latest technologies and frameworks to build robust and scalable applications that deliver exceptional performance.",
+    "services": [
+      {
+        "name": "Web Development",
+        "description": "Building websites using HTML, CSS, JavaScript, and more."
+      },
+      {
+        "name": "Mobile App Development",
+        "description": "Developing applications for iOS and Android platforms."
+      },
+      {
+        "name": "Backend Development",
+        "description": "Creating server-side solutions with databases and APIs."
+      }
+    ],
+    "portfolio": [
+      {
+        "projectName": "Project Gamma",
+        "client": "Client C",
+        "image": "path/to/image3.jpg",
+        "testimonial": "Impressive coding skills and project delivery!"
+      },
+      {
+        "projectName": "Project Delta",
+        "client": "Client D",
+        "image": "path/to/image4.jpg",
+        "testimonial": "Professional and reliable development team."
+      }
+    ],
+    "process": [
+      "Requirement Analysis",
+      "Development",
+      "Testing",
+      "Deployment"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "Python",
+      "Java"
+    ],
+    "testimonials": [
+      {
+        "client": "Client C",
+        "feedback": "Top-notch programming services!"
+      },
+      {
+        "client": "Client D",
+        "feedback": "Great communication and execution."
+      }
+    ],
+    "callToAction": "Get in touch for your programming needs!",
+    "faq": [
+      {
+        "question": "What programming languages do you use?",
+        "answer": "We use a variety of languages, including JavaScript, Python, and Java."
+      },
+      {
+        "question": "How long does it take to develop a web application?",
+        "answer": "The development time varies depending on complexity, but generally takes 4-12 weeks."
+      }
+    ]
+  }
+  
