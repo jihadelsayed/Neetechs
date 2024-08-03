@@ -48,7 +48,7 @@
             "description": "Handling exceptions\nCustom error responses",
             "lvl": "Intermediate",
             "date": "August 12, 2024",
-            "href": "tutorials/fastapi/error-handling",
+            "href": "tutorials/fastapi/error_handling",
             "duration": "15 minutes"
         },
         {
@@ -66,7 +66,7 @@
             "description": "Using SQLAlchemy\nConnecting to MongoDB",
             "lvl": "Advanced",
             "date": "August 18, 2024",
-            "href": "tutorials/fastapi/database-integration",
+            "href": "tutorials/fastapi/database_integration",
             "duration": "25 minutes"
         },
         {

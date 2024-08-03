@@ -6,7 +6,7 @@
             "description": "Convert text to emojis for fun communication.",
             "icon": "😊",
             "disable": false,
-            "link": "/tools/emoji-translator"
+            "link": "/tools/emoji_translator"
         },
         {
             "type": "Simple Tools",
