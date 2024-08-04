@@ -1,6 +1,6 @@
 {
   "origin": "https://github.com/notwaldorf/emoji-translate/blob/master/extension/emojis.json",
-  "filtered_data": {
+  "data": {
     "grinning": {
       "keywords": [
         "face",
