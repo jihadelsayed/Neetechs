@@ -1,4 +1,27 @@
 {
+  "title": "Emoji Translator",
+  "image": "none",
+  "input": "Input Text:",
+  "output": "Translated Text:",
+  "button": "Translate",
+  "toolType": "InputOutputJson",
+  "heroText": "Help us by adding mor emoje to our repository on github:",
+  "heroLinkName": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/emoji_translator/emoji_translator.json",
+  "heroLink": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/emoji_translator/emoji_translator.json",
+  "jobOption": [
+    {
+      "text": "Text to Emoji",
+      "value": "text-to-emoji"
+    },
+    {
+      "text": "Emoji to Text",
+      "value": "emoji-to-text"
+    },
+    {
+      "text": "Add Emojis to Text (emojify!)",
+      "value": "add-emojis-to-text"
+    }
+  ],
   "origin": "https://github.com/notwaldorf/emoji-translate/blob/master/extension/emojis.json",
   "data": {
     "grinning": {

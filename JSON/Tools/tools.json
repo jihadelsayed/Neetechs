@@ -2,6 +2,7 @@
     "tools": [
         {
             "type": "Simple Tools",
+            "toolType": "InputOutputJson",
             "name": "Emoji Translator",
             "description": "Convert text to emojis for fun communication.",
             "icon": "😊",
