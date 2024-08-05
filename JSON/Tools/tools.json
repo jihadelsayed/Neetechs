@@ -7,7 +7,7 @@
             "description": "Convert text to emojis for fun communication.",
             "icon": "😊",
             "disable": false,
-            "link": "/tools/emoji_translator"
+            "link": "tools/emoji_translator"
         },
         {
             "type": "Simple Tools",
@@ -15,7 +15,7 @@
             "description": "Improve your writing by suggesting grammar, spelling, and style corrections.",
             "icon": "📝",
             "disable": true,
-            "link": "/tools/grammar-checker"
+            "link": "tools/grammar-checker"
         },
         {
             "type": "Advanced Tools",
@@ -23,7 +23,7 @@
             "description": "Create and customize your own AI-powered chatbots.",
             "icon": "🤖",
             "disable": true,
-            "link": "/tools/ai-chatbot-platform"
+            "link": "tools/ai-chatbot-platform"
         },
         {
             "type": "Advanced Tools",
@@ -31,7 +31,7 @@
             "description": "Generate high-quality content using AI.",
             "icon": "🖋️",
             "disable": true,
-            "link": "/tools/ai-content-creation"
+            "link": "tools/ai-content-creation"
         },
         {
             "type": "Advanced Tools",
@@ -39,7 +39,7 @@
             "description": "Translate and localize content for different languages.",
             "icon": "🌐",
             "disable": true,
-            "link": "/tools/translation-localization"
+            "link": "tools/translation-localization"
         },
         {
             "type": "Advanced Tools",
@@ -47,7 +47,7 @@
             "description": "Create personalized tutoring experiences with AI.",
             "icon": "📚",
             "disable": true,
-            "link": "/tools/learning-tutoring"
+            "link": "tools/learning-tutoring"
         },
         {
             "type": "Advanced Tools",
@@ -55,7 +55,7 @@
             "description": "Upload and analyze data with AI-generated visualizations.",
             "icon": "📊",
             "disable": true,
-            "link": "/tools/data-analysis-visualization"
+            "link": "tools/data-analysis-visualization"
         },
         {
             "type": "Advanced Tools",
@@ -63,7 +63,7 @@
             "description": "Create and manage virtual health and wellness plans.",
             "icon": "💪",
             "disable": true,
-            "link": "/tools/health-wellness"
+            "link": "tools/health-wellness"
         },
         {
             "type": "Advanced Tools",
@@ -71,7 +71,7 @@
             "description": "Generate ideas and develop creative writing projects.",
             "icon": "📝",
             "disable": true,
-            "link": "/tools/creative-writing"
+            "link": "tools/creative-writing"
         },
         {
             "type": "Advanced Tools",
@@ -79,7 +79,7 @@
             "description": "Create professional resumes and plan your career.",
             "icon": "📄",
             "disable": true,
-            "link": "/tools/resume-career-builder"
+            "link": "tools/resume-career-builder"
         },
         {
             "type": "Advanced Tools",
@@ -87,7 +87,7 @@
             "description": "Collect and analyze customer feedback with sentiment analysis.",
             "icon": "🗣️",
             "disable": true,
-            "link": "/tools/feedback-sentiment"
+            "link": "tools/feedback-sentiment"
         },
         {
             "type": "Advanced Tools",
@@ -95,7 +95,7 @@
             "description": "Manage and enhance virtual events and meetings.",
             "icon": "🎤",
             "disable": true,
-            "link": "/tools/event-meeting-assistant"
+            "link": "tools/event-meeting-assistant"
         },
         {
             "type": "Simple Tools",
@@ -103,7 +103,7 @@
             "description": "Summarize long articles or documents into concise summaries.",
             "icon": "📄",
             "disable": true,
-            "link": "/tools/article-summarizer"
+            "link": "tools/article-summarizer"
         },
         {
             "type": "Simple Tools",
@@ -111,7 +111,7 @@
             "description": "Generate ideas for blog posts, projects, or other creative endeavors.",
             "icon": "💡",
             "disable": true,
-            "link": "/tools/brainstorming-assistant"
+            "link": "tools/brainstorming-assistant"
         },
         {
             "type": "Simple Tools",
@@ -119,7 +119,7 @@
             "description": "Daily tips related to the site's focus area.",
             "icon": "💡",
             "disable": true,
-            "link": "/tools/tip-of-the-day"
+            "link": "tools/tip-of-the-day"
         },
         {
             "type": "Simple Tools",
@@ -127,7 +127,7 @@
             "description": "Create fun and educational quizzes.",
             "icon": "❓",
             "disable": true,
-            "link": "/tools/quiz-generator"
+            "link": "tools/quiz-generator"
         },
         {
             "type": "Simple Tools",
@@ -135,7 +135,7 @@
             "description": "Enjoy a new joke every day.",
             "icon": "😂",
             "disable": true,
-            "link": "/tools/daily-joke"
+            "link": "tools/daily-joke"
         },
         {
             "type": "Simple Tools",
@@ -143,7 +143,7 @@
             "description": "Personalized greeting messages.",
             "icon": "🤖",
             "disable": true,
-            "link": "/tools/welcome-bot"
+            "link": "tools/welcome-bot"
         },
         {
             "type": "Simple Tools",
@@ -151,7 +151,7 @@
             "description": "Format and beautify your code snippets.",
             "icon": "💻",
             "disable": true,
-            "link": "/tools/code-beautifier"
+            "link": "tools/code-beautifier"
         },
         {
             "type": "Technical Tools",
@@ -159,7 +159,7 @@
             "description": "Generate code snippets in various programming languages.",
             "icon": "🔧",
             "disable": true,
-            "link": "/tools/code-snippet-generator"
+            "link": "tools/code-snippet-generator"
         },
         {
             "type": "Technical Tools",
@@ -167,7 +167,7 @@
             "description": "Test and validate regular expressions.",
             "icon": "🔍",
             "disable": true,
-            "link": "/tools/regex-tester"
+            "link": "tools/regex-tester"
         },
         {
             "type": "Technical Tools",
@@ -175,7 +175,7 @@
             "description": "Format and validate JSON data.",
             "icon": "🔧",
             "disable": true,
-            "link": "/tools/json-formatter"
+            "link": "tools/json-formatter"
         },
         {
             "type": "Technical Tools",
@@ -183,7 +183,7 @@
             "description": "Test API requests and see responses in real-time.",
             "icon": "📡",
             "disable": true,
-            "link": "/tools/api-request-tester"
+            "link": "tools/api-request-tester"
         },
         {
             "type": "Technical Tools",
@@ -191,7 +191,7 @@
             "description": "Generate SQL queries based on user requirements.",
             "icon": "🔍",
             "disable": true,
-            "link": "/tools/sql-query-generator"
+            "link": "tools/sql-query-generator"
         },
         {
             "type": "Technical Tools",
@@ -199,7 +199,7 @@
             "description": "Live preview of markdown text.",
             "icon": "📄",
             "disable": true,
-            "link": "/tools/markdown-previewer"
+            "link": "tools/markdown-previewer"
         },
         {
             "type": "Technical Tools",
@@ -207,7 +207,7 @@
             "description": "Generate basic charts from data.",
             "icon": "📊",
             "disable": true,
-            "link": "/tools/chart-generator"
+            "link": "tools/chart-generator"
         },
         {
             "type": "Technical Tools",
@@ -215,7 +215,7 @@
             "description": "Compare code and highlight differences.",
             "icon": "⚖️",
             "disable": true,
-            "link": "/tools/code-diff-checker"
+            "link": "tools/code-diff-checker"
         },
         {
             "type": "Technical Tools",
@@ -223,7 +223,7 @@
             "description": "Convert various units quickly and accurately.",
             "icon": "🔄",
             "disable": true,
-            "link": "/tools/unit-converter"
+            "link": "tools/unit-converter"
         },
         {
             "type": "Technical Tools",
@@ -231,7 +231,7 @@
             "description": "Encrypt and decrypt text using various algorithms.",
             "icon": "🔐",
             "disable": true,
-            "link": "/tools/text-encryptor-decryptor"
+            "link": "tools/text-encryptor-decryptor"
         }
     ]
 }
