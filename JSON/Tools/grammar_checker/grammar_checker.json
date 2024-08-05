@@ -1,0 +1,27 @@
+{
+    "title": "Grammar and Style Checker",
+    "image": "none",
+    "input": "Input Text:",
+    "output": "Corrected Text:",
+    "button": "Check",
+    "toolType": "InputOutputJson",
+    "heroText": "Help us improve our tool by contributing on GitHub:",
+    "heroLinkName": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/grammar_checker/grammar_checker.json",
+    "heroLink": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/grammar_checker/grammar_checker.json",
+    "jobOption": [
+        {
+            "text": "Grammar Check",
+            "value": "grammar-check"
+        },
+        {
+            "text": "Spelling Check",
+            "value": "spelling-check"
+        },
+        {
+            "text": "Style Suggestions",
+            "value": "style-suggestions"
+        }
+    ],
+    "origin": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/grammar_checker/rules.json",
+    "data": {}
+}

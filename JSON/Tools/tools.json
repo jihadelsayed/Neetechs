@@ -11,11 +11,12 @@
         },
         {
             "type": "Simple Tools",
+            "toolType": "InputOutputJson",
             "name": "Grammar and Style Checker",
             "description": "Improve your writing by suggesting grammar, spelling, and style corrections.",
             "icon": "📝",
-            "disable": true,
-            "link": "tools/grammar-checker"
+            "disable": false,
+            "link": "tools/grammar_checker"
         },
         {
             "type": "Advanced Tools",
