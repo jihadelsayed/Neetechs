@@ -2,21 +2,21 @@
     "tools": [
         {
             "type": "Simple Tools",
-            "toolType": "InputOutputJson",
+            "toolType": "simple_tools",
             "name": "Emoji Translator",
             "description": "Convert text to emojis for fun communication.",
             "icon": "😊",
             "disable": false,
-            "link": "tools/emoji_translator"
+            "link": "tools/simple_tools/emoji_translator"
         },
         {
-            "type": "Simple Tools",
-            "toolType": "InputOutputJson",
+            "type": "Simple Ai Tools",
+            "toolType": "simple_ai_tools",
             "name": "Grammar and Style Checker",
             "description": "Improve your writing by suggesting grammar, spelling, and style corrections.",
             "icon": "📝",
             "disable": false,
-            "link": "tools/grammar_checker"
+            "link": "tools/simple_ai_tools/grammar_checker"
         },
         {
             "type": "Advanced Tools",
