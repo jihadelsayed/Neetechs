@@ -7,12 +7,100 @@
 	"image": "https://i.imgur.com/6NOQqPd.png",
 	"tutorials": [
 		{
-			"id": 1,
+			"id": 0,
 			"title": "Windows Privilege Escalation Tools Overview",
 			"description": "Privilege Escalation Tools Overview.",
 			"date": "June 23, 2024",
 			"href": "tutorials/security/privilege_escalation",
 			"duration": "3 hours"
+		},
+		{
+			"id": 1,
+			"title": "Mimikatz",
+			"description": "A tool used for extracting plaintext passwords, hashes, PINs, and Kerberos tickets from memory, often used after gaining elevated privileges.",
+			"date": "August 14, 2024",
+			"href": "tools/security/mimikatz",
+			"duration": "2 hours"
+		},
+		{
+			"id": 2,
+			"title": "Meterpreter",
+			"description": "A post-exploitation tool from the Metasploit framework that allows remote control over a compromised system, including running commands, uploading/downloading files, and lateral movement.",
+			"date": "August 14, 2024",
+			"href": "tools/security/meterpreter",
+			"duration": "3 hours"
+		},
+		{
+			"id": 3,
+			"title": "Empire",
+			"description": "A post-exploitation framework that provides PowerShell and Python agents for maintaining access to compromised systems, executing commands, and lateral movement.",
+			"date": "August 14, 2024",
+			"href": "tools/security/empire",
+			"duration": "4 hours"
+		},
+		{
+			"id": 4,
+			"title": "BloodHound",
+			"description": "A tool for mapping out Active Directory environments to identify attack paths for further privilege escalation or lateral movement.",
+			"date": "August 14, 2024",
+			"href": "tools/security/bloodhound",
+			"duration": "2 hours"
+		},
+		{
+			"id": 5,
+			"title": "PowerSploit",
+			"description": "A collection of PowerShell scripts used for post-exploitation tasks such as privilege escalation, credential harvesting, and maintaining persistence.",
+			"date": "August 14, 2024",
+			"href": "tools/security/powersploit",
+			"duration": "3 hours"
+		},
+		{
+			"id": 6,
+			"title": "PsExec",
+			"description": "A tool from Sysinternals for executing commands on remote systems, often used for lateral movement within a network.",
+			"date": "August 14, 2024",
+			"href": "tools/security/psexec",
+			"duration": "1.5 hours"
+		},
+		{
+			"id": 7,
+			"title": "SharpHound",
+			"description": "A tool for collecting data from Active Directory environments to be analyzed by BloodHound for identifying privilege escalation paths.",
+			"date": "August 14, 2024",
+			"href": "tools/security/sharphound",
+			"duration": "2 hours"
+		},
+		{
+			"id": 8,
+			"title": "Golden Ticket Attack with Mimikatz",
+			"description": "An advanced technique using Mimikatz to create Kerberos tickets, allowing for domain control and persistence.",
+			"date": "August 14, 2024",
+			"href": "tools/security/golden_ticket_attack",
+			"duration": "4 hours"
+		},
+		{
+			"id": 9,
+			"title": "Cobalt Strike",
+			"description": "A commercial adversary simulation tool used for post-exploitation, command-and-control, and lateral movement during red team exercises.",
+			"date": "August 14, 2024",
+			"href": "tools/security/cobalt_strike",
+			"duration": "5 hours"
+		},
+		{
+			"id": 10,
+			"title": "CrackMapExec",
+			"description": "A tool for automating post-exploitation tasks like credential validation, enumeration, and executing commands across a network.",
+			"date": "August 14, 2024",
+			"href": "tools/security/crackmapexec",
+			"duration": "2.5 hours"
+		},
+		{
+			"id": 10,
+			"title": "Password Harvesting Tools",
+			"description": "",
+			"date": "August 14, 2024",
+			"href": "tools/security/password_harvesting_tools",
+			"duration": "2.5 hours"
 		}
 	]
 }
