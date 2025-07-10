@@ -416,7 +416,91 @@
         "href": "tutorials/perl",
         "image": "https://i.imgur.com/6NOQqPd.png",
         "type": "Programming Languages"
-      }
+      },
+      {
+  "id": "36",
+  "name": "Linear Algebra",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/linear_algebra",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Master the core concepts of Linear Algebra, including vectors, matrices, transformations, and eigenvalues—fundamental for machine learning, graphics, computer vision, and scientific computing.",
+  "level": "Intermediate"
+}
+,{
+  "id": "37",
+  "name": "Discrete Mathematics",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/discrete_mathematics",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Learn logic, set theory, combinatorics, graph theory, and proofs—critical for algorithms, data structures, databases, and security in computer science.",
+  "level": "Beginner"
+}
+
+,{
+  "id": "38",
+  "name": "Calculus",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/calculus",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Understand limits, derivatives, and integrals—essential for optimization, simulations, continuous models, and backpropagation in neural networks.",
+  "level": "Intermediate"
+}
+
+,{
+  "id": "39",
+  "name": "Probability & Statistics",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/probability_statistics",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Explore probability theory, distributions, hypothesis testing, and statistical inference—vital for AI, machine learning, analytics, and decision-making systems.",
+  "level": "Intermediate"
+}
+
+,{
+  "id": "40",
+  "name": "Number Theory",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/number_theory",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Dive into primes, modular arithmetic, and Diophantine equations—key to understanding cryptography, hashing, and secure communications.",
+  "level": "Advanced"
+}
+
+,{
+  "id": "41",
+  "name": "Differential Equations",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/differential_equations",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Study how to model change using differential equations—used in simulations, computer graphics, control systems, and deep learning architectures like Neural ODEs.",
+  "level": "Advanced"
+},
+{
+  "id": "42",
+  "name": "Optimization",
+  "date": "July 10, 2024",
+  "disable": "false",
+  "href": "tutorials/optimization",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "type": "Mathematic",
+  "description": "Learn optimization techniques including linear programming, gradient descent, and convex analysis—crucial for training AI models, decision-making systems, and resource allocation in software engineering.",
+  "level": "Advanced"
+}
+
+
+
     ]
   }
 }
