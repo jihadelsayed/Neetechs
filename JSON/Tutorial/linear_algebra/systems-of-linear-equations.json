@@ -1,0 +1,40 @@
+{
+  "title": "Solving Systems of Linear Equations",
+  "youtube": "https://www.youtube.com/watch?v=your-linear-systems-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome to the Linear Algebra series! I'm Sayed Jihad Al Sayed, and today we're starting with one of the most fundamental concepts in all of math and computer science \u2014 solving systems of linear equations."
+    },
+    {
+      "title": "What Are Linear Systems?",
+      "content": "A linear system is just a collection of linear equations. You're trying to find values for variables like x and y that satisfy all equations at once."
+    },
+    {
+      "title": "Substitution Method",
+      "math": "x + y = 5\nx - y = 1\nx = y + 1\n(y + 1) + y = 5\n2y + 1 = 5 \u2192 y = 2\nx = 3"
+    },
+    {
+      "title": "Elimination Method",
+      "math": "2x + 3y = 12\n4x - 3y = 6\n\u2192 Add: 6x = 18 \u2192 x = 3\n\u2192 2(3) + 3y = 12 \u2192 y = 2"
+    },
+    {
+      "title": "Matrix Representation",
+      "math": "Ax = b, where A = [[1, 1], [1, -1]], x = [x, y], b = [5, 1]"
+    },
+    {
+      "title": "Graphing View",
+      "graph": {
+        "type": "system",
+        "equations": [
+          "x + y = 5",
+          "x - y = 1"
+        ]
+      }
+    },
+    {
+      "title": "Recap",
+      "content": "We covered what linear systems are, how to solve them using substitution and elimination, and how they\u2019re represented in matrix form."
+    }
+  ]
+}
