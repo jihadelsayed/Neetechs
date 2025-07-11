@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in this video, we'll explore some foundational concepts of FastAPI that will help you build more interactive and dynamic APIs. Let's dive right in!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in this video, we'll explore some foundational concepts of FastAPI that will help you build more interactive and dynamic APIs. Let's dive right in!"
         },
         {
             "title": "Understanding Path Parameters (Close Shot + Screen Recording)",

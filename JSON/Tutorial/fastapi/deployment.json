@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're focusing on deploying FastAPI applications. Deployment is the final step in making your APIs accessible to users. By the end of this video, you'll understand how to deploy FastAPI applications using various platforms such as Heroku, Docker, and AWS. Let's get started!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're focusing on deploying FastAPI applications. Deployment is the final step in making your APIs accessible to users. By the end of this video, you'll understand how to deploy FastAPI applications using various platforms such as Heroku, Docker, and AWS. Let's get started!"
         },
         {
             "title": "Understanding Deployment (Close Shot)",

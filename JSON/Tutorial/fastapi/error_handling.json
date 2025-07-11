@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to focus on error handling in FastAPI. Proper error handling is crucial for building reliable and user-friendly APIs. It ensures that our applications can gracefully handle unexpected situations and provide helpful feedback to users. Let's dive in and learn how to manage errors effectively in FastAPI!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're going to focus on error handling in FastAPI. Proper error handling is crucial for building reliable and user-friendly APIs. It ensures that our applications can gracefully handle unexpected situations and provide helpful feedback to users. Let's dive in and learn how to manage errors effectively in FastAPI!"
         },
         {
             "title": "Why Error Handling Matters (Close Shot)",

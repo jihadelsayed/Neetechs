@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're exploring two powerful features of FastAPI: middleware and background tasks. Middleware allows you to add functionality to your application globally, such as logging or authentication, while background tasks let you perform operations asynchronously, improving the performance and responsiveness of your API. Let's dive in and see how we can leverage these features in FastAPI!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're exploring two powerful features of FastAPI: middleware and background tasks. Middleware allows you to add functionality to your application globally, such as logging or authentication, while background tasks let you perform operations asynchronously, improving the performance and responsiveness of your API. Let's dive in and see how we can leverage these features in FastAPI!"
         },
         {
             "title": "Understanding Middleware (Close Shot)",

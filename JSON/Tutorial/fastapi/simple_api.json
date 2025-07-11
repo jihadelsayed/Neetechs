@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to build a simple CRUD API using FastAPI. CRUD operations are the backbone of any application, allowing us to create, read, update, and delete data. By the end of this video, you'll have a solid understanding of how to implement these operations in FastAPI. Let's get started!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're going to build a simple CRUD API using FastAPI. CRUD operations are the backbone of any application, allowing us to create, read, update, and delete data. By the end of this video, you'll have a solid understanding of how to implement these operations in FastAPI. Let's get started!"
         },
         {
             "title": "Project Setup (Close Shot + Screen Recording)",

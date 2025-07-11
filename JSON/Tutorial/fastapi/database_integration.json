@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to learn how to integrate a database with FastAPI. Databases are the backbone of any dynamic application, allowing us to store, retrieve, and manage data efficiently. By the end of this video, you'll know how to connect FastAPI with a SQL database using SQLAlchemy and perform CRUD operations. Let's get started!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're going to learn how to integrate a database with FastAPI. Databases are the backbone of any dynamic application, allowing us to store, retrieve, and manage data efficiently. By the end of this video, you'll know how to connect FastAPI with a SQL database using SQLAlchemy and perform CRUD operations. Let's get started!"
         },
         {
             "title": "Choosing the Right Database (Close Shot)",

@@ -81,7 +81,7 @@ python manage.py runserver
 
 ## 👤 Author
 
-**Sayed Jihad Al Sayed**  
+**Jihad Al Sayed**  
 Palestinian-Syrian developer passionate about full-stack systems, AI, and resilience-driven tech.  
 🔗 [neetechs.com](https://neetechs.com) | [LinkedIn](https://linkedin.com/company/neetechs) | [GitHub](https://github.com/jihadelsayed)
 

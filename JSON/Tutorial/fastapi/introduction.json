@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Hello everyone! Welcome to our FastAPI tutorial series. I'm Sayed Jihad Al Sayed, and today we're diving into the exciting world of FastAPI. By the end of this series, you'll have the skills to build fast and powerful APIs that can handle anything you throw at them."
+            "content": "Hello everyone! Welcome to our FastAPI tutorial series. I'm Jihad Al Sayed, and today we're diving into the exciting world of FastAPI. By the end of this series, you'll have the skills to build fast and powerful APIs that can handle anything you throw at them."
         },
         {
             "title": "Why FastAPI? (Close Shot)",
@@ -42,7 +42,7 @@
         },
         {
             "title": "Outro (Wide Shot)",
-            "content": "Thanks for watching! I'm Sayed Jihad Al Sayed, and I'll see you in the next video. Happy coding!"
+            "content": "Thanks for watching! I'm Jihad Al Sayed, and I'll see you in the next video. Happy coding!"
         }
     ],
     "link": "https://www.youtube.com/watch?v=your-video-link"

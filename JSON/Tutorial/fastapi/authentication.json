@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're tackling a critical topic: authentication and authorization in FastAPI. Security is a cornerstone of any API, and understanding how to protect your application is essential. By the end of this video, you'll know how to implement JWT-based authentication and role-based access control in FastAPI. Let's dive in!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're tackling a critical topic: authentication and authorization in FastAPI. Security is a cornerstone of any API, and understanding how to protect your application is essential. By the end of this video, you'll know how to implement JWT-based authentication and role-based access control in FastAPI. Let's dive in!"
         },
         {
             "title": "Understanding Authentication vs. Authorization (Close Shot)",

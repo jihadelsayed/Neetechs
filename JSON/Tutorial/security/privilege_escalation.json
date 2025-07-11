@@ -3,7 +3,7 @@
   "sections": [
     {
       "title": "Introduction (Wide Shot)",
-      "content": "Hello everyone, welcome to this overview of essential Windows privilege escalation tools! I'm Sayed Jihad Al Sayed, and today I'm going to introduce you to some powerful tools that can help you identify and exploit privilege escalation vectors on Windows systems. Let's dive right in!"
+      "content": "Hello everyone, welcome to this overview of essential Windows privilege escalation tools! I'm Jihad Al Sayed, and today I'm going to introduce you to some powerful tools that can help you identify and exploit privilege escalation vectors on Windows systems. Let's dive right in!"
     },
     {
       "title": "Tool 1: PowerUp (Wide Shot)",

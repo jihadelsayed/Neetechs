@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're going to explore the powerful concept of dependency injection in FastAPI. This feature allows us to write cleaner and more modular code by separating concerns and making our applications easier to test and maintain. Let's dive in and see how we can leverage dependency injection in our FastAPI projects!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're going to explore the powerful concept of dependency injection in FastAPI. This feature allows us to write cleaner and more modular code by separating concerns and making our applications easier to test and maintain. Let's dive in and see how we can leverage dependency injection in our FastAPI projects!"
         },
         {
             "title": "What is Dependency Injection? (Close Shot)",

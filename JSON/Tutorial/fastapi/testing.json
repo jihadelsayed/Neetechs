@@ -3,7 +3,7 @@
     "sections": [
         {
             "title": "Introduction (Wide Shot)",
-            "content": "Welcome back to our FastAPI series! I'm Sayed Jihad Al Sayed, and in today's tutorial, we're focusing on testing FastAPI applications. Testing is a critical part of software development that ensures your code works as expected and helps prevent bugs in production. By the end of this video, you'll know how to write tests for your FastAPI application using Python's `unittest` and `pytest` libraries. Let's get started!"
+            "content": "Welcome back to our FastAPI series! I'm Jihad Al Sayed, and in today's tutorial, we're focusing on testing FastAPI applications. Testing is a critical part of software development that ensures your code works as expected and helps prevent bugs in production. By the end of this video, you'll know how to write tests for your FastAPI application using Python's `unittest` and `pytest` libraries. Let's get started!"
         },
         {
             "title": "Why Testing is Important (Close Shot)",
