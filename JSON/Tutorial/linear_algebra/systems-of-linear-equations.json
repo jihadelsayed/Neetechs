@@ -23,15 +23,29 @@
       "math": "Ax = b, where A = [[1, 1], [1, -1]], x = [x, y], b = [5, 1]"
     },
     {
-      "title": "Graphing View",
-      "graph": {
-        "type": "system",
-        "equations": [
-          "x + y = 5",
-          "x - y = 1"
-        ]
-      }
+  "title": "Graph: Substitution Result",
+  "graph": [
+    {
+      "name": "x + y = 5",
+      "series": [
+        { "name": 0, "value": 5 },
+        { "name": 1, "value": 4 },
+        { "name": 2, "value": 3 }
+      ]
     },
+    {
+      "name": "x - y = 1",
+      "series": [
+        { "name": 0, "value": -1 },
+        { "name": 1, "value": 0 },
+        { "name": 2, "value": 1 }
+      ]
+    }
+  ],
+  "xLabel": "x",
+  "yLabel": "y"
+}
+,
     {
       "title": "Recap",
       "content": "We covered what linear systems are, how to solve them using substitution and elimination, and how they\u2019re represented in matrix form."
