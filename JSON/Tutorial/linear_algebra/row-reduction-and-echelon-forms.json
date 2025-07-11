@@ -1,0 +1,71 @@
+{
+  "title": "Row Reduction and Echelon Forms",
+  "youtube": "https://www.youtube.com/watch?v=your-row-reduction-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "In this video, I\u2019m Jihad Al Sayed and we\u2019re tackling one of the most powerful tools in linear algebra \u2014 Gaussian elimination and echelon forms. This is how you systematically crack any linear system using row operations."
+    },
+    {
+      "title": "What is Row Reduction?",
+      "content": "Row reduction means applying operations to rows of a matrix to simplify it. The goal? Turn it into a form where solving the system becomes dead simple."
+    },
+    {
+      "title": "Gaussian Elimination Example",
+      "math": "\\begin{bmatrix}1 & 2 & 1 \\\\ 2 & 3 & 4 \\\\ 3 & 5 & 7\\end{bmatrix} \\xrightarrow[]{R_2 - 2R_1, R_3 - 3R_1} \\begin{bmatrix}1 & 2 & 1 \\\\ 0 & -1 & 2 \\\\ 0 & -1 & 4\\end{bmatrix}"
+    },
+    {
+      "title": "Reducing to Row Echelon Form",
+      "math": "\\begin{bmatrix}1 & 2 & 1 \\\\ 0 & -1 & 2 \\\\ 0 & -1 & 4\\end{bmatrix} \\xrightarrow[]{R_3 - R_2} \\begin{bmatrix}1 & 2 & 1 \\\\ 0 & -1 & 2 \\\\ 0 & 0 & 2\\end{bmatrix}"
+    },
+    {
+      "title": "Reduced Row Echelon Form (RREF)",
+      "math": "\\begin{bmatrix}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{bmatrix} \\Rightarrow \\text{Solution is unique and direct}"
+    },
+    {
+      "title": "Graph: Before and After Elimination",
+      "graph": [
+        {
+          "name": "Before Elimination",
+          "series": [
+            {
+              "name": 0,
+              "value": 3
+            },
+            {
+              "name": 1,
+              "value": 5
+            },
+            {
+              "name": 2,
+              "value": 7
+            }
+          ]
+        },
+        {
+          "name": "After Elimination",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 0
+            },
+            {
+              "name": 2,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "Pivot Transformations"
+    },
+    {
+      "title": "Recap",
+      "content": "We learned how to use Gaussian elimination and reduce matrices into row echelon and reduced row echelon forms. This is the backbone of solving any linear system in a structured, algorithmic way."
+    }
+  ]
+}
