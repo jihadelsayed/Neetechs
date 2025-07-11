@@ -1,0 +1,226 @@
+{
+  "id": "36",
+  "name": "Linear Algebra",
+  "date": "July 10, 2024",
+  "href": "tutorials/linear_algebra",
+  "description": "Master the foundations of Linear Algebra as presented in the 12th edition by Anton & Rorres—critical for computer science fields like machine learning, graphics, and scientific computing.",
+  "image": "https://i.imgur.com/6NOQqPd.png",
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1.1 – Systems of Linear Equations",
+      "description": "What linear systems are\nSolving systems by substitution and elimination\nMatrix representation",
+      "lvl": "Introduction",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.1",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 2,
+      "title": "1.2 – Row Reduction and Echelon Forms",
+      "description": "Gaussian elimination\nRow echelon and reduced row echelon forms\nSolving systems systematically",
+      "lvl": "Beginner",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.2",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 3,
+      "title": "1.3 – Vector Equations",
+      "description": "Vectors in ℝⁿ\nLinear combinations\nVector equation of a system",
+      "lvl": "Beginner",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.3",
+      "duration": "18 minutes"
+    },
+    {
+      "id": 4,
+      "title": "1.4 – The Matrix Equation Ax = b",
+      "description": "Matrix-vector multiplication\nSolving using Ax = b\nExistence and uniqueness of solutions",
+      "lvl": "Beginner",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.4",
+      "duration": "22 minutes"
+    },
+    {
+      "id": 5,
+      "title": "1.5 – Solution Sets of Linear Systems",
+      "description": "Homogeneous vs. nonhomogeneous systems\nParametric solutions",
+      "lvl": "Beginner",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.5",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 6,
+      "title": "1.6 – Applications of Linear Systems",
+      "description": "Practical modeling with linear systems\nNetwork flow, electrical circuits, economics",
+      "lvl": "Intermediate",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.6",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 7,
+      "title": "1.7 – Linear Independence",
+      "description": "Definition and geometric meaning\nTesting independence\nImplications in computer science",
+      "lvl": "Intermediate",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.7",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 8,
+      "title": "1.8 – Introduction to Linear Transformations",
+      "description": "Definition of transformation\nStandard matrix form\nApplications to graphics",
+      "lvl": "Intermediate",
+      "date": "July 10, 2024",
+      "href": "tutorials/linear_algebra/1.8",
+      "duration": "22 minutes"
+    },
+    {
+      "id": 9,
+      "title": "2.1 – Matrix Operations",
+      "description": "Addition, multiplication, scalar product\nTranspose\nComputational rules",
+      "lvl": "Beginner",
+      "date": "July 11, 2024",
+      "href": "tutorials/linear_algebra/2.1",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 10,
+      "title": "2.2 – The Inverse of a Matrix",
+      "description": "What matrix inverse means\nComputing inverses\nApplications to solving systems",
+      "lvl": "Intermediate",
+      "date": "July 11, 2024",
+      "href": "tutorials/linear_algebra/2.2",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 11,
+      "title": "2.3 – Characterizations of Invertible Matrices",
+      "description": "Invertible matrix theorem\nImplications for solving Ax = b",
+      "lvl": "Intermediate",
+      "date": "July 11, 2024",
+      "href": "tutorials/linear_algebra/2.3",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 12,
+      "title": "3.1 – Introduction to Determinants",
+      "description": "Definition and basic properties\n2×2 and 3×3 cases\nGeometric interpretation",
+      "lvl": "Beginner",
+      "date": "July 12, 2024",
+      "href": "tutorials/linear_algebra/3.1",
+      "duration": "18 minutes"
+    },
+    {
+      "id": 13,
+      "title": "3.2 – Properties of Determinants",
+      "description": "Row operations\nTriangular matrices\nMultiplicative property",
+      "lvl": "Intermediate",
+      "date": "July 12, 2024",
+      "href": "tutorials/linear_algebra/3.2",
+      "duration": "22 minutes"
+    },
+    {
+      "id": 14,
+      "title": "3.3 – Cramer’s Rule, Volume, and Linear Transformations",
+      "description": "Solving systems with Cramer's Rule\nVolume scaling by determinants",
+      "lvl": "Advanced",
+      "date": "July 12, 2024",
+      "href": "tutorials/linear_algebra/3.3",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 15,
+      "title": "4.1 – Vector Spaces and Subspaces",
+      "description": "Definition of vector spaces\nSubspaces and examples\nNull space, column space",
+      "lvl": "Intermediate",
+      "date": "July 13, 2024",
+      "href": "tutorials/linear_algebra/4.1",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 16,
+      "title": "4.2 – Null Space, Column Space, and Linear Transformations",
+      "description": "Mapping between spaces\nApplications in CS and data science",
+      "lvl": "Intermediate",
+      "date": "July 13, 2024",
+      "href": "tutorials/linear_algebra/4.2",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 17,
+      "title": "4.3 – Linearly Independent Sets; Bases",
+      "description": "Spanning sets, bases\nCoordinate systems\nBasis in CS (e.g. PCA, encoding)",
+      "lvl": "Intermediate",
+      "date": "July 13, 2024",
+      "href": "tutorials/linear_algebra/4.3",
+      "duration": "22 minutes"
+    },
+    {
+      "id": 18,
+      "title": "4.4 – Coordinate Systems",
+      "description": "Coordinate mappings\nChange of basis\nPractical examples",
+      "lvl": "Advanced",
+      "date": "July 14, 2024",
+      "href": "tutorials/linear_algebra/4.4",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 19,
+      "title": "4.5 – The Dimension of a Vector Space",
+      "description": "Dimension definition\nRank-nullity theorem\nImplications in ML and DB design",
+      "lvl": "Advanced",
+      "date": "July 14, 2024",
+      "href": "tutorials/linear_algebra/4.5",
+      "duration": "22 minutes"
+    },
+    {
+      "id": 20,
+      "title": "4.6 – Rank",
+      "description": "Definition and computation\nLink to linear transformations\nUse in data compression",
+      "lvl": "Advanced",
+      "date": "July 14, 2024",
+      "href": "tutorials/linear_algebra/4.6",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 21,
+      "title": "5.1 – Eigenvectors and Eigenvalues",
+      "description": "Understanding eigenvectors\nFinding eigenvalues\nDiagonalization intro",
+      "lvl": "Advanced",
+      "date": "July 15, 2024",
+      "href": "tutorials/linear_algebra/5.1",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 22,
+      "title": "5.2 – The Characteristic Equation",
+      "description": "Determinant-based derivation\nSolving the characteristic polynomial",
+      "lvl": "Advanced",
+      "date": "July 15, 2024",
+      "href": "tutorials/linear_algebra/5.2",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 23,
+      "title": "7.1 – Diagonalization",
+      "description": "What it means to diagonalize\nWhen it's possible\nWhy it matters in computation",
+      "lvl": "Advanced",
+      "date": "July 16, 2024",
+      "href": "tutorials/linear_algebra/7.1",
+      "duration": "28 minutes"
+    },
+    {
+      "id": 24,
+      "title": "7.2 – Eigenvectors and Linear Transformations",
+      "description": "Eigenbasis\nTransformations in computer graphics and ML",
+      "lvl": "Advanced",
+      "date": "July 16, 2024",
+      "href": "tutorials/linear_algebra/7.2",
+      "duration": "24 minutes"
+    }
+  ]
+}
