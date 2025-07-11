@@ -1,0 +1,67 @@
+{
+  "title": "Eigenvectors and Linear Transformations",
+  "youtube": "https://www.youtube.com/watch?v=your-eigenvectors-transformations-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back, I\u2019m Jihad Al Sayed. Today we\u2019re linking two powerhouse ideas \u2014 eigenvectors and linear transformations. This is where math meets motion, geometry, and computer graphics."
+    },
+    {
+      "title": "How Transformations Work",
+      "content": "A linear transformation maps vectors from one space to another using a matrix. But not all vectors change the same way \u2014 some just scale without changing direction. These are eigenvectors."
+    },
+    {
+      "title": "The Equation Again",
+      "math": "A \\vec{v} = \\lambda \\vec{v} \u2192 \\text{This means } \\vec{v} \\text{ is unchanged in direction under the transformation A}"
+    },
+    {
+      "title": "Visualizing Transformations",
+      "content": "Imagine dragging a shape across the screen \u2014 eigenvectors are the directions that stretch but don\u2019t rotate. In animations or simulations, these anchor points are crucial."
+    },
+    {
+      "title": "Example: Transformation in Graphics",
+      "math": "A = \\begin{bmatrix}2 & 0\\\\0 & 3\\end{bmatrix}\n\u2192 v\u2081 = [1, 0], v\u2082 = [0, 1] are eigenvectors\n\u2192 Stretching occurs along x and y axes with factors 2 and 3"
+    },
+    {
+      "title": "Graph: Eigenvector Action",
+      "graph": [
+        {
+          "name": "v\u2081 under A",
+          "series": [
+            {
+              "name": "Before",
+              "value": 1
+            },
+            {
+              "name": "After",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "name": "v\u2082 under A",
+          "series": [
+            {
+              "name": "Before",
+              "value": 1
+            },
+            {
+              "name": "After",
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Step",
+      "yLabel": "Magnitude"
+    },
+    {
+      "title": "Real-World Applications",
+      "content": "Used in face recognition, 3D rendering engines, deep learning layers, and physics simulations. Eigenvectors help preserve key structure in transformations."
+    },
+    {
+      "title": "Recap",
+      "content": "Today we saw how eigenvectors behave under linear transformations and why they\u2019re the \u2018stable directions\u2019 that make math predictable, visual, and powerful."
+    }
+  ]
+}

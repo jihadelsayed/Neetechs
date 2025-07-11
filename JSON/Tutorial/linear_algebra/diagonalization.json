@@ -1,0 +1,71 @@
+{
+  "title": "Diagonalization",
+  "youtube": "https://www.youtube.com/watch?v=your-diagonalization-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, it\u2019s Jihad Al Sayed. Today, we\u2019re breaking down one of the most powerful matrix transformations \u2014 diagonalization. This concept gives you superpowers when it comes to simplifying matrix computations."
+    },
+    {
+      "title": "What Is Diagonalization?",
+      "content": "A matrix A is diagonalizable if it can be written as A = PDP\u207b\u00b9, where D is a diagonal matrix and P is a matrix of eigenvectors. This lets us raise A to powers easily."
+    },
+    {
+      "title": "How to Diagonalize",
+      "math": "1. Find eigenvalues: \\text{det}(A - \\lambda I) = 0\n2. Find eigenvectors for each \u03bb\n3. Form matrix P from eigenvectors\n4. D has eigenvalues on the diagonal"
+    },
+    {
+      "title": "Example",
+      "math": "A = \\begin{bmatrix}5 & 4\\\\1 & 2\\end{bmatrix}\n\u2192 Eigenvalues: \u03bb = 6, 1\n\u2192 Eigenvectors: v\u2081, v\u2082\n\u2192 A = PDP\u207b\u00b9 with D = diag(6, 1)"
+    },
+    {
+      "title": "Why It Matters",
+      "content": "Diagonal matrices are super easy to work with. You can compute A\u207f just by computing D\u207f. This saves time in simulations, quantum systems, and dynamical models."
+    },
+    {
+      "title": "Graph: Simplifying Powers",
+      "graph": [
+        {
+          "name": "Normal Matrix Power",
+          "series": [
+            {
+              "name": "n=1",
+              "value": 5
+            },
+            {
+              "name": "n=2",
+              "value": 25
+            },
+            {
+              "name": "n=3",
+              "value": 125
+            }
+          ]
+        },
+        {
+          "name": "Diagonal Power",
+          "series": [
+            {
+              "name": "n=1",
+              "value": 6
+            },
+            {
+              "name": "n=2",
+              "value": 36
+            },
+            {
+              "name": "n=3",
+              "value": 216
+            }
+          ]
+        }
+      ],
+      "xLabel": "n",
+      "yLabel": "Value of A\u207f"
+    },
+    {
+      "title": "Recap",
+      "content": "We explored how diagonalization works, how to compute it, and why it drastically simplifies working with matrices. It\u2019s a must-know for efficient matrix operations."
+    }
+  ]
+}

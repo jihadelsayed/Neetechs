@@ -1,0 +1,67 @@
+{
+  "title": "Vector Spaces and Subspaces",
+  "youtube": "https://www.youtube.com/watch?v=your-vector-spaces-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back! I\u2019m Jihad Al Sayed, and in this lesson, we\u2019re diving into the backbone of Linear Algebra \u2014 vector spaces and subspaces. Understanding these is key to grasping all the cool applications later like machine learning, graphics, and systems theory."
+    },
+    {
+      "title": "What is a Vector Space?",
+      "content": "A vector space is a set of vectors that\u2019s closed under addition and scalar multiplication. That means if you add two vectors or multiply one by a scalar, you're still inside the space."
+    },
+    {
+      "title": "Common Examples",
+      "content": "\u211d\u207f is a vector space. So is the set of all polynomials of degree \u2264 n. Even function spaces can be vector spaces. If they follow the 10 vector space rules \u2014 they count."
+    },
+    {
+      "title": "What is a Subspace?",
+      "content": "A subspace is just a smaller vector space sitting inside a larger one. For example, the set of all vectors lying on a plane through the origin is a subspace of \u211d\u00b3."
+    },
+    {
+      "title": "Three Rules for Subspaces",
+      "math": "1. Zero vector is in the set\n2. Closed under addition\n3. Closed under scalar multiplication"
+    },
+    {
+      "title": "Examples of Subspaces",
+      "content": "Null space, column space, and row space are all subspaces. You\u2019ll see these come up constantly when solving Ax = b."
+    },
+    {
+      "title": "Graph: Subspace in \u211d\u00b3",
+      "graph": [
+        {
+          "name": "\u211d\u00b3",
+          "series": [
+            {
+              "name": 0,
+              "value": 3
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "Plane Subspace",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "Dimension",
+      "yLabel": "Vector Count"
+    },
+    {
+      "title": "Recap",
+      "content": "We now understand what vector spaces and subspaces are, what rules they follow, and how they show up in real problems. Mastering this makes everything else in linear algebra easier."
+    }
+  ]
+}

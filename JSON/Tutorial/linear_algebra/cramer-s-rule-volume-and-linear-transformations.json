@@ -1,0 +1,67 @@
+{
+  "title": "Cramer's Rule, Volume, and Linear Transformations",
+  "youtube": "https://www.youtube.com/watch?v=your-cramers-volume-transform-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, I\u2019m Jihad Al Sayed. In this tutorial, we're covering Cramer's Rule, its connection to determinants, and how volume and linear transformations all tie together in a beautiful way."
+    },
+    {
+      "title": "What is Cramer's Rule?",
+      "content": "Cramer's Rule lets you solve a system Ax = b using determinants, but it only works when A is invertible."
+    },
+    {
+      "title": "The Formula",
+      "math": "x_i = \\frac{\\det(A_i)}{\\det(A)},\\quad \\text{where } A_i \\text{ is A with column } i \\text{ replaced by } b"
+    },
+    {
+      "title": "Volume Scaling by Determinants",
+      "content": "The absolute value of the determinant of A tells you how much the transformation T(x) = Ax scales volume in space."
+    },
+    {
+      "title": "Geometric Insight",
+      "content": "If \\det(A) = 2, every unit cube becomes a volume-2 box. If \\det(A) = 0, volume collapses \u2014 the transformation flattens space."
+    },
+    {
+      "title": "Graph: Volume Scaling Example",
+      "graph": [
+        {
+          "name": "Original Unit Volume",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "After A (det=3)",
+          "series": [
+            {
+              "name": 0,
+              "value": 3
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Transformation",
+      "yLabel": "Volume"
+    },
+    {
+      "title": "Linear Transformations Revisited",
+      "math": "T(\\vec{x}) = A\\vec{x},\\quad \\det(A) \\text{ shows how T scales space}"
+    },
+    {
+      "title": "Recap",
+      "content": "We explored Cramer\u2019s Rule for solving systems, understood the volume-scaling role of determinants, and tied it all back to how linear transformations behave. Determinants aren\u2019t just numbers \u2014 they reshape space."
+    }
+  ]
+}

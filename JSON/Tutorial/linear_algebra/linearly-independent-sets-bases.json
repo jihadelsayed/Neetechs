@@ -1,0 +1,67 @@
+{
+  "title": "Linearly Independent Sets and Bases",
+  "youtube": "https://www.youtube.com/watch?v=your-independent-bases-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back! I\u2019m Jihad Al Sayed, and today we\u2019re tackling one of the most powerful ideas in linear algebra \u2014 linearly independent sets and the concept of a basis. If you want to understand vector spaces deeply, this is it."
+    },
+    {
+      "title": "What is Linear Independence?",
+      "content": "A set of vectors is linearly independent if no vector in the set can be written as a linear combination of the others. If you can\u2019t recreate one vector using the rest \u2014 it\u2019s independent."
+    },
+    {
+      "title": "Testing Independence",
+      "math": "Set up Ax = 0 where A has your vectors as columns.\nIf the only solution is the trivial one (x = 0), then they are independent."
+    },
+    {
+      "title": "What is a Basis?",
+      "content": "A basis is a set of linearly independent vectors that span the whole space. It\u2019s like a minimal toolkit to build every other vector in the space."
+    },
+    {
+      "title": "Example: Basis of \u211d\u00b2",
+      "math": "\\{[1, 0], [0, 1]\\} is a basis for \\mathbb{R}^2 \u2014 it spans the plane and is linearly independent."
+    },
+    {
+      "title": "Graph: Independent vs Dependent",
+      "graph": [
+        {
+          "name": "Independent Vectors",
+          "series": [
+            {
+              "name": "v1",
+              "value": 1
+            },
+            {
+              "name": "v2",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "name": "Dependent Vectors",
+          "series": [
+            {
+              "name": "v1",
+              "value": 1
+            },
+            {
+              "name": "v2 = 2 * v1",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "Vectors",
+      "yLabel": "Scaled Values"
+    },
+    {
+      "title": "Real-World Application",
+      "content": "In machine learning, choosing a good basis helps reduce dimensions while preserving information \u2014 think PCA (Principal Component Analysis)."
+    },
+    {
+      "title": "Recap",
+      "content": "Today we looked at what it means for vectors to be independent, how to test it, what a basis is, and why these ideas are the blueprint of every vector space you\u2019ll ever work with."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Coordinate Systems",
+  "youtube": "https://www.youtube.com/watch?v=your-coordinate-systems-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone, I\u2019m Jihad Al Sayed. In this video, we\u2019re looking at coordinate systems \u2014 how we represent vectors using a chosen basis. This is a must-know concept for everything from graphics to machine learning."
+    },
+    {
+      "title": "What is a Coordinate System?",
+      "content": "A coordinate system expresses vectors as linear combinations of basis vectors. It gives meaning to positions and directions in space \u2014 whether you're in \u211d\u00b2, \u211d\u00b3, or some abstract vector space."
+    },
+    {
+      "title": "Vector Representation in a Basis",
+      "math": "If B = \\{v\u2081, v\u2082\\} is a basis for \\mathbb{R}^2, then any vector x can be written as x = a\u2081v\u2081 + a\u2082v\u2082.\n\\Rightarrow Coordinates of x relative to B are [a\u2081, a\u2082]."
+    },
+    {
+      "title": "Change of Basis",
+      "content": "Switching between coordinate systems requires a change of basis. This is essential in computer graphics, physics simulations, and PCA."
+    },
+    {
+      "title": "Change of Basis Matrix",
+      "math": "Let P be a matrix whose columns are the new basis vectors. Then:\n[x]_new = P\u207b\u00b9 * x"
+    },
+    {
+      "title": "Graph: Basis Vectors and Vector Projection",
+      "graph": [
+        {
+          "name": "Basis Vectors",
+          "series": [
+            {
+              "name": "v\u2081",
+              "value": 1
+            },
+            {
+              "name": "v\u2082",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "name": "Vector x",
+          "series": [
+            {
+              "name": "x",
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Vector",
+      "yLabel": "Magnitude"
+    },
+    {
+      "title": "Real-World Usage",
+      "content": "This is used in color transformations, sound encoding, robotics, and AI. Coordinate systems let us shift perspective, compress data, and solve systems efficiently."
+    },
+    {
+      "title": "Recap",
+      "content": "We explored what coordinate systems are, how they work with bases, how to convert between them, and why this concept powers nearly every applied system in engineering and computer science."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Properties of Determinants",
+  "youtube": "https://www.youtube.com/watch?v=your-properties-determinants-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back! I\u2019m Jihad Al Sayed, and now that you know what a determinant is, let\u2019s talk about its properties \u2014 how row operations affect it, how triangular matrices behave, and how determinant rules make matrix analysis faster."
+    },
+    {
+      "title": "Effect of Row Operations",
+      "content": "There are 3 main effects:\n1. Swapping rows changes the sign.\n2. Multiplying a row by a scalar multiplies the determinant.\n3. Adding a multiple of one row to another doesn\u2019t change the determinant."
+    },
+    {
+      "title": "Determinant of Triangular Matrix",
+      "math": "\\text{If A is triangular (upper/lower), } \\det(A) = \\text{product of diagonal entries}"
+    },
+    {
+      "title": "Multiplicative Property",
+      "math": "\\det(AB) = \\det(A) \\cdot \\det(B)"
+    },
+    {
+      "title": "Transpose and Inverse Rules",
+      "math": "\\det(A^T) = \\det(A),\\quad \\det(A^{-1}) = \\frac{1}{\\det(A)}"
+    },
+    {
+      "title": "Graph: Sign Change and Scaling",
+      "graph": [
+        {
+          "name": "Original Matrix",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "After Row Swap",
+          "series": [
+            {
+              "name": 0,
+              "value": -2
+            },
+            {
+              "name": 1,
+              "value": -3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Operation",
+      "yLabel": "Determinant Value"
+    },
+    {
+      "title": "Recap",
+      "content": "We covered essential properties of determinants \u2014 how they respond to row operations, how they behave under multiplication, and what happens with transposes and inverses. These tricks save time and help debug matrix problems fast."
+    }
+  ]
+}

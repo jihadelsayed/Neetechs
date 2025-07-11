@@ -1,0 +1,74 @@
+{
+  "title": "The Characteristic Equation",
+  "youtube": "https://www.youtube.com/watch?v=your-characteristic-equation-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone, Jihad Al Sayed here! Today we\u2019re diving into the characteristic equation \u2014 the key to unlocking eigenvalues and understanding matrix behavior."
+    },
+    {
+      "title": "What Is the Characteristic Equation?",
+      "content": "It's the equation you get from det(A - \u03bbI) = 0. The solutions are the eigenvalues of A. This equation transforms the matrix into a polynomial."
+    },
+    {
+      "title": "Why Determinant Matters",
+      "math": "\\text{det}(A - \\lambda I) = 0 \u2192 \\text{This gives a polynomial equation in } \\lambda"
+    },
+    {
+      "title": "Step-by-Step Example",
+      "math": "A = \\begin{bmatrix}4 & 2\\\\1 & 3\\end{bmatrix}\n\\text{det}(A - \\lambda I) = (4 - \u03bb)(3 - \u03bb) - 2 = \u03bb^2 - 7\u03bb + 10\n\\Rightarrow \\lambda = 5, 2"
+    },
+    {
+      "title": "Graph: Eigenvalue Roots",
+      "graph": [
+        {
+          "name": "\u03bb^2 - 7\u03bb + 10",
+          "series": [
+            {
+              "name": 0,
+              "value": 10
+            },
+            {
+              "name": 1,
+              "value": 4
+            },
+            {
+              "name": 2,
+              "value": 0
+            },
+            {
+              "name": 3,
+              "value": -2
+            },
+            {
+              "name": 4,
+              "value": -2
+            },
+            {
+              "name": 5,
+              "value": 0
+            },
+            {
+              "name": 6,
+              "value": 4
+            },
+            {
+              "name": 7,
+              "value": 10
+            }
+          ]
+        }
+      ],
+      "xLabel": "\u03bb",
+      "yLabel": "Polynomial Value"
+    },
+    {
+      "title": "Applications",
+      "content": "The characteristic equation is used to analyze system stability, solve differential equations, and in principal component analysis (PCA)."
+    },
+    {
+      "title": "Recap",
+      "content": "We broke down what the characteristic equation is, how to compute it, and why it\u2019s your first step in finding eigenvalues."
+    }
+  ]
+}

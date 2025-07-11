@@ -1,0 +1,63 @@
+{
+  "title": "Null Space, Column Space, and Linear Transformations",
+  "youtube": "https://www.youtube.com/watch?v=your-null-column-transform-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone, I\u2019m Jihad Al Sayed. In this episode, we\u2019re breaking down three powerful ideas: the null space, the column space, and how they connect to linear transformations. This is where theory meets application."
+    },
+    {
+      "title": "What is the Null Space?",
+      "content": "The null space of a matrix A is the set of all vectors x that satisfy Ax = 0. It's a subspace of the domain of A and tells us about the solution set to homogeneous systems."
+    },
+    {
+      "title": "What is the Column Space?",
+      "content": "The column space is the span of the columns of A. It\u2019s the set of all vectors that A can map to \u2014 in other words, all possible outputs Ax = b."
+    },
+    {
+      "title": "Visual Connection to Transformations",
+      "content": "If you think of A as a transformation, the null space is what's collapsed to zero, and the column space is where things end up."
+    },
+    {
+      "title": "Dimension Link: Rank-Nullity Theorem",
+      "math": "\\text{dim(Null A)} + \\text{dim(Col A)} = \\text{number of columns of A}"
+    },
+    {
+      "title": "Graph: Domain to Codomain Flow",
+      "graph": [
+        {
+          "name": "Input (Domain)",
+          "series": [
+            {
+              "name": "Null Space",
+              "value": 2
+            },
+            {
+              "name": "Column Space",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "Output (Range)",
+          "series": [
+            {
+              "name": "Transform Output",
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Subspace Type",
+      "yLabel": "Dimension"
+    },
+    {
+      "title": "Real-World Examples",
+      "content": "In computer science, the null space helps us find redundant or unnecessary variables. The column space relates directly to whether a system of equations is solvable."
+    },
+    {
+      "title": "Recap",
+      "content": "We\u2019ve explored how the null space and column space define the core behavior of a matrix transformation. This is foundational for solving systems, compressing data, and even designing neural networks."
+    }
+  ]
+}

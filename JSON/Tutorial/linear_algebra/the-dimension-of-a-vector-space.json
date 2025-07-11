@@ -1,0 +1,58 @@
+{
+  "title": "The Dimension of a Vector Space",
+  "youtube": "https://www.youtube.com/watch?v=your-dimension-vector-space-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "What\u2019s up! I\u2019m Jihad Al Sayed, and today we\u2019re talking about dimension \u2014 one of the simplest yet most powerful ideas in linear algebra. Let\u2019s break down what it really means for a vector space."
+    },
+    {
+      "title": "What is Dimension?",
+      "content": "The dimension of a vector space is the number of vectors in a basis for that space. It tells you how many directions you need to describe every vector in the space."
+    },
+    {
+      "title": "Example: \u211d\u00b3 Has Dimension 3",
+      "math": "Standard basis of \\mathbb{R}^3: \\{[1,0,0], [0,1,0], [0,0,1]\\} \u2192 Dimension = 3"
+    },
+    {
+      "title": "Dimension of Subspaces",
+      "content": "Every subspace has a dimension \u2264 the space it\u2019s inside. For example, a plane in \u211d\u00b3 has dimension 2."
+    },
+    {
+      "title": "Rank-Nullity Connection",
+      "math": "\\text{dim(Col A)} + \\text{dim(Null A)} = \\text{number of columns of A}"
+    },
+    {
+      "title": "Graph: Dimension in \u211d\u00b3",
+      "graph": [
+        {
+          "name": "Subspaces",
+          "series": [
+            {
+              "name": "Line",
+              "value": 1
+            },
+            {
+              "name": "Plane",
+              "value": 2
+            },
+            {
+              "name": "Full Space",
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Subspace Type",
+      "yLabel": "Dimension"
+    },
+    {
+      "title": "Why It Matters",
+      "content": "Dimension tells you how complex your data or system is. It's critical in ML, computer vision, physics simulations \u2014 even search engines."
+    },
+    {
+      "title": "Recap",
+      "content": "Today we explored what dimension is, how to find it, and why it's such a fundamental measure of structure in any vector space you\u2019ll encounter."
+    }
+  ]
+}

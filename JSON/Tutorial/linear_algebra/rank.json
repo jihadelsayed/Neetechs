@@ -1,0 +1,58 @@
+{
+  "title": "Rank",
+  "youtube": "https://www.youtube.com/watch?v=your-rank-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back! I\u2019m Jihad Al Sayed. Today, we\u2019re zeroing in on one number that tells you everything about a matrix \u2014 the rank. It\u2019s the heartbeat of any linear system."
+    },
+    {
+      "title": "What is Rank?",
+      "content": "The rank of a matrix is the number of pivot columns in its row echelon form. It\u2019s the dimension of the column space \u2014 basically how many linearly independent columns you have."
+    },
+    {
+      "title": "Example Matrix",
+      "math": "A = \\begin{bmatrix}1 & 2 & 3\\\\2 & 4 & 6\\\\3 & 6 & 9\\end{bmatrix}\n\u2192 Row reduce \u2192 Only 1 pivot \u2192 Rank = 1"
+    },
+    {
+      "title": "Why Rank Matters",
+      "content": "Rank tells you how much information is in your matrix. In data science, high rank = full information. Low rank = compressible, sometimes redundant."
+    },
+    {
+      "title": "Rank-Nullity Theorem",
+      "math": "\\text{Rank}(A) + \\text{Nullity}(A) = \\text{Number of Columns of A}"
+    },
+    {
+      "title": "Applications in Compression & Systems",
+      "content": "Used in data compression (low-rank approximations), recommendation engines (SVD), and checking if a linear system has a unique solution."
+    },
+    {
+      "title": "Graph: Matrix Ranks",
+      "graph": [
+        {
+          "name": "Rank",
+          "series": [
+            {
+              "name": "Matrix A",
+              "value": 1
+            },
+            {
+              "name": "Matrix B",
+              "value": 2
+            },
+            {
+              "name": "Matrix C",
+              "value": 3
+            }
+          ]
+        }
+      ],
+      "xLabel": "Matrix",
+      "yLabel": "Rank"
+    },
+    {
+      "title": "Recap",
+      "content": "Today you learned how to find the rank, why it matters, and how it ties into the dimension of the column space. Without rank, you\u2019re flying blind with your matrices."
+    }
+  ]
+}
