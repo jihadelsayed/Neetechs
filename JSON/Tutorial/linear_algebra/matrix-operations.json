@@ -1,0 +1,67 @@
+{
+  "title": "Matrix Operations",
+  "youtube": "https://www.youtube.com/watch?v=your-matrix-operations-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, I\u2019m Jihad Al Sayed. In this tutorial, we\u2019re going back to the basics \u2014 matrix operations. If you want to manipulate data, build models, or do anything meaningful in linear algebra, you need these tools."
+    },
+    {
+      "title": "Matrix Addition and Subtraction",
+      "math": "\\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix} + \\begin{bmatrix}5 & 6 \\\\ 7 & 8\\end{bmatrix} = \\begin{bmatrix}6 & 8 \\\\ 10 & 12\\end{bmatrix}"
+    },
+    {
+      "title": "Scalar Multiplication",
+      "math": "2 \\cdot \\begin{bmatrix}1 & -1 \\\\ 0 & 4\\end{bmatrix} = \\begin{bmatrix}2 & -2 \\\\ 0 & 8\\end{bmatrix}"
+    },
+    {
+      "title": "Matrix Multiplication",
+      "math": "\\begin{bmatrix}1 & 2\\end{bmatrix} \\cdot \\begin{bmatrix}3 \\\\ 4\\end{bmatrix} = [11]"
+    },
+    {
+      "title": "Matrix Transpose",
+      "math": "\\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix}^T = \\begin{bmatrix}1 & 3 \\\\ 2 & 4\\end{bmatrix}"
+    },
+    {
+      "title": "Why Operations Matter",
+      "content": "These operations are the foundation for everything from linear transformations to neural network computations. Get these wrong and the whole system falls apart."
+    },
+    {
+      "title": "Graph: Matrix Scaling Effect",
+      "graph": [
+        {
+          "name": "Original Vector",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "Scaled by 2",
+          "series": [
+            {
+              "name": 0,
+              "value": 4
+            },
+            {
+              "name": 1,
+              "value": 6
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We covered addition, subtraction, scalar multiplication, matrix multiplication, and transpose. These operations are your first toolkit for working with matrices and manipulating data."
+    }
+  ]
+}

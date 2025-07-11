@@ -1,0 +1,67 @@
+{
+  "title": "Applications of Linear Systems",
+  "youtube": "https://www.youtube.com/watch?v=your-applications-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone, I\u2019m Jihad Al Sayed, and today we\u2019re going beyond theory \u2014 we\u2019re applying linear systems to real-world problems in tech, science, and engineering. Let\u2019s see how these equations run the world behind the scenes."
+    },
+    {
+      "title": "Application: Electrical Circuits",
+      "content": "Using Kirchhoff\u2019s laws, we can set up systems of equations to calculate current or voltage in circuits. Each loop gives us a linear equation."
+    },
+    {
+      "title": "Application: Network Flow",
+      "content": "In a traffic or data network, flow conservation at each node leads to a system of equations. Solving it gives us the optimal distribution across the network."
+    },
+    {
+      "title": "Application: Economics",
+      "content": "Linear systems model supply and demand, input-output models in economics, and cost optimization in production systems."
+    },
+    {
+      "title": "Application: 3D Graphics",
+      "content": "Every 3D object you see in games or simulations is transformed using matrices. Translation, rotation, and scaling are all linear operations."
+    },
+    {
+      "title": "Example: Circuit with 3 Loops",
+      "math": "I_1 + I_2 = 2\n5I_1 - 3I_2 + I_3 = 4\n-2I_1 + 4I_2 - I_3 = 1"
+    },
+    {
+      "title": "Graph: Traffic Flow Example",
+      "graph": [
+        {
+          "name": "Intersection A",
+          "series": [
+            {
+              "name": 0,
+              "value": 30
+            },
+            {
+              "name": 1,
+              "value": 40
+            }
+          ]
+        },
+        {
+          "name": "Intersection B",
+          "series": [
+            {
+              "name": 0,
+              "value": 25
+            },
+            {
+              "name": 1,
+              "value": 45
+            }
+          ]
+        }
+      ],
+      "xLabel": "Time",
+      "yLabel": "Vehicles per Minute"
+    },
+    {
+      "title": "Recap",
+      "content": "We looked at how linear systems model real-world problems: circuits, networks, economics, and graphics. These aren\u2019t just equations \u2014 they\u2019re tools for solving problems across every major field."
+    }
+  ]
+}

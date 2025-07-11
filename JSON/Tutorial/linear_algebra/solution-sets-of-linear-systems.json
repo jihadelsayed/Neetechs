@@ -1,0 +1,76 @@
+{
+  "title": "Solution Sets of Linear Systems",
+  "youtube": "https://www.youtube.com/watch?v=your-solution-sets-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, I\u2019m Jihad Al Sayed, and in this video we\u2019re breaking down how to describe the complete set of solutions to a system of linear equations. Whether the system has no solution, one solution, or infinitely many \u2014 we\u2019ll cover it all."
+    },
+    {
+      "title": "Types of Solutions",
+      "content": "There are three types: no solution (inconsistent), one solution (unique), or infinitely many solutions (dependent). Understanding the structure helps us decide how to proceed."
+    },
+    {
+      "title": "Example: Unique Solution",
+      "math": "\\begin{bmatrix}1 & 2 & | & 5 \\\\ 3 & 4 & | & 11\\end{bmatrix} \\xrightarrow[]{R_2 - 3R_1} \\begin{bmatrix}1 & 2 & | & 5 \\\\ 0 & -2 & | & -4\\end{bmatrix} \\Rightarrow x = 1, y = 2"
+    },
+    {
+      "title": "Example: No Solution (Inconsistent)",
+      "math": "\\begin{bmatrix}1 & 2 & | & 5 \\\\ 2 & 4 & | & 10.1\\end{bmatrix} \\Rightarrow 0 = 0.1 \\Rightarrow \\text{No solution}"
+    },
+    {
+      "title": "Example: Infinitely Many Solutions",
+      "math": "\\begin{bmatrix}1 & 2 & | & 5 \\\\ 2 & 4 & | & 10\\end{bmatrix} \\Rightarrow \\text{One row is a multiple of the other} \\Rightarrow \\text{Free variable \u2192 Infinite solutions}"
+    },
+    {
+      "title": "Graph: Visualizing Solution Types",
+      "graph": [
+        {
+          "name": "Unique Solution",
+          "series": [
+            {
+              "name": 0,
+              "value": 5
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "Parallel Lines (No Solution)",
+          "series": [
+            {
+              "name": 0,
+              "value": 4
+            },
+            {
+              "name": 1,
+              "value": 4
+            }
+          ]
+        },
+        {
+          "name": "Overlapping Lines (Infinite)",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We explored solution types: unique, none, and infinite. Understanding how to interpret row-reduced matrices lets you confidently describe the solution set of any linear system."
+    }
+  ]
+}

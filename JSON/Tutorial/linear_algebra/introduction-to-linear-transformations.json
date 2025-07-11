@@ -1,0 +1,63 @@
+{
+  "title": "Introduction to Linear Transformations",
+  "youtube": "https://www.youtube.com/watch?v=your-linear-transformations-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "I\u2019m Jihad Al Sayed, and in this video we\u2019re introducing linear transformations \u2014 a concept that connects algebra and geometry. It\u2019s how we understand stretching, rotating, and projecting vectors using matrices."
+    },
+    {
+      "title": "What Is a Linear Transformation?",
+      "content": "A linear transformation is a function T such that T(ax + by) = aT(x) + bT(y). It preserves vector addition and scalar multiplication."
+    },
+    {
+      "title": "Matrix Representation of a Transformation",
+      "math": "T\\left(\\begin{bmatrix}x \\\\ y\\end{bmatrix}\\right) = A \\cdot \\begin{bmatrix}x \\\\ y\\end{bmatrix},\\ \\text{where } A \\text{ is a matrix}"
+    },
+    {
+      "title": "Example: Rotation Matrix",
+      "math": "R(\\theta) = \\begin{bmatrix}\\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta\\end{bmatrix}"
+    },
+    {
+      "title": "Example: Projection onto x-axis",
+      "math": "P = \\begin{bmatrix}1 & 0 \\\\ 0 & 0\\end{bmatrix} \\Rightarrow T\\left(\\begin{bmatrix}x \\\\ y\\end{bmatrix}\\right) = \\begin{bmatrix}x \\\\ 0\\end{bmatrix}"
+    },
+    {
+      "title": "Graph: Visualizing a Rotation",
+      "graph": [
+        {
+          "name": "Original Vector",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Rotated Vector",
+          "series": [
+            {
+              "name": 0,
+              "value": 0
+            },
+            {
+              "name": 1,
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We explored what linear transformations are, how they\u2019re represented by matrices, and saw examples like rotation and projection. This is the bridge between raw algebra and geometric intuition."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "The Inverse of a Matrix",
+  "youtube": "https://www.youtube.com/watch?v=your-inverse-matrix-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, I\u2019m Jihad Al Sayed, and in this lesson, we\u2019re going to break down the inverse of a matrix \u2014 how to find it, when it exists, and why it\u2019s so useful in solving systems and more."
+    },
+    {
+      "title": "What Is the Inverse of a Matrix?",
+      "content": "If A is a square matrix and there's a matrix A\u207b\u00b9 such that A \u00b7 A\u207b\u00b9 = I, then A\u207b\u00b9 is called the inverse of A. It acts like division in matrix algebra."
+    },
+    {
+      "title": "Example: Inverse of a 2x2 Matrix",
+      "math": "A = \\begin{bmatrix}a & b \\\\ c & d\\end{bmatrix} \\Rightarrow A^{-1} = \\frac{1}{ad - bc} \\begin{bmatrix}d & -b \\\\ -c & a\\end{bmatrix}"
+    },
+    {
+      "title": "Condition for Existence",
+      "math": "\\text{A matrix is invertible iff } \\det(A) \\neq 0"
+    },
+    {
+      "title": "Solving Ax = b Using Inverse",
+      "math": "x = A^{-1}b"
+    },
+    {
+      "title": "Graph: Inverse Transformation",
+      "graph": [
+        {
+          "name": "Original Vector",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        },
+        {
+          "name": "Transformed Back (Inverse Applied)",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We defined what the inverse of a matrix is, how to compute it for 2x2 cases, when it exists, and how it's used to solve systems of equations. A powerful concept for control systems, optimization, and more."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Introduction to Determinants",
+  "youtube": "https://www.youtube.com/watch?v=your-determinants-intro-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "I\u2019m Jihad Al Sayed, and in this video, we\u2019re introducing determinants \u2014 a scalar value that tells you something deep about a matrix: whether it's invertible, how it scales space, and how vectors relate inside it."
+    },
+    {
+      "title": "What Is a Determinant?",
+      "content": "A determinant is a number associated with a square matrix. It gives insight into the matrix\u2019s properties \u2014 like invertibility, area/volume scaling, and linear dependence."
+    },
+    {
+      "title": "Determinant of a 2x2 Matrix",
+      "math": "\\det\\left(\\begin{bmatrix}a & b \\\\ c & d\\end{bmatrix}\\right) = ad - bc"
+    },
+    {
+      "title": "Determinant of a 3x3 Matrix (Expansion by Minors)",
+      "math": "\\det(A) = a(ei \u2212 fh) \u2212 b(di \u2212 fg) + c(dh \u2212 eg)"
+    },
+    {
+      "title": "Geometric Interpretation",
+      "content": "In 2D, the determinant represents the area of the parallelogram formed by two column vectors. In 3D, it gives the volume of a parallelepiped."
+    },
+    {
+      "title": "Graph: Area Scaling by Determinant",
+      "graph": [
+        {
+          "name": "Original Area",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Scaled Area",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "Matrix A",
+      "yLabel": "Area"
+    },
+    {
+      "title": "Recap",
+      "content": "We introduced determinants, learned how to compute them for 2x2 and 3x3 matrices, and understood their geometric meaning. Determinants are compact, powerful, and everywhere in linear algebra."
+    }
+  ]
+}

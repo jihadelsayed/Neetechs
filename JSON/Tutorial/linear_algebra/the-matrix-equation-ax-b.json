@@ -1,0 +1,71 @@
+{
+  "title": "The Matrix Equation Ax = b",
+  "youtube": "https://www.youtube.com/watch?v=your-matrix-equation-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone, I\u2019m Jihad Al Sayed, and today we\u2019re digging into the matrix equation Ax = b. This is where linear algebra gets clean, structured, and powerful \u2014 especially for computer science and machine learning."
+    },
+    {
+      "title": "What Is Ax = b?",
+      "content": "Ax = b is a compact way to represent a system of linear equations. A is the matrix of coefficients, x is the variable vector, and b is the result vector."
+    },
+    {
+      "title": "Example: Translating a System to Ax = b",
+      "math": "x + 2y = 4\n3x + y = 5\n\\Rightarrow A = \\begin{bmatrix}1 & 2 \\\\ 3 & 1\\end{bmatrix},\\ x = \\begin{bmatrix}x \\\\ y\\end{bmatrix},\\ b = \\begin{bmatrix}4 \\\\ 5\\end{bmatrix}"
+    },
+    {
+      "title": "Solving Ax = b with Row Reduction",
+      "math": "\\begin{bmatrix}1 & 2 & | & 4 \\\\ 3 & 1 & | & 5\\end{bmatrix} \\xrightarrow[]{R_2 - 3R_1} \\begin{bmatrix}1 & 2 & | & 4 \\\\ 0 & -5 & | & -7\\end{bmatrix} \\Rightarrow x = 1, y = 1.5"
+    },
+    {
+      "title": "Why Ax = b Is Powerful",
+      "content": "This form allows algorithms to solve massive systems efficiently. It's the backbone of numerical methods, simulations, optimizations, and neural networks."
+    },
+    {
+      "title": "Graph: Ax = b Interpretation",
+      "graph": [
+        {
+          "name": "Line 1: x + 2y = 4",
+          "series": [
+            {
+              "name": 0,
+              "value": 4
+            },
+            {
+              "name": 1,
+              "value": 2
+            },
+            {
+              "name": 2,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Line 2: 3x + y = 5",
+          "series": [
+            {
+              "name": 0,
+              "value": 5
+            },
+            {
+              "name": 1,
+              "value": 2
+            },
+            {
+              "name": 2,
+              "value": -1
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We broke down Ax = b as a matrix equation, rewrote a system in that form, solved it with row operations, and visualized it graphically. This is how math scales to real-world problems."
+    }
+  ]
+}

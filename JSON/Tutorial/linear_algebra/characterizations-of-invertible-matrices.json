@@ -1,0 +1,63 @@
+{
+  "title": "Characterizations of Invertible Matrices",
+  "youtube": "https://www.youtube.com/watch?v=your-characterizations-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey, I\u2019m Jihad Al Sayed. In this video, we\u2019re covering one of the most important theorems in linear algebra \u2014 the Invertible Matrix Theorem. This gives us multiple ways to tell if a square matrix is invertible."
+    },
+    {
+      "title": "The Invertible Matrix Theorem (IMT)",
+      "content": "A matrix is invertible if and only if it satisfies a long list of equivalent conditions. That means any one of them being true implies all the others are too."
+    },
+    {
+      "title": "Key Equivalent Conditions",
+      "math": "\\text{A is invertible} \\iff \\text{RREF of A is I} \\iff \\det(A) \\neq 0 \\iff \\text{Columns are linearly independent}"
+    },
+    {
+      "title": "Implication: Ax = b Has Unique Solution",
+      "math": "A\\vec{x} = \\vec{b} \\Rightarrow \\text{Unique solution exists if A is invertible}"
+    },
+    {
+      "title": "Rank and Null Space",
+      "math": "\\text{A is invertible} \\iff \\text{Rank(A) = n and Null(A) = {0}}"
+    },
+    {
+      "title": "Graph: Column Independence vs Dependence",
+      "graph": [
+        {
+          "name": "Independent Columns",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Dependent Columns",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We walked through the Invertible Matrix Theorem and showed multiple ways to check if a matrix is invertible. These tools make it easier to analyze systems, transformations, and algorithms."
+    }
+  ]
+}

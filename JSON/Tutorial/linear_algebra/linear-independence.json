@@ -1,0 +1,63 @@
+{
+  "title": "Linear Independence",
+  "youtube": "https://www.youtube.com/watch?v=your-linear-independence-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "I\u2019m Jihad Al Sayed, and today we\u2019re talking about linear independence \u2014 one of the most important concepts in linear algebra. It tells us whether vectors bring unique value or just repeat what others are already doing."
+    },
+    {
+      "title": "What Is Linear Independence?",
+      "content": "A set of vectors is linearly independent if no vector in the set can be written as a combination of the others. If one can, the set is dependent."
+    },
+    {
+      "title": "Test for Linear Independence",
+      "math": "A = \\begin{bmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{bmatrix} \\Rightarrow \\text{Check if Ax = 0 has only the trivial solution}"
+    },
+    {
+      "title": "Example: Dependent Vectors",
+      "math": "v_1 = \\begin{bmatrix}1 \\\\ 2\\end{bmatrix},\\ v_2 = \\begin{bmatrix}2 \\\\ 4\\end{bmatrix} \\Rightarrow v_2 = 2v_1 \\Rightarrow \\text{Linearly Dependent}"
+    },
+    {
+      "title": "Example: Independent Vectors",
+      "math": "v_1 = \\begin{bmatrix}1 \\\\ 0\\end{bmatrix},\\ v_2 = \\begin{bmatrix}0 \\\\ 1\\end{bmatrix} \\Rightarrow \\text{No combination \u2192 Independent}"
+    },
+    {
+      "title": "Graph: Comparing Vector Sets",
+      "graph": [
+        {
+          "name": "Dependent Set",
+          "series": [
+            {
+              "name": 0,
+              "value": 2
+            },
+            {
+              "name": 1,
+              "value": 4
+            }
+          ]
+        },
+        {
+          "name": "Independent Set",
+          "series": [
+            {
+              "name": 0,
+              "value": 1
+            },
+            {
+              "name": 1,
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "xLabel": "Vector Index",
+      "yLabel": "Magnitude"
+    },
+    {
+      "title": "Recap",
+      "content": "We defined linear independence, saw how to test it using matrices, and walked through examples. This concept is foundational for vector spaces, basis sets, and dimensionality in ML and data science."
+    }
+  ]
+}

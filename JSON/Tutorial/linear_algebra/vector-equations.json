@@ -1,0 +1,72 @@
+{
+  "title": "Vector Equations",
+  "youtube": "https://www.youtube.com/watch?v=your-vector-equations-video",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "In this video, I\u2019m Jihad Al Sayed, and we\u2019re diving into vector equations. This concept lets us rewrite systems of equations using vectors \u2014 a game changer for understanding geometry and linear algebra visually."
+    },
+    {
+      "title": "What Is a Vector Equation?",
+      "content": "A vector equation expresses a system of equations as a linear combination of vectors. Instead of writing equations line by line, we treat them like weighted vectors added together to produce another vector."
+    },
+    {
+      "title": "Example: Writing a Vector Equation",
+      "math": "x + 2y = 4\n3x + y = 5\n\\Rightarrow x\\begin{bmatrix}1 \\\\ 3\\end{bmatrix} + y\\begin{bmatrix}2 \\\\ 1\\end{bmatrix} = \\begin{bmatrix}4 \\\\ 5\\end{bmatrix}"
+    },
+    {
+      "title": "Why Vector Form Matters",
+      "content": "In vector form, solving a system means finding weights (x and y) to scale and add vectors to land exactly on a target vector. This gives us powerful visual and computational tools."
+    },
+    {
+      "title": "Graph: Linear Combination Visualization",
+      "graph": [
+        {
+          "name": "x[1, 3]",
+          "series": [
+            {
+              "name": 0,
+              "value": 0
+            },
+            {
+              "name": 1,
+              "value": 3
+            }
+          ]
+        },
+        {
+          "name": "y[2, 1]",
+          "series": [
+            {
+              "name": 0,
+              "value": 0
+            },
+            {
+              "name": 1,
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Target [4, 5]",
+          "series": [
+            {
+              "name": 0,
+              "value": 0
+            },
+            {
+              "name": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "xLabel": "x",
+      "yLabel": "y"
+    },
+    {
+      "title": "Recap",
+      "content": "We took a system of equations and rephrased it using vector equations. This lets us visualize and solve systems in terms of vector addition \u2014 a key step toward understanding span, linear independence, and transformations."
+    }
+  ]
+}
