@@ -421,7 +421,7 @@
         "id": "36",
         "name": "Linear Algebra",
         "date": "July 10, 2024",
-        "disable": "true",
+        "disable": "false",
         "href": "tutorials/linear_algebra",
         "image": "https://i.imgur.com/6NOQqPd.png",
         "type": "Mathematic",
