@@ -12,11 +12,23 @@
     },
     {
       "title": "Substitution Method",
-      "math": "\\begin{aligned}\n x + y &= 5 \\\\\n x - y &= 1 \\\\\n x &= y + 1 \\\\\n (y + 1) + y &= 5 \\\\\n 2y + 1 &= 5 \\Rightarrow y = 2 \\\\\n x &= 3\n\\end{aligned}"
+      "steps": [
+        { "math": "x + y = 5" },
+        { "math": "x - y = 1" },
+        { "math": "x = y + 1" },
+        { "math": "(y + 1) + y = 5" },
+        { "math": "2y + 1 = 5 \\Rightarrow y = 2" },
+        { "math": "x = 3" }
+      ]
     },
     {
       "title": "Elimination Method",
-      "math": "\\begin{aligned}\n 2x + 3y &= 12 \\\\\n 4x - 3y &= 6 \\\\\n \\text{Add: } 6x &= 18 \\Rightarrow x = 3 \\\\\n 2(3) + 3y &= 12 \\Rightarrow y = 2\n\\end{aligned}"
+      "steps": [
+        { "math": "2x + 3y = 12" },
+        { "math": "4x - 3y = 6" },
+        { "math": "\\text{Add: } 6x = 18 \\Rightarrow x = 3" },
+        { "math": "2(3) + 3y = 12 \\Rightarrow y = 2" }
+      ]
     },
     {
       "title": "Matrix Representation",
