@@ -378,7 +378,7 @@
         "date": "August 25, 2025",
         "disable": "false",
         "href": "tutorials/cplusplus",
-        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "image": "https://i.imgur.com/xY48nwk.png",
         "type": "Programming Languages",
         "description": "Master modern C++ with advanced OOP, templates, STL, and C++11/14/17/20 features."
       },
@@ -505,7 +505,7 @@
         "date": "August 25, 2025",
         "disable": "false",
         "href": "tutorials/assembly",
-        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "image": "https://i.imgur.com/WAuTbkU.png",
         "type": "Systems Programming",
         "description": "Learn computer organization and assembly language programming: CPU architecture, instructions, memory, and low-level problem solving."
       },
@@ -515,7 +515,7 @@
         "date": "August 25, 2025",
         "disable": "false",
         "href": "tutorials/linux_os",
-        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "image": "https://i.imgur.com/1q6BQR6.png",
         "type": "Systems",
         "description": "Dive into operating systems: processes, threads, scheduling, memory, file systems, and security — all with hands-on Linux practice."
       }
