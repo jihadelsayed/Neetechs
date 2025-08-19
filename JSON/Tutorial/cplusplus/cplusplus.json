@@ -1,0 +1,55 @@
+{
+  "id": "31",
+  "name": "C++",
+  "date": "August 25, 2025",
+  "href": "tutorials/cplusplus",
+  "description": "Learn advanced C++ step by step.",
+  "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1. Setting Up C++ and Hello World",
+      "lvl": "Introduction",
+      "date": "August 25, 2025",
+      "href": "tutorials/cplusplus/setup",
+      "description": "Install a C++ compiler, set up your IDE, and write your first program.",
+      "duration": "10 minutes"
+    },
+    {
+      "id": 2,
+      "title": "2. Classes, Objects, and Const Correctness",
+      "lvl": "Fundamentals",
+      "date": "August 26, 2025",
+      "href": "tutorials/cplusplus/classes",
+      "description": "Understand classes, constructors, destructors, and const correctness.",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 3,
+      "title": "3. Inheritance and Polymorphism",
+      "lvl": "Fundamentals",
+      "date": "August 27, 2025",
+      "href": "tutorials/cplusplus/inheritance",
+      "description": "Learn how C++ handles inheritance, virtual functions, and polymorphism.",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 4,
+      "title": "4. Templates and STL",
+      "lvl": "Advanced",
+      "date": "August 29, 2025",
+      "href": "tutorials/cplusplus/templates",
+      "description": "Write generic code with templates and leverage the Standard Template Library (STL).",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 5,
+      "title": "5. Modern C++ (C++11/14/17/20)",
+      "lvl": "Advanced",
+      "date": "September 2, 2025",
+      "href": "tutorials/cplusplus/modern_cpp",
+      "description": "Discover modern C++ features like smart pointers, lambdas, move semantics, and concepts.",
+      "duration": "40 minutes"
+    }
+  ]
+}

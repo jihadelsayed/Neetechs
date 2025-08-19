@@ -26,7 +26,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/javascript",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Essential Skills"
       },
       {
@@ -35,7 +35,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/shell_scripting",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Essential Skills"
       },
       {
@@ -44,7 +44,7 @@
         "date": "July 31, 2024",
         "disable": "true",
         "href": "tutorials/mathematics_statistics",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Essential Skills"
       },
       {
@@ -53,7 +53,7 @@
         "date": "July 31, 2024",
         "disable": "true",
         "href": "tutorials/algorithms",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Essential Skills"
       },
       {
@@ -62,7 +62,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/sql",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Databases",
         "description": "Learn the fundamentals of SQL, including queries, joins, and database design.",
         "level": "Beginner"
@@ -73,7 +73,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/nosql",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Databases",
         "description": "An introduction to NoSQL databases, covering different types like MongoDB, Cassandra, and Redis.",
         "level": "Intermediate"
@@ -84,7 +84,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/blockchain",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Databases",
         "description": "Explore the basics of blockchain technology, including how it works and its applications.",
         "level": "Advanced"
@@ -95,7 +95,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/data-warehousing",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Databases",
         "description": "Understand the concepts of data warehousing, including ETL processes, data modeling, and reporting.",
         "level": "Intermediate"
@@ -106,7 +106,7 @@
         "date": "June 23, 2024",
         "disable": "false",
         "href": "tutorials/nodejs",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Backend Development",
         "description": "Learn the fundamentals of Node.js, an open-source, cross-platform JavaScript runtime environment. This tutorial covers setting up Node.js, understanding the event-driven architecture, and building scalable network applications.",
         "level": "Intermediate"
@@ -117,7 +117,7 @@
         "date": "June 23, 2024",
         "disable": "false",
         "href": "tutorials/django",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Backend Development",
         "description": "Explore Django, a high-level Python web framework that encourages rapid development and clean, pragmatic design. This tutorial covers setting up a Django project, understanding the MVC architecture, and building dynamic web applications.",
         "level": "Intermediate"
@@ -139,7 +139,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/cloud_computing",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -148,7 +148,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/docker",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -157,7 +157,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/kubernetes",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -166,7 +166,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/aws",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -175,7 +175,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/azure",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -184,7 +184,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/google_cloud",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "DevOps (Development Operations)"
       },
       {
@@ -193,7 +193,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/unity",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Learn how to create games using Unity, a powerful and widely-used game engine."
       },
@@ -203,7 +203,7 @@
         "date": "July 15, 2024",
         "disable": "false",
         "href": "tutorials/unreal",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Explore game development with Unreal Engine, known for its high-quality graphics and performance."
       },
@@ -213,7 +213,7 @@
         "date": "August 1, 2024",
         "disable": "false",
         "href": "tutorials/godot",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Discover the capabilities of Godot Engine, an open-source game engine that's easy to learn and use."
       },
@@ -223,7 +223,7 @@
         "date": "September 5, 2024",
         "disable": "true",
         "href": "tutorials/cryengine",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Dive into CryEngine for advanced game development with stunning visuals and powerful tools."
       },
@@ -233,7 +233,7 @@
         "date": "October 10, 2024",
         "disable": "false",
         "href": "tutorials/gamemaker",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Get started with GameMaker Studio, a great tool for creating 2D games quickly and efficiently."
       },
@@ -243,7 +243,7 @@
         "date": "November 15, 2024",
         "disable": "false",
         "href": "tutorials/construct",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Learn game development with Construct, a user-friendly engine perfect for creating HTML5 games."
       },
@@ -253,7 +253,7 @@
         "date": "December 1, 2024",
         "disable": "false",
         "href": "tutorials/roblox",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Gaming Development",
         "description": "Create immersive experiences and games using Roblox, a platform beloved by millions of users worldwide."
       },
@@ -263,7 +263,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/data_science",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "AI Development",
         "description": "An introduction to the concepts and applications of artificial intelligence, covering basic principles and real-world use cases."
       },
@@ -273,7 +273,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/machine_learning",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "AI Development",
         "description": "Learn the fundamentals of machine learning, including supervised and unsupervised learning, and how to implement algorithms in Python."
       },
@@ -283,7 +283,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/deep_learning",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "AI Development",
         "description": "A deep dive into neural networks and deep learning techniques, with hands-on examples using TensorFlow and Keras."
       },
@@ -293,7 +293,7 @@
         "date": "June 23, 2024",
         "disable": "false",
         "href": "tutorials/openai",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "AI Development",
         "description": "Get started with OpenAI's powerful AI models and tools. This tutorial covers integrating OpenAI's APIs, exploring capabilities like natural language processing and machine learning, and building intelligent applications using GPT models.",
         "level": "Intermediate"
@@ -304,7 +304,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/r",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages",
         "description": "Comprehensive tutorials on R programming, focusing on data analysis, visualization, and statistical computing."
       },
@@ -314,7 +314,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/matlab",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages",
         "description": "Learn MATLAB from basics to advanced applications, including mathematical modeling, simulation, and algorithm development."
       },
@@ -324,7 +324,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/ruby_on_rails",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -333,7 +333,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/php",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -342,7 +342,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/csharp",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -351,7 +351,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/java",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -360,7 +360,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/go",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -369,17 +369,18 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/rust",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
-      {
+       {
         "id": "31",
         "name": "C++",
-        "date": "June 23, 2024",
-        "disable": "true",
+        "date": "August 25, 2025",
+        "disable": "false",
         "href": "tutorials/cplusplus",
-        "image": "https://i.imgur.com/6NOQqPd.png",
-        "type": "Programming Languages"
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "type": "Programming Languages",
+        "description": "Master modern C++ with advanced OOP, templates, STL, and C++11/14/17/20 features."
       },
       {
         "id": "32",
@@ -387,7 +388,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/swift",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -396,7 +397,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/objective_c",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -405,7 +406,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/scala",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -414,7 +415,7 @@
         "date": "June 23, 2024",
         "disable": "true",
         "href": "tutorials/perl",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Programming Languages"
       },
       {
@@ -423,7 +424,7 @@
         "date": "July 10, 2024",
         "disable": "false",
         "href": "tutorials/linear_algebra",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Master the core concepts of Linear Algebra, including vectors, matrices, transformations, and eigenvalues—fundamental for machine learning, graphics, computer vision, and scientific computing.",
         "level": "Intermediate"
@@ -434,7 +435,7 @@
         "date": "July 10, 2024",
         "disable": "true",
         "href": "tutorials/discrete_mathematics",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Learn logic, set theory, combinatorics, graph theory, and proofs—critical for algorithms, data structures, databases, and security in computer science.",
         "level": "Beginner"
@@ -446,7 +447,7 @@
         "date": "July 10, 2024",
         "disable": "true",
         "href": "tutorials/calculus",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Understand limits, derivatives, and integrals—essential for optimization, simulations, continuous models, and backpropagation in neural networks.",
         "level": "Intermediate"
@@ -458,7 +459,7 @@
         "date": "July 10, 2024",
         "disable": "false",
         "href": "tutorials/probability_statistics",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Explore probability theory, distributions, hypothesis testing, and statistical inference—vital for AI, machine learning, analytics, and decision-making systems.",
         "level": "Intermediate"
@@ -470,7 +471,7 @@
         "date": "July 10, 2024",
         "disable": "false",
         "href": "tutorials/number_theory",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Dive into primes, modular arithmetic, and Diophantine equations—key to understanding cryptography, hashing, and secure communications.",
         "level": "Advanced"
@@ -482,7 +483,7 @@
         "date": "July 10, 2024",
         "disable": "false",
         "href": "tutorials/differential_equations",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Study how to model change using differential equations—used in simulations, computer graphics, control systems, and deep learning architectures like Neural ODEs.",
         "level": "Advanced"
@@ -493,10 +494,30 @@
         "date": "July 10, 2024",
         "disable": "false",
         "href": "tutorials/optimization",
-        "image": "https://i.imgur.com/6NOQqPd.png",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
         "type": "Mathematic",
         "description": "Learn optimization techniques including linear programming, gradient descent, and convex analysis—crucial for training AI models, decision-making systems, and resource allocation in software engineering.",
         "level": "Advanced"
+      },
+      {
+        "id": "50",
+        "name": "Assembly",
+        "date": "August 25, 2025",
+        "disable": "false",
+        "href": "tutorials/assembly",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "type": "Systems Programming",
+        "description": "Learn computer organization and assembly language programming: CPU architecture, instructions, memory, and low-level problem solving."
+      },
+      {
+        "id": "51",
+        "name": "Linux / Operating Systems",
+        "date": "August 25, 2025",
+        "disable": "false",
+        "href": "tutorials/linux_os",
+        "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+        "type": "Systems",
+        "description": "Dive into operating systems: processes, threads, scheduling, memory, file systems, and security — all with hands-on Linux practice."
       }
     ]
   }
