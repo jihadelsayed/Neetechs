@@ -3,53 +3,222 @@
   "name": "C++",
   "date": "August 25, 2025",
   "href": "tutorials/cplusplus",
-  "description": "Learn advanced C++ step by step.",
-  "image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
+  "description": "Learn C++ programming with modern OOP, templates, STL, and C++11/14/17/20 features.",
+  "image": "https://i.imgur.com/YOUR_CPP_LOGO.png",
   "tutorials": [
-    {
+       {
       "id": 1,
-      "title": "1. Setting Up C++ and Hello World",
+      "title": "1. Setting Up C++: Compiler and IDE",
+      "description": "Step-by-step guide to installing a C++ compiler (GCC/Clang/MSVC) and setting up your IDE (VS Code, CLion, or Code::Blocks).",
       "lvl": "Introduction",
       "date": "August 25, 2025",
       "href": "tutorials/cplusplus/setup",
-      "description": "Install a C++ compiler, set up your IDE, and write your first program.",
-      "duration": "10 minutes"
+      "duration": "10-15 minutes"
     },
     {
       "id": 2,
-      "title": "2. Classes, Objects, and Const Correctness",
-      "lvl": "Fundamentals",
+      "title": "2. Writing and Running Your First C++ Program",
+      "description": "Learn how to write your first C++ program: Hello World. Understand the structure of a C++ file, including headers, main function, and compilation steps.",
+      "lvl": "Introduction",
       "date": "August 26, 2025",
-      "href": "tutorials/cplusplus/classes",
-      "description": "Understand classes, constructors, destructors, and const correctness.",
-      "duration": "20 minutes"
+      "href": "tutorials/cplusplus/hello_world",
+      "duration": "10 minutes"
     },
     {
       "id": 3,
-      "title": "3. Inheritance and Polymorphism",
-      "lvl": "Fundamentals",
+      "title": "3. Understanding C++ Program Structure",
+      "description": "Breakdown of the key parts of a C++ program: preprocessor directives, main function, statements, and return values.",
+      "lvl": "Introduction",
       "date": "August 27, 2025",
-      "href": "tutorials/cplusplus/inheritance",
-      "description": "Learn how C++ handles inheritance, virtual functions, and polymorphism.",
-      "duration": "25 minutes"
+      "href": "tutorials/cplusplus/program_structure",
+      "duration": "15 minutes"
     },
     {
       "id": 4,
-      "title": "4. Templates and STL",
-      "lvl": "Advanced",
-      "date": "August 29, 2025",
-      "href": "tutorials/cplusplus/templates",
-      "description": "Write generic code with templates and leverage the Standard Template Library (STL).",
-      "duration": "30 minutes"
+      "title": "4. Input and Output with iostream",
+      "description": "Learn how to use cin and cout for basic input and output in C++. Includes formatting and simple examples.",
+      "lvl": "Introduction",
+      "date": "August 28, 2025",
+      "href": "tutorials/cplusplus/input_output",
+      "duration": "15 minutes"
     },
     {
       "id": 5,
-      "title": "5. Modern C++ (C++11/14/17/20)",
-      "lvl": "Advanced",
+      "title": "5. C++ Syntax and Structure",
+      "description": "Learn the basic syntax of C++ including headers, main function, statements, and semicolons. Understand how braces define code blocks.",
+      "lvl": "Basics",
+      "date": "August 29, 2025",
+      "href": "tutorials/cplusplus/syntax_structure",
+      "duration": "15 minutes"
+    },
+    {
+      "id": 6,
+      "title": "6. Comments in C++",
+      "description": "Learn how to use single-line (//) and multi-line (/* */) comments to document your C++ code effectively.",
+      "lvl": "Basics",
+      "date": "August 30, 2025",
+      "href": "tutorials/cplusplus/comments",
+      "duration": "10 minutes"
+    },
+    {
+      "id": 7,
+      "title": "7. Data Input and Output",
+      "description": "Understand how to use cout for output and cin for input in C++. Learn formatting tricks and escape sequences.",
+      "lvl": "Basics",
+      "date": "August 31, 2025",
+      "href": "tutorials/cplusplus/input_output_basics",
+      "duration": "15 minutes"
+    },
+    {
+      "id": 8,
+      "title": "8. Type Casting in C++",
+      "description": "Learn how to convert between data types using implicit casting and explicit casting (static_cast, dynamic_cast, etc.).",
+      "lvl": "Basics",
+      "date": "September 1, 2025",
+      "href": "tutorials/cplusplus/type_casting",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 9,
+      "title": "9. Constants and Literals",
+      "description": "Learn how to define constants using const and #define, and understand literals like integers, floating-point, and character constants.",
+      "lvl": "Basics",
       "date": "September 2, 2025",
-      "href": "tutorials/cplusplus/modern_cpp",
-      "description": "Discover modern C++ features like smart pointers, lambdas, move semantics, and concepts.",
+      "href": "tutorials/cplusplus/constants_literals",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 10,
+      "title": "10. Variables and Data Types in C++",
+      "description": "Learn about variables, constants, and built-in data types (int, float, double, char, bool, string). Explore memory allocation and best practices for declaring variables in C++.",
+      "lvl": "Fundamentals",
+      "date": "September 3, 2025",
+      "href": "tutorials/cplusplus/variables_data_types",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 11,
+      "title": "11. Operators and Expressions",
+      "description": "Understand arithmetic, relational, logical, assignment, and bitwise operators in C++. Learn how to build expressions and evaluate them.",
+      "lvl": "Fundamentals",
+      "date": "September 4, 2025",
+      "href": "tutorials/cplusplus/operators_expressions",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 12,
+      "title": "12. Control Structures: Conditionals",
+      "description": "Learn how to control the flow of your program using if, else-if, else statements, and switch-case. Includes examples and best practices.",
+      "lvl": "Fundamentals",
+      "date": "September 5, 2025",
+      "href": "tutorials/cplusplus/control_structures_conditionals",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 13,
+      "title": "13. Loops in C++",
+      "description": "Master looping in C++ with for, while, and do-while loops. Includes nested loops and examples of common looping patterns.",
+      "lvl": "Fundamentals",
+      "date": "September 6, 2025",
+      "href": "tutorials/cplusplus/loops",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 14,
+      "title": "14. Functions in C++",
+      "description": "Introduction to functions in C++. Learn about function declaration, definition, parameters, return values, and scope.",
+      "lvl": "Fundamentals",
+      "date": "September 7, 2025",
+      "href": "tutorials/cplusplus/functions",
+      "duration": "30 minutes"
+    },{
+      "id": 15,
+      "title": "15. Object-Oriented Programming in C++",
+      "description": "Deep dive into OOP: classes, objects, constructors, destructors, encapsulation, and abstraction in C++.",
+      "lvl": "Advanced",
+      "date": "September 8, 2025",
+      "href": "tutorials/cplusplus/oop",
       "duration": "40 minutes"
+    },
+    {
+      "id": 16,
+      "title": "16. Inheritance and Polymorphism",
+      "description": "Learn about single and multiple inheritance, virtual functions, method overriding, and polymorphism in C++.",
+      "lvl": "Advanced",
+      "date": "September 9, 2025",
+      "href": "tutorials/cplusplus/inheritance_polymorphism",
+      "duration": "45 minutes"
+    },
+    {
+      "id": 17,
+      "title": "17. Operator Overloading",
+      "description": "Understand how to overload arithmetic, relational, and stream operators to make classes behave like built-in types.",
+      "lvl": "Advanced",
+      "date": "September 10, 2025",
+      "href": "tutorials/cplusplus/operator_overloading",
+      "duration": "35 minutes"
+    },
+    {
+      "id": 18,
+      "title": "18. Templates in C++",
+      "description": "Learn how to write generic code with function templates, class templates, and specialization.",
+      "lvl": "Advanced",
+      "date": "September 11, 2025",
+      "href": "tutorials/cplusplus/templates",
+      "duration": "45 minutes"
+    },
+    {
+      "id": 19,
+      "title": "19. Standard Template Library (STL)",
+      "description": "Explore STL containers (vector, list, map, set), iterators, and algorithms to write efficient C++ programs.",
+      "lvl": "Advanced",
+      "date": "September 12, 2025",
+      "href": "tutorials/cplusplus/stl",
+      "duration": "50 minutes"
+    }, {
+      "id": 20,
+      "title": "20. Project: C++ Calculator",
+      "description": "Build a command-line calculator that supports basic operations (+, -, *, /) and input validation.",
+      "lvl": "Projects",
+      "date": "September 13, 2025",
+      "href": "tutorials/cplusplus/project_calculator",
+      "duration": "1 hour"
+    },
+    {
+      "id": 21,
+      "title": "21. Project: Student Management System",
+      "description": "Create a system to manage student records with classes, file I/O, and basic search functionality.",
+      "lvl": "Projects",
+      "date": "September 14, 2025",
+      "href": "tutorials/cplusplus/project_student_management",
+      "duration": "2-3 hours"
+    },
+    {
+      "id": 22,
+      "title": "22. Project: File Encryption Tool",
+      "description": "Build a simple text file encryption and decryption tool using C++ strings and file streams.",
+      "lvl": "Projects",
+      "date": "September 15, 2025",
+      "href": "tutorials/cplusplus/project_file_encryption",
+      "duration": "2 hours"
+    },
+    {
+      "id": 23,
+      "title": "23. Bonus: C++ Game (Number Guessing)",
+      "description": "Write a fun number guessing game using random number generation, loops, and conditional logic.",
+      "lvl": "Bonus",
+      "date": "September 16, 2025",
+      "href": "tutorials/cplusplus/bonus_number_guessing",
+      "duration": "45 minutes"
+    },
+    {
+      "id": 24,
+      "title": "24. Bonus: Banking System Simulation",
+      "description": "Simulate a banking system with accounts, deposits, withdrawals, and balance checks using OOP concepts.",
+      "lvl": "Bonus",
+      "date": "September 17, 2025",
+      "href": "tutorials/cplusplus/bonus_banking_system",
+      "duration": "3 hours"
     }
   ]
 }
