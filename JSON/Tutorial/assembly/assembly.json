@@ -1,0 +1,279 @@
+{
+  "id": "50",
+  "name": "Assembly",
+  "date": "August 25, 2025",
+  "href": "tutorials/assembly",
+  "description": "Learn computer organization and assembly language programming: CPU architecture, instructions, memory, and low-level problem solving.",
+  "image": "https://i.imgur.com/YOUR_ASSEMBLY_LOGO.png",
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1. Introduction to Assembly Language",
+      "description": "Overview of assembly language, machine code, and how assembly interacts with hardware. Covers assemblers, linkers, and debuggers.",
+      "lvl": "Introduction",
+      "date": "August 25, 2025",
+      "href": "tutorials/assembly/introduction",
+      "duration": "15 minutes"
+    },
+    {
+      "id": 2,
+      "title": "2. CPU Architecture and Registers",
+      "description": "Learn about CPU components: ALU, control unit, registers, and the instruction cycle. Includes general-purpose vs special-purpose registers.",
+      "lvl": "Introduction",
+      "date": "August 26, 2025",
+      "href": "tutorials/assembly/cpu_registers",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 3,
+      "title": "3. First Assembly Program",
+      "description": "Write and run your first assembly program: move data into registers and print output using system calls.",
+      "lvl": "Introduction",
+      "date": "August 27, 2025",
+      "href": "tutorials/assembly/first_program",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 4,
+      "title": "4. Instruction Set Basics",
+      "description": "Understand common assembly instructions: MOV, ADD, SUB, and basic arithmetic/logic operations.",
+      "lvl": "Introduction",
+      "date": "August 28, 2025",
+      "href": "tutorials/assembly/instruction_set_basics",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 5,
+      "title": "5. Memory Addressing in Assembly",
+      "description": "Introduction to addressing modes: immediate, direct, indirect, and indexed addressing.",
+      "lvl": "Introduction",
+      "date": "August 29, 2025",
+      "href": "tutorials/assembly/memory_addressing",
+      "duration": "30 minutes"
+    }, {
+      "id": 6,
+      "title": "6. Binary, Hexadecimal, and Data Representation",
+      "description": "Learn how numbers and characters are represented at the machine level. Covers binary, hex, signed/unsigned integers, and ASCII encoding.",
+      "lvl": "Basics",
+      "date": "August 30, 2025",
+      "href": "tutorials/assembly/data_representation",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 7,
+      "title": "7. Assembly Arithmetic Operations",
+      "description": "Understand how to perform addition, subtraction, multiplication, and division at the assembly level using registers.",
+      "lvl": "Basics",
+      "date": "August 31, 2025",
+      "href": "tutorials/assembly/arithmetic_operations",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 8,
+      "title": "8. Branching and Control Flow",
+      "description": "Learn conditional jumps (JE, JNE, JG, JL) and how branching is used for decision making in assembly.",
+      "lvl": "Basics",
+      "date": "September 1, 2025",
+      "href": "tutorials/assembly/branching_control_flow",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 9,
+      "title": "9. Loops in Assembly",
+      "description": "Explore looping constructs with JMP and LOOP instructions. Includes counter-controlled and conditional loops.",
+      "lvl": "Basics",
+      "date": "September 2, 2025",
+      "href": "tutorials/assembly/loops",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 10,
+      "title": "10. The Stack and Function Calls",
+      "description": "Introduction to the call stack. Learn how PUSH, POP, CALL, and RET instructions work to manage subroutines.",
+      "lvl": "Basics",
+      "date": "September 3, 2025",
+      "href": "tutorials/assembly/stack_functions",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 11,
+      "title": "11. Addressing Modes in Assembly",
+      "description": "Understand immediate, direct, register, and indirect addressing modes. Learn how the CPU locates data in memory.",
+      "lvl": "Fundamentals",
+      "date": "September 4, 2025",
+      "href": "tutorials/assembly/addressing_modes",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 12,
+      "title": "12. Procedures and Modular Programming",
+      "description": "Learn how to organize code into procedures. Covers parameter passing, local variables, and return conventions.",
+      "lvl": "Fundamentals",
+      "date": "September 5, 2025",
+      "href": "tutorials/assembly/procedures",
+      "duration": "35 minutes"
+    },
+    {
+      "id": 13,
+      "title": "13. Memory Segmentation",
+      "description": "Explore how assembly programs are divided into code, data, and stack segments. Learn segment registers (CS, DS, SS, ES).",
+      "lvl": "Fundamentals",
+      "date": "September 6, 2025",
+      "href": "tutorials/assembly/memory_segmentation",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 14,
+      "title": "14. Working with Strings",
+      "description": "Use assembly instructions for string operations (MOVS, STOS, CMPS, SCAS). Learn fast data processing tricks.",
+      "lvl": "Fundamentals",
+      "date": "September 7, 2025",
+      "href": "tutorials/assembly/strings",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 15,
+      "title": "15. Macros in Assembly",
+      "description": "Understand how macros simplify repetitive tasks. Learn the difference between macros and procedures.",
+      "lvl": "Fundamentals",
+      "date": "September 8, 2025",
+      "href": "tutorials/assembly/macros",
+      "duration": "25 minutes"
+    },
+    {
+      "id": 16,
+      "title": "16. System Calls & OS Interface",
+      "description": "Perform I/O via syscalls: calling conventions, syscall numbers, passing args in registers, return codes.",
+      "lvl": "Advanced",
+      "date": "September 9, 2025",
+      "href": "tutorials/assembly/system_calls",
+      "duration": "35 minutes"
+    },
+    {
+      "id": 17,
+      "title": "17. Interrupts & Exceptions",
+      "description": "Hardware/software interrupts, exception handling flow, vector tables, context save/restore.",
+      "lvl": "Advanced",
+      "date": "September 10, 2025",
+      "href": "tutorials/assembly/interrupts_exceptions",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 18,
+      "title": "18. Calling Conventions & ABI",
+      "description": "Stack frames, caller/callee-saved regs, argument passing, returning values, varargs overview.",
+      "lvl": "Advanced",
+      "date": "September 11, 2025",
+      "href": "tutorials/assembly/calling_conventions_abi",
+      "duration": "40 minutes"
+    },
+    {
+      "id": 19,
+      "title": "19. Linking, ELF, and Relocation",
+      "description": "Object files, symbols, relocation, ELF sections (.text/.data/.bss), static vs dynamic linking.",
+      "lvl": "Advanced",
+      "date": "September 12, 2025",
+      "href": "tutorials/assembly/linking_elf_relocation",
+      "duration": "35 minutes"
+    },
+    {
+      "id": 20,
+      "title": "20. Inline Assembly with C/C++",
+      "description": "Mix asm with C/C++: constraints, clobbers, passing operands, when to prefer intrinsics.",
+      "lvl": "Advanced",
+      "date": "September 13, 2025",
+      "href": "tutorials/assembly/inline_assembly_c_cpp",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 21,
+      "title": "21. SIMD & Floating-Point",
+      "description": "FPU basics and SIMD vectors (conceptual): data packing, alignment, common ops, pitfalls.",
+      "lvl": "Advanced",
+      "date": "September 14, 2025",
+      "href": "tutorials/assembly/simd_fpu_basics",
+      "duration": "35 minutes"
+    },
+    {
+      "id": 22,
+      "title": "22. Optimization & Pipelining",
+      "description": "Minimize stalls: instruction scheduling, reducing branches, memory access patterns, loop unrolling.",
+      "lvl": "Advanced",
+      "date": "September 15, 2025",
+      "href": "tutorials/assembly/optimization_pipelining",
+      "duration": "40 minutes"
+    },
+    {
+      "id": 23,
+      "title": "23. Memory-Mapped I/O (Concepts)",
+      "description": "How devices expose registers via memory space; polling vs interrupts; safe access patterns.",
+      "lvl": "Advanced",
+      "date": "September 16, 2025",
+      "href": "tutorials/assembly/memory_mapped_io",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 24,
+      "title": "24. Debugging: objdump & gdb",
+      "description": "Disassemble and step through asm, inspect regs/memory, breakpoints, reading symbol tables.",
+      "lvl": "Advanced",
+      "date": "September 17, 2025",
+      "href": "tutorials/assembly/debugging_objdump_gdb",
+      "duration": "40 minutes"
+    },
+    {
+      "id": 25,
+      "title": "25. Writing a Bootloader (Intro)",
+      "description": "Learn how bootloaders work. Write a minimal x86 real-mode boot sector that prints text to the screen.",
+      "lvl": "Projects/Bonus",
+      "date": "September 18, 2025",
+      "href": "tutorials/assembly/bootloader_intro",
+      "duration": "45 minutes"
+    },
+    {
+      "id": 26,
+      "title": "26. Reverse Engineering Basics",
+      "description": "Use objdump and gdb to analyze compiled programs, understand control flow, and inspect binaries.",
+      "lvl": "Projects/Bonus",
+      "date": "September 19, 2025",
+      "href": "tutorials/assembly/reverse_engineering",
+      "duration": "50 minutes"
+    },
+    {
+      "id": 27,
+      "title": "27. Tiny OS Kernel (Hello OS)",
+      "description": "Build a small 16-bit kernel that sets up the stack, switches to protected mode, and outputs text.",
+      "lvl": "Projects/Bonus",
+      "date": "September 20, 2025",
+      "href": "tutorials/assembly/tiny_os_kernel",
+      "duration": "60 minutes"
+    },
+    {
+      "id": 28,
+      "title": "28. Game in Assembly: Snake",
+      "description": "Implement a simple Snake game in text mode using loops, input handling, and basic graphics tricks.",
+      "lvl": "Projects/Bonus",
+      "date": "September 21, 2025",
+      "href": "tutorials/assembly/snake_game",
+      "duration": "90 minutes"
+    },
+    {
+      "id": 29,
+      "title": "29. Inline ASM for Performance",
+      "description": "Embed asm in C to optimize performance-critical sections like math functions or memory copies.",
+      "lvl": "Projects/Bonus",
+      "date": "September 22, 2025",
+      "href": "tutorials/assembly/inline_asm_project",
+      "duration": "40 minutes"
+    },
+    {
+      "id": 30,
+      "title": "30. Exploit Development (Intro)",
+      "description": "Understand buffer overflows, shellcode basics, and why memory safety matters in assembly-level code.",
+      "lvl": "Projects/Bonus",
+      "date": "September 23, 2025",
+      "href": "tutorials/assembly/exploit_dev_intro",
+      "duration": "70 minutes"
+    }
+  ]
+}

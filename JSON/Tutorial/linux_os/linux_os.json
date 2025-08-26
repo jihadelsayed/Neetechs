@@ -1,0 +1,55 @@
+{
+  "id": "60",
+  "name": "Linux / Operating Systems",
+  "date": "August 25, 2025",
+  "href": "tutorials/linux",
+  "description": "Learn Linux and Operating System fundamentals: shell, files, processes, and system navigation.",
+  "image": "https://i.imgur.com/YOUR_LINUX_LOGO.png",
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1. Introduction to Linux and OS Concepts",
+      "description": "Overview of operating systems, the role of the kernel, and the Linux ecosystem. Learn what makes Linux different from Windows and macOS.",
+      "lvl": "Introduction",
+      "date": "August 25, 2025",
+      "href": "tutorials/linux/intro_os",
+      "duration": "15 minutes"
+    },
+    {
+      "id": 2,
+      "title": "2. Installing Linux",
+      "description": "Learn how to install Linux (Ubuntu, Fedora, Arch). Covers dual-boot, virtual machines, and WSL on Windows.",
+      "lvl": "Introduction",
+      "date": "August 26, 2025",
+      "href": "tutorials/linux/install_linux",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 3,
+      "title": "3. Linux File System Basics",
+      "description": "Understand the Linux directory structure: /home, /etc, /bin, /usr. Learn absolute vs relative paths.",
+      "lvl": "Introduction",
+      "date": "August 27, 2025",
+      "href": "tutorials/linux/filesystem_basics",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 4,
+      "title": "4. Introduction to the Shell",
+      "description": "Learn what the shell is, how it works, and how to open a terminal. Run simple commands and explore your system.",
+      "lvl": "Introduction",
+      "date": "August 28, 2025",
+      "href": "tutorials/linux/shell_intro",
+      "duration": "20 minutes"
+    },
+    {
+      "id": 5,
+      "title": "5. Basic Commands",
+      "description": "Get familiar with ls, cd, pwd, mkdir, rm, cp, and mv. Learn how to navigate and manipulate files/directories.",
+      "lvl": "Introduction",
+      "date": "August 29, 2025",
+      "href": "tutorials/linux/basic_commands",
+      "duration": "25 minutes"
+    }
+  ]
+}
