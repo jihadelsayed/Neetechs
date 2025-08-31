@@ -233,6 +233,16 @@
             "icon": "🔐",
             "disable": true,
             "link": "tools/text-encryptor-decryptor"
+        },
+        {
+        "type": "Conversion Tools",
+        "name": "Video to MP3 Converter",
+        "description": "Convert video files into MP3 audio directly in your browser using ffmpeg.wasm.",
+        "icon": "🎵",
+        "disable": false,
+        "link": "tools/video-to-mp3"
         }
+
+
     ]
 }

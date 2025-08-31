@@ -1,0 +1,31 @@
+{
+    "title": "Video to MP3 Converter",
+    "image": "none",
+    "input": "Upload a video or paste a direct CORS-enabled link:",
+    "output": "Download MP3:",
+    "button": "Convert",
+    "toolType": "FileOrCorsUrlToFileJson",
+    "heroText": "Help us improve this tool by contributing on GitHub:",
+    "heroLinkName": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/video-to-mp3/video-to-mp3.json",
+    "heroLink": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/video-to-mp3/video-to-mp3.json",
+    "jobOption": [
+        {
+            "text": "Upload Video File",
+            "value": "upload-file"
+        },
+        {
+            "text": "Direct Link (CORS-enabled)",
+            "value": "direct-url"
+        },
+        {
+            "text": "High Quality (320 kbps)",
+            "value": "high-quality"
+        },
+        {
+            "text": "Small Size (128 kbps)",
+            "value": "small-size"
+        }
+    ],
+    "origin": "https://github.com/jihadelsayed/Neetechs/blob/main/JSON/Tools/video-to-mp3/rules.json",
+    "data": {}
+}
