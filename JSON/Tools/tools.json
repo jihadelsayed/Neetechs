@@ -240,7 +240,7 @@
         "description": "Convert video files into MP3 audio directly in your browser using ffmpeg.wasm.",
         "icon": "🎵",
         "disable": false,
-        "link": "tools/video-to-mp3"
+        "link": "tools/conversion_tools/video-to-mp3"
         }
 
 
