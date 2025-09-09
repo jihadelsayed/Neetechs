@@ -1,9 +1,11 @@
 [submodule "Neetechs_Frontend"]
 	path = Neetechs_Frontend
 	url = https://github.com/jihadelsayed/Neetechs_Frontend.git
+	branch = main
 [submodule "Neetechs_Backend"]
 	path = Neetechs_Backend
 	url = https://github.com/jihadelsayed/Neetechs_Backend.git
+	branch = main
 [submodule "Neetechs_Mobile"]
 	path = Neetechs_Mobile
 	url = https://github.com/jihadelsayed/Neetechs_Mobile.git
@@ -16,6 +18,7 @@
 [submodule "Neetechs_Accounts"]
 	path = Neetechs_Accounts
 	url = https://github.com/jihadelsayed/Neetechs_Accounts.git
+	branch = main
 [submodule "Neetechs_Myaccount"]
 	path = Neetechs_Myaccount
 	url = https://github.com/jihadelsayed/Neetechs_Myaccount.git
@@ -37,3 +40,4 @@
 [submodule "Neetechs_Data"]
 	path = Neetechs_Data
 	url = https://github.com/jihadelsayed/Neetechs_Data.git
+	branch = main
