@@ -1,39 +1,39 @@
 [submodule "Neetechs_Frontend"]
 	path = Neetechs_Frontend
-	url = https://github.com:jihadelsayed/Neetechs_Frontend.git
+	url = https://github.com/jihadelsayed/Neetechs_Frontend.git
 [submodule "Neetechs_Backend"]
 	path = Neetechs_Backend
-	url = https://github.com:jihadelsayed/Neetechs_Backend.git
+	url = https://github.com/jihadelsayed/Neetechs_Backend.git
 [submodule "Neetechs_Mobile"]
 	path = Neetechs_Mobile
-	url = https://github.com:jihadelsayed/Neetechs_Mobile.git
+	url = https://github.com/jihadelsayed/Neetechs_Mobile.git
 [submodule "Neetechs_MVC"]
 	path = Neetechs_MVC
-	url = https://github.com:jihadelsayed/Neetechs_MVC.git
+	url = https://github.com/jihadelsayed/Neetechs_MVC.git
 [submodule "Neetechs_react"]
 	path = Neetechs_react
-	url = https://github.com:jihadelsayed/Neetechs_react.git
+	url = https://github.com/jihadelsayed/Neetechs_react.git
 [submodule "Neetechs_Accounts"]
 	path = Neetechs_Accounts
-	url = https://github.com:jihadelsayed/Neetechs_Accounts.git
+	url = https://github.com/jihadelsayed/Neetechs_Accounts.git
 [submodule "Neetechs_Myaccount"]
 	path = Neetechs_Myaccount
-	url = https://github.com:jihadelsayed/Neetechs_Myaccount.git
+	url = https://github.com/jihadelsayed/Neetechs_Myaccount.git
 [submodule "Neetechs_Chain"]
 	path = Neetechs_Chain
-	url = https://github.com:jihadelsayed/Neetechs_Chain.git
+	url = https://github.com/jihadelsayed/Neetechs_Chain.git
 [submodule "Neetechs_Restaurant"]
 	path = Neetechs_Restaurant
-	url = https://github.com:jihadelsayed/Neetechs_Restaurant.git
+	url = https://github.com/jihadelsayed/Neetechs_Restaurant.git
 [submodule "Neetechs_Tracker"]
 	path = Neetechs_Tracker
-	url = https://github.com:jihadelsayed/Neetechs_Tracker.git
+	url = https://github.com/jihadelsayed/Neetechs_Tracker.git
 [submodule "Neetechs_Resume"]
 	path = Neetechs_Resume
-	url = https://github.com:jihadelsayed/Neetechs_Resume.git
+	url = https://github.com/jihadelsayed/Neetechs_Resume.git
 [submodule "Neetechs_Policies"]
 	path = Neetechs_Policies
-	url = https://github.com:jihadelsayed/Neetechs_Policies.git
+	url = https://github.com/jihadelsayed/Neetechs_Policies.git
 [submodule "Neetechs_Data"]
 	path = Neetechs_Data
-	url = https://github.com:jihadelsayed/Neetechs_Data.git
+	url = https://github.com/jihadelsayed/Neetechs_Data.git
