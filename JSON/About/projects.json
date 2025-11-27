@@ -1,20 +1,43 @@
 {
-    "projects": [
-      {
-        "image": "https://live.staticflickr.com/65535/53787105776_c50c7baf00.jpg",
-        "title": "Project Title 1",
-        "description": "Description of Project 1. This project involved designing a website for a local business, incorporating modern design principles and ensuring a responsive layout."
-      },
-      {
-        "image": "https://live.staticflickr.com/65535/53787525695_a35314b5bf.jpg",
-        "title": "Project Title 2",
-        "description": "Description of Project 2. This project involved developing a mobile app for an e-commerce platform, focusing on user experience and seamless functionality."
-      },
-      {
-        "image": "https://live.staticflickr.com/65535/53786164737_8ecdc5cf96.jpg",
-        "title": "Project Title 3",
-        "description": "Description of Project 3. This project involved providing technical repair services for a series of laptops, ensuring they were fully functional and optimized for performance."
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "image": "https://live.staticflickr.com/65535/53787105776_c50c7baf00.jpg",
+      "title": "Neetechs Full-Stack Business Platform",
+      "description": "A full-stack web platform built using Angular, Django, PostgreSQL, and AWS S3. Includes authentication (email/phone/OTP), SSR support, multi-language routing, and a modern UI inspired by Pico. The system integrates payment flows, chat, user dashboards, and real-time updates using Django Channels."
+    },
+    {
+      "image": "https://live.staticflickr.com/65535/53787525695_a35314b5bf.jpg",
+      "title": "Neetechs AI Autocomplete VS Code Extension",
+      "description": "A custom VS Code extension that provides intelligent GPT-powered code suggestions. Features lazy initialization, API key handling, lightweight UX, and language-specific triggers. Designed to improve coding speed and reduce repetitive boilerplate for developers."
+    },
+    {
+      "image": "https://live.staticflickr.com/65535/53786164737_8ecdc5cf96.jpg",
+      "title": "Advanced Laptop & Hardware Repair Service",
+      "description": "A technical repair project involving deep diagnostic work on laptops, BIOS recovery, thermal optimization, and component-level fixes. Included replacing power ICs, optimizing system performance, and ensuring stable long-term hardware reliability."
+    },
+    {
+      "title": "Neetechs (SaaS Platform)",
+      "image": "https://i.imgur.com/3fLGfPn.png",
+      "description": "Built with Angular + Django. Features OTP & Web3 login, SSR, Stripe integration, and real-time WebSocket chat.",
+      "link": "https://neetechs.com"
+    },
+    {
+      "title": "Genius Minigames (BETA)",
+      "image": "https://jihad.neetechs.com/assets/projects/genius_minigames1.png",
+      "description": "Multiplayer Roblox game built using Lua scripting.",
+      "link": "https://www.roblox.com/games/4805360508/Genius-Minigames-BETA"
+    },
+    {
+      "title": "Neetechs AI Autocompletion (VS Code Extension)",
+      "image": "https://jihad.neetechs.com/assets/projects/auto_gen_neetechs.png",
+      "description": "GPT-4 based autocomplete for devs. Language-aware, lazy-loaded, and responsive via VS Code status bar.",
+      "link": "https://marketplace.visualstudio.com/items?itemName=NeetechsGPTAutocomplete.neetechs-ai-autocompletion"
+    },
+    {
+      "title": "Sayed Token (Solana Blockchain)",
+      "image": "https://jihad.neetechs.com/assets/projects/sayed_token.png",
+      "description": "Custom token deployed on Solana with 16.1B supply using Token 2022 Program. Includes authority controls and on-chain transfers.",
+      "link": "https://solscan.io/token/6osKznerjC7PaKBpRHg6hGNc2ur6mJPKHpHPnM6fHZ1o"
+    }
+  ]
+}
