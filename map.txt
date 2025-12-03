@@ -12,7 +12,7 @@
                                   │
                     Static + SSR Frontend Layer
                                   │
-          ┌───────────────────────┴────────────────────────┐
+          ┌───────────────────────┴────────────────────────┐                                    
           │                                                │
 ┌─────────▼─────────┐                          ┌───────────▼───────────┐
 │  Angular SSR App  │                          │  accounts.neetechs.com│
@@ -47,3 +47,23 @@
                       │  - blog, page content, product copy   │
                       │  - images, SEO fields                 │
                       └────────────────────────────────────────┘
+
+
+                        USERS (Browser)
+                              │
+                              ▼
+                     neetechs.com (Angular SSR)
+                 ─────────────────────────────────
+                 Public pages, product pages, blog
+                 Calls Django API + Sanity content
+                              │
+                   "Sign in" / "My account"
+                              │
+     ┌────────────────────────┴─────────────────────────┐
+     ▼                                                  ▼
+accounts.neetechs.com                          myaccount.neetechs.com
+(Angular Auth Iframe)                          (Angular Portal App)
+- login / signup / OTP                         - requires auth
+- postMessage token                            - profile, purchases, downloads
+- talks to Django auth API                     - talks to Django API (same user)
+
