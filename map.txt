@@ -1,0 +1,49 @@
+                        ┌────────────────────────────┐
+                        │         USERS              │
+                        │  Browser (Mobile/Desktop)  │
+                        └───────────┬────────────────┘
+                                    │
+                         Public DNS (neetechs.com)
+                                    │
+                   ┌────────────────┴────────────────┐
+                   │             EDGE                │
+                   │  Cloudflare / CloudFront CDN   │
+                   └──────────────┬─────────────────┘
+                                  │
+                    Static + SSR Frontend Layer
+                                  │
+          ┌───────────────────────┴────────────────────────┐
+          │                                                │
+┌─────────▼─────────┐                          ┌───────────▼───────────┐
+│  Angular SSR App  │                          │  accounts.neetechs.com│
+│  (neetechs.com)   │                          │  Angular Login Iframe │
+│  - main site      │                          │  (Talks to Django API)│
+└─────────┬─────────┘                          └───────────┬───────────┘
+          │ API calls (HTTPS)                              │ API calls
+          └──────────────────────┬─────────────────────────┘
+                                 │
+                     ┌───────────▼───────────┐
+                     │      Django API       │
+                     │  (server.neetechs.com)│
+                     │  - DRF + Channels     │
+                     └───────────┬───────────┘
+                                 │
+        ┌────────────────────────┼──────────────────────────┐
+        │                        │                          │
+┌───────▼────────┐      ┌────────▼────────┐       ┌─────────▼─────────┐
+│   PostgreSQL   │      │   Redis/Celery  │       │   Stripe API       │
+│  (core data)   │      │  tasks, queues  │       │  payments, webhooks│
+└────────────────┘      └─────────────────┘       └─────────┬─────────┘
+                                                             │
+                                          ┌──────────────────▼────────────┐
+                                          │   AWS S3 + CloudFront         │
+                                          │  - static assets              │
+                                          │  - product files (zips, pdfs) │
+                                          └───────────────────────────────┘
+
+
+                      ┌────────────────────────────────────────┐
+                      │              Sanity CMS                │
+                      │  - blog, page content, product copy   │
+                      │  - images, SEO fields                 │
+                      └────────────────────────────────────────┘
