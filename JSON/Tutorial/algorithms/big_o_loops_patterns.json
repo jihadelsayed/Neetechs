@@ -1,0 +1,98 @@
+{
+  "title": "Big-O Runtime of Loops — Nested, Logarithmic, and Tricky Increment Patterns | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host, Sayed Jihad Al Sayed. Today we’re breaking down one of the hardest  topics: analyzing runtime of loops. If you can master loop analysis, you unlock Big-O for the rest of your degree. Your teacher LOVES these questions, so let’s crush them."
+    },
+    {
+      "title": "What Is Runtime Analysis? (Wide Shot)",
+      "content": "Runtime analysis asks one question: how many times does the loop body execute as the input size n grows? We don’t care about seconds or milliseconds — we care about how the number of iterations scales with n. The key skill is reading loop boundaries and increments."
+    },
+    {
+      "title": "Simple Loop Example (Close Shot + Screen Recording)",
+      "content": "Let’s start with a simple loop. This runs n times, so its runtime is O(n).",
+      "code": "for (i = 0; i < n; i++) {\n    // constant work\n}"
+    },
+    {
+      "title": "Nested Loop Example (Wide Shot)",
+      "content": "Nested loops multiply. If the outer loop runs n times and the inner loop runs n times, the total work is n * n = n².",
+      "code": "for (i = 0; i < n; i++) {\n    for (j = 0; j < n; j++) {\n        // constant work\n    }\n}\n# Runtime: O(n^2)"
+    },
+    {
+      "title": "Nested Loops With Different Bounds (Close Shot)",
+      "content": "If loops depend on different variables, we add them. Example:",
+      "code": "for (i = 0; i < n; i++) {\n    // work\n}\n\nfor (j = 0; j < m; j++) {\n    // work\n}\n# Runtime: O(n + m)"
+    },
+    {
+      "title": "Triangular Loop Pattern (Close Shot)",
+      "content": "This is extremely common. The inner loop shrinks each time.",
+      "code": "for (i = 0; i < n; i++) {\n    for (j = 0; j < i; j++) {\n        // work\n    }\n}\n# Total iterations = 1 + 2 + 3 + ... + (n-1)\n# = n(n-1)/2 → O(n^2)"
+    },
+    {
+      "title": "Logarithmic Loop: i *= 2 (Wide Shot)",
+      "content": "Any loop that multiplies i instead of adding grows logarithmically.",
+      "code": "for (i = 1; i < n; i = i * 2) {\n    // work\n}\n# i = 1, 2, 4, 8, ..., n\n# Runs log₂(n) times → O(log n)"
+    },
+    {
+      "title": "Logarithmic Loop: Division (Close Shot)",
+      "content": "Dividing has the same effect as multiplying.",
+      "code": "while (n > 1) {\n    n = n / 2;\n}\n# Also O(log n)"
+    },
+    {
+      "title": "O(n log n) Loop Pattern (Wide Shot)",
+      "content": "A very common pattern: an O(n) loop with an O(log n) loop inside it.",
+      "code": "for (i = 0; i < n; i++) {\n    for (j = 1; j < n; j *= 2) {\n        // work\n    }\n}\n# Outer: n\n# Inner: log n\n# Total: n * log n → O(n log n)"
+    },
+    {
+      "title": "Tricky Loop: i += 3 (Close Shot)",
+      "content": "Constant step loops ignore the constant. They are still O(n).",
+      "code": "for (i = 0; i < n; i += 3) {\n    // work\n}\n# Still O(n) because constants don't matter"
+    },
+    {
+      "title": "Dependent Loops Example (Wide Shot)",
+      "content": "These loops can appear confusing, but total work is what matters.",
+      "code": "for (i = 0; i < n; i++) {\n    for (j = 0; j < i * i; j++) {\n        // work\n    }\n}\n# Total work = sum of i^2 from 1 to n → O(n^3)"
+    },
+    {
+      "title": "While Loops With Halving (Close Shot)",
+      "content": "Any loop that halves the problem repeatedly is logarithmic. This is the same behavior Binary Search uses.",
+      "code": "while (k > 0) {\n    k = k / 2;\n}\n# O(log n)"
+    },
+    {
+      "title": "Combination Pattern Example (Wide Shot)",
+      "content": "This pattern appears a lot:",
+      "code": "for (i = 0; i < n; i++) {      // O(n)\n    for (j = i; j < n; j *= 2) {  // O(log n)\n        // work\n    }\n}\n# Total = O(n log n)"
+    },
+    {
+      "title": "Summation Intuition (Close Shot)",
+      "content": "You do NOT need formal summation proofs in . You only need intuition:\n- Filling a square grid → O(n^2)\n- Filling a cube grid → O(n^3)\n- Halving steps → O(log n)\n- Nested loops inside halving → O(n log n)"
+    },
+    {
+      "title": "Common Exam Questions (Close Shot)",
+      "content": "Your teacher usually asks:\n- Identify O(n), O(n²), O(log n) patterns\n- Nested loops complexity\n- Logarithmic increments\n- Dependent loops with i*j or i^2 bounds\n- Combining independent loops\nThese are easy points if you know the patterns."
+    },
+    {
+      "title": "Runtime Summary Table (Close Shot)",
+      "content": "Here’s your master cheat sheet:",
+      "code": "| Pattern                      | Runtime     |\n|------------------------------|-------------|\n| Simple loop                  | O(n)        |\n| Nested loops (n×n)           | O(n^2)      |\n| Triple loop (n×n×n)          | O(n^3)      |\n| Halving loop                 | O(log n)    |\n| Nested + halving             | O(n log n)  |\n| Loop with constant step      | O(n)        |\n| Shrinking inner loop (triangular) | O(n^2) |"
+    },
+    {
+      "title": "Common Student Mistakes (Wide Shot)",
+      "content": "Most students overthink loop analysis. Don’t. The patterns repeat: if the loop shrinks by half, it’s log n. If loops multiply, it’s n² or more. If loops add, it’s n + m. If inner loop depends on i, look for triangular patterns or polynomial growth."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Runtime analysis is pattern recognition. Simple loops are linear, nested loops multiply, halving loops are logarithmic, combinations give n log n. Once you see the structure, Big-O becomes easy."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Next tutorial is our final exam preparation lesson: true/false concepts, stability, algorithm comparisons, and all the small conceptual points your  teacher loves to sneak into exams."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s it for Big-O runtime of loops. You now understand all the core patterns needed to dominate  loop-analysis questions. I'm Sayed Jihad Al Sayed — see you in the next tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

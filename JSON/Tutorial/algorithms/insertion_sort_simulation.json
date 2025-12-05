@@ -1,0 +1,66 @@
+{
+  "title": "Insertion Sort Explained — Shifts, Tracing, Best/Worst Case | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host, Sayed Jihad Al Sayed. In today's lesson, we're breaking down Insertion Sort — one of the most practical and exam-heavy sorting algorithms. Your  teacher loves asking about shifting elements, loop behavior, and best versus worst-case performance. So let's master this clean and simple algorithm."
+    },
+    {
+      "title": "What Is Insertion Sort? (Wide Shot)",
+      "content": "Insertion Sort builds the final sorted array one element at a time. At index i, it takes A[i] — the key — and inserts it into the correct position in the already sorted left portion. It is stable, intuitive, and extremely common in real-world small data scenarios."
+    },
+    {
+      "title": "Insertion Sort Code (Close Shot + Screen Recording)",
+      "content": "Here is the standard implementation used in  slides and most textbooks.",
+      "code": "def insertion_sort(A):\n    for i in range(1, len(A)):\n        key = A[i]\n        j = i - 1\n\n        while j >= 0 and A[j] > key:\n            A[j + 1] = A[j]\n            j -= 1\n\n        A[j + 1] = key\n    return A"
+    },
+    {
+      "title": "Key Concepts (Wide Shot)",
+      "content": "The algorithm has three important stages: selecting the key, shifting elements to make room for the key, and finally inserting the key into the correct position. The left side of the array is always sorted before each iteration."
+    },
+    {
+      "title": "Full Trace Example (Close Shot + Screen Recording)",
+      "content": "Let's trace a clean example exactly like the  midterm style. We’ll use the array [7, 3, 5, 2].",
+      "code": "# Initial array: [7, 3, 5, 2]\n\n# i = 1, key = 3\n# Compare 3 < 7 → shift 7 to the right\n# Insert 3 at index 0\n# Result: [3, 7, 5, 2]\n\n# i = 2, key = 5\n# Compare 5 < 7 → shift 7 → [3, 7, 7, 2]\n# Compare 5 < 3 → false → insert at index 1\n# Result: [3, 5, 7, 2]\n\n# i = 3, key = 2\n# Compare 2 < 7 → shift 7\n# Compare 2 < 5 → shift 5\n# Compare 2 < 3 → shift 3\n# Insert at index 0\n# Result: [2, 3, 5, 7]"
+    },
+    {
+      "title": "Exam-Style Trace Table (Close Shot)",
+      "content": "Here is the exact table format your teacher expects:",
+      "code": "| i | key | comparisons | shifts | result array      |\n|---|------|-------------|---------|--------------------|\n| 1 | 3    | 3<7         | shift 7 | [3,7,5,2]          |\n| 2 | 5    | 5<7 → shift | shift 7 | [3,5,7,2]          |\n| 3 | 2    | 2<7,5,3     | shift 3 | [2,3,5,7]          |"
+    },
+    {
+      "title": "Why Insertion Sort Is Stable (Wide Shot)",
+      "content": "A sorting algorithm is stable if equal elements preserve their original relative order. In Insertion Sort, elements are only shifted when A[j] > key, not ≥ key. That means duplicates never jump over each other — making the algorithm stable by design."
+    },
+    {
+      "title": "Runtime Analysis (Wide Shot)",
+      "content": "Insertion Sort has a dramatic difference between best and worst case scenarios. Best case happens when the array is already sorted — every key compares once and no shifts are needed. Worst case happens when the array is reverse-sorted — each key moves all the way to the front."
+    },
+    {
+      "title": "Big-O Summary (Close Shot)",
+      "content": "Here’s the complete complexity breakdown:",
+      "code": "# Best Case: O(n)\n#   - No shifts, one comparison per element\n\n# Average Case: O(n²)\n#   - About n/2 comparisons and shifts per element\n\n# Worst Case: O(n²)\n#   - Every element shifts across the array\n\n# Space Complexity: O(1)\n#   - Only storing key and index j"
+    },
+    {
+      "title": "Shifts vs Swaps (Wide Shot)",
+      "content": "One of the advantages of Insertion Sort over Selection Sort is that it minimizes swaps. Instead of swapping two values every iteration, it shifts elements gradually, which is more efficient on nearly-sorted data and reduces movement costs."
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "The biggest errors students make are:\n- inserting the key in the wrong location\n- forgetting to update j\n- using the wrong loop condition\n- stopping shifts too early\n- thinking the algorithm is fast in the worst case\nMastering these will guarantee exam points."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Insertion Sort grows a sorted region on the left side of the array. Each new key is inserted into the correct position in that sorted region. The algorithm is simple, visual, and perfect for small or nearly-sorted data sets."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Now that you understand Insertion Sort deeply, you're ready for Merge Sort — the first divide-and-conquer sorting algorithm and the foundation of many advanced techniques."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That's it for Insertion Sort. You now know how to trace shifts, analyze complexity, and understand stability. I'm Sayed Jihad Al Sayed from Neetechs — see you in Tutorial 5: Merge Sort."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Linear Search & Time Complexity Explained —  Exam Style | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host,  Jihad Al Sayed. Today we're starting our Algorithms series with the easiest and most important foundation: Linear Search and Time Complexity. This is the warm-up for the entire  universe, so lock in for the next few minutes."
+    },
+    {
+      "title": "What Is Linear Search? (Wide Shot)",
+      "content": "Linear Search is the simplest possible search algorithm. You start at index zero, move forward one element at a time, and compare each value to the target. No sorting, no structure, no tricks — just a clean brute-force scan. Perfect for introducing algorithm logic."
+    },
+    {
+      "title": "Real-Life Analogy (Wide Shot)",
+      "content": "Think of it like flipping through an unsorted stack of papers to find one specific document. You check each paper until you find the right one, or you reach the end. Simple. Predictable. Reliable."
+    },
+    {
+      "title": "Linear Search Code (Close Shot + Screen Recording)",
+      "content": "Here’s the basic Python version of Linear Search. But remember, the logic is identical in Java, C++, or any language you use at UAB.",
+      "code": "def linear_search(A, x):\n    for i in range(len(A)):\n        if A[i] == x:\n            return i\n    return -1"
+    },
+    {
+      "title": "Manual Trace Example (Close Shot + Screen Recording)",
+      "content": "Let’s walk through a real example just like your  exam. We’ll trace every step and show how the algorithm moves.",
+      "code": "A = [7, 2, 9, 4, 6]\nx = 4\n# Checking indices:\n# i=0: A[0]=7 → no\n# i=1: A[1]=2 → no\n# i=2: A[2]=9 → no\n# i=3: A[3]=4 → MATCH → return 3"
+    },
+    {
+      "title": "When to Use Linear Search (Wide Shot)",
+      "content": "Linear Search works best in these situations:\n- The array is unsorted.\n- The array is small.\n- Sorting the data first would waste time.\n- You only need to search occasionally.\nBinary Search destroys Linear Search on large sorted data — but when the data isn't sorted, Linear Search is king."
+    },
+    {
+      "title": "Intro to Time Complexity (Wide Shot)",
+      "content": "Time complexity asks one question: How does the running time grow as the input size n grows? We don’t measure seconds — we measure how fast work increases. Big-O notation captures this perfectly."
+    },
+    {
+      "title": "Best, Average, Worst Case (Close Shot + Screen Recording)",
+      "content": "Let’s analyze Linear Search in all three cases:",
+      "code": "# Best Case: O(1)\n#   - Target is at A[0]\n\n# Average Case: O(n)\n#   - Expected position is in the middle → n/2 comparisons\n#   - Big-O drops the constant → O(n)\n\n# Worst Case: O(n)\n#   - Target is last or missing → must check entire array"
+    },
+    {
+      "title": "Why Linear Search Is O(n) (Wide Shot)",
+      "content": "Linear Search runs in O(n) because in the worst case you must examine every element. If the data size doubles, the work doubles. That’s the pure definition of linear complexity. No shortcuts, no divide-and-conquer, just straight scanning."
+    },
+    {
+      "title": "Space Complexity (Wide Shot)",
+      "content": "Linear Search uses O(1) extra space — just one index variable. No arrays, no recursion, no extra memory. In-place, clean, lightweight."
+    },
+    {
+      "title": "Common  Exam Questions (Close Shot)",
+      "content": "Here are the most common exam questions your teacher asks about Linear Search:\n- Trace-by-hand tables.\n- Count the number of comparisons.\n- Best vs. worst-case complexity.\n- Why it works on unsorted arrays.\n- What happens when the element is not found.\nThese are free points if you understand today's lesson."
+    },
+    {
+      "title": "Transition to Next Video (Wide Shot)",
+      "content": "Linear Search is easy — but it builds the foundation for Binary Search. And Binary Search is where students lose points because of pointer tables and off-by-one mistakes. Your next tutorial will fix that permanently."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "This wraps up our first Algorithms tutorial. You learned how Linear Search works, how to trace it, and how to analyze its runtime using Big-O. Keep following this playlist — by the end, you'll walk into your  exam with full confidence. This is  Jihad Al Sayed from Neetechs. See you in the next lesson."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

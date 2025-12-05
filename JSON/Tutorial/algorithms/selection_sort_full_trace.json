@@ -1,0 +1,66 @@
+{
+  "title": "Selection Sort Explained — Full Trace, Swaps, and O(n²) | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host,  Jihad Al Sayed. Today we’re breaking down one of the most common exam algorithms in : Selection Sort. This is the sorting algorithm your teacher expects you to trace step-by-step, so pay very close attention to pointer movement and swaps."
+    },
+    {
+      "title": "What Is Selection Sort? (Wide Shot)",
+      "content": "Selection Sort works by scanning the unsorted part of the array, finding the smallest element, and swapping it with the current position. It repeats this for every index. It's simple, predictable, and perfect for exam tracing."
+    },
+    {
+      "title": "Core Idea (Wide Shot)",
+      "content": "For each index i in the array, Selection Sort finds the minimum value in the rest of the array and swaps it into position i. This guarantees that after i iterations, the first i elements are sorted."
+    },
+    {
+      "title": "Selection Sort Code (Close Shot + Screen Recording)",
+      "content": "Here's the exact Selection Sort implementation used in textbooks and your  slides.",
+      "code": "def selection_sort(A):\n    n = len(A)\n    for i in range(n):\n        m = i\n        for j in range(i + 1, n):\n            if A[j] < A[m]:\n                m = j\n        A[i], A[m] = A[m], A[i]\n    return A"
+    },
+    {
+      "title": "Understanding the Pointers (Wide Shot)",
+      "content": "Selection Sort uses three key variables: i for the current position, j for scanning the rest of the list, and m for the index of the smallest element found. At the end of each outer loop, A[i] is swapped with A[m]."
+    },
+    {
+      "title": "Full Trace Example (Close Shot + Screen Recording)",
+      "content": "Let’s trace Selection Sort exactly like your exam requires. Use this table format.",
+      "code": "# A = [7, 3, 5, 2]\n\n# Step-by-step tracing:\n# i=0: scan [3,5,2] → min is 2 at index 3\n# Swap A[0] and A[3]\n# Result: [2, 3, 5, 7]\n\n# i=1: scan [5,7] → min is 3 at index 1\n# Swap A[1] with A[1] (no change)\n# Result: [2, 3, 5, 7]\n\n# i=2: scan [7] → min is 5 at index 2\n# Result stays the same\n\n# Final Sorted Array: [2, 3, 5, 7]"
+    },
+    {
+      "title": "Exam-Style Trace Table (Close Shot)",
+      "content": "Here’s the exact table your  teacher wants to see:",
+      "code": "| i | j scanning | m (min index) | Action | Array State |\n|---|-------------|----------------|---------|--------------|\n| 0 | 1,2,3       | 3 (value=2)    | swap    | [2,3,5,7]    |\n| 1 | 2,3         | 1 (value=3)    | none    | [2,3,5,7]    |\n| 2 | 3           | 2 (value=5)    | none    | [2,3,5,7]    |"
+    },
+    {
+      "title": "Why Selection Sort Is O(n²) (Wide Shot)",
+      "content": "Selection Sort always runs in O(n²) time because for every i, the inner loop scans the entire remaining unsorted part. There is no best case or worst case improvement. Even if the array is already sorted, Selection Sort still performs all comparisons."
+    },
+    {
+      "title": "Runtime Summary (Close Shot)",
+      "content": "Here’s the full complexity breakdown:",
+      "code": "# Comparisons: O(n²)\n# Swaps: O(n)\n# Best Case: O(n²)\n# Worst Case: O(n²)\n# Average Case: O(n²)\n# Space: O(1) — in-place"
+    },
+    {
+      "title": "Why teachers Love This Algorithm (Wide Shot)",
+      "content": "Selection Sort makes tracing extremely easy: the pointers move in a predictable pattern, and every iteration’s swap is clean and obvious. That’s exactly why it appears on almost every  exam."
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "Avoid these errors:\n- Forgetting to update m inside the inner loop\n- Swapping too early\n- Writing j < n instead of j <= n–1\n- Mixing up i and j\n- Forgetting that swaps only happen at the end of each outer loop"
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Selection Sort slowly builds the sorted section at the beginning of the array. One minimum at a time, left to right, until the list is sorted. Clean, simple, and great for understanding algorithmic thinking."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Now that you mastered Selection Sort, you're ready for Insertion Sort — an algorithm that behaves completely differently and is heavily used in real-world problems. And your teacher loves tracing that one too."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "This wraps up the Selection Sort tutorial. You saw the algorithm, the trace, the table, and the full complexity breakdown. I'm  Jihad Al Sayed from Neetechs — see you in Tutorial 4."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

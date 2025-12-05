@@ -1,0 +1,70 @@
+{
+  "title": "Merge Sort Explained — Recursion Tree, Full Merge Trace, and O(n log n) | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host, Sayed Jihad Al Sayed. Today we’re breaking down one of the most fundamental divide-and-conquer algorithms in computer science: Merge Sort. If you understand this algorithm, you unlock recursion, algorithm design, and runtime analysis all at once."
+    },
+    {
+      "title": "What Is Merge Sort? (Wide Shot)",
+      "content": "Merge Sort is a divide-and-conquer algorithm that splits the array into halves, recursively sorts each half, and then merges the results into one sorted array. It is stable, predictable, and always runs in O(n log n) — no surprises."
+    },
+    {
+      "title": "High-Level Breakdown (Wide Shot)",
+      "content": "Merge Sort has three phases: divide the array into two halves, recursively sort each half, and then merge the two sorted halves. The magic happens in the merge step, not in the splitting."
+    },
+    {
+      "title": "Merge Sort Code (Close Shot + Screen Recording)",
+      "content": "Here’s the classic Merge Sort implementation used in textbooks and :",
+      "code": "def merge_sort(A):\n    if len(A) <= 1:\n        return A\n\n    mid = len(A) // 2\n    left = merge_sort(A[:mid])\n    right = merge_sort(A[mid:])\n\n    return merge(left, right)\n\n\ndef merge(left, right):\n    result = []\n    i = j = 0\n\n    while i < len(left) and j < len(right):\n        if left[i] <= right[j]:\n            result.append(left[i])\n            i += 1\n        else:\n            result.append(right[j])\n            j += 1\n\n    result.extend(left[i:])\n    result.extend(right[j:])\n    return result"
+    },
+    {
+      "title": "Understanding the Divide Step (Wide Shot)",
+      "content": "The divide step is simple: we repeatedly cut the array in half. That produces a recursion depth of log₂(n). This is the reason Merge Sort runs in O(log n) levels of recursion."
+    },
+    {
+      "title": "Recursion Tree Visualization (Wide Shot)",
+      "content": "Here’s the recursion tree structure:\n\n- Level 0: n\n- Level 1: n/2 + n/2\n- Level 2: n/4 + n/4 + n/4 + n/4\n- ...\n- Level log n: 1, 1, 1, 1\n\nEvery level performs O(n) total work across the merge operations."
+    },
+    {
+      "title": "Full Merge Trace (Close Shot + Screen Recording)",
+      "content": "Let’s trace a full merge sequence using A = [7, 3, 5, 2].",
+      "code": "# Split phase:\n# [7,3,5,2]\n# → [7,3] and [5,2]\n# → [7],[3] and [5],[2]\n\n# Merge phase:\n# Merge [7] and [3] → [3,7]\n# Merge [5] and [2] → [2,5]\n# Merge [3,7] and [2,5] → final sorted list: [2,3,5,7]\n\n# Detailed merge of [3,7] and [2,5]:\n# Compare 3 vs 2 → take 2 → [2]\n# Compare 3 vs 5 → take 3 → [2,3]\n# Compare 7 vs 5 → take 5 → [2,3,5]\n# Append leftover 7 → [2,3,5,7]"
+    },
+    {
+      "title": "Exam-Style Merge Table (Close Shot)",
+      "content": "Your  teacher expects a table like this for the merge step:",
+      "code": "| left | right | compare | result |\n|------|--------|---------|---------|\n| 3,7  | 2,5    | 3>2     | [2]     |\n| 3,7  | 5       | 3<5    | [2,3]   |\n| 7    | 5       | 7>5    | [2,3,5] |\n| 7    | —       | append | [2,3,5,7] |"
+    },
+    {
+      "title": "Why Merge Sort Is Always O(n log n) (Wide Shot)",
+      "content": "Every level of recursion processes the full n elements during merging. Since there are log n levels, the total runtime becomes:\n\nO(n) work × O(log n) levels = O(n log n)."
+    },
+    {
+      "title": "Runtime Summary (Close Shot)",
+      "content": "Here’s the complete runtime and space analysis:",
+      "code": "# Best Case: O(n log n)\n# Worst Case: O(n log n)\n# Average Case: O(n log n)\n# Space Complexity: O(n) — extra temporary arrays\n# Stable: YES\n# In-place: NO"
+    },
+    {
+      "title": "Why Merge Sort Beats O(n²) Algorithms (Wide Shot)",
+      "content": "Merge Sort is dramatically faster than Selection Sort or Insertion Sort on large data sets because it doesn’t depend on element order. It recursively breaks the work into small, manageable chunks."
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "The biggest errors students make with Merge Sort are:\n- misunderstanding how merge actually works\n- drawing the recursion tree incorrectly\n- forgetting the sorted assumption inside merge\n- mixing up left and right pointers\n- not showing all merge comparisons\nAvoid these and you will never lose points on a Merge Sort question."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Merge Sort is simple: split, sort each half, merge them back together. The merge step is where all the work happens, and once you visualize it, the algorithm becomes extremely easy to trace."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "You’re now ready for QuickSort — specifically, the Lomuto Partition method, which your  exam heavily relies on. This is where students lose the most points, but we’re going to make it insanely easy."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s it for Merge Sort. You learned how recursion splits the problem, how merging works, and why the algorithm is O(n log n). I’m Sayed Jihad Al Sayed from Neetechs — see you in the next tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

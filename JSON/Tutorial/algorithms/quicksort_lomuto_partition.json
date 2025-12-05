@@ -1,0 +1,72 @@
+{
+  "title": "QuickSort Partition (Lomuto) — Pivot Tracing and Exam-Style Walkthrough | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I’m your host, Sayed Jihad Al Sayed. In this lesson, we’re going to break down the most dangerous  topic: QuickSort partition using the Lomuto method. This is where a lot of students lose points on exams because they mess up the pointer movement and swaps. We’re going to make it crystal clear."
+    },
+    {
+      "title": "What Is QuickSort? (Wide Shot)",
+      "content": "QuickSort is another divide-and-conquer sorting algorithm. The idea is simple: choose a pivot, partition the array so that elements smaller than the pivot are on the left and larger ones are on the right, then recursively apply QuickSort to the left and right subarrays. The partition step is the heart of QuickSort, and that’s what we’re focusing on today."
+    },
+    {
+      "title": "Lomuto Partition Scheme Overview (Wide Shot)",
+      "content": "In the Lomuto partition scheme, we always pick the last element as the pivot. We use two indices: i, which tracks the boundary of the smaller elements, and j, which scans through the array. Every time we find an element less than or equal to the pivot, we swap it with A[i] and move i forward. At the end, we swap the pivot into position i."
+    },
+    {
+      "title": "Lomuto Partition Code (Close Shot + Screen Recording)",
+      "content": "Here is the standard Lomuto partition implementation used in textbooks and often in  slides.",
+      "code": "def partition(A, low, high):\n    pivot = A[high]           # pivot is last element\n    i = low                   # i marks the boundary of <= pivot\n\n    for j in range(low, high):\n        if A[j] <= pivot:\n            A[i], A[j] = A[j], A[i]\n            i += 1\n\n    A[i], A[high] = A[high], A[i]\n    return i"
+    },
+    {
+      "title": "Full QuickSort Using This Partition (Close Shot + Screen Recording)",
+      "content": "Here is QuickSort calling the Lomuto partition function.",
+      "code": "def quicksort(A, low, high):\n    if low < high:\n        p = partition(A, low, high)\n        quicksort(A, low, p - 1)\n        quicksort(A, p + 1, high)"
+    },
+    {
+      "title": "Trace Example Setup (Wide Shot)",
+      "content": "Let’s trace the partition step exactly the way your  exam expects. We’ll use a small array so every step is obvious.",
+      "code": "A = [7, 3, 9, 2, 5]\nlow = 0\nhigh = 4\npivot = A[4] = 5"
+    },
+    {
+      "title": "Step-by-Step Partition Trace (Close Shot + Screen Recording)",
+      "content": "Watch how i and j move and when swaps happen. This is the core of the algorithm.",
+      "code": "# Initial:\n# A = [7, 3, 9, 2, 5]\n# pivot = 5, low = 0, high = 4\n# i = 0\n\n# j = 0: A[0] = 7 > 5 → do nothing\n# j = 1: A[1] = 3 <= 5 → swap A[0] and A[1]\n#   A = [3, 7, 9, 2, 5], i = 1\n\n# j = 2: A[2] = 9 > 5 → do nothing\n# j = 3: A[3] = 2 <= 5 → swap A[1] and A[3]\n#   A = [3, 2, 9, 7, 5], i = 2\n\n# End of loop: swap pivot with A[i]\n# swap A[2] and A[4]\n# A = [3, 2, 5, 7, 9]\n# partition index returned = 2"
+    },
+    {
+      "title": "Exam-Style Table (Close Shot)",
+      "content": "Here’s the exact table format your teacher would love to see on an exam:",
+      "code": "| Step | j | A[j] | i (before) | Condition       | Action                | Array State      |\n|------|---|------|------------|-----------------|-----------------------|------------------|\n| 1    | 0 | 7    | 0          | 7 > 5           | none                  | [7,3,9,2,5]      |\n| 2    | 1 | 3    | 0          | 3 <= 5          | swap A[0],A[1]; i=1   | [3,7,9,2,5]      |\n| 3    | 2 | 9    | 1          | 9 > 5           | none                  | [3,7,9,2,5]      |\n| 4    | 3 | 2    | 1          | 2 <= 5          | swap A[1],A[3]; i=2   | [3,2,9,7,5]      |\n| 5    | - |  -   | 2          | end of loop     | swap A[2],pivot(5)    | [3,2,5,7,9]      |"
+    },
+    {
+      "title": "What Partition Achieved (Wide Shot)",
+      "content": "Notice the final result: all elements to the left of index 2 are less than or equal to 5, and all elements to the right are greater than 5. The pivot is now in its correct sorted position. QuickSort will now recursively sort the left side [3,2] and the right side [7,9]."
+    },
+    {
+      "title": "Runtime Intuition (Wide Shot)",
+      "content": "Partition itself runs in O(n) for n elements in the current segment because j scans through the entire range once. On average, if the pivot splits the array roughly in half each time, QuickSort runs in O(n log n). However, in the worst case — for example, if the array is already sorted and we always pick the last element as pivot — QuickSort degrades to O(n²)."
+    },
+    {
+      "title": "Quick Runtime Summary (Close Shot)",
+      "content": "Here’s the quick complexity breakdown:",
+      "code": "# Average Case: O(n log n)\n# Worst Case:   O(n²)\n# Best Case:    O(n log n)\n# Space:        O(log n) for recursion (on average)"
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "Students usually lose points on partition questions because they:\n- update i incorrectly\n- swap at the wrong times\n- forget that pivot is the last element\n- don’t distinguish between j scanning and i marking the boundary\n- misplace the pivot at the end\nIf you control i and j correctly like we just did, you’ll never mess this up on an exam."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "To recap: Lomuto partition uses the last element as pivot, moves all elements less than or equal to the pivot to the front using i, and then drops the pivot into its final position. Everything to the left is small, everything to the right is large. That’s all you need to understand to trace any partition question."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Now that you’ve mastered QuickSort’s partition step, you’re ready to move on to heaps and heap sort — another algorithm your  exam loves, especially for questions about array representation and parent-child indices."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s it for QuickSort Lomuto partition. You learned how the pointers move, when swaps happen, and how the final pivot position splits the array. I’m Sayed Jihad Al Sayed from Neetechs — see you in the next tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

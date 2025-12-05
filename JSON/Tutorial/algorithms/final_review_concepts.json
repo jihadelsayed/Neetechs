@@ -1,0 +1,88 @@
+{
+  "title": " Final Review: True/False Concepts, Stability, Heap Properties, Divide & Conquer | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I’m your host, Sayed Jihad Al Sayed, and today we’re doing the ultimate  exam review. These are the small concept questions that usually decide your final grade — the kind of True/False and short questions students miss because they don’t review the fundamentals. Let’s fix that."
+    },
+    {
+      "title": "Sorting Stability (Wide Shot)",
+      "content": "First concept: stability. A sorting algorithm is stable if equal elements keep their original relative order. Why does this matter? Because stability affects multi-key sorting — like sorting by age, then by name. Stable sorts preserve structure. Unstable sorts do not."
+    },
+    {
+      "title": "Stable vs Unstable Sorts (Close Shot + Screen Recording)",
+      "content": "Know these for the exam:",
+      "code": "Stable: Insertion Sort, Merge Sort\nUnstable: Selection Sort, Quick Sort, Heap Sort"
+    },
+    {
+      "title": "Sorting Time Complexities (Wide Shot)",
+      "content": "Big reminder:\n- Selection Sort → always O(n^2) even if sorted.\n- Insertion Sort → O(n) best case (already sorted).\n- Merge Sort → always O(n log n) because it always halves and merges.\n- Quick Sort → O(n^2) worst case but O(n log n) average.\nYour teacher LOVES asking why Selection Sort cannot be O(n). The answer: it always scans the entire unsorted section to find the minimum."
+    },
+    {
+      "title": "Divide and Conquer Explained (Wide Shot)",
+      "content": "This term is thrown everywhere but students overthink it. Divide and Conquer means:\n1. Divide the problem into smaller subproblems\n2. Solve recursively\n3. Combine solutions\nMerge Sort and Quick Sort are classic examples. Binary Search is also divide-and-conquer — you divide the array into halves each step."
+    },
+    {
+      "title": "Binary Search Rules (Close Shot + Screen Recording)",
+      "content": "Core truths your exam WILL test:",
+      "code": "- Requires a sorted array\n- Runtime is O(log n)\n- If mid is too large → search left\n- If mid is too small → search right\n- Stops when start > end\n- If not found → return -1"
+    },
+    {
+      "title": "Why Binary Search Isn’t O(n) (Wide Shot)",
+      "content": "Students confuse this all the time. Binary Search removes half the remaining elements every step → that’s exponential shrinkage → log n behavior. Not linear. Not quadratic."
+    },
+    {
+      "title": "Heap Properties (Wide Shot)",
+      "content": "Your teacher LOVES heap questions. Remember this: A heap is a complete binary tree — complete means all levels are full except possibly the last, and the last is filled left to right."
+    },
+    {
+      "title": "Heap Index Formulas (Close Shot + Screen Recording)",
+      "content": "You MUST memorize these:",
+      "code": "parent(i) = (i - 1) // 2\nleft(i) = 2*i + 1\nright(i) = 2*i + 2\n# For zero-based array heaps"
+    }
+,
+    {
+      "title": "Max-Heap vs Min-Heap (Wide Shot)",
+      "content": "Max-Heap root is always the maximum element. Min-Heap root is always the minimum element. Heap does NOT sort the entire structure, only ensures the heap property per level."
+    },
+    {
+      "title": "Heapify and Build-Heap (Close Shot + Screen Recording)",
+      "content": "Key exam points:",
+      "code": "- heapify() runs in O(log n)\n- build-heap() runs in O(n)\n- heap sort() runs in O(n log n)"
+    },
+    {
+      "title": "Why Build-Heap Is O(n), Not O(n log n) (Wide Shot)",
+      "content": "Because most nodes are near the bottom, where heapify costs almost nothing. Only a few nodes near the top pay the full log n price. Combined cost collapses to O(n)."
+    },
+    {
+      "title": "Searching vs Sorting Concepts (Wide Shot)",
+      "content": "Know these differences:\n- Linear Search works on unsorted arrays.\n- Binary Search requires sorted arrays.\n- Sorting algorithms can change element order.\n- Stable sorting preserves relative order of equal elements."
+    },
+    {
+      "title": "Runtime Comparisons (Close Shot)",
+      "content": "Know the ranking order:",
+      "code": "O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n) < O(n!)"
+    },
+    {
+      "title": "Loop Behavior Concept Checks (Wide Shot)",
+      "content": "Exam questions to expect:\n- A loop with i *= 2 is O(log n)\n- A loop with two nested loops of n is O(n^2)\n- Independent loops add → O(n + m)\n- Combined nested loops multiply → O(n * log n) etc."
+    },
+    {
+      "title": "Common Trick Questions (Close Shot)",
+      "content": "Expect questions like:\n- 'Is Merge Sort in-place?' → No.\n- 'Is Quick Sort stable?' → No.\n- 'Does Binary Search work on unsorted arrays?' → Absolutely not.\n- 'Is heap sort stable?' → No.\n- 'Does Selection Sort swap more or fewer times than Bubble Sort?' → MUCH fewer."
+    },
+    {
+      "title": "Concept Memory Hacks (Wide Shot)",
+      "content": "Here’s a cheat sheet to remember everything fast:\n- Divide and Conquer → split, recurse, combine\n- Left child index = double + 1\n- Right child index = double + 2\n- Stable sorts: Merge + Insertion\n- Quadratic always means nested loops\n- log n always means halving"
+    },
+    {
+      "title": "Rapid Exam Recap (Close Shot)",
+      "content": "Here’s your one-minute exam refresher:\n- Linear Search → O(n), unsorted\n- Binary Search → O(log n), sorted\n- Selection Sort → always n^2\n- Insertion Sort → best-case n\n- Merge Sort → predictable n log n\n- Quick Sort → great average, terrible worst-case\n- Heaps → complete tree + index formulas\n- Heapify → log n\n- Build-Heap → n\n- Heap Sort → n log n"
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s your entire  conceptual review. These small concepts decide your exam grade because everyone overlooks them. But not you. I’m Sayed Jihad Al Sayed — and now you’re fully ready for your  exam. Good luck, and I’ll see you in the next Neetechs tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}
