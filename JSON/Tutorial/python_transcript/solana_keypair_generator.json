@@ -1,0 +1,37 @@
+{
+  "title": "Solana Keypair Generator Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hey everyone! Welcome back to the channel. Today, I'm going to show you a quick and easy way to generate Solana keypairs and derive public keys from seed phrases using Python. Let's dive right in!"
+    },
+    {
+      "title": "Prerequisites (Close Shot)",
+      "content": "First, make sure you have Python 3 installed. If not, grab it from python.org. Then, install the necessary libraries by running this command in your terminal:",
+      "code": "pip install solana solders"
+    },
+    {
+      "title": "Cloning the Repository (Wide Shot)",
+      "content": "Next, let's clone the repository from GitHub. The link is in the description. Run these commands:",
+      "code": "git clone https://github.com/jihadelsayed/solana-keypair-generator.git\ncd solana-keypair-generator"
+    },
+    {
+      "title": "Running the Script (Close Shot)",
+      "content": "Now, let's run the script. Open your terminal and type:",
+      "code": "python solana_keypair_generator.py"
+    },
+    {
+      "title": "Enter Seed Phrase (Wide Shot)",
+      "content": "When prompted, enter your seed phrase. The script will generate a new keypair and display the public key. It will also derive a public key from your seed phrase and save it to a JSON file.",
+      "code": "Please enter your seed phrase: your-seed-phrase-here\nPublic Key: <generated-public-key>\nDerived Public Key: <derived-public-key>\nWallet JSON file 'my-solana-wallet.json' created."
+    },
+    {
+      "title": "Exploring the Output (Close Shot)",
+      "content": "Let's open the JSON file to see the derived public key. Check out the `my-solana-wallet.json` file for your derived public key."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "And that's it! You've generated a Solana keypair and derived a public key. If you found this helpful, smash that like button and subscribe for more quick tutorials. Got questions? Drop them in the comments below. Thanks for watching!"
+    }
+  ]
+}

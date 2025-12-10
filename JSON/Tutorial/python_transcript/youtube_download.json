@@ -1,0 +1,43 @@
+{
+  "title": "YouTube Video Script",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Hello everyone, welcome to my channel! I'm Jihad Al Sayed, and today I'm thrilled to show you how to create an awesome Python script to download YouTube videos using the Pytube library. This is going to be a fun and informative session, so let's dive right in!"
+    },
+    {
+      "title": "Step 1: Setting Up the Environment (Wide Shot)",
+      "content": "First things first, we need to set up our environment. If you haven't already, make sure Python is installed on your computer. You can grab it from python.org. If you're unsure how to install Python, check out my Python install tutorial here. Once that's done, open your terminal or command prompt and run the following command to install the Pytube library. This will allow us to interact with YouTube videos directly from our script.",
+      "code": "pip install pytube"
+    },
+    {
+      "title": "Step 2: Importing Libraries (Close Shot + Screen Recording)",
+      "content": "Alright, now that we have everything set up, let's jump into the code. Open your favorite code editor and create a new Python file. The first step is to import the necessary libraries: os, logging, and Pytube. This will set the stage for our script.",
+      "code": "import os\nimport logging\nfrom pytube import YouTube"
+    },
+    {
+      "title": "Step 3: Main Execution Block (Close Shot + Screen Recording)",
+      "content": "Next, let’s bring everything together in our main execution block. Here, we’ll prompt the user to enter the video URL, list the available streams, and ask the user to select a stream. Then, we’ll download the video based on the user's selection. Let's put it all together:",
+      "code": "if __name__ == '__main__':\n    # Prompt the user to enter the video URL\n    video_url = input('Enter the YouTube video URL: ')\n    \n    # Get the current working directory\n    current_directory = os.getcwd()\n    \n    # Create a YouTube object to list available streams\n    yt = YouTube(video_url)\n    list_available_streams(yt)\n\n    # Prompt the user to select the desired stream\n    try:\n        stream_number = int(input('Enter the number of the stream you want to download (or press Enter to download the highest resolution): '))\n    except ValueError:\n        stream_number = None\n\n    # Download the YouTube video\n    download_youtube_video(video_url, current_directory, stream_number)"
+    },
+    {
+      "title": "Step 4: Listing Available Streams (Close Shot + Screen Recording)",
+      "content": "Now comes the exciting part! We’ll create a function to list all available streams for a given YouTube video. This function will show us all the different resolutions and formats available for download. Let's check it out:",
+      "code": "def list_available_streams(yt: YouTube) -> None:\n    '''\n    Lists all available streams for the given YouTube object.\n\n    Args:\n        yt (YouTube): YouTube object.\n\n    Returns:\n        None\n    '''\n    streams = yt.streams.filter(adaptive=True)  # Include adaptive streams for higher resolutions\n    for i, stream in enumerate(streams):\n        if stream.mime_type.startswith('audio'):\n            print(f'{i}. {stream.mime_type} - Audio only - {stream.abr}')\n        else:\n            print(f'{i}. {stream.mime_type} - {stream.resolution} - {stream.fps}fps')"
+    },
+    {
+      "title": "Step 5: Downloading the Video (Close Shot + Screen Recording)",
+      "content": "Now that we can list the available streams, let's create a function to download the video. This function will take the video URL, the output path where we want to save the video, and the stream number if we want to select a specific resolution. Here's the code:",
+      "code": "def download_youtube_video(video_url: str, output_path: str, stream_number: int = None) -> None:\n    '''\n    Downloads the selected resolution YouTube video from the given URL.\n\n    Args:\n        video_url (str): URL of the YouTube video.\n        output_path (str): Directory where the video will be downloaded.\n        stream_number (int, optional): Index of the selected stream. Defaults to the highest resolution.\n\n    Returns:\n        None\n    '''\n    try:\n        logger.info(f'Creating YouTube object for URL: {video_url}')\n        yt = YouTube(video_url)\n\n        if stream_number is not None:\n            logger.info('Listing available streams.')\n            selected_stream = yt.streams.filter(adaptive=True)[stream_number]\n        else:\n            logger.info('Selecting the highest resolution stream available.')\n            selected_stream = yt.streams.get_highest_resolution()\n\n        logger.info(f'Downloading video to: {output_path}')\n        selected_stream.download(output_path=output_path)\n        print('Video downloaded successfully!')\n    except Exception as e:\n        logger.error(f'An error occurred: {e}')\n        print('Failed to download the video. Please check the log for more details.')"
+    },
+    {
+      "title": "Step 6: Setting Up Logging (Close Shot + Screen Recording)",
+      "content": "Next, we need to set up logging for Pytube. Logging is super helpful because it keeps track of what's happening in our script, especially if something goes wrong. Here's how we do it:",
+      "code": "# Enable logging for pytube\nlogging.basicConfig(level=logging.DEBUG)\nlogger = logging.getLogger('pytube')"
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "And that's it for today's tutorial! We've successfully created a script to download YouTube videos using Pytube. How cool is that? If you found this video helpful, make sure to give it a thumbs up, subscribe to my channel, and drop any questions or comments down below. Thanks for watching, and I'll see you in the next video!"
+    }
+  ]
+}

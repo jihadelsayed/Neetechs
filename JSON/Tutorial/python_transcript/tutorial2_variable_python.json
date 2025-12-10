@@ -1,0 +1,54 @@
+{
+    "title": "Welcome to NeeTechs! Python Installation Guide",
+    "sections": [
+        {
+            "title": "Introduction",
+            "content": "Welcome to NeeTechs! In this video, we will walk you through a step-by-step guide on how to install Python and run a simple script on your Windows OS. Whether you're a beginner just starting with Python or looking to refresh your knowledge, this tutorial will help you get up and running quickly."
+        },
+        {
+            "title": "Step 1: Install Python",
+            "content": "In this step, we will show you how to download and install Python from the official Python website. Follow the instructions carefully to ensure Python is installed correctly on your Windows OS."
+        },
+        {
+            "title": "Step 2: Install Visual Studio Code",
+            "content": "Next, we will install Visual Studio Code, a powerful and popular code editor for writing Python scripts. We'll guide you through the installation process and initial setup."
+        },
+        {
+            "title": "Step 3: Create a New Python Script",
+            "content": "With Python and Visual Studio Code installed, we can now create our first Python script. We'll show you how to create a new file and save it with a .py extension."
+        },
+        {
+            "title": "Step 4: Write and Save Your Script",
+            "content": "In this step, we'll write a simple Python script. You'll learn the basics of writing Python code and how to save your script in Visual Studio Code."
+        },
+        {
+            "title": "Step 5: Run Your Script in Terminal",
+            "content": "Now it's time to run your script! We'll show you how to open the terminal in Visual Studio Code and execute your Python script to see the output."
+        },
+        {
+            "title": "Step 6: Understanding the Output",
+            "content": "Once your script runs, you'll see the output in the terminal. We'll help you understand what the output means and how to interpret any errors or messages."
+        },
+        {
+            "title": "Step 7: Working with Variables",
+            "content": "Let's dive a bit deeper into Python by working with variables. You'll learn how to create and use variables in your scripts to store and manipulate data."
+        },
+        {
+            "title": "Step 8: Running the Script Again",
+            "content": "After making changes to your script, we'll show you how to run it again to see the updated output. Practice makes perfect, so don't hesitate to experiment!"
+        },
+        {
+            "title": "Step 9: Using Different Data Types",
+            "content": "Python supports various data types. In this step, we'll explore how to use different data types like strings, integers, and lists in your scripts."
+        },
+        {
+            "title": "Step 10: Summary and Next Steps",
+            "content": "To wrap up, we'll summarize what we've learned and discuss the next steps for continuing your Python journey. Keep practicing and exploring new concepts!"
+        },
+        {
+            "title": "Conclusion",
+            "content": "Thank you for watching our Python installation guide. We hope you found it helpful and informative. Be sure to like, subscribe, and stay tuned for more tutorials from NeeTechs!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=SSYCNqmE0pk&feature=youtu.be"
+}
