@@ -1,0 +1,56 @@
+{
+    "title": "Building a Simple Web Page",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll build a simple web page from scratch using the HTML and CSS techniques we've learned so far."
+        },
+        {
+            "title": "Setting Up the Project (Close Shot + Screen Recording)",
+            "content": "First, let's set up our project. Create a new folder for your project and add two files: `index.html` and `styles.css`."
+        },
+        {
+            "title": "Basic HTML Structure (Close Shot + Screen Recording)",
+            "content": "Start by adding the basic HTML structure in `index.html`.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>My Simple Web Page</title>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n    <header>\n        <h1>Welcome to My Web Page</h1>\n        <nav>\n            <ul>\n                <li><a href=\"#\">Home</a></li>\n                <li><a href=\"#\">About</a></li>\n                <li><a href=\"#\">Services</a></li>\n                <li><a href=\"#\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Me</h2>\n            <p>This is a section about me.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>This is a section about the services I offer.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2024 My Simple Web Page</p>\n    </footer>\n</body>\n</html>"
+        },
+        {
+            "title": "Styling the Page (Close Shot + Screen Recording)",
+            "content": "Now, let's add some styles to our web page. Open `styles.css` and start by adding some basic styles.",
+            "code": "body {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\nheader {\n    background-color: #333;\n    color: white;\n    padding: 1em 0;\n    text-align: center;\n}\nnav ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\nnav li {\n    display: inline;\n    margin-right: 10px;\n}\nnav a {\n    color: white;\n    text-decoration: none;\n}\nmain {\n    padding: 20px;\n}\nsection {\n    margin-bottom: 20px;\n}\nfooter {\n    background-color: #333;\n    color: white;\n    text-align: center;\n    padding: 1em 0;\n    position: fixed;\n    width: 100%;\n    bottom: 0;\n}"
+        },
+        {
+            "title": "Adding Images (Close Shot + Screen Recording)",
+            "content": "Let's add an image to the 'About Me' section. Download or find an image you'd like to use and save it in your project folder. Then, add the image tag to your HTML.",
+            "code": "<section>\n    <h2>About Me</h2>\n    <img src=\"me.jpg\" alt=\"Picture of me\" style=\"max-width: 100%; height: auto;\">\n    <p>This is a section about me.</p>\n</section>"
+        },
+        {
+            "title": "Responsive Design (Close Shot + Screen Recording)",
+            "content": "To make our web page responsive, we'll use some media queries. Add the following to your `styles.css` file.",
+            "code": "@media (max-width: 600px) {\n    nav li {\n        display: block;\n        margin-bottom: 10px;\n    }\n    header, footer {\n        text-align: left;\n        padding: 1em;\n    }\n}"
+        },
+        {
+            "title": "Final Touches (Close Shot + Screen Recording)",
+            "content": "Finally, let's add some padding to our main content and a hover effect to our navigation links.",
+            "code": "main {\n    padding: 20px;\n}\nnav a:hover {\n    text-decoration: underline;\n}"
+        },
+        {
+            "title": "Complete Example (Close Shot + Screen Recording)",
+            "content": "Here's the complete code for our simple web page. You can find it in `index.html` and `styles.css`.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>My Simple Web Page</title>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n    <header>\n        <h1>Welcome to My Web Page</h1>\n        <nav>\n            <ul>\n                <li><a href=\"#\">Home</a></li>\n                <li><a href=\"#\">About</a></li>\n                <li><a href=\"#\">Services</a></li>\n                <li><a href=\"#\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Me</h2>\n            <img src=\"me.jpg\" alt=\"Picture of me\" style=\"max-width: 100%; height: auto;\">\n            <p>This is a section about me.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>This is a section about the services I offer.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2024 My Simple Web Page</p>\n    </footer>\n</body>\n</html>\n\n/* styles.css */\nbody {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\nheader {\n    background-color: #333;\n    color: white;\n    padding: 1em 0;\n    text-align: center;\n}\nnav ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\nnav li {\n    display: inline;\n    margin-right: 10px;\n}\nnav a {\n    color: white;\n    text-decoration: none;\n}\nmain {\n    padding: 20px;\n}\nsection {\n    margin-bottom: 20px;\n}\nfooter {\n    background-color: #333;\n    color: white;\n    text-align: center;\n    padding: 1em 0;\n    position: fixed;\n    width: 100%;\n    bottom: 0;\n}\n@media (max-width: 600px) {\n    nav li {\n        display: block;\n        margin-bottom: 10px;\n    }\n    header, footer {\n        text-align: left;\n        padding: 1em;\n    }\n}\nnav a:hover {\n    text-decoration: underline;\n}"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a complete walkthrough of building a simple web page! We've covered setting up the project, adding HTML structure, styling with CSS, adding images, and making the design responsive. In the next video, we'll explore more advanced topics like JavaScript and interactivity."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

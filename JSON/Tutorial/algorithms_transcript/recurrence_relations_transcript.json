@@ -1,0 +1,84 @@
+{
+  "title": "Recurrence Relations Explained — Binary Search, Merge Sort, QuickSort | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host, Sayed Jihad Al Sayed. In this lesson, we're breaking down recurrence relations — the math expressions that describe how divide-and-conquer algorithms like Binary Search, Merge Sort, and QuickSort behave. Your  teacher expects you to understand these intuitively, not solve them with heavy math. So let's make it simple and crystal clear."
+    },
+    {
+      "title": "What Is a Recurrence Relation? (Wide Shot)",
+      "content": "A recurrence relation describes the runtime of an algorithm in terms of smaller versions of the same problem. Every divide-and-conquer algorithm splits the problem into subproblems. The recurrence captures how many splits happen and how much additional work the algorithm does outside the recursive calls."
+    },
+    {
+      "title": "General Template (Close Shot)",
+      "content": "Most recurrence relations follow this simple pattern:",
+      "code": "T(n) = a * T(n/b) + f(n)\n\n# a = number of subproblems\n# b = how much the problem size shrinks by\n# f(n) = extra work done outside recursion"
+    },
+    {
+      "title": "Binary Search Recurrence (Wide Shot)",
+      "content": "Binary Search cuts the array in half on every step and does only one comparison outside of recursion. That gives us the recurrence:",
+      "code": "T(n) = T(n/2) + O(1)"
+    },
+    {
+      "title": "Binary Search Explanation (Wide Shot)",
+      "content": "This means: one recursive call on a problem half the size, plus a constant amount of work — checking the middle element and adjusting pointers. Cutting n in half repeatedly leads to O(log n). Even without solving the recurrence formally, you can reason that halving produces logarithmic behavior."
+    },
+    {
+      "title": "Merge Sort Recurrence (Wide Shot)",
+      "content": "Merge Sort splits the array into two halves, recursively sorts each half, and then merges the results. That produces:",
+      "code": "T(n) = 2 * T(n/2) + O(n)"
+    },
+    {
+      "title": "Merge Sort Explanation (Wide Shot)",
+      "content": "Two subproblems of size n/2 each, plus O(n) time to merge the arrays back together. The recursion tree has log n levels, each performing n work. That leads to the famous O(n log n) runtime for Merge Sort. Simple and clean."
+    },
+    {
+      "title": "QuickSort Recurrence (Average Case) (Wide Shot)",
+      "content": "In QuickSort, the pivot ideally splits the array in half on average. That gives a recurrence almost identical to Merge Sort:",
+      "code": "T(n) = T(n/2) + T(n/2) + O(n)\n# which simplifies to:\nT(n) = 2 * T(n/2) + O(n)"
+    },
+    {
+      "title": "QuickSort Average Case Explanation (Wide Shot)",
+      "content": "Partitioning takes O(n), and then we recursively sort both halves. When the split is balanced on average, the runtime matches Merge Sort: O(n log n)."
+    },
+    {
+      "title": "QuickSort Worst Case Recurrence (Close Shot)",
+      "content": "In the worst case — like already-sorted input and choosing the last element as pivot — QuickSort recurses on one side only:",
+      "code": "T(n) = T(n - 1) + O(n)"
+    },
+    {
+      "title": "QuickSort Worst Case Explanation (Wide Shot)",
+      "content": "Each partition produces one huge subproblem and one empty one. That creates a long chain: n + (n-1) + (n-2) + ... + 1 → O(n²)."
+    },
+    {
+      "title": "Understanding Recursion Trees (Wide Shot)",
+      "content": "You don’t need to draw recursion trees perfectly in , but you do need to understand the idea: each level of recursion represents work done at a smaller scale. Add up the total work across all levels to estimate runtime. That’s the intuition behind n log n and log n behavior."
+    },
+    {
+      "title": "Real Exam Questions (Close Shot)",
+      "content": "Your teacher usually asks things like:\n- Which recurrence describes Binary Search?\n- Why does Merge Sort run in O(n log n)?\n- Why does QuickSort degrade to O(n²) in the worst case?\n- What does T(n/2) represent in the algorithm?\nNone of these require solving equations — just understanding the meaning behind the recurrence."
+    },
+    {
+      "title": "Runtime Summary Table (Close Shot)",
+      "content": "Here’s the summary of all three algorithms:",
+      "code": "| Algorithm      | Recurrence                  | Runtime      |\n|----------------|------------------------------|--------------|\n| Binary Search  | T(n)=T(n/2)+O(1)            | O(log n)     |\n| Merge Sort     | T(n)=2T(n/2)+O(n)           | O(n log n)   |\n| QuickSort Avg  | T(n)=2T(n/2)+O(n)           | O(n log n)   |\n| QuickSort Worst| T(n)=T(n-1)+O(n)            | O(n²)        |"
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "The most common errors are:\n- thinking Merge Sort can be O(n)\n- thinking QuickSort worst case is rare (it isn’t on sorted input!)\n- forgetting that T(n)=T(n/2)+O(1) is logarithmic\n- confusing T(n)=T(n-1)+O(n) with linear time\nFix these and you’ll never lose recurrence points."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Recurrence relations are simply descriptions of how algorithms shrink problems. Binary Search shrinks aggressively — O(log n). Merge Sort and average QuickSort do two recursive calls and extra linear work — O(n log n). Worst-case QuickSort shrinks poorly — O(n²)."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Next, we're going into Big-O loops and runtime analysis — the exact style of questions your  exam loves, especially with nested loops, logarithmic loops, and tricky increments."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s it for recurrence relations. You now understand the meaning behind the equations for Binary Search, Merge Sort, and QuickSort, and you can explain them clearly on the  exam. I’m Sayed Jihad Al Sayed — see you in the next tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

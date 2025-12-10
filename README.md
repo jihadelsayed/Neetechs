@@ -90,3 +90,6 @@ Palestinian-Syrian developer passionate about full-stack systems, AI, and resili
 ## 📄 License
 
 Licensed under the [GPL-3.0 License](LICENSE).
+
+
+Get-ChildItem *.json | Rename-Item -NewName { $_.BaseName + "_transcript" + $_.Extension }

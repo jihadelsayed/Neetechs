@@ -1,0 +1,52 @@
+{
+    "title": "Advanced Flexbox Techniques",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore advanced Flexbox techniques. These techniques will help you create more complex and responsive layouts with ease."
+        },
+        {
+            "title": "Nested Flex Containers (Close Shot + Screen Recording)",
+            "content": "You can create nested flex containers by placing a flex container inside another flex container. This allows for more complex layouts.",
+            "code": "<div class=\"container\">\n    <div class=\"nested-container\">\n        <div class=\"item\">Nested Item 1</div>\n        <div class=\"item\">Nested Item 2</div>\n    </div>\n</div>\n\n/* CSS */\n.container {\n    display: flex;\n}\n.nested-container {\n    display: flex;\n    flex-direction: column;\n}\n.item {\n    flex: 1;\n    padding: 10px;\n    background-color: lightblue;\n    margin: 5px;\n}"
+        },
+        {
+            "title": "Flex Order (Close Shot + Screen Recording)",
+            "content": "The `order` property controls the order of flex items. By default, items are displayed in the order they appear in the HTML, but you can change this using the `order` property.",
+            "code": "<div class=\"container\">\n    <div class=\"item\" style=\"order: 2;\">Item 1</div>\n    <div class=\"item\" style=\"order: 1;\">Item 2</div>\n    <div class=\"item\" style=\"order: 3;\">Item 3</div>\n</div>\n\n/* CSS */\n.container {\n    display: flex;\n}\n.item {\n    flex: 1;\n    padding: 10px;\n    background-color: lightblue;\n    margin: 5px;\n}"
+        },
+        {
+            "title": "Flex Grow, Shrink, and Basis (Close Shot + Screen Recording)",
+            "content": "The `flex-grow`, `flex-shrink`, and `flex-basis` properties control how flex items grow, shrink, and their initial size.",
+            "code": "<div class=\"container\">\n    <div class=\"item\" style=\"flex-grow: 1;\">Grow 1</div>\n    <div class=\"item\" style=\"flex-grow: 2;\">Grow 2</div>\n    <div class=\"item\" style=\"flex-grow: 3;\">Grow 3</div>\n</div>\n\n<div class=\"container\">\n    <div class=\"item\" style=\"flex-shrink: 1;\">Shrink 1</div>\n    <div class=\"item\" style=\"flex-shrink: 2;\">Shrink 2</div>\n    <div class=\"item\" style=\"flex-shrink: 3;\">Shrink 3</div>\n</div>\n\n<div class=\"container\">\n    <div class=\"item\" style=\"flex-basis: 100px;\">Basis 100px</div>\n    <div class=\"item\" style=\"flex-basis: 200px;\">Basis 200px</div>\n    <div class=\"item\" style=\"flex-basis: 300px;\">Basis 300px</div>\n</div>\n\n/* CSS */\n.container {\n    display: flex;\n}\n.item {\n    padding: 10px;\n    background-color: lightblue;\n    margin: 5px;\n}"
+        },
+        {
+            "title": "Align Self (Close Shot + Screen Recording)",
+            "content": "The `align-self` property allows you to override the `align-items` property for individual flex items.",
+            "code": "<div class=\"container\">\n    <div class=\"item\" style=\"align-self: flex-start;\">Align Start</div>\n    <div class=\"item\" style=\"align-self: center;\">Align Center</div>\n    <div class=\"item\" style=\"align-self: flex-end;\">Align End</div>\n</div>\n\n/* CSS */\n.container {\n    display: flex;\n    height: 200px;\n}\n.item {\n    padding: 10px;\n    background-color: lightblue;\n    margin: 5px;\n}"
+        },
+        {
+            "title": "Responsive Design with Flexbox (Close Shot + Screen Recording)",
+            "content": "Flexbox is excellent for creating responsive designs. You can use media queries to change the flex container properties based on screen size.",
+            "code": "<div class=\"container\">\n    <div class=\"item\">Item 1</div>\n    <div class=\"item\">Item 2</div>\n    <div class=\"item\">Item 3</div>\n</div>\n\n/* CSS */\n.container {\n    display: flex;\n    flex-wrap: wrap;\n}\n.item {\n    flex: 1 1 100%;\n    padding: 10px;\n    background-color: lightblue;\n    margin: 5px;\n}\n\n@media (min-width: 600px) {\n    .item {\n        flex: 1 1 calc(50% - 10px);\n    }\n}\n\n@media (min-width: 900px) {\n    .item {\n        flex: 1 1 calc(33.333% - 10px);\n    }\n}"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example using advanced Flexbox techniques to build a responsive layout with nested containers, different orders, and responsive properties.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .container {\n            display: flex;\n            flex-direction: row;\n            justify-content: space-between;\n            align-items: center;\n            flex-wrap: wrap;\n        }\n        .nested-container {\n            display: flex;\n            flex-direction: column;\n            flex: 1;\n        }\n        .item {\n            background-color: lightblue;\n            padding: 20px;\n            margin: 10px;\n            flex-grow: 1;\n        }\n        .order-item {\n            order: 2;\n        }\n        .item:nth-child(1) {\n            order: 1;\n        }\n        .item:nth-child(2) {\n            order: 3;\n        }\n        .item:nth-child(3) {\n            order: 2;\n        }\n        @media (min-width: 600px) {\n            .item {\n                flex: 1 1 calc(50% - 20px);\n            }\n        }\n        @media (min-width: 900px) {\n            .item {\n                flex: 1 1 calc(33.333% - 20px);\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"nested-container\">\n            <div class=\"item order-item\">Nested Item 1</div>\n            <div class=\"item\">Nested Item 2</div>\n        </div>\n        <div class=\"item\">Item 1</div>\n        <div class=\"item\">Item 2</div>\n        <div class=\"item\">Item 3</div>\n    </div>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of advanced Flexbox techniques! We've covered nested flex containers, flex order, flex grow, shrink, and basis, align self, and responsive design. In the next video, we'll dive into CSS Grid for even more powerful layout capabilities."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

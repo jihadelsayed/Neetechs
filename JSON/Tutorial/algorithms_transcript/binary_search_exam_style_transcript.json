@@ -1,0 +1,61 @@
+{
+  "title": "Binary Search Explained — Pointer Tables, Tracing, and O(log n) | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host,  Jihad Al Sayed. Today we're breaking down one of the most important algorithms in computer science: Binary Search. This is the exact method your  exam expects you to trace, understand, and analyze. And by the end of this video, you'll master it completely."
+    },
+    {
+      "title": "Why Binary Search Matters (Wide Shot)",
+      "content": "Binary Search is used everywhere — in search engines, databases, auto-complete, and every programming interview. But most importantly for you: your  teacher LOVES pointer tables, step-by-step tracing, and off-by-one mistakes. So mastering this algorithm means guaranteed points."
+    },
+    {
+      "title": "Requirement: Array Must Be Sorted (Wide Shot)",
+      "content": "Before we begin — Binary Search ONLY works on a sorted array. If the array isn't sorted, the algorithm becomes incorrect. Not slower — incorrect. This is the number one rule students forget."
+    },
+    {
+      "title": "Binary Search Logic (Close Shot + Screen Recording)",
+      "content": "Binary Search maintains two pointers: s for start and t for tail. We repeatedly check the middle index m. If A[m] equals the target, we return it. If A[m] is smaller, we search the right half. If A[m] is larger, we search the left half.",
+      "code": "def binary_search(A, x):\n    s = 0\n    t = len(A) - 1\n\n    while s <= t:\n        m = (s + t) // 2\n\n        if A[m] == x:\n            return m\n        elif A[m] < x:\n            s = m + 1\n        else:\n            t = m - 1\n\n    return -1"
+    },
+    {
+      "title": "Pointer Explanation (Wide Shot)",
+      "content": "We keep three key values: s for start, t for tail, and m for middle. On every step, we narrow the search interval by half. This is why Binary Search is so insanely efficient."
+    },
+    {
+      "title": "Trace Example (Close Shot + Screen Recording)",
+      "content": "Let’s trace Binary Search exactly like your  exam. Use the table format your teacher requires.",
+      "code": "# A = [3, 5, 9, 12, 18, 21, 24]\n# x = 18\n# Step | s | t | m | A[m] | Compare | Decision\n# ---------------------------------------------\n#   1  | 0 | 6 | 3 | 12   | 12 < 18 | s = 4\n#   2  | 4 | 6 | 5 | 21   | 21 > 18 | t = 4\n#   3  | 4 | 4 | 4 | 18   | MATCH   | return 4"
+    },
+    {
+      "title": "Understanding Midpoint Calculation (Wide Shot)",
+      "content": "The midpoint is calculated using m = (s + t) // 2. This splits the interval evenly. It's the core of the divide-and-conquer process. For interviews or large integer ranges, we sometimes use the overflow-safe version m = s + (t - s) // 2, but for  the simple version is perfect."
+    },
+    {
+      "title": "Runtime Analysis (Wide Shot)",
+      "content": "Binary Search cuts your search space in half every iteration. Starting from n, it becomes n/2, then n/4, then n/8, and so on until only one element remains. The number of halvings is log base 2 of n. That's why Binary Search runs in O(log n) time — one of the fastest runtimes in computer science."
+    },
+    {
+      "title": "Big-O Summary (Close Shot)",
+      "content": "Here’s the complete runtime breakdown:",
+      "code": "# Best Case: O(1)\n#   - Found at first middle check\n\n# Worst Case: O(log n)\n#   - Halve until the interval is empty\n\n# Average Case: O(log n)\n#   - Expected halving behavior\n\n# Space Complexity: O(1)\n#   - Only storing s, t, and m"
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "These mistakes destroy exam scores:\n- Forgetting the array must be sorted\n- Using the wrong loop condition (s < t instead of s <= t)\n- Moving the wrong pointer after a comparison\n- Wrong midpoint calculation\n- Infinite loops caused by incorrect updates\nWhen you fix these, Binary Search becomes extremely easy."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "Binary Search is simple: check the middle, decide left or right, and shrink the search interval. Keep repeating until you find the value or the interval becomes empty. The visual movement of s, t, and m is what makes this algorithm so elegant."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Now that you understand Binary Search, you're ready for the next major milestone: Selection Sort, where we'll trace every swap exactly like your  midterm. Sorting and searching work together in many algorithms, so nailing both gives you a massive advantage."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "This wraps up the Binary Search tutorial. If you mastered the pointer table and the logic behind s, t, and m, you're already ahead of most students. I'm  Jihad Al Sayed, and this is Neetechs Tutorials — see you in the next lesson."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

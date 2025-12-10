@@ -1,0 +1,56 @@
+{
+    "title": "Basic HTML Structure",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll dive into the basic structure of an HTML document. Understanding this structure is the first step in creating your own web pages."
+        },
+        {
+            "title": "HTML Document Structure Overview (Wide Shot)",
+            "content": "An HTML document is made up of several key elements that define its structure. Let's take a look at the basic components."
+        },
+        {
+            "title": "Doctype Declaration (Close Shot + Screen Recording)",
+            "content": "Every HTML document starts with a Doctype declaration. This tells the browser which version of HTML the page is written in. For HTML5, it looks like this:",
+            "code": "<!DOCTYPE html>"
+        },
+        {
+            "title": "HTML Element (Close Shot + Screen Recording)",
+            "content": "Next, we have the `<html>` element, which is the root element of an HTML page. It encloses all other HTML elements.",
+            "code": "<html>\n<!-- All other HTML elements go here -->\n</html>"
+        },
+        {
+            "title": "Head Element (Close Shot + Screen Recording)",
+            "content": "Inside the `<html>` element, the first section is the `<head>` element. This section contains meta-information about the document, such as its title and links to CSS stylesheets.",
+            "code": "<html>\n<head>\n    <title>My First Page</title>\n</head>\n</html>"
+        },
+        {
+            "title": "Title Element (Close Shot + Screen Recording)",
+            "content": "Within the `<head>` element, we have the `<title>` element. The content of the `<title>` element is what appears in the browser's title bar or tab.",
+            "code": "<head>\n    <title>My First Page</title>\n</head>"
+        },
+        {
+            "title": "Body Element (Close Shot + Screen Recording)",
+            "content": "The `<body>` element contains all the content that is visible on the web page, such as text, images, links, and more.",
+            "code": "<html>\n<head>\n    <title>My First Page</title>\n</head>\n<body>\n    <!-- Visible content goes here -->\n</body>\n</html>"
+        },
+        {
+            "title": "Putting It All Together (Close Shot + Screen Recording)",
+            "content": "Here’s the complete structure of a basic HTML document:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Page</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a paragraph.</p>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's the basic structure of an HTML document! In the next video, we'll explore some fundamental HTML elements in more detail, including headings, paragraphs, and text formatting."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

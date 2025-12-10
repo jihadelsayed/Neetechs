@@ -1,0 +1,65 @@
+{
+    "title": "Lists and Tables",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore how to use lists and tables in HTML. These elements are essential for organizing content on your web pages."
+        },
+        {
+            "title": "Introduction to Lists (Close Shot + Screen Recording)",
+            "content": "Lists are used to group related items together. HTML provides two types of lists: ordered lists and unordered lists."
+        },
+        {
+            "title": "Unordered Lists (Close Shot + Screen Recording)",
+            "content": "An unordered list is created using the `<ul>` tag. Each item in the list is defined using the `<li>` tag.",
+            "code": "<ul>\n    <li>Item 1</li>\n    <li>Item 2</li>\n    <li>Item 3</li>\n</ul>"
+        },
+        {
+            "title": "Ordered Lists (Close Shot + Screen Recording)",
+            "content": "An ordered list is created using the `<ol>` tag. Each item in the list is defined using the `<li>` tag, just like with unordered lists.",
+            "code": "<ol>\n    <li>First item</li>\n    <li>Second item</li>\n    <li>Third item</li>\n</ol>"
+        },
+        {
+            "title": "Nested Lists (Close Shot + Screen Recording)",
+            "content": "You can also create nested lists by placing a list inside another list item.",
+            "code": "<ul>\n    <li>Item 1\n        <ul>\n            <li>Subitem 1.1</li>\n            <li>Subitem 1.2</li>\n        </ul>\n    </li>\n    <li>Item 2</li>\n</ul>"
+        },
+        {
+            "title": "Introduction to Tables (Close Shot + Screen Recording)",
+            "content": "Tables are used to display data in a structured format. A basic table is created using the `<table>` tag. Each row is defined with `<tr>`, and each cell within a row is defined with `<td>`."
+        },
+        {
+            "title": "Basic Table Structure (Close Shot + Screen Recording)",
+            "content": "Here’s a simple example of a table with three rows and three columns:",
+            "code": "<table>\n    <tr>\n        <td>Row 1, Cell 1</td>\n        <td>Row 1, Cell 2</td>\n        <td>Row 1, Cell 3</td>\n    </tr>\n    <tr>\n        <td>Row 2, Cell 1</td>\n        <td>Row 2, Cell 2</td>\n        <td>Row 2, Cell 3</td>\n    </tr>\n    <tr>\n        <td>Row 3, Cell 1</td>\n        <td>Row 3, Cell 2</td>\n        <td>Row 3, Cell 3</td>\n    </tr>\n</table>"
+        },
+        {
+            "title": "Table Headers (Close Shot + Screen Recording)",
+            "content": "You can add headers to your table using the `<th>` tag. Headers are typically used in the first row or first column of a table.",
+            "code": "<table>\n    <tr>\n        <th>Header 1</th>\n        <th>Header 2</th>\n        <th>Header 3</th>\n    </tr>\n    <tr>\n        <td>Row 1, Cell 1</td>\n        <td>Row 1, Cell 2</td>\n        <td>Row 1, Cell 3</td>\n    </tr>\n</table>"
+        },
+        {
+            "title": "Table Borders and Styling (Close Shot + Screen Recording)",
+            "content": "You can add borders and style your table using CSS. Here’s an example of a table with borders and some basic styling:",
+            "code": "<style>\n    table, th, td {\n        border: 1px solid black;\n        border-collapse: collapse;\n    }\n    th, td {\n        padding: 10px;\n        text-align: left;\n    }\n</style>\n<table>\n    <tr>\n        <th>Header 1</th>\n        <th>Header 2</th>\n        <th>Header 3</th>\n    </tr>\n    <tr>\n        <td>Row 1, Cell 1</td>\n        <td>Row 1, Cell 2</td>\n        <td>Row 1, Cell 3</td>\n    </tr>\n</table>"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's combine what we've learned to create a web page that includes both lists and a table:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Lists and Tables</title>\n    <style>\n        table, th, td {\n            border: 1px solid black;\n            border-collapse: collapse;\n        }\n        th, td {\n            padding: 10px;\n            text-align: left;\n        }\n    </style>\n</head>\n<body>\n    <h1>Lists and Tables Example</h1>\n    <h2>Unordered List</h2>\n    <ul>\n        <li>Item 1</li>\n        <li>Item 2</li>\n        <li>Item 3</li>\n    </ul>\n    <h2>Ordered List</h2>\n    <ol>\n        <li>First item</li>\n        <li>Second item</li>\n        <li>Third item</li>\n    </ol>\n    <h2>Table</h2>\n    <table>\n        <tr>\n            <th>Header 1</th>\n            <th>Header 2</th>\n            <th>Header 3</th>\n        </tr>\n        <tr>\n            <td>Row 1, Cell 1</td>\n            <td>Row 1, Cell 2</td>\n            <td>Row 1, Cell 3</td>\n        </tr>\n        <tr>\n            <td>Row 2, Cell 1</td>\n            <td>Row 2, Cell 2</td>\n            <td>Row 2, Cell 3</td>\n        </tr>\n    </table>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of how to use lists and tables in HTML! In the next video, we'll explore forms and inputs to capture user data."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

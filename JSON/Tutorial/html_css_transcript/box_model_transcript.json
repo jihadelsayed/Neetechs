@@ -1,0 +1,65 @@
+{
+    "title": "Box Model",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore the CSS box model. Understanding the box model is essential for controlling the layout and spacing of HTML elements."
+        },
+        {
+            "title": "What is the Box Model? (Close Shot + Screen Recording)",
+            "content": "The CSS box model describes the rectangular boxes that are generated for elements in the document tree and consists of margins, borders, padding, and the actual content."
+        },
+        {
+            "title": "Box Model Components (Close Shot + Screen Recording)",
+            "content": "Let's break down the components of the box model: content, padding, border, and margin."
+        },
+        {
+            "title": "Content (Close Shot + Screen Recording)",
+            "content": "The content area is the space where your content (text, images, etc.) appears. It is defined by the `width` and `height` properties.",
+            "code": "div {\n    width: 200px;\n    height: 100px;\n}"
+        },
+        {
+            "title": "Padding (Close Shot + Screen Recording)",
+            "content": "Padding is the space between the content and the border. It can be set using the `padding` property. Padding adds space inside the element, around the content area.",
+            "code": "div {\n    padding: 20px;\n}"
+        },
+        {
+            "title": "Border (Close Shot + Screen Recording)",
+            "content": "The border wraps around the padding and content. You can control the width, style, and color of the border using the `border` property.",
+            "code": "div {\n    border: 2px solid black;\n}"
+        },
+        {
+            "title": "Margin (Close Shot + Screen Recording)",
+            "content": "Margin is the space outside the border. It creates space between the element and other elements. The `margin` property can be used to set this space.",
+            "code": "div {\n    margin: 30px;\n}"
+        },
+        {
+            "title": "Box Model Example (Close Shot + Screen Recording)",
+            "content": "Here’s an example that combines all these properties to demonstrate the box model:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        div {\n            width: 200px;\n            height: 100px;\n            padding: 20px;\n            border: 2px solid black;\n            margin: 30px;\n            background-color: lightgray;\n        }\n    </style>\n</head>\n<body>\n    <div>This is a box model example.</div>\n</body>\n</html>"
+        },
+        {
+            "title": "Box Sizing (Close Shot + Screen Recording)",
+            "content": "By default, the width and height properties include only the content area. The `box-sizing` property can be used to change this behavior.",
+            "code": "div {\n    box-sizing: border-box;\n    width: 200px;\n    height: 100px;\n    padding: 20px;\n    border: 2px solid black;\n    margin: 30px;\n    background-color: lightgray;\n}"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's see a practical example using the box-sizing property to make the total size of the element consistent:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        div {\n            box-sizing: border-box;\n            width: 200px;\n            height: 100px;\n            padding: 20px;\n            border: 2px solid black;\n            margin: 30px;\n            background-color: lightgray;\n        }\n    </style>\n</head>\n<body>\n    <div>This is a box-sizing example.</div>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of the CSS box model! Understanding how to use margins, padding, borders, and content areas will help you control the layout of your web pages. In the next video, we'll explore more advanced layout techniques like Flexbox and Grid."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

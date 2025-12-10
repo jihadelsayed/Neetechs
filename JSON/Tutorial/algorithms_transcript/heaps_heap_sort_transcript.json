@@ -1,0 +1,85 @@
+{
+  "title": "Heaps, Heapify, and Heap Sort — Build-Heap, Index Rules, and Full Trace | Neetechs Algorithms Tutorial",
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs Tutorials. I'm your host, Sayed Jihad Al Sayed. Today we’re diving into heaps — one of the cleanest and most important data structures in algorithms. Your  teacher loves testing heap construction, parent-child indices, and heap sort traces. So let's break it down step by step."
+    },
+    {
+      "title": "What Is a Heap? (Wide Shot)",
+      "content": "A heap is a complete binary tree stored in an array. In a max-heap, every parent is greater than or equal to its children. In a min-heap, every parent is smaller than or equal to its children. Today we’re focusing on max-heaps, since that’s what the  heap PDF uses."
+    },
+    {
+      "title": "Array Index Rules (Close Shot + Screen Recording)",
+      "content": "This is where most students get confused, but it's actually simple. For a node at index i:",
+      "code": "parent(i) = (i - 1) // 2\nleft(i)   = 2 * i + 1\nright(i)  = 2 * i + 2"
+    },
+    {
+      "title": "Why Heaps Matter (Wide Shot)",
+      "content": "Heaps allow fast access to the maximum or minimum value, and they are the foundation of heap sort and priority queues. Building a heap takes O(n), but repeatedly removing the max takes O(log n), making the structure extremely efficient."
+    },
+    {
+      "title": "Heapify Explanation (Wide Shot)",
+      "content": "heapify(i) assumes the subtrees rooted at i are valid heaps, and then pushes A[i] down until the heap property is restored. This is why heapify is sometimes called 'sift down'."
+    },
+    {
+      "title": "Heapify Code (Close Shot + Screen Recording)",
+      "content": "Here is the standard heapify function:",
+      "code": "def heapify(A, n, i):\n    largest = i\n    left = 2 * i + 1\n    right = 2 * i + 2\n\n    if left < n and A[left] > A[largest]:\n        largest = left\n\n    if right < n and A[right] > A[largest]:\n        largest = right\n\n    if largest != i:\n        A[i], A[largest] = A[largest], A[i]\n        heapify(A, n, largest)"
+    },
+    {
+      "title": "Build-Heap Explanation (Wide Shot)",
+      "content": "To build a max-heap, we call heapify on all non-leaf nodes starting from the last parent down to index 0. This works because leaves are trivially valid heaps."
+    },
+    {
+      "title": "Build-Heap Code (Close Shot + Screen Recording)",
+      "content": "The build-heap procedure looks like this:",
+      "code": "def build_heap(A):\n    n = len(A)\n    for i in range(n//2 - 1, -1, -1):\n        heapify(A, n, i)"
+    },
+    {
+      "title": "Build-Heap Trace Example (Close Shot + Screen Recording)",
+      "content": "Let’s build a max-heap from A = [3, 5, 1, 10, 2].",
+      "code": "# Start with array: [3,5,1,10,2]\n# n = 5\n# Last parent = (n//2 - 1) = 1\n\n# i = 1:\n# children: left = 3, right = 4\n# compare: A[3]=10 > A[1]=5 → largest = 3\n# swap → [3,10,1,5,2]\n\n# i = 0:\n# children: left = 1, right = 2\n# compare: A[1]=10 > A[0]=3 → largest = 1\n# swap → [10,3,1,5,2]\n# heapify on i=1\n# children: left = 3, right = 4\n# compare: A[3]=5 > A[1]=3 → largest = 3\n# swap → [10,5,1,3,2]\n\n# Final max-heap: [10,5,1,3,2]"
+    },
+    {
+      "title": "Heap Sort Explanation (Wide Shot)",
+      "content": "Heap sort works like this: Build a max-heap, repeatedly swap the first and last element, reduce the heap size by one, and call heapify on the root. This places the largest elements at the end of the array."
+    },
+    {
+      "title": "Heap Sort Code (Close Shot + Screen Recording)",
+      "content": "Here is the full heap sort implementation:",
+      "code": "def heap_sort(A):\n    n = len(A)\n    build_heap(A)\n\n    for i in range(n - 1, 0, -1):\n        A[0], A[i] = A[i], A[0]\n        heapify(A, i, 0)"
+    },
+    {
+      "title": "Heap Sort Trace Example (Close Shot)",
+      "content": "Let’s run heap sort on A = [10, 5, 1, 3, 2].",
+      "code": "# Step 1: swap A[0] and A[4] → [2,5,1,3,10]\n# heapify size=4 → becomes [5,3,1,2,10]\n\n# Step 2: swap A[0] and A[3] → [2,3,1,5,10]\n# heapify size=3 → becomes [3,2,1,5,10]\n\n# Step 3: swap A[0] and A[2] → [1,2,3,5,10]\n# heapify size=2 → [2,1,3,5,10]\n\n# Step 4: swap A[0] and A[1] → [1,2,3,5,10]\n# Fully sorted array!"
+    },
+    {
+      "title": "Runtime Analysis (Wide Shot)",
+      "content": "Build-heap runs in O(n). Each heapify call during sorting is O(log n), and we do n of them. That gives heap sort a runtime of O(n log n)."
+    },
+    {
+      "title": "Runtime Summary (Close Shot)",
+      "content": "The full complexity chart:",
+      "code": "# Build Heap: O(n)\n# Heapify: O(log n)\n# Heap Sort Total: O(n log n)\n# Space: O(1) (in-place)\n# Stability: Not stable"
+    },
+    {
+      "title": "Common Student Mistakes (Close Shot)",
+      "content": "Students usually mess up heaps because they:\n- Forget index formulas\n- Don’t understand how parent/child positions map in the array\n- Misplace the largest element during build-heap\n- Confuse heapify direction (it always pushes DOWN)\n- Forget that heap sort is in-place\nAvoid these and heaps become extremely simple."
+    },
+    {
+      "title": "Visual Recap (Wide Shot)",
+      "content": "A heap is just an array pretending to be a tree. Build it from the bottom up, then use heapify to restore order. Heap sort repeats the simple swap and heapify cycle until everything is sorted."
+    },
+    {
+      "title": "Transition to Next Tutorial (Wide Shot)",
+      "content": "Next, we're moving into recursion, recurrence relations, and runtime intuition — everything you need to understand divide-and-conquer algorithms deeply for your  exam."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "That’s it for heaps and heap sort. You now understand index rules, heapify, build-heap, and sorting. I’m Sayed Jihad Al Sayed from Neetechs — see you in the next tutorial."
+    }
+  ],
+  "link": "https://www.youtube.com/neetechs"
+}

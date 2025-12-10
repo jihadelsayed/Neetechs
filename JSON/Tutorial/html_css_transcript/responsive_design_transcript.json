@@ -1,0 +1,66 @@
+{
+    "title": "Responsive Design",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore responsive design. Responsive design ensures your web pages look great on all devices, from desktops to smartphones."
+        },
+        {
+            "title": "What is Responsive Design? (Close Shot + Screen Recording)",
+            "content": "Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It uses flexible layouts, flexible images, and CSS media queries."
+        },
+        {
+            "title": "Viewport Meta Tag (Close Shot + Screen Recording)",
+            "content": "The viewport meta tag helps control the layout on mobile browsers. It ensures your page scales correctly on different devices.",
+            "code": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+        },
+        {
+            "title": "Flexible Layouts (Close Shot + Screen Recording)",
+            "content": "Flexible layouts use relative units like percentages instead of fixed units like pixels. This ensures elements resize according to the screen size.",
+            "code": "div {\n    width: 100%;\n    max-width: 1200px;\n    margin: 0 auto;\n}"
+        },
+        {
+            "title": "Flexible Images (Close Shot + Screen Recording)",
+            "content": "Flexible images resize within their containing element. Use the `max-width` property to ensure images scale down if needed.",
+            "code": "img {\n    max-width: 100%;\n    height: auto;\n}"
+        },
+        {
+            "title": "CSS Media Queries (Close Shot + Screen Recording)",
+            "content": "CSS media queries apply different styles based on the device's characteristics, such as its width, height, or orientation.",
+            "code": "@media (max-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}\n\n@media (min-width: 601px) and (max-width: 1200px) {\n    body {\n        background-color: lightgreen;\n    }\n}\n\n@media (min-width: 1201px) {\n    body {\n        background-color: lightcoral;\n    }\n}"
+        },
+        {
+            "title": "Responsive Navigation (Close Shot + Screen Recording)",
+            "content": "Responsive navigation adapts to different screen sizes. You can use media queries to change the layout of your navigation menu based on the screen width.",
+            "code": "/* Base navigation styles */\nnav ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\nnav li {\n    display: inline;\n    margin-right: 10px;\n}\n\n/* Responsive navigation styles */\n@media (max-width: 600px) {\n    nav li {\n        display: block;\n        margin-bottom: 10px;\n    }\n}"
+        },
+        {
+            "title": "Responsive Typography (Close Shot + Screen Recording)",
+            "content": "Responsive typography adjusts the font size based on the screen size. You can use relative units like `em` or `rem` or CSS functions like `calc()`.",
+            "code": "h1 {\n    font-size: 2em;\n}\n\n@media (max-width: 600px) {\n    h1 {\n        font-size: 1.5em;\n    }\n}"
+        },
+        {
+            "title": "Responsive Grid System (Close Shot + Screen Recording)",
+            "content": "A responsive grid system helps create flexible and consistent layouts. Use CSS Grid or Flexbox to build a responsive grid.",
+            "code": "/* Grid container */\n.container {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 20px;\n}\n\n/* Grid items */\n.item {\n    background-color: lightgray;\n    padding: 20px;\n    text-align: center;\n}"
+        },
+        {
+            "title": "Practical Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example that uses responsive design techniques to build a flexible web page layout.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n        }\n        header, footer {\n            background-color: #333;\n            color: white;\n            text-align: center;\n            padding: 1em 0;\n        }\n        nav ul {\n            list-style-type: none;\n            margin: 0;\n            padding: 0;\n        }\n        nav li {\n            display: inline;\n            margin-right: 10px;\n        }\n        .container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n            gap: 20px;\n            padding: 20px;\n        }\n        .item {\n            background-color: lightgray;\n            padding: 20px;\n            text-align: center;\n        }\n        img {\n            max-width: 100%;\n            height: auto;\n        }\n        @media (max-width: 600px) {\n            nav li {\n                display: block;\n                margin-bottom: 10px;\n            }\n            h1 {\n                font-size: 1.5em;\n            }\n        }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Responsive Design Example</h1>\n    </header>\n    <nav>\n        <ul>\n            <li><a href=\"#\">Home</a></li>\n            <li><a href=\"#\">About</a></li>\n            <li><a href=\"#\">Services</a></li>\n            <li><a href=\"#\">Contact</a></li>\n        </ul>\n    </nav>\n    <div class=\"container\">\n        <div class=\"item\">Item 1</div>\n        <div class=\"item\">Item 2</div>\n        <div class=\"item\">Item 3</div>\n        <div class=\"item\">Item 4</div>\n    </div>\n    <footer>\n        <p>&copy; 2024 Your Website</p>\n    </footer>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of responsive design techniques! We've covered the viewport meta tag, flexible layouts, flexible images, CSS media queries, and more. In the next video, we'll dive into advanced techniques for optimizing web performance."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

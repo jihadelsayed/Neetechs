@@ -1,0 +1,80 @@
+{
+    "title": "Selectors and Properties",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore CSS selectors and properties. These are fundamental concepts that allow you to style HTML elements effectively."
+        },
+        {
+            "title": "What are Selectors? (Close Shot + Screen Recording)",
+            "content": "Selectors are used in CSS to target the HTML elements you want to style. Let's look at some common types of selectors."
+        },
+        {
+            "title": "Element Selector (Close Shot + Screen Recording)",
+            "content": "The element selector targets HTML elements by their tag name. For example, this selector targets all `<p>` elements:",
+            "code": "p {\n    color: red;\n}"
+        },
+        {
+            "title": "Class Selector (Close Shot + Screen Recording)",
+            "content": "The class selector targets elements by their class attribute. Classes are defined with a dot (.) followed by the class name. You can apply the same class to multiple elements.",
+            "code": "/* HTML */\n<p class=\"intro\">This is an introductory paragraph.</p>\n<p class=\"intro\">This is another introductory paragraph.</p>\n\n/* CSS */\n.intro {\n    font-size: 20px;\n    color: blue;\n}"
+        },
+        {
+            "title": "ID Selector (Close Shot + Screen Recording)",
+            "content": "The ID selector targets a single element by its ID attribute. IDs are defined with a hash (#) followed by the ID name. An ID should be unique within an HTML document.",
+            "code": "/* HTML */\n<p id=\"main\">This is a main paragraph.</p>\n\n/* CSS */\n#main {\n    font-weight: bold;\n    color: green;\n}"
+        },
+        {
+            "title": "Group Selector (Close Shot + Screen Recording)",
+            "content": "The group selector allows you to apply the same styles to multiple elements. You can group selectors by separating them with a comma.",
+            "code": "h1, h2, h3 {\n    color: navy;\n}"
+        },
+        {
+            "title": "Descendant Selector (Close Shot + Screen Recording)",
+            "content": "The descendant selector targets elements that are descendants of a specified element. For example, this selector targets all `<em>` elements inside `<p>` elements:",
+            "code": "p em {\n    color: red;\n}"
+        },
+        {
+            "title": "Properties and Values (Close Shot + Screen Recording)",
+            "content": "CSS properties are used to define the styles applied to selected elements. Each property has a value. Here are some common properties and their usage."
+        },
+        {
+            "title": "Color and Background (Close Shot + Screen Recording)",
+            "content": "The `color` property sets the text color of an element. The `background-color` property sets the background color of an element.",
+            "code": "p {\n    color: blue;\n    background-color: lightgray;\n}"
+        },
+        {
+            "title": "Font Properties (Close Shot + Screen Recording)",
+            "content": "Font properties include `font-size`, `font-family`, `font-weight`, and more. These properties allow you to control the appearance of text.",
+            "code": "p {\n    font-size: 16px;\n    font-family: Arial, sans-serif;\n    font-weight: bold;\n}"
+        },
+        {
+            "title": "Text Properties (Close Shot + Screen Recording)",
+            "content": "Text properties include `text-align`, `text-decoration`, and `text-transform`. These properties control the alignment, decoration, and transformation of text.",
+            "code": "h1 {\n    text-align: center;\n    text-decoration: underline;\n    text-transform: uppercase;\n}"
+        },
+        {
+            "title": "Box Model Properties (Close Shot + Screen Recording)",
+            "content": "The box model properties include `margin`, `padding`, `border`, and `width`. These properties control the spacing and borders of elements.",
+            "code": "div {\n    margin: 20px;\n    padding: 10px;\n    border: 1px solid black;\n    width: 300px;\n}"
+        },
+        {
+            "title": "Combining Selectors and Properties (Close Shot + Screen Recording)",
+            "content": "Let's combine what we've learned to style a simple web page:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n</head>\n<body>\n    <h1 class=\"intro\" id=\"main\">Welcome to My Web Page</h1>\n    <p>This is a paragraph with some text.</p>\n    <p class=\"intro\">This is another introductory paragraph.</p>\n</body>\n</html>\n\n/* styles.css file */\nbody {\n    background-color: lightblue;\n}\n.intro {\n    color: navy;\n    font-size: 24px;\n}\n#main {\n    background-color: yellow;\n    margin-left: 20px;\n}\np {\n    color: red;\n}\nh1, h2, h3 {\n    text-align: center;\n}\ndiv {\n    margin: 20px;\n    padding: 10px;\n    border: 1px solid black;\n    width: 300px;\n}"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of CSS selectors and properties! In the next video, we'll dive deeper into the box model and layout properties to control the spacing and positioning of elements."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

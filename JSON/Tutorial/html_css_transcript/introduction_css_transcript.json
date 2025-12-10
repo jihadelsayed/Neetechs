@@ -1,0 +1,60 @@
+{
+    "title": "Introduction to CSS",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll be introducing CSS, or Cascading Style Sheets. CSS is what makes your HTML pages look beautiful by adding styles and layouts."
+        },
+        {
+            "title": "What is CSS? (Close Shot + Screen Recording)",
+            "content": "CSS stands for Cascading Style Sheets. It is used to control the style and layout of web pages. CSS allows you to apply styles to HTML elements, making your pages visually appealing."
+        },
+        {
+            "title": "How to Add CSS (Close Shot + Screen Recording)",
+            "content": "There are three ways to add CSS to your HTML: inline, internal, and external."
+        },
+        {
+            "title": "Inline CSS (Close Shot + Screen Recording)",
+            "content": "Inline CSS is used to apply a unique style to a single HTML element. You use the `style` attribute inside an HTML tag.",
+            "code": "<p style=\"color: red;\">This is a paragraph with inline CSS.</p>"
+        },
+        {
+            "title": "Internal CSS (Close Shot + Screen Recording)",
+            "content": "Internal CSS is used to define styles in the `<head>` section of an HTML page, within a `<style>` tag. This method is useful when you want to style a single document.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        body {\n            background-color: lightblue;\n        }\n        h1 {\n            color: navy;\n            margin-left: 20px;\n        }\n    </style>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a paragraph.</p>\n</body>\n</html>"
+        },
+        {
+            "title": "External CSS (Close Shot + Screen Recording)",
+            "content": "External CSS is used to define styles in a separate CSS file. This file is then linked to your HTML document using the `<link>` tag. This method is ideal for styling multiple pages consistently.",
+            "code": "<!-- HTML file -->\n<!DOCTYPE html>\n<html>\n<head>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a paragraph.</p>\n</body>\n</html>\n\n/* styles.css file */\nbody {\n    background-color: lightblue;\n}\nh1 {\n    color: navy;\n    margin-left: 20px;\n}"
+        },
+        {
+            "title": "CSS Syntax (Close Shot + Screen Recording)",
+            "content": "CSS syntax consists of a selector and a declaration block. The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons.",
+            "code": "h1 {\n    color: blue;\n    font-size: 20px;\n}"
+        },
+        {
+            "title": "CSS Selectors (Close Shot + Screen Recording)",
+            "content": "CSS selectors are used to select the HTML element(s) you want to style. Here are some common selectors:\n- Element Selector\n- Class Selector\n- ID Selector",
+            "code": "/* Element Selector */\np {\n    color: red;\n}\n\n/* Class Selector */\n.intro {\n    font-size: 24px;\n}\n\n/* ID Selector */\n#main {\n    background-color: yellow;\n}"
+        },
+        {
+            "title": "Combining CSS with HTML (Close Shot + Screen Recording)",
+            "content": "Let's see a practical example where we combine HTML with CSS to style a simple web page:",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n</head>\n<body>\n    <h1 class=\"intro\" id=\"main\">Welcome to My Web Page</h1>\n    <p>This is a paragraph with some text.</p>\n</body>\n</html>\n\n/* styles.css file */\nbody {\n    background-color: lightblue;\n}\n.intro {\n    color: navy;\n    font-size: 24px;\n}\n#main {\n    background-color: yellow;\n    margin-left: 20px;\n}"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick introduction to CSS! We've covered what CSS is, how to add it to your HTML, and some basic syntax and selectors. In the next video, we'll dive deeper into CSS properties and values."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}

@@ -1,0 +1,103 @@
+{
+  "category": {
+    "id": "algorithms",
+    "name": "Algorithms & Data Structures ( Series)",
+    "date": "2024",
+    "href": "tutorials/algorithms",
+    "description": "Exam-focused algorithms and data structures series based on : searching, sorting, heaps, recursion, and runtime analysis.",
+    "image": "https://i.imgur.com/jZbN7MB.jpeg"
+  },
+
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1. Linear Search + Intro to Time Complexity",
+      "lvl": "Searching",
+      "date": "2024",
+      "href": "tutorials/algorithms/linear_search_intro_time_complexity",
+      "description": "Warm-up video covering linear search, best/worst/average cases, why it is O(n), and when to use it, with a full trace example.",
+      "duration": "10-15 minutes"
+    },
+    {
+      "id": 2,
+      "title": "2. Binary Search with Step-by-Step Pointer Tables",
+      "lvl": "Searching",
+      "date": "2024",
+      "href": "tutorials/algorithms/binary_search_exam_style",
+      "description": "Covers both iterative and recursive binary search, sorted array requirement, s/t/m pointer logic, termination condition, and full table traces like  exams.",
+      "duration": "15-20 minutes"
+    },
+    {
+      "id": 3,
+      "title": "3. Selection Sort — Full Trace and Complexity",
+      "lvl": "Sorting",
+      "date": "2024",
+      "href": "tutorials/algorithms/selection_sort_full_trace",
+      "description": "Step-by-step selection sort execution with i, j, m pointers, swap logic, and explanation of why selection sort is O(n^2) regardless of input order.",
+      "duration": "15-20 minutes"
+    },
+    {
+      "id": 4,
+      "title": "4. Insertion Sort — Simulation, Stability, and Runtime",
+      "lvl": "Sorting",
+      "date": "2024",
+      "href": "tutorials/algorithms/insertion_sort_simulation",
+      "description": "Simulate insertion sort by shifting elements, compare best vs worst case, explain why it is stable, and walk through a full worked example.",
+      "duration": "15-20 minutes"
+    },
+    {
+      "id": 5,
+      "title": "5. Merge Sort — Divide and Conquer with Recursion Tree",
+      "lvl": "Sorting",
+      "date": "2024",
+      "href": "tutorials/algorithms/merge_sort_divide_and_conquer",
+      "description": "Explain splitting, recursion tree, merge procedure, and why merge sort runs in O(n log n) time and O(n) space with a full step-by-step merge example.",
+      "duration": "20-30 minutes"
+    },
+    {
+      "id": 6,
+      "title": "6. Quick Sort Partition (Lomuto) — Exam Style",
+      "lvl": "Sorting",
+      "date": "2024",
+      "href": "tutorials/algorithms/quicksort_lomuto_partition",
+      "description": "Implement the Lomuto partition scheme with pivot = A[n-1], track i and j, show each swap, and get the final partitioned array exactly like the  midterm.",
+      "duration": "15-25 minutes"
+    },
+    {
+      "id": 7,
+      "title": "7. Heaps and Heap Sort — Build-Heap, Heapify, Delete-Max",
+      "lvl": "Heaps & Priority Queues",
+      "date": "2024",
+      "href": "tutorials/algorithms/heaps_heap_sort",
+      "description": "Explain parent/left/right indices, array representation of heaps, bottom-up heap construction in O(n), heapify, insert/delete-max operations, and how heap sort works.",
+      "duration": "25-35 minutes"
+    },
+    {
+      "id": 8,
+      "title": "8. Recurrence Relations for  — Binary Search, Merge Sort, Quick Sort",
+      "lvl": "Recursion & Divide-and-Conquer",
+      "date": "2024",
+      "href": "tutorials/algorithms/recurrence_relations",
+      "description": "Simple recurrence intuition for T(n)=T(n/2)+O(1), T(n)=T(n-1)+O(1), and T(n)=2T(n/2)+O(n), and how they correspond to binary search, merge sort, and quick sort.",
+      "duration": "20-30 minutes"
+    },
+    {
+      "id": 9,
+      "title": "9. Big-O Runtime of Loops —  Exam Patterns",
+      "lvl": "Big-O & Complexity",
+      "date": "2024",
+      "href": "tutorials/algorithms/big_o_loops_patterns",
+      "description": "Derive runtime from for/while loops: nested loops, logarithmic loops, independent loops (O(n + m)), step-by-k loops, and how to choose the tight Big-O upper bound.",
+      "duration": "20-30 minutes"
+    },
+    {
+      "id": 10,
+      "title": "10.  Final Review — True/False and Concept Check",
+      "lvl": "Review",
+      "date": "2024",
+      "href": "tutorials/algorithms/final_review_concepts",
+      "description": "High-speed review of key  concepts: when binary search applies, what divide-and-conquer means, stable vs unstable sorting, heap array layout, and complete binary tree definition.",
+      "duration": "20-30 minutes"
+    }
+  ]
+}

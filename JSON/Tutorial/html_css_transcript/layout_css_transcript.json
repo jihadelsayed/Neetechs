@@ -1,0 +1,78 @@
+
+{
+    "title": "Layout with CSS",
+    "sections": [
+        {
+            "title": "Introduction (Wide Shot)",
+            "content": "Welcome back to our web development series! I'm Jihad Al Sayed, and in this video, we'll explore layout techniques in CSS. Understanding these techniques is essential for creating complex and responsive web designs."
+        },
+        {
+            "title": "Display Property (Close Shot + Screen Recording)",
+            "content": "The `display` property specifies the display behavior of an element. Common values are `block`, `inline`, `inline-block`, and `none`.",
+            "code": "div {\n    display: block;\n}\nspan {\n    display: inline;\n}"
+        },
+        {
+            "title": "Position Property (Close Shot + Screen Recording)",
+            "content": "The `position` property specifies the type of positioning method used for an element. Common values are `static`, `relative`, `absolute`, `fixed`, and `sticky`.",
+            "code": "div {\n    position: relative;\n    top: 10px;\n    left: 20px;\n}"
+        },
+        {
+            "title": "Float and Clear (Close Shot + Screen Recording)",
+            "content": "The `float` property is used for floating elements to the left or right, and the `clear` property is used to control the behavior of floating elements.",
+            "code": "div {\n    float: left;\n    width: 50%;\n}\n.clearfix::after {\n    content: \"\";\n    clear: both;\n    display: table;\n}"
+        },
+        {
+            "title": "Flexbox Introduction (Close Shot + Screen Recording)",
+            "content": "Flexbox is a layout model that allows you to design complex layouts with ease. It is perfect for creating responsive layouts.",
+            "code": "div {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}"
+        },
+        {
+            "title": "Flex Container Properties (Close Shot + Screen Recording)",
+            "content": "Flex container properties include `flex-direction`, `justify-content`, `align-items`, `flex-wrap`, and `align-content`.",
+            "code": "div {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    align-items: center;\n}"
+        },
+        {
+            "title": "Flex Item Properties (Close Shot + Screen Recording)",
+            "content": "Flex item properties include `order`, `flex-grow`, `flex-shrink`, `flex-basis`, `align-self`.",
+            "code": "div.item {\n    flex-grow: 1;\n    flex-shrink: 0;\n    flex-basis: auto;\n}"
+        },
+        {
+            "title": "Flexbox Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example using Flexbox to build a responsive layout.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .container {\n            display: flex;\n            flex-direction: row;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .item {\n            background-color: lightblue;\n            padding: 20px;\n            margin: 10px;\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"item\">Item 1</div>\n        <div class=\"item\">Item 2</div>\n        <div class=\"item\">Item 3</div>\n    </div>\n</body>\n</html>"
+        },
+        {
+            "title": "Grid Layout Introduction (Close Shot + Screen Recording)",
+            "content": "CSS Grid Layout is a two-dimensional layout system for the web. It allows you to create complex layouts using rows and columns.",
+            "code": "div {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    grid-template-rows: auto;\n    gap: 10px;\n}"
+        },
+        {
+            "title": "Grid Container Properties (Close Shot + Screen Recording)",
+            "content": "Grid container properties include `grid-template-columns`, `grid-template-rows`, `gap`, `justify-items`, `align-items`, `grid-template-areas`.",
+            "code": "div {\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    grid-template-rows: 100px 200px;\n    gap: 10px;\n}"
+        },
+        {
+            "title": "Grid Item Properties (Close Shot + Screen Recording)",
+            "content": "Grid item properties include `grid-column`, `grid-row`, `grid-area`, `justify-self`, `align-self`.",
+            "code": "div.item {\n    grid-column: 1 / 3;\n    grid-row: 1 / 2;\n}"
+        },
+        {
+            "title": "Grid Layout Example (Close Shot + Screen Recording)",
+            "content": "Let's create a practical example using Grid Layout to build a complex layout.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .container {\n            display: grid;\n            grid-template-columns: repeat(3, 1fr);\n            grid-gap: 10px;\n        }\n        .item {\n            background-color: lightblue;\n            padding: 20px;\n            margin: 10px;\n        }\n        .item1 {\n            grid-column: span 2;\n        }\n        .item2 {\n            grid-row: span 2;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"item item1\">Item 1</div>\n        <div class=\"item item2\">Item 2</div>\n        <div class=\"item\">Item 3</div>\n        <div class=\"item\">Item 4</div>\n        <div class=\"item\">Item 5</div>\n    </div>\n</body>\n</html>"
+        },
+        {
+            "title": "Recap and Next Steps (Wide Shot)",
+            "content": "That's a quick overview of layout techniques in CSS! We've covered the display property, position property, Flexbox, and Grid Layout. In the next video, we'll explore more advanced layout techniques and responsive design."
+        },
+        {
+            "title": "Engagement Call-to-Action (Close Shot)",
+            "content": "If you found this video helpful, please like, subscribe, and leave a comment below with any questions or feedback. Don’t forget to hit the notification bell to stay updated with our latest tutorials."
+        },
+        {
+            "title": "Outro (Wide Shot)",
+            "content": "Thanks for watching, and I'll see you in the next video!"
+        }
+    ],
+    "link": "https://www.youtube.com/watch?v=your-video-link"
+}
