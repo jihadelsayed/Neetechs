@@ -12,7 +12,7 @@
   },
 
   "video": {
-    "youtubeId": "REPLACE_WITH_YOUR_VIDEO_ID",
+    "youtubeId": "",
     "title": "Ethereum Keypair Generator Tutorial in Python",
     "durationMinutes": 10
   },
