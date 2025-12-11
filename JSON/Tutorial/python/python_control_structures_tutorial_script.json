@@ -1,56 +1,68 @@
 {
+  "slug": "python_control_structures_tutorial",
+  "title": "Python Control Structures: Conditionals and Loops | Neetechs",
+  "summary": "Learn how to control program flow in Python using conditionals (if/elif/else) and loops (for and while), with clear explanations and practical examples.",
+  "readingTimeMinutes": 8,
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/control-structures-cover.jpg",
+
+  "seo": {
+    "title": "Python Control Structures Explained: If, Else, For & While Loops | Neetechs",
+    "description": "Master Python control structures including if/elif/else statements, for loops, while loops, and loop control keywords like break and continue, with practical examples.",
+    "canonicalUrl": "https://neetechs.com/en/tutorials/python/python_control_structures_tutorial"
+  },
+
+  "video": {
+    "youtubeId": "Xa7bPPiT8F0",
     "title": "Python Control Structures: Conditionals and Loops",
-    "sections": [
-        {
-            "title": "Introduction (Wide Shot)",
-            "content": "Hello everyone! Welcome back to our Python tutorial series!\n\n🎉 Today, we're diving into control structures in Python! These are the building blocks that let you control the flow of your programs. 🚀\n\nWe'll cover conditional statements (if, elif, and else) and loops (for and while). By the end of this video, you'll be making decisions and performing repetitive tasks like a pro! Let's jump right in!"
-        },
-        {
-            "title": "Conditional Statements (Wide Shot)",
-            "content": "Let's kick things off with conditional statements! These gems let you execute certain pieces of code based on whether a condition is true or false. Ready? Let's go!"
-        },
-        {
-            "title": "If, Elif, and Else (Close Shot + Screen Recording)",
-            "content": "In Python, we use if, elif, and else statements for conditions. Check this out:",
-            "code": "x = 10\nif x > 5:\n    print('x is greater than 5')\nelif x == 5:\n    print('x is equal to 5')\nelse:\n    print('x is less than 5')"
-        },
-        {
-            "title": "Nested Conditional Statements (Close Shot + Screen Recording)",
-            "content": "Guess what? You can nest conditional statements to check multiple conditions. Take a look:",
-            "code": "x = 10\ny = 20\nif x > 5:\n    if y > 15:\n        print('x is greater than 5 and y is greater than 15')\n    else:\n        print('x is greater than 5 but y is not greater than 15')\nelse:\n    print('x is not greater than 5')"
-        },
-        {
-            "title": "Introduction to Loops (Wide Shot)",
-            "content": "Now, let's talk loops! Loops are your best friend when you need to execute a block of code repeatedly as long as a condition is met. Let's dive in!"
-        },
-        {
-            "title": "For Loops (Close Shot + Screen Recording)",
-            "content": "The for loop in Python is perfect for iterating over sequences like lists, tuples, or strings. Check this out:",
-            "code": "fruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)"
-        },
-        {
-            "title": "While Loops (Close Shot + Screen Recording)",
-            "content": "The while loop in Python keeps running as long as a condition is true. Here's how it works:",
-            "code": "count = 0\nwhile count < 5:\n    print('The count is:', count)\n    count += 1"
-        },
-        {
-            "title": "Nested Loops and Loop Control Statements (Close Shot + Screen Recording)",
-            "content": "You can also nest loops and use control statements like break and continue to mix things up. Check this out:",
-            "code": "for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(f'i = {i}, j = {j}')\n\ncount = 0\nwhile count < 5:\n    count += 1\n    if count == 3:\n        continue\n    print('The count is:', count)"
-        },
-        {
-            "title": "Practical Examples (Close Shot + Screen Recording)",
-            "content": "Let's look at some practical examples using conditional statements and loops. Ready for some real-world magic?"
-        },
-        {
-            "title": "Example: Finding the Maximum Number (Close Shot + Screen Recording)",
-            "content": "Here's a simple example to find the maximum number in a list:",
-            "code": "numbers = [10, 20, 30, 40, 50]\nmax_num = numbers[0]\nfor num in numbers:\n    if num > max_num:\n        max_num = num\nprint('The maximum number is:', max_num)"
-        },
-        {
-            "title": "Conclusion (Wide Shot)",
-            "content": "And that's a wrap for today's tutorial on control structures in Python! We've learned about conditional statements and loops, and how to use them to control the flow of your programs.\n\n👍 If you found this video helpful, make sure to give it a thumbs up, subscribe to my channel, and drop any questions or comments down below. Thanks for watching, and I'll see you in the next video!\n\nKeep coding and stay awesome! 💻✨"
-        }
-    ],
-    "link": "https://www.youtube.com/watch?v=Xa7bPPiT8F0&feature=youtu.be"
+    "durationMinutes": 30
+  },
+
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "Control structures allow you to decide which parts of your program should run and how many times they should repeat. In this tutorial, you’ll learn how to use conditional statements and loops to control the flow of your Python programs."
+    },
+    {
+      "title": "Conditional Statements in Python",
+      "content": "Conditional statements let your program execute different code depending on whether a condition is true or false. Python provides if, elif, and else for this purpose."
+    },
+    {
+      "title": "Using if, elif, and else",
+      "content": "You can evaluate multiple conditions using if, elif, and else. Python checks each condition in order and runs the first block that evaluates to True.",
+      "code": "x = 10\n\nif x > 5:\n    print('x is greater than 5')\nelif x == 5:\n    print('x is equal to 5')\nelse:\n    print('x is less than 5')"
+    },
+    {
+      "title": "Nested Conditional Statements",
+      "content": "You can place one conditional statement inside another. This is useful when decisions depend on multiple layers of logic.",
+      "code": "x = 10\ny = 20\n\nif x > 5:\n    if y > 15:\n        print('x is greater than 5 and y is greater than 15')\n    else:\n        print('x is greater than 5 but y is not greater than 15')\nelse:\n    print('x is not greater than 5')"
+    },
+    {
+      "title": "Introduction to Loops",
+      "content": "Loops allow you to repeat a block of code multiple times. Python has two main loop types: for loops and while loops."
+    },
+    {
+      "title": "For Loops",
+      "content": "A for loop is typically used to iterate over a sequence such as a list, tuple, or string.",
+      "code": "fruits = ['apple', 'banana', 'cherry']\n\nfor fruit in fruits:\n    print(fruit)"
+    },
+    {
+      "title": "While Loops",
+      "content": "A while loop continues running as long as its condition evaluates to True.",
+      "code": "count = 0\n\nwhile count < 5:\n    print('The count is:', count)\n    count += 1"
+    },
+    {
+      "title": "Nested Loops and Loop Control Statements",
+      "content": "Loops can be nested inside other loops. You can also control loop execution using break to stop a loop early or continue to skip to the next iteration.",
+      "code": "for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(f'i = {i}, j = {j}')\n\ncount = 0\nwhile count < 5:\n    count += 1\n    if count == 3:\n        continue\n    print('The count is:', count)"
+    },
+    {
+      "title": "Example: Finding the Maximum Value",
+      "content": "Here’s a simple real-world example using a loop and conditional logic to find the maximum number in a list.",
+      "code": "numbers = [10, 20, 30, 40, 50]\n\nmax_num = numbers[0]\nfor num in numbers:\n    if num > max_num:\n        max_num = num\n\nprint('The maximum number is:', max_num)"
+    },
+    {
+      "title": "Summary and Next Steps",
+      "content": "You’ve learned how to use conditional statements and loops to control program flow in Python. These concepts are fundamental and appear in almost every real-world Python application. Next, you can combine these ideas with functions to write cleaner, reusable logic."
+    }
+  ]
 }

@@ -1,77 +1,93 @@
 {
-    "title": "Python Basics: Understanding Variables and Data Types | Neetechs Tutorial",
-    "sections": [
-        {
-            "title": "Introduction (Wide Shot)",
-            "content": "Hello everyone, welcome back to our Python tutorial series! In this video, we\u2019re going to dive into Python variables and data types. Understanding these concepts is essential for any beginner, so let\u2019s get started!"
-        },
-        {
-            "title": "What are Variables? (Wide Shot)",
-            "content": "First, let's talk about what variables are. A variable in Python is a way to store information to be referenced and manipulated in a program. It's a name given to a memory location."
-        },
-        {
-            "title": "Declaring Variables (Close Shot + Screen Recording)",
-            "content": "For example, let's declare a variable.",
-            "code": "x = 5\ny = \"Hello, World!\"\n# Here, `x` is a variable that holds the integer value 5, and `y` is a variable that holds the string 'Hello, World!'."
-        },
-        {
-            "title": "Introduction to Data Types (Wide Shot)",
-            "content": "Now, let's talk about data types. Data types specify the type of data that a variable can hold. Python has several built-in data types, such as integers, floats, strings, and booleans. Let's look at some examples."
-        },
-        {
-            "title": "Integers and Floats (Close Shot + Screen Recording)",
-            "content": "First, we have integers and floats. Integers are whole numbers, and floats are decimal numbers.",
-            "code": "a = 10  # Integer\nb = 20.5  # Float\nprint(a)\nprint(b)"
-        },
-        {
-            "title": "Strings (Close Shot + Screen Recording)",
-            "content": "Next, we have strings, which are sequences of characters.",
-            "code": "name = \"Alice\"\nprint(name)"
-        },
-        {
-            "title": "Booleans (Close Shot + Screen Recording)",
-            "content": "Booleans are simple true/false values.",
-            "code": "is_active = True\nprint(is_active)"
-        },
-        {
-            "title": "Lists (Close Shot + Screen Recording)",
-            "content": "Lists are ordered collections of items.",
-            "code": "fruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)"
-        },
-        {
-            "title": "Tuples (Close Shot + Screen Recording)",
-            "content": "Tuples are similar to lists, but they are immutable, meaning they cannot be changed after creation.",
-            "code": "coordinates = (10, 20)\nprint(coordinates)"
-        },
-        {
-            "title": "Dictionaries (Close Shot + Screen Recording)",
-            "content": "Finally, dictionaries store key-value pairs.",
-            "code": "student = {\"name\": \"Alice\", \"age\": 25}\nprint(student)"
-        },
-        {
-            "title": "Basic Operations with Data Types (Close Shot + Screen Recording)",
-            "content": "Let's now see how to perform basic operations with these data types. We'll start with arithmetic operations on integers and floats.",
-            "code": "num1 = 10\nnum2 = 5\nprint(num1 + num2)  # Addition\nprint(num1 - num2)  # Subtraction\nprint(num1 * num2)  # Multiplication\nprint(num1 / num2)  # Division"
-        },
-        {
-            "title": "String Operations (Close Shot + Screen Recording)",
-            "content": "String operations include concatenation and slicing.",
-            "code": "greeting = \"Hello\"\nname = \"Alice\"\nmessage = greeting + \", \" + name + \"!\"\nprint(message)\nprint(message[0:5])  # Slicing"
-        },
-        {
-            "title": "List Operations (Close Shot + Screen Recording)",
-            "content": "You can also manipulate lists easily.",
-            "code": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")  # Adding an item\nprint(fruits)\nfruits.remove(\"banana\")  # Removing an item\nprint(fruits)"
-        },
-        {
-            "title": "Dictionary Operations (Close Shot + Screen Recording)",
-            "content": "Dictionaries allow you to access and modify values using keys.",
-            "code": "student = {\"name\": \"Alice\", \"age\": 25}\nstudent[\"age\"] = 26  # Modifying a value\nprint(student)\nprint(student[\"name\"])  # Accessing a value"
-        },
-        {
-            "title": "Conclusion (Wide Shot)",
-            "content": "And that's a wrap on Python variables and data types! We\u2019ve covered integers, floats, strings, booleans, lists, tuples, and dictionaries, along with some basic operations you can perform with them.\nThanks for watching! Don\u2019t forget to like, comment, and subscribe for more Python tutorials. If you have any questions or topics you\u2019d like us to cover, leave them in the comments below. Happy coding!"
-        }
-    ],
-    "link": "https://www.youtube.com/watch?v=UhZ9qtyLjRw&feature=youtu.be"
+  "slug": "python_variables_and_data_types_tutorial",
+  "title": "Python Variables and Data Types for Beginners | Neetechs",
+  "summary": "Learn what variables are in Python and how to work with integers, floats, strings, booleans, lists, tuples, and dictionaries using simple, practical examples.",
+  "readingTimeMinutes": 6,
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/variables-data-types-cover.jpg",
+
+  "seo": {
+    "title": "Python Variables and Data Types Explained (Beginner Guide) | Neetechs",
+    "description": "Understand Python variables and the most important data types—integers, floats, strings, booleans, lists, tuples, and dictionaries—with clear examples and basic operations.",
+    "canonicalUrl": "https://neetechs.com/en/tutorials/python/python_variables_and_data_types_tutorial"
+  },
+
+  "video": {
+    "youtubeId": "UhZ9qtyLjRw",
+    "title": "Python Variables and Data Types Tutorial",
+    "durationMinutes": 20
+  },
+
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "In this tutorial you’ll learn what variables are in Python and how to work with the most common data types: integers, floats, strings, booleans, lists, tuples, and dictionaries. These concepts are the foundation of every Python program."
+    },
+    {
+      "title": "What is a Variable in Python?",
+      "content": "A variable is a name that refers to a value stored in memory. You use variables to store data and reuse it later in your code. In Python you don’t need to declare the type explicitly—the interpreter infers it from the value you assign."
+    },
+    {
+      "title": "Declaring Variables",
+      "content": "You create a variable by choosing a name and assigning a value with the = operator.",
+      "code": "x = 5\nmessage = \"Hello, World!\"\n# x holds an integer value (5)\n# message holds a string value (\"Hello, World!\")"
+    },
+    {
+      "title": "Overview of Python Data Types",
+      "content": "Python has several built-in data types. The most common ones for beginners are:\n- integers (int)\n- floating point numbers (float)\n- strings (str)\n- booleans (bool)\n- lists (list)\n- tuples (tuple)\n- dictionaries (dict)\nIn the next sections we’ll look at each of these with short examples."
+    },
+    {
+      "title": "Integers and Floats",
+      "content": "Integers are whole numbers (…, -2, -1, 0, 1, 2, …). Floats are numbers with a decimal point. You use them for anything involving counting or measurements.",
+      "code": "a = 10      # integer\nb = 20.5    # float\nprint(a)\nprint(b)"
+    },
+    {
+      "title": "Strings",
+      "content": "Strings are sequences of characters: text, words, or sentences. You can use single or double quotes to define them.",
+      "code": "name = \"Alice\"\nwelcome = 'Welcome to Neetechs'\nprint(name)\nprint(welcome)"
+    },
+    {
+      "title": "Booleans",
+      "content": "Booleans represent truth values: True or False. They are often used in conditions and comparisons to control the flow of a program.",
+      "code": "is_active = True\nis_admin = False\nprint(is_active)\nprint(is_admin)"
+    },
+    {
+      "title": "Lists",
+      "content": "Lists are ordered, changeable collections of items. You can add, remove, and modify elements at any time.",
+      "code": "fruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)\nprint(fruits[0])      # first item"
+    },
+    {
+      "title": "Tuples",
+      "content": "Tuples are similar to lists, but they are immutable: once created, their contents can’t be changed. They’re useful for fixed collections of values.",
+      "code": "coordinates = (10, 20)\nprint(coordinates)\nprint(coordinates[1])   # second value"
+    },
+    {
+      "title": "Dictionaries",
+      "content": "Dictionaries store data as key–value pairs. They’re perfect for representing structured data like a student, product, or configuration object.",
+      "code": "student = {\"name\": \"Alice\", \"age\": 25}\nprint(student)\nprint(student[\"name\"])   # access by key"
+    },
+    {
+      "title": "Basic Operations with Numbers",
+      "content": "You can perform arithmetic operations directly on integers and floats. Here are the four basic operations:",
+      "code": "num1 = 10\nnum2 = 5\nprint(num1 + num2)   # addition\nprint(num1 - num2)   # subtraction\nprint(num1 * num2)   # multiplication\nprint(num1 / num2)   # division (float result)"
+    },
+    {
+      "title": "Common String Operations",
+      "content": "Two common string operations are concatenation (joining strings together) and slicing (taking a part of a string).",
+      "code": "greeting = \"Hello\"\nname = \"Alice\"\nmessage = greeting + \", \" + name + \"!\"   # concatenation\nprint(message)\nprint(message[0:5])   # slicing -> 'Hello'"
+    },
+    {
+      "title": "Working with Lists",
+      "content": "Lists are dynamic—items can be added or removed at runtime. This makes them very flexible for managing collections of data.",
+      "code": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")      # add an item\nprint(fruits)\nfruits.remove(\"banana\")      # remove an item\nprint(fruits)"
+    },
+    {
+      "title": "Working with Dictionaries",
+      "content": "You can update values or read them using their keys, which makes dictionaries great for labeled data.",
+      "code": "student = {\"name\": \"Alice\", \"age\": 25}\nstudent[\"age\"] = 26            # modify a value\nprint(student)\nprint(student[\"name\"])        # read a value"
+    },
+    {
+      "title": "Summary and Next Steps",
+      "content": "You’ve learned what variables are in Python and how to use the most important built-in data types: integers, floats, strings, booleans, lists, tuples, and dictionaries. Practice by creating your own variables and combining these types in small examples—for example, a simple contact list or a student database. In the next tutorial, we’ll build on this by exploring control structures such as if statements and loops."
+    }
+  ]
 }

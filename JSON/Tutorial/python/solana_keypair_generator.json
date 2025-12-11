@@ -1,37 +1,65 @@
 {
+  "slug": "solana_keypair_generator",
   "title": "Solana Keypair Generator Tutorial",
+  "summary": "Learn how to generate Solana keypairs and derive public keys from a seed phrase using Python. This quick tutorial walks through installation, running the generator, and understanding the output.",
+  "readingTimeMinutes": 4,
+  "level": "Projects",
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/solana-keypair-generator.jpg",
+
+  "seo": {
+    "title": "Solana Keypair Generator Tutorial | Python Crypto Tools | Neetechs",
+    "description": "Quick Python tutorial showing how to generate Solana keypairs and derive public keys from mnemonic phrases using Python, solana, and solders libraries.",
+    "canonicalUrl": "https://neetechs.com/en/tutorials/python/solana_keypair_generator"
+  },
+
+  "video": {
+    "youtubeId": "", 
+    "durationMinutes": 6
+  },
+
+  "keywords": [
+    "Solana keypair generator",
+    "Solana wallet tutorial",
+    "Python Solana tutorial",
+    "Solana seed phrase",
+    "crypto keypair generator",
+    "solders Python",
+    "solana Python",
+    "generate Solana wallet"
+  ],
+
   "sections": [
     {
-      "title": "Introduction (Wide Shot)",
-      "content": "Hey everyone! Welcome back to the channel. Today, I'm going to show you a quick and easy way to generate Solana keypairs and derive public keys from seed phrases using Python. Let's dive right in!"
+      "title": "Introduction",
+      "content": "In this tutorial, you’ll learn how to generate a Solana keypair using Python and derive a public key from any seed phrase. This tool is useful for wallet creation, testing, and blockchain development workflows."
     },
     {
-      "title": "Prerequisites (Close Shot)",
-      "content": "First, make sure you have Python 3 installed. If not, grab it from python.org. Then, install the necessary libraries by running this command in your terminal:",
+      "title": "Prerequisites",
+      "content": "Before running the script, ensure Python 3 is installed. Then install the Solana libraries:",
       "code": "pip install solana solders"
     },
     {
-      "title": "Cloning the Repository (Wide Shot)",
-      "content": "Next, let's clone the repository from GitHub. The link is in the description. Run these commands:",
+      "title": "Cloning the Repository",
+      "content": "Download the official Solana keypair generator tool by running:",
       "code": "git clone https://github.com/jihadelsayed/solana-keypair-generator.git\ncd solana-keypair-generator"
     },
     {
-      "title": "Running the Script (Close Shot)",
-      "content": "Now, let's run the script. Open your terminal and type:",
+      "title": "Running the Script",
+      "content": "Run the generator script by typing:",
       "code": "python solana_keypair_generator.py"
     },
     {
-      "title": "Enter Seed Phrase (Wide Shot)",
-      "content": "When prompted, enter your seed phrase. The script will generate a new keypair and display the public key. It will also derive a public key from your seed phrase and save it to a JSON file.",
+      "title": "Entering Your Seed Phrase",
+      "content": "The script will request your mnemonic seed phrase and output a generated keypair and a derived public key. It will also save the derived public key in `my-solana-wallet.json`.",
       "code": "Please enter your seed phrase: your-seed-phrase-here\nPublic Key: <generated-public-key>\nDerived Public Key: <derived-public-key>\nWallet JSON file 'my-solana-wallet.json' created."
     },
     {
-      "title": "Exploring the Output (Close Shot)",
-      "content": "Let's open the JSON file to see the derived public key. Check out the `my-solana-wallet.json` file for your derived public key."
+      "title": "Exploring the Output",
+      "content": "Open `my-solana-wallet.json` to view the derived public key. This file can be used in your apps, scripts, or Solana tooling for development."
     },
     {
-      "title": "Conclusion (Wide Shot)",
-      "content": "And that's it! You've generated a Solana keypair and derived a public key. If you found this helpful, smash that like button and subscribe for more quick tutorials. Got questions? Drop them in the comments below. Thanks for watching!"
+      "title": "Conclusion",
+      "content": "You've successfully generated a Solana keypair and derived a public key using Python! Like and subscribe for more blockchain and Python development tutorials."
     }
   ]
 }

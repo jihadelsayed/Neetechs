@@ -1,54 +1,81 @@
 {
-    "title": "Welcome to NeeTechs! Python Installation Guide",
-    "sections": [
-        {
-            "title": "Introduction",
-            "content": "Welcome to NeeTechs! In this video, we will walk you through a step-by-step guide on how to install Python and run a simple script on your Windows OS. Whether you're a beginner just starting with Python or looking to refresh your knowledge, this tutorial will help you get up and running quickly."
-        },
-        {
-            "title": "Step 1: Install Python",
-            "content": "In this step, we will show you how to download and install Python from the official Python website. Follow the instructions carefully to ensure Python is installed correctly on your Windows OS."
-        },
-        {
-            "title": "Step 2: Install Visual Studio Code",
-            "content": "Next, we will install Visual Studio Code, a powerful and popular code editor for writing Python scripts. We'll guide you through the installation process and initial setup."
-        },
-        {
-            "title": "Step 3: Create a New Python Script",
-            "content": "With Python and Visual Studio Code installed, we can now create our first Python script. We'll show you how to create a new file and save it with a .py extension."
-        },
-        {
-            "title": "Step 4: Write and Save Your Script",
-            "content": "In this step, we'll write a simple Python script. You'll learn the basics of writing Python code and how to save your script in Visual Studio Code."
-        },
-        {
-            "title": "Step 5: Run Your Script in Terminal",
-            "content": "Now it's time to run your script! We'll show you how to open the terminal in Visual Studio Code and execute your Python script to see the output."
-        },
-        {
-            "title": "Step 6: Understanding the Output",
-            "content": "Once your script runs, you'll see the output in the terminal. We'll help you understand what the output means and how to interpret any errors or messages."
-        },
-        {
-            "title": "Step 7: Working with Variables",
-            "content": "Let's dive a bit deeper into Python by working with variables. You'll learn how to create and use variables in your scripts to store and manipulate data."
-        },
-        {
-            "title": "Step 8: Running the Script Again",
-            "content": "After making changes to your script, we'll show you how to run it again to see the updated output. Practice makes perfect, so don't hesitate to experiment!"
-        },
-        {
-            "title": "Step 9: Using Different Data Types",
-            "content": "Python supports various data types. In this step, we'll explore how to use different data types like strings, integers, and lists in your scripts."
-        },
-        {
-            "title": "Step 10: Summary and Next Steps",
-            "content": "To wrap up, we'll summarize what we've learned and discuss the next steps for continuing your Python journey. Keep practicing and exploring new concepts!"
-        },
-        {
-            "title": "Conclusion",
-            "content": "Thank you for watching our Python installation guide. We hope you found it helpful and informative. Be sure to like, subscribe, and stay tuned for more tutorials from NeeTechs!"
-        }
-    ],
-    "link": "https://www.youtube.com/watch?v=SSYCNqmE0pk&feature=youtu.be"
+  "slug": "installing_python",
+  "title": "Step-by-Step Guide: Installing Python and Running Your First Script on Windows",
+  "summary": "Learn how to install Python on Windows, set up Visual Studio Code, write your first Python script, and run it from the terminal.",
+  "readingTimeMinutes": 7,
+  "level": "Introduction",
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/installing-python-windows.jpg",
+
+  "seo": {
+    "title": "How to Install Python on Windows and Run Your First Script | Neetechs",
+    "description": "Step-by-step guide for beginners on installing Python on Windows, setting up VS Code, writing a simple script, and running it from the terminal.",
+    "canonicalUrl": "https://neetechs.com/en/tutorials/python/installing_python"
+  },
+
+  "video": {
+    "youtubeId": "SSYCNqmE0pk",
+    "title": "Welcome to Neetechs! Python Installation Guide",
+    "durationMinutes": 15
+  },
+
+  "keywords": [
+    "install Python on Windows",
+    "Python installation guide",
+    "Python VS Code setup",
+    "run Python script Windows",
+    "Python beginner tutorial",
+    "Neetechs Python",
+    "how to run Python in terminal"
+  ],
+
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "This tutorial walks you through how to install Python on Windows, set up Visual Studio Code, and run your first Python script. It is designed for beginners who want a clean, step-by-step start with Python."
+    },
+    {
+      "title": "Step 1: Install Python",
+      "content": "Start by downloading Python from the official Python website. Choose the Windows installer, make sure the option to add Python to PATH is checked, and follow the installation steps until completion."
+    },
+    {
+      "title": "Step 2: Install Visual Studio Code",
+      "content": "Install Visual Studio Code, a popular code editor for writing Python. Download it from the official website, run the installer, and enable useful options like creating a desktop shortcut and adding VS Code to the context menu."
+    },
+    {
+      "title": "Step 3: Create a New Python Script",
+      "content": "Open Visual Studio Code and create a new file. Save it with a `.py` extension, for example `hello.py`. This file will contain your first Python script."
+    },
+    {
+      "title": "Step 4: Write and Save Your Script",
+      "content": "Inside your new Python file, write a simple script such as:\n\n```python\nprint(\"Hello, Python from Neetechs!\")\n```\nSave the file before running it."
+    },
+    {
+      "title": "Step 5: Run Your Script in the Terminal",
+      "content": "Open the integrated terminal in VS Code (View → Terminal), navigate to the folder where your script is saved if needed, and run:\n\n```bash\npython hello.py\n```\nYou should see the output printed in the terminal."
+    },
+    {
+      "title": "Step 6: Understanding the Output",
+      "content": "When the script runs successfully, the text from your `print` statement appears in the terminal. If you see errors instead, read the message carefully—most issues come from typos, wrong file paths, or forgetting to save the file."
+    },
+    {
+      "title": "Step 7: Working with Variables",
+      "content": "Extend your script by adding variables. For example:\n\n```python\nname = \"Jihad\"\nage = 28\nprint(\"Name:\", name)\nprint(\"Age:\", age)\n```\nRun the script again to see how variables store and display data."
+    },
+    {
+      "title": "Step 8: Running the Script Again After Changes",
+      "content": "Each time you change your code, save the file and rerun the script in the terminal. This quick cycle of edit → save → run helps you learn and debug faster."
+    },
+    {
+      "title": "Step 9: Using Different Data Types",
+      "content": "Try using different data types such as strings, integers, and lists:\n\n```python\nmessage = \"Welcome to Neetechs\"\ncount = 3\nitems = [\"Python\", \"VS Code\", \"Terminal\"]\nprint(message)\nprint(\"Count:\", count)\nprint(\"Items:\", items)\n```\nThis helps you get familiar with how Python handles different kinds of values."
+    },
+    {
+      "title": "Step 10: Summary and Next Steps",
+      "content": "You have installed Python, set up VS Code, written a script, and run it from the terminal. From here, you can move on to variables, data types, control structures, and eventually full projects using Python."
+    },
+    {
+      "title": "Conclusion",
+      "content": "You are now ready to continue your Python journey with Neetechs. Keep practicing, experiment with new scripts, and explore the next tutorials in the Python path for variables, data types, control structures, and more."
+    }
+  ]
 }

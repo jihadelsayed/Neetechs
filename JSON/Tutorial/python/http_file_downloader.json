@@ -1,0 +1,62 @@
+{
+  "title": "Python Project: Download Any File from a URL (with Progress Bar)",
+  "slug": "http_file_downloader",
+  "description": "Learn how to build a Python script that downloads any file from a direct URL using streaming, requests, and a terminal progress bar. Perfect mini-project for practicing HTTP requests and file handling.",
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/http-file-downloader-cover.jpg",
+
+  "seo": {
+    "title": "Python File Downloader Project – Download Any File from a URL (with Progress Bar)",
+    "description": "Step-by-step Python project: build a command-line file downloader that fetches any file from a direct URL using requests, streaming, and a terminal progress bar.",
+    "keywords": "Python file downloader, Python download file from url, requests download file, Python progress bar, Python CLI project, Neetechs tutorial",
+    "canonical": "https://neetechs.com/en/tutorials/python/http_file_downloader",
+    "ogTitle": "Python Project: Download Any File from a URL (with Progress Bar)",
+    "ogDescription": "Build a Python CLI tool that downloads files from direct URLs using streaming, progress bars, and clean error handling.",
+    "ogImage": "https://YOUR_S3_BUCKET/tutorials/python/http-file-downloader-cover-og.jpg",
+    "twitterCard": "summary_large_image"
+  },
+
+  "sections": [
+    {
+      "title": "Introduction (Wide Shot)",
+      "content": "Welcome back to Neetechs! In this project, we’ll build a simple Python script that can download any file from a direct URL — such as a video, image, or ZIP file — and save it to your computer. This is a great way to practice working with HTTP requests, streams, and file handling in Python."
+    },
+    {
+      "title": "Important Notice (Wide Shot)",
+      "content": "Use this script only with files you own, have permission to download, or that are explicitly provided for free use. Always respect website terms of service and copyright laws when downloading content from the internet."
+    },
+    {
+      "title": "Step 1: Install Required Libraries (Close Shot + Screen Recording)",
+      "content": "We’ll use the `requests` library for HTTP downloads and `tqdm` for a progress bar in the terminal. Open your terminal or command prompt and install them with:",
+      "code": "pip install requests tqdm"
+    },
+    {
+      "title": "Step 2: Basic Script Setup (Close Shot + Screen Recording)",
+      "content": "Create a new Python file, for example `file_downloader.py`, and start by importing the libraries we need:",
+      "code": "import os\nimport requests\nfrom tqdm import tqdm"
+    },
+    {
+      "title": "Step 3: Download Function (Close Shot + Screen Recording)",
+      "content": "Now we’ll create a function that downloads a file from a URL in streaming mode, writing it to disk in chunks. This avoids loading the whole file into memory at once and lets us show a progress bar:",
+      "code": "def download_file(url: str, output_path: str) -> None:\n    \"\"\"Download a file from a URL and save it to the given path.\"\"\"\n    response = requests.get(url, stream=True)\n    response.raise_for_status()\n\n    total_size = int(response.headers.get('content-length', 0))\n    chunk_size = 1024 * 1024  # 1 MB\n\n    progress = tqdm(total=total_size, unit=\"iB\", unit_scale=True)\n\n    with open(output_path, \"wb\") as f:\n        for chunk in response.iter_content(chunk_size=chunk_size):\n            if chunk:  # filter out keep-alive chunks\n                f.write(chunk)\n                progress.update(len(chunk))\n\n    progress.close()\n    if total_size != 0 and progress.n != total_size:\n        print(\"Warning: download size mismatch.\")\n    else:\n        print(f\"Download completed: {output_path}\")"
+    },
+    {
+      "title": "Step 4: Handling User Input (Close Shot + Screen Recording)",
+      "content": "Next, we’ll add a small CLI so the user can enter a URL and optional file name. If no name is provided, we’ll try to infer it from the URL:",
+      "code": "def get_filename_from_url(url: str) -> str:\n    \"\"\"Try to extract a filename from the URL path.\"\"\"\n    filename = url.split(\"/\")[-1] or \"downloaded_file\"\n    if \"?\" in filename:\n        filename = filename.split(\"?\")[0]\n    return filename or \"downloaded_file\"\n\n\nif __name__ == \"__main__\":\n    url = input(\"Enter the direct file URL: \").strip()\n\n    if not url:\n        print(\"No URL provided. Exiting.\")\n        raise SystemExit(1)\n\n    custom_name = input(\"Enter file name (or leave blank to auto-detect): \").strip()\n\n    if custom_name:\n        filename = custom_name\n    else:\n        filename = get_filename_from_url(url)\n\n    output_path = os.path.join(os.getcwd(), filename)\n\n    print(f\"Downloading to: {output_path}\")\n    download_file(url, output_path)"
+    },
+    {
+      "title": "Step 5: Testing with a Sample File (Wide Shot)",
+      "content": "To test your script, use a direct link to a file that is explicitly free to download, such as a sample video, image, or test file from a site that provides public test assets. Paste the URL into your script when prompted and watch the progress bar as the file downloads."
+    },
+    {
+      "title": "Step 6: Ideas for Improvements (Wide Shot)",
+      "content": "Once this basic version works, you can extend it by adding features like:\n\n- Resuming interrupted downloads\n- Validating file type or size before downloading\n- Allowing the user to choose a download folder\n- Wrapping it in a simple GUI using Tkinter or a web UI using Flask or FastAPI."
+    },
+    {
+      "title": "Conclusion (Wide Shot)",
+      "content": "In this project, you learned how to download files from a URL using Python, handle streaming responses, show a progress bar, and interact with the user from the terminal. These patterns are useful in many real-world automation and scripting tasks. Keep experimenting and building more powerful tools with Python."
+    }
+  ],
+
+  "keywords": "Python download file from url, Python requests tutorial, Python progress bar tqdm, Python CLI project, download files with Python, Neetechs Python projects"
+}

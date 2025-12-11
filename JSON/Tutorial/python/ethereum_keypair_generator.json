@@ -1,38 +1,62 @@
 {
-  "title": "Ethereum Keypair Generator Tutorial",
+  "slug": "ethereum_keypair_generator",
+  "title": "Ethereum Keypair Generator in Python | Neetechs",
+  "summary": "Learn how Ethereum keypairs work and how to generate Ethereum addresses from mnemonic phrases using Python libraries such as mnemonic, bip32, and eth-account.",
+  "readingTimeMinutes": 6,
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/ethereum-keypair-cover.jpg",
+
+  "seo": {
+    "title": "Ethereum Keypair Generator with Python (Beginner Guide) | Neetechs",
+    "description": "A Python-based tutorial explaining how Ethereum keypairs and addresses are generated from mnemonic seed phrases using standard cryptographic libraries.",
+    "canonicalUrl": "https://neetechs.com/en/tutorials/python/ethereum_keypair_generator"
+  },
+
+  "video": {
+    "youtubeId": "REPLACE_WITH_YOUR_VIDEO_ID",
+    "title": "Ethereum Keypair Generator Tutorial in Python",
+    "durationMinutes": 10
+  },
+
   "sections": [
     {
-      "title": "Introduction (Wide Shot)",
-      "content": "Hey everyone! Welcome back to the channel. Today, I'm going to show you a quick and easy way to generate Ethereum keypairs and derive public keys from mnemonic phrases using Python. Let's dive right in!"
+      "title": "Introduction",
+      "content": "In this tutorial, you’ll learn how Ethereum keypairs are generated and how public addresses are derived from mnemonic seed phrases using Python. This guide is intended for educational and development purposes."
     },
     {
-      "title": "Prerequisites (Close Shot)",
-      "content": "First, make sure you have Python 3 installed. If not, grab it from python.org. Then, install the necessary libraries by running this command in your terminal:",
+      "title": "Security Warning",
+      "content": "Never use real wallet seed phrases or private keys in test scripts or shared environments. Always use randomly generated or test-only mnemonic phrases when learning or experimenting. Exposing real keys can lead to permanent loss of funds."
+    },
+    {
+      "title": "Prerequisites",
+      "content": "Make sure you have Python 3 installed on your system. You will also need several cryptography-related libraries commonly used in Ethereum development.",
       "code": "pip install mnemonic bip32 eth-account"
     },
     {
-      "title": "Cloning the Repository (Wide Shot)",
-      "content": "Next, let's clone the repository from GitHub. The link is in the description. Run these commands:",
+      "title": "Project Setup",
+      "content": "You can clone the example repository to follow along locally. This repository demonstrates how key derivation works using Python libraries.",
       "code": "git clone https://github.com/jihadelsayed/ethereum-keypair-generator.git\ncd ethereum-keypair-generator"
     },
     {
-      "title": "Running the Script (Close Shot)",
-      "content": "Now, let's run the script. Open your terminal and type:",
+      "title": "Running the Script",
+      "content": "Once the dependencies are installed, you can run the script from the terminal.",
       "code": "python ethereum_keypair_generator.py"
     },
     {
-      "title": "Enter Seed Phrase (Wide Shot)",
-      "content": "When prompted, enter your mnemonic phrase. The script will generate a new keypair and display the Ethereum address and private key.",
-      "code": "Please enter your seed phrase: your-seed-phrase-here\nAddress: <generated-address>\nPrivate Key: <generated-private-key>"
+      "title": "Providing a Mnemonic Phrase",
+      "content": "When prompted, enter a test mnemonic phrase. The script will derive a private key and generate the corresponding Ethereum address.",
+      "code": "Enter mnemonic phrase: example test seed phrase only\nEthereum Address: <derived-address>\nPrivate Key: <derived-private-key>"
     },
     {
-      "title": "Exploring the Output (Close Shot)",
-      "content": "Let's take a look at the output. You should see your Ethereum address and private key displayed in the terminal.",
-      "code": "Address: <generated-address>\nPrivate Key: <generated-private-key>"
+      "title": "Understanding the Output",
+      "content": "The Ethereum address is derived from the public key, which itself is derived from the private key. The private key must be kept secret at all times, while the address can be shared publicly to receive funds."
     },
     {
-      "title": "Conclusion (Wide Shot)",
-      "content": "And that's it! You've generated an Ethereum keypair and derived a public key. If you found this helpful, smash that like button and subscribe for more quick tutorials. Got questions? Drop them in the comments below. Thanks for watching!"
+      "title": "How Keypairs Work in Ethereum",
+      "content": "Ethereum uses elliptic curve cryptography (secp256k1). A private key generates a public key, and the Ethereum address is computed by hashing the public key. Libraries such as eth-account handle these cryptographic steps safely."
+    },
+    {
+      "title": "Summary and Next Steps",
+      "content": "You’ve learned how Ethereum keypairs are generated using Python and how mnemonic phrases are used for deterministic wallet creation. Next, you can explore signing transactions, interacting with smart contracts, or integrating key management into secure applications."
     }
   ]
 }

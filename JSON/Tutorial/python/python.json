@@ -1,117 +1,140 @@
 {
-	"id": "1",
-	"name": "Python",
-	"date": "June 23, 2024",
-	"href": "tutorials/python",
-	"description": "learn Python.",
-	"image": "https://i.pinimg.com/736x/59/62/35/59623509021afb1ddf685764b7c1577b.jpg",
-	"tutorials": [
-		{
-			"id": 1,
-			"title": "1. Step-by-Step Guide: Installing and Running Python Scripts on Windows",
-			"description": "Installing and Running Python Scripts on Windows.",
-			"lvl": "Introduction",
-			"date": "June 23, 2024",
-			"href": "tutorials/python/installing_python",
-			"duration": "5-10 minutes"
-		},
-		{
-			"id": 2,
-			"title": "2. python variables and data types tutorial",
-			"date": "July 01, 2024",
-			"lvl": "Fundamentals",
-			"href": "tutorials/python/python_variables_and_data_types_tutorial",
-			"description": "Welcome back to our Python tutorial series! In this video, we'll dive into Python variables and data types. Understanding these concepts is crucial for anyone starting with Python. We'll cover what variables are, how to declare them, and explore various data types including integers, floats, strings, booleans, lists, tuples, and dictionaries. Plus, we'll demonstrate basic operations you can perform with these data types. By the end of this video, you'll have a solid foundation in handling data in Python. Let's get started!",
-			"duration": "20-30 minutes"
-		},
-		{
-			"id": 3,
-			"title": "3. Python Control Structures: Conditionals and Loops",
-			"lvl": "Fundamentals",
-			"date": "June 23, 2024",
-			"href": "tutorials/python/python_control_structures_tutorial_script",
-			"description": "In this tutorial, we’ll explore control structures in Python, which are essential for controlling the flow of your programs. We'll cover conditional statements (if, elif, and else) and loops (for and while). By the end of this video, you'll understand how to use these control structures to make decisions in your code and perform repetitive tasks efficiently. Let's get started!",
-			"duration": "25-35 minutes"
-		},
-		{
-			"id": 4,
-			"title": "4. Neetechs Python Tutorial: Learn Functions, Modules, and Classes with Animal Examples",
-			"lvl": "Fundamentals",
-			"date": "June 23, 2024",
-			"href": "tutorials/python/funtions_modules_classes",
-			"description": "Join Jihad Al Sayed in this fun and engaging Python tutorial for kids. Learn about functions, modules, and classes through entertaining animal examples. Perfect for beginners!",
-			"duration": "15-25 minutes"
-		},
-		{
-			"id": 5,
-			"title": "5. Top 25 Essential Python Libraries for Every Developer | Python Tutorial with Examples",
-			"lvl": "Advanced",
-			"date": "July 23, 2024",
-			"href": "tutorials/python/essential_python_libraries",
-			"description": "Welcome to our comprehensive guide on the top 25 essential Python libraries every developer should know! In this tutorial, we will walk you through each library, explaining its purpose and showing practical examples of how to use them. Whether you're a beginner or an experienced developer, this video will enhance your Python programming skills and broaden your toolkit. From general-purpose libraries like NumPy and Pandas to specialized tools for machine learning, data analysis, web development, and more, we've got you covered.",
-			"duration": "2 hours"
-		},
-		{
-			"id": 6,
-			"title": "Python for Data Science",
-			"lvl": "Advanced",
-			"date": "June 23, 2024",
-			"href": "tutorials/python",
-			"disable": "true",
-			"description": "Explore how to use Python for data analysis and visualization.",
-			"duration": "4 hours"
-		},
-		{
-			"id": 4,
-			"title": "Web Development with Python",
-			"lvl": "Advanced",
-			"date": "June 23, 2024",
-			"href": "tutorials/python",
-			"disable": "false",
-			"description": "Learn how to build web applications using Python frameworks.",
-			"duration": "6 hours"
-		},
-		{
-			"id": 5,
-			"title": "Automating Tasks with Python",
-			"lvl": "Advanced",
-			"date": "June 23, 2024",
-			"href": "tutorials/python",
-			"disable": "false",
-			"description": "Discover how to automate repetitive tasks using Python scripts.",
-			"duration": "2 hours"
-		},
-		{
-			"id": 6,
-			"title": "Python script to download video",
-			"lvl": "Projects",
-			"date": "June 23, 2024",
-			"disable": "true",
-			"href": "tutorials/python/youtube_download",
-			"description": "Learn the basics of Python programming language.(has been disabled for policy violations)",
-			"duration": "3 hours"
-		},
-		{
-		  "id": 7,
-		  "title": "Solana Keypair Generator",
-		  "lvl": "Projects",
-		  "date": "July 14, 2024",
-		  "disable": "false",
-		  "href": "tutorials/python/solana_keypair_generator",
-		  "description": "Learn how to generate Solana keypairs and derive public keys from seed phrases using Python.",
-		  "duration": "10 minutes"
-		},
-		{
-		  "id": 8,
-		  "title": "Ethereum Keypair Generator",
-		  "lvl": "Projects",
-		  "date": "July 14, 2024",
-		  "disable": "false",
-		  "href": "tutorials/python/ethereum_keypair_generator",
-		  "description": "Learn how to generate Ethereum keypairs and derive public keys from mnemonic phrases using Python.",
-		  "duration": "10 minutes"
-		}
+  "id": "1",
+  "name": "Python",
+  "date": "June 23, 2024",
+  "href": "tutorials/python",
+  "description": "Learn Python from installation to real-world projects with practical, beginner-friendly tutorials.",
+  "tagline": "From zero to Python developer with hands-on examples.",
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/python-category-cover.jpg",
 
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "1. Step-by-Step Guide: Installing and Running Python Scripts on Windows",
+      "description": "Install Python on Windows, set up your environment, and run your first Python scripts from VS Code and the terminal.",
+      "lvl": "Introduction",
+      "date": "June 23, 2024",
+      "href": "tutorials/python/installing_python",
+      "duration": "5–10 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/installing-python-cover.jpg"
+    },
 
-	]
+    {
+      "id": 2,
+      "title": "2. Python Variables and Data Types for Beginners",
+      "date": "July 01, 2024",
+      "lvl": "Fundamentals",
+      "href": "tutorials/python/python_variables_and_data_types_tutorial",
+      "description": "Learn what variables are in Python and how to use integers, floats, strings, booleans, lists, tuples, and dictionaries with simple, practical examples.",
+      "duration": "15–20 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/variables-data-types-cover.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "3. Python Control Structures: Conditionals and Loops",
+      "lvl": "Fundamentals",
+      "date": "June 23, 2024",
+      "href": "tutorials/python/python_control_structures_tutorial_script",
+      "description": "Understand how to control the flow of your programs using if/elif/else, for loops, and while loops. Learn how to build decision-making logic and repeat tasks efficiently.",
+      "duration": "25–35 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/control-structures-cover.jpg"
+    },
+
+    {
+      "id": 4,
+      "title": "4. Neetechs Python Tutorial: Functions, Modules, and Classes with Animal Examples",
+      "lvl": "Fundamentals",
+      "date": "June 23, 2024",
+      "href": "tutorials/python/funtions_modules_classes",
+      "description": "Learn how to write reusable functions, organize code into modules, and define classes using fun animal-based examples. Great for visual and younger learners.",
+      "duration": "15–25 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/functions-modules-classes-cover.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "5. Top 25 Essential Python Libraries for Every Developer",
+      "lvl": "Advanced",
+      "date": "July 23, 2024",
+      "href": "tutorials/python/essential_python_libraries",
+      "description": "Explore 25 must-know Python libraries for data analysis, web development, automation, and machine learning, with clear explanations and practical examples.",
+      "duration": "2 hours",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/essential-libraries-cover.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Python for Data Science",
+      "lvl": "Advanced",
+      "date": "June 23, 2024",
+      "href": "tutorials/python",
+      "disable": "true",
+      "description": "Explore how to use Python for data analysis, cleaning, and visualization with popular data science tools.",
+      "duration": "4 hours",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/python-data-science-cover.jpg"
+    },
+
+    {
+      "id": 7,
+      "title": "Web Development with Python",
+      "lvl": "Advanced",
+      "date": "June 23, 2024",
+      "href": "tutorials/python",
+      "disable": "false",
+      "description": "Learn how to build web applications using Python frameworks such as Django or FastAPI, including routing, views, and basic deployment concepts.",
+      "duration": "6 hours",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/web-development-cover.jpg"
+    },
+
+    {
+      "id": 8,
+      "title": "Automating Tasks with Python",
+      "lvl": "Advanced",
+      "date": "June 23, 2024",
+      "href": "tutorials/python",
+      "disable": "false",
+      "description": "Discover how to automate repetitive tasks such as file handling, web scraping, and simple system jobs using Python scripts.",
+      "duration": "2 hours",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/automation-cover.jpg"
+    },
+
+    {
+  "id": 9,
+  "title": "Python Project: Download Any File from a URL (with Progress Bar)",
+  "lvl": "Projects",
+  "date": "June 23, 2024",
+  "disable": "false",
+  "href": "tutorials/python/http_file_downloader",
+  "description": "Build a Python script that downloads any file from a direct URL using streaming, progress bars, and safe error handling. Great practice for HTTP requests, file I/O, and CLI tools.",
+  "duration": "25–40 minutes",
+  "image": "https://YOUR_S3_BUCKET/tutorials/python/http-file-downloader-cover.jpg"
+}
+
+,
+
+    {
+      "id": 10,
+      "title": "Solana Keypair Generator",
+      "lvl": "Projects",
+      "date": "July 14, 2024",
+      "disable": "false",
+      "href": "tutorials/python/solana_keypair_generator",
+      "description": "Learn how to generate Solana keypairs and derive public keys from seed phrases using Python cryptography libraries.",
+      "duration": "10 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/solana-keypair-cover.jpg"
+    },
+
+    {
+      "id": 11,
+      "title": "Ethereum Keypair Generator",
+      "lvl": "Projects",
+      "date": "July 14, 2024",
+      "disable": "false",
+      "href": "tutorials/python/ethereum_keypair_generator",
+      "description": "Learn how to generate Ethereum keypairs and derive public keys from mnemonic phrases using Python and web3 tools.",
+      "duration": "10 minutes",
+      "image": "https://YOUR_S3_BUCKET/tutorials/python/ethereum-keypair-cover.jpg"
+    }
+  ]
 }
