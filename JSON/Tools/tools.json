@@ -10,6 +10,14 @@
             "link": "tools/simple_tools/emoji_translator"
         },
         {
+            "type": "Simple Tools",
+            "name": "DaySlice",
+            "description": "Plan your day by dividing time into focused blocks and organizing tasks clearly.",
+            "icon": "🗓️",
+            "disable": false,
+            "link": "https://dayslice.neetechs.com/"
+            },
+        {
             "type": "Simple Ai Tools",
             "toolType": "simple_ai_tools",
             "name": "Grammar and Style Checker",
