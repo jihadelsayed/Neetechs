@@ -17,6 +17,15 @@
             "disable": false,
             "link": "https://dayslice.neetechs.com/"
             },
+            {
+  "type": "Business Tools",
+  "toolType": "business_tools",
+  "name": "Billing & Invoice Manager",
+  "description": "Create customers, services, invoices, quotes, payments, and professional PDF invoices.",
+  "icon": "🧾",
+  "disable": false,
+  "link": "https://billing.neetechs.com/"
+},
         {
             "type": "Simple Ai Tools",
             "toolType": "simple_ai_tools",
