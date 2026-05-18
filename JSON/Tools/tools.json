@@ -1,6 +1,41 @@
 {
     "tools": [
+        
+         {
+            "type": "Business Tools",
+            "toolType": "business_tools",
+            "name": "Billing & Invoice Manager",
+            "description": "Create customers, services, invoices, quotes, payments, and professional PDF invoices.",
+            "icon": "🧾",
+            "disable": false,
+            "link": "https://billing.neetechs.com/"
+        },{
+            "type": "Contractor Tools",
+            "toolType": "contractor_tools",
+            "name": "Neetechs Proof",
+            "description": "Create professional job reports with before/after photos, work notes, materials, and customer-ready PDFs.",
+            "icon": "📸",
+            "disable": false,
+            "link": "https://proof.neetechs.com/"
+        },
         {
+            "type": "Marketing Tools",
+            "toolType": "marketing_tools",
+            "name": "Neetechs Boost",
+            "description": "Turn completed jobs into social posts, Google Business updates, review requests, and local campaigns.",
+            "icon": "🚀",
+            "disable": false,
+            "link": "https://boost.neetechs.com/"
+        },
+        {
+            "type": "Branding Tools",
+            "toolType": "branding_tools",
+            "name": "Neetechs BrandKit",
+            "description": "Create brand kits with colors, fonts, flyers, business cards, social templates, and mini brand guides.",
+            "icon": "🎨",
+            "disable": false,
+            "link": "https://brand.neetechs.com/"
+        },{
             "type": "Simple Tools",
             "toolType": "simple_tools",
             "name": "Emoji Translator",
@@ -16,16 +51,8 @@
             "icon": "🗓️",
             "disable": false,
             "link": "https://dayslice.neetechs.com/"
-            },
-            {
-  "type": "Business Tools",
-  "toolType": "business_tools",
-  "name": "Billing & Invoice Manager",
-  "description": "Create customers, services, invoices, quotes, payments, and professional PDF invoices.",
-  "icon": "🧾",
-  "disable": false,
-  "link": "https://billing.neetechs.com/"
-},
+        },
+       
         {
             "type": "Simple Ai Tools",
             "toolType": "simple_ai_tools",
@@ -259,7 +286,5 @@
             "disable": false,
             "link": "tools/conversion_tools/video-to-mp3"
         }
-
-
     ]
 }
