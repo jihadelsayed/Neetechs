@@ -1,6 +1,14 @@
 {
     "tools": [
-        
+        {
+  "type": "Business Infrastructure",
+  "toolType": "business_infrastructure",
+  "name": "Neetechs Companies",
+  "description": "Manage companies, teams, members, roles, business profiles, workspaces, and shared company settings.",
+  "icon": "🏢",
+  "disable": false,
+  "link": "https://companies.neetechs.com/"
+},
          {
             "type": "Business Tools",
             "toolType": "business_tools",
@@ -10,22 +18,13 @@
             "disable": false,
             "link": "https://billing.neetechs.com/"
         },{
-  "type": "AI Communication Tools",
-  "toolType": "ai_communication_tools",
-  "name": "Neetechs Agent",
-  "description": "Create and manage AI voice agents for bookings, support, lead capture, and customer communication.",
-  "icon": "🎙️",
-  "disable": false,
-  "link": "https://agent.neetechs.com/"
-},
-{
-  "type": "Communication Infrastructure",
-  "toolType": "communication_infrastructure",
-  "name": "Neetechs Phone",
-  "description": "Manage phone numbers, routing, call assignments, recordings, and AI voice connections.",
-  "icon": "📞",
-  "disable": false,
-  "link": "https://phone.neetechs.com/"
+  "type": "Work Management Tools",
+  "toolType": "work_management_tools",
+  "name": "Neetechs Ticket",
+  "description": "Manage work orders, service tickets, technician tasks, job photos, notes, status updates, and quote-to-invoice workflows.",
+  "icon": "🎫",
+  "disable": true,
+  "link": "https://ticket.neetechs.com/"
 },{
             "type": "Contractor Tools",
             "toolType": "contractor_tools",
@@ -35,13 +34,44 @@
             "disable": false,
             "link": "https://proof.neetechs.com/"
         },
+        
+        {
+  "type": "Device Infrastructure",
+  "toolType": "device_infrastructure",
+  "name": "Neetechs Devices",
+  "description": "Connect and manage Android, iPhone, Windows, Linux, Mac, Raspberry Pi, browser sessions, and gateway devices used by other Neetechs apps.",
+  "icon": "🖥️",
+  "disable": true,
+  "link": "https://devices.neetechs.com/"
+},
+        {
+  "type": "AI Communication Tools",
+  "toolType": "ai_communication_tools",
+  "name": "Neetechs Agent",
+  "description": "Create and manage AI voice agents for bookings, support, lead capture, and customer communication.",
+  "icon": "🎙️",
+  "disable": true,
+  "link": "https://agent.neetechs.com/"
+},
+
+
+
+{
+  "type": "Communication Infrastructure",
+  "toolType": "communication_infrastructure",
+  "name": "Neetechs Phone",
+  "description": "Manage phone numbers, routing, call assignments, recordings, and AI voice connections.",
+  "icon": "📞",
+  "disable": true,
+  "link": "https://phone.neetechs.com/"
+},
         {
             "type": "Marketing Tools",
             "toolType": "marketing_tools",
             "name": "Neetechs Boost (under development)",
             "description": "Turn completed jobs into social posts, Google Business updates, review requests, and local campaigns.",
             "icon": "🚀",
-            "disable": false,
+            "disable": true,
             "link": "https://boost.neetechs.com/"
         },
         {
@@ -50,7 +80,7 @@
             "name": "Neetechs BrandKit (under development)",
             "description": "Create brand kits with colors, fonts, flyers, business cards, social templates, and mini brand guides.",
             "icon": "🎨",
-            "disable": false,
+            "disable": true,
             "link": "https://brandkit.neetechs.com/"
         },{
             "type": "Simple Tools",
