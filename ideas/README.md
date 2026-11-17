@@ -5,6 +5,7 @@ This directory is a lightweight backlog for product concepts. Ideas here are **n
 | # | Idea | Description | Status |
 |---|---|---|---|
 | 001 | [Language Level / Type](./language-level-or-type.md) | Adapt communication to a field, role, or audience (computer science, authors, children, etc.), independent of spoken language. | Idea only |
+| 002 | [ForgetFirst AI — Adam](./forgetfirst-ai-adam.md) | Evolutionary AI that learns what to forget: goal, passion, bounded memory, Adam-derived Eve, inherited personalities, and two-parent reproduction. | Idea only |
 
 ## Adding future ideas
 - Add one Markdown document per idea to this folder.
