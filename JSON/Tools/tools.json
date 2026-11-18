@@ -3,6 +3,7 @@
         {
             "type": "Business Apps",
             "toolType": "business_infrastructure",
+            "directoryKind": "application",
             "name": "Neetechs Companies",
             "description": "Manage companies, teams, members, roles, business profiles, workspaces, and shared company settings.",
             "icon": "🏢",
@@ -13,6 +14,7 @@
         {
             "type": "Business Apps",
             "toolType": "business_tools",
+            "directoryKind": "application",
             "name": "Billing & Invoice Manager",
             "description": "Create customers, services, invoices, quotes, payments, and professional PDF invoices.",
             "icon": "🧾",
@@ -23,6 +25,7 @@
         {
             "type": "Business Apps",
             "toolType": "contractor_tools",
+            "directoryKind": "application",
             "name": "Neetechs Proof",
             "description": "Create professional job reports with before/after photos, work notes, materials, and customer-ready PDFs.",
             "icon": "📸",
@@ -33,6 +36,7 @@
         {
             "type": "Business Apps",
             "toolType": "work_management_tools",
+            "directoryKind": "application",
             "name": "Neetechs Ticket",
             "description": "Manage work orders, service tickets, technician tasks, job photos, notes, status updates, and quote-to-invoice workflows.",
             "icon": "🎫",
@@ -43,6 +47,7 @@
         {
             "type": "Business Apps",
             "toolType": "device_infrastructure",
+            "directoryKind": "application",
             "name": "Neetechs Devices",
             "description": "Connect and manage Android, iPhone, Windows, Linux, Mac, Raspberry Pi, browser sessions, and gateway devices used by other Neetechs apps.",
             "icon": "🖥️",
@@ -53,6 +58,7 @@
         {
             "type": "Coming Soon",
             "toolType": "marketing_tools",
+            "directoryKind": "application",
             "name": "Neetechs Boost",
             "description": "Turn completed jobs into social posts, Google Business updates, review requests, and local campaigns.",
             "icon": "🚀",
@@ -63,6 +69,7 @@
         {
             "type": "Coming Soon",
             "toolType": "branding_tools",
+            "directoryKind": "application",
             "name": "Neetechs BrandKit",
             "description": "Create brand kits with colors, fonts, flyers, business cards, social templates, and mini brand guides.",
             "icon": "🎨",
@@ -73,6 +80,7 @@
         {
             "type": "Coming Soon",
             "toolType": "simple_tools",
+            "directoryKind": "application",
             "name": "DaySlice",
             "description": "Plan your day by dividing time into focused blocks and organizing tasks clearly.",
             "icon": "🗓️",
@@ -83,6 +91,7 @@
         {
             "type": "AI Tools",
             "toolType": "simple_ai_tools",
+            "directoryKind": "tool",
             "name": "Grammar and Style Checker",
             "description": "Improve your writing by suggesting grammar, spelling, and style corrections.",
             "icon": "📝",
@@ -93,6 +102,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Emoji Translator",
             "description": "Convert text to emojis for fun communication.",
             "icon": "😊",
@@ -103,6 +113,7 @@
         {
             "type": "Conversion Tools",
             "toolType": "conversion_tools",
+            "directoryKind": "tool",
             "name": "Video to MP3 Converter",
             "description": "Convert video files into MP3 audio directly in your browser using ffmpeg.wasm.",
             "icon": "🎵",
@@ -113,6 +124,7 @@
         {
             "type": "AI Communication Tools",
             "toolType": "ai_communication_tools",
+            "directoryKind": "application",
             "name": "Neetechs Agent",
             "description": "Create and manage AI agents for bookings, support, lead capture, and customer communication.",
             "icon": "🎙️",
@@ -123,6 +135,7 @@
         {
             "type": "Communication Infrastructure",
             "toolType": "communication_infrastructure",
+            "directoryKind": "application",
             "name": "Neetechs Phone",
             "description": "Manage phone numbers, routing, call assignments, recordings, and AI voice connections.",
             "icon": "📞",
@@ -133,6 +146,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Article Summarizer",
             "description": "Summarize long articles or documents into concise summaries.",
             "icon": "📄",
@@ -143,6 +157,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Brainstorming Assistant",
             "description": "Generate ideas for blog posts, projects, or other creative endeavors.",
             "icon": "💡",
@@ -153,6 +168,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Code Snippet Generator",
             "description": "Generate code snippets in various programming languages.",
             "icon": "🔧",
@@ -163,6 +179,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Regex Tester",
             "description": "Test and validate regular expressions.",
             "icon": "🔍",
@@ -173,6 +190,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "JSON Formatter",
             "description": "Format and validate JSON data.",
             "icon": "🔧",
@@ -183,6 +201,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "API Request Tester",
             "description": "Test API requests and see responses in real-time.",
             "icon": "📡",
@@ -193,6 +212,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "SQL Query Generator",
             "description": "Generate SQL queries based on user requirements.",
             "icon": "🔍",
@@ -203,6 +223,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Markdown Previewer",
             "description": "Live preview of markdown text.",
             "icon": "📄",
@@ -213,6 +234,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Chart Generator",
             "description": "Generate basic charts from data.",
             "icon": "📊",
@@ -223,6 +245,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Code Diff Checker",
             "description": "Compare code and highlight differences.",
             "icon": "⚖️",
@@ -233,6 +256,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Unit Converter",
             "description": "Convert various units quickly and accurately.",
             "icon": "🔄",
@@ -243,6 +267,7 @@
         {
             "type": "Technical Tools",
             "toolType": "technical_tools",
+            "directoryKind": "tool",
             "name": "Text Encryptor & Decryptor",
             "description": "Encrypt and decrypt text using various algorithms.",
             "icon": "🔐",
@@ -253,6 +278,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Code Beautifier",
             "description": "Format and beautify your code snippets.",
             "icon": "💻",
@@ -263,6 +289,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Tip of the Day",
             "description": "Daily tips related to the site's focus area.",
             "icon": "💡",
@@ -273,6 +300,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Quiz Generator",
             "description": "Create fun and educational quizzes.",
             "icon": "❓",
@@ -283,6 +311,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Daily Joke",
             "description": "Enjoy a new joke every day.",
             "icon": "😂",
@@ -293,6 +322,7 @@
         {
             "type": "Simple Tools",
             "toolType": "simple_tools",
+            "directoryKind": "tool",
             "name": "Welcome Bot",
             "description": "Personalized greeting messages.",
             "icon": "🤖",
@@ -303,6 +333,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Customizable AI Chatbot Platform",
             "description": "Create and customize your own AI-powered chatbots.",
             "icon": "🤖",
@@ -313,6 +344,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "AI Content Creation Suite",
             "description": "Generate high-quality content using AI.",
             "icon": "🖋️",
@@ -323,6 +355,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Language Translation and Localization Tool",
             "description": "Translate and localize content for different languages.",
             "icon": "🌐",
@@ -333,6 +366,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Personalized Learning and Tutoring Assistant",
             "description": "Create personalized tutoring experiences with AI.",
             "icon": "📚",
@@ -343,6 +377,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "AI-Powered Data Analysis and Visualization",
             "description": "Upload and analyze data with AI-generated visualizations.",
             "icon": "📊",
@@ -353,6 +388,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Virtual Health and Wellness Advisor",
             "description": "Create and manage virtual health and wellness plans.",
             "icon": "💪",
@@ -363,6 +399,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Creative Writing and Brainstorming Tool",
             "description": "Generate ideas and develop creative writing projects.",
             "icon": "📝",
@@ -373,6 +410,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Interactive Resume and Career Builder",
             "description": "Create professional resumes and plan your career.",
             "icon": "📄",
@@ -383,6 +421,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Customer Feedback and Sentiment Analysis Tool",
             "description": "Collect and analyze customer feedback with sentiment analysis.",
             "icon": "🗣️",
@@ -393,6 +432,7 @@
         {
             "type": "Advanced Tools",
             "toolType": "advanced_tools",
+            "directoryKind": "tool",
             "name": "Virtual Event and Meeting Assistant",
             "description": "Manage and enhance virtual events and meetings.",
             "icon": "🎤",
